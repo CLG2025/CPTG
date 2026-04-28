@@ -1,0 +1,19 @@
+CPTG outer-slope convergence summary
+=====================================================
+Benchmark script: D:\Downloads\CPTG\SPARC_CPTG_MOND_Benchmark.py
+SPARC root: D:\Downloads\CPTG\sparc_database
+Total .dat files: 175
+Usable galaxies: 175
+Skipped galaxies: 0
+Extension xmax: 128.000000 Rmax
+Plot / fit interval: x >= 4.000000
+Estimator: median local logarithmic slope s = d ln V / d ln r
+Band: 16th-84th percentile across galaxies
+Smooth model: s(x) = s_inf - A / (x + B)^p
+s_inf = 0.250168280700
+A = 0.046551435651
+B = 0.468969859814
+p = 0.476160859381
+RMSE = 1.563585450673e-06
+Theoretical asymptote line shown: s = 0.250000
+Plot note: raw median points and percentile band are shown in true data units; no visual anchor rescaling is used.
