@@ -150,15 +150,21 @@ They are not full numerical-relativity solvers for the complete covariant CPTG f
 
 ## Relation to MOND and ΛCDM
 
-CPTG can produce MOND-like weak-field behavior in galaxies, but it is not constructed as a MOND interpolation law. In CPTG, the enhanced galaxy-scale gravitational response is interpreted as a consequence of nonlinear curvature polarization.
+CPTG can produce MOND-like weak-field behavior in galaxies, but it is not constructed as a MOND interpolation law. MOND applies a mostly universal acceleration rule to the baryonic source. CPTG instead solves for a nonlinear curvature response sourced by the galaxy’s baryonic structure.
 
-Compared with ΛCDM, CPTG does not introduce a non-baryonic collisionless mass halo in the included galaxy or merger scripts. The apparent excess gravitational response is modeled as nonlinear curvature response sourced by baryonic structure, while dissociative cluster-lensing offsets are modeled through curvature polarization plus directional curvature transport.
+In the included SPARC benchmark, this distinction is tested directly. Across the full 175-galaxy SPARC sample, CPTG produces lower rotation-curve error, lower velocity residuals, lower radial-acceleration scatter, and stronger galaxy-level win counts than the MOND comparison implemented in the script. The same advantage remains in the metadata-defined primary sample, where inclination and data-quality concerns are more tightly controlled.
+
+The Upsilon benchmark adds a stricter comparison by allowing stellar mass-to-light scaling. MOND improves substantially when Upsilon freedom is added, which is expected because the stellar contribution can be rescaled to better match the observed rotation curves. But this improvement is internal to MOND: MOND+Upsilon does better than baseline MOND, yet it does not surpass CPTG in the benchmark comparisons. CPTG remains ahead with or without Upsilon because the changed baryonic source is not merely rescaled; it is allowed to recompute the CPTG structural response. This highlights the central difference between the models: MOND+Upsilon adjusts the baryonic input inside a universal acceleration-law framework, while CPTG directly computes the curvature response of each galaxy.
+
+Compared with ΛCDM, the repository makes a different kind of comparison. The included scripts do not fit non-baryonic dark matter halos. Instead, CPTG tests whether galaxy rotation behavior and dissociative cluster-lensing offsets can be reproduced geometrically through nonlinear curvature polarization and curvature transport. In this sense, CPTG is evaluated as a baryon-sourced geometric alternative to halo fitting, rather than as another adjustable halo model.
 
 In short:
 
-- **MOND** modifies the acceleration law.
-- **ΛCDM** adds non-baryonic dark matter.
-- **CPTG** explores whether nonlinear curvature polarization and curvature transport can account for the same classes of observations geometrically.
+- **MOND** modifies the acceleration law and performs well when galaxy behavior follows a nearly universal low-acceleration relation.
+- **ΛCDM** explains galaxy and cluster dynamics through non-baryonic dark matter, but individual galaxy rotation curves are usually modeled through halo fitting and related nuisance parameters.
+- **CPTG** tests whether the same observed effects can emerge from baryon-sourced curvature polarization, curvature transport, and theory-derived structural organization.
+
+The purpose of the repository is not to declare the issue settled, but to make the CPTG comparison reproducible: the same public scripts load the data, solve the reduced CPTG equations, compute the MOND comparison, and report the resulting diagnostics.
 
 ---
 
