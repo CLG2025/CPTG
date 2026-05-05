@@ -185,6 +185,61 @@ The scripts and manuscript should be read together. The README gives a public ov
 
 ---
 
+## Continuing Work
+
+CPTG is being developed as an active research program rather than a single fixed software tool or one-time benchmark. Several continuing work streams are currently being explored.
+
+### Fractional Structure, Fractions of 50, and 1/50 Response Bands
+
+One recurring theme in the numerical and equation-level work is that CPTG structure-response behavior may organize into small fractional steps rather than varying completely continuously. A related question is why fractions associated with 50 appear repeatedly within CPTG equation structure itself, including in response scaling, refinement intervals, and structural normalization terms. These recurrences may be numerical conveniences, artifacts of the present formulation, or indications that CPTG is detecting a preferred fractional structure in curvature response. Even MOND's characteristic acceleration scale,  *1.2 × 10<sup>-10<sup> m/s<sup>2<sup>*, can be described numerically as *1.2 = 60/50*.
+
+This does not mean that every CPTG quantity is assumed to be quantized, and it is not treated as a visual pattern-matching rule. Instead, the question is whether solved CPTG curvature responses naturally prefer nearby fractional structure-response branches when the baryonic source field is perturbed, and whether the repeated appearance of fractions of 50 has mathematical significance inside the theory.
+
+The working idea is:
+
+> If curvature response is structurally organized, small fractional response bands may appear in distance refinement, galaxy-mode classification, outer-regime behavior, equation-level response factors, or early-universe transport tests.
+
+This remains an active diagnostic question, not a final claim.
+
+### Structure-Response Distance (SRD) Refinement
+
+The CPTG-SRD distance calculator explores whether CPTG can provide a local distance refinement around an existing SPARC metadata distance. It does not attempt to solve galaxy distances blindly from raw photometry. Instead, it tests nearby distance branches of the form:
+
+> seed distance plus or minus small 1/50 response-band shifts.
+
+For each trial distance branch, the software rebuilds the baryonic source field, solves the CPTG galaxy response, recomputes the structural acceleration scale, and selects the branch with the strongest local structure-response consistency.
+
+The purpose of SRD is to ask whether CPTG contains a useful internal distance-diagnostic signal tied to the galaxy’s solved curvature response. This is especially relevant because distance, baryonic source strength, structural scale, and rotation-curve response are linked in any theory attempting to explain galaxy dynamics without fitting dark matter halos.
+
+### CMB and Early-Expansion Curvature Transport
+
+A separate continuing work stream is applying CPTG ideas to the cosmic microwave background. The working premise is that the CMB should not be modeled by simply applying late-time galaxy curvature polarization to the early universe.
+
+Instead, the early-universe ordering is expected to be:
+
+> early expansion → curvature transport through the hot plasma → organized pre-recombination gravitational source structure → recombination imprint → later curvature polarization in bound systems.
+
+In this view, curvature transport would occur before galaxy-scale curvature polarization becomes dominant. The CMB question is therefore whether the gravitational role normally assigned to cold dark matter can be modeled as an early transported-curvature source rather than a particle dark-matter source.
+
+Current CMB software is reduced and exploratory, not a full Boltzmann implementation. It tests whether early-expansion transport clocks, horizon-entry timing, phase-preserving source templates, and compact transport-shell behavior can produce consistent signatures across TT, TE, and EE spectra without shifting acoustic peak positions.
+
+A real CPTG-CMB result would require a deeper perturbation-equation implementation, likely at the CLASS/CAMB level. The current software is intended to scope the physics and identify whether the transport-first idea has enough structure to justify that next stage.
+
+### Direction of Development
+
+The next development goals are:
+
+- strengthen the mathematical connection between curvature transport, curvature polarization, and observed galaxy structure;
+- determine whether fractions of 50 in the CPTG equations are merely parametrization choices or reflect a deeper structural response scale;
+- test whether 1/50-style response bands remain stable under larger samples and stricter null tests;
+- evaluate whether SRD distance refinements correlate with independent distance-quality indicators;
+- convert the current CMB transport-source proxies into a more physical perturbation model;
+- keep all numerical tests reproducible, compact, and open to criticism.
+
+These continuing investigations are included to make the research path transparent. They should be read as active development directions, not settled conclusions.
+
+---
+
 ## Summary
 
 CPTG is not a dark matter halo fit and is not a MOND interpolation law. It is a geometric gravity framework in which gravitational enhancement and lensing displacement are modeled as consequences of nonlinear curvature polarization and curvature transport.
