@@ -310,7 +310,7 @@ Recent CPTG writing has expanded beyond the original galaxy and Bullet Cluster b
 - compact high-redshift galaxy stress tests,
 - cluster-scale curvature-polarization/transport development.
 
-These articles should be read as part of the active research program. Their claim level depends on whether the corresponding scripts, data products, and audit bundles are included publicly.
+These articles should be read as part of the active research program.
 
 ---
 
