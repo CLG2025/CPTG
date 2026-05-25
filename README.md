@@ -35,7 +35,7 @@ CPTG is being developed as a geometric framework with several reduced-limit test
 | Pantheon+ supernova distances | Full-covariance distance-shape comparison with marginalized intercept | Distance-shape pass, not an H0 calibration claim |
 | BBN abundance comparison | Primary abundance comparison using CPTG transported baryon/acoustic quantities | Within representative observational bands |
 | Weak-lensing S8 | Compressed comparison against representative weak-lensing and CMB S8 anchors | Diagnostic pass, not a full shear likelihood |
-| CMB comparison layer | Locked cleaned comparison-layer recovery across high-ell, lowE/lensing, Plik/SPT posterior-proxy, and combined-stack profile tests | Control-level CMB recovery under a locked comparison layer; combined-stack posterior and full perturbation implementation remain open |
+| CMB comparison layer | Locked cleaned comparison-layer recovery across high-ell profile robustness, lowE/lensing diagnostic stability, posterior-proxy checks, combined-stack profile validation, and combined-stack posterior validation | Control-level combined-stack profile and posterior validation under a locked cleaned comparison layer; amplitude/tau gate derivation and full perturbation implementation remain open |
 | DESI DR1 compressed ShapeFit and BAO | Official compressed-coordinate dry run plus BAO quarter-ruler coordinate-wrapper diagnostic | ShapeFit coordinate-level pass and BAO ruler support; not full raw DESI validation |
 | Hubble-tension bridge | Native CPTG branch projected into CMB/acoustic and local luminosity-distance comparison layers | Article-stage interpretation and derivation target |
 
@@ -174,6 +174,22 @@ The third benchmark figure shows how CPTG reconstructs displaced lensing structu
 
 CPTG cosmology-facing work is organized around the distinction between CPTG-native geometric quantities and conventional observational summaries. The goal is not to force CPTG into standard parameter language, but to make controlled comparisons with quantities commonly reported from supernova, CMB, abundance, growth, and large-scale-structure analyses.
 
+### Current Locked Geometric Pi Branch
+
+The current locked CPTG comparison branch uses:
+
+```text
+p_C = pi
+p_ac = 3 - pi/100 = 2.968584073464
+G_T = p_ac / p_C = 0.944929658551
+sqrt(G_T) = 0.972074924351
+H0^(pi) = 69.4162507897 km s^-1 Mpc^-1
+H0_CMB^CPTG = 67.4777967351 km s^-1 Mpc^-1
+A_lens = 1
+```
+
+These values define the fixed branch used in the current comparison-layer audits.
+
 ### CMB Comparison Layer
 
 CPTG CMB work is organized as a comparison layer between CPTG-native geometric quantities and the conventional variables used by CMB likelihoods. The early-universe ordering is not treated as a direct copy of the late-time galaxy regime. The working physical order is:
@@ -182,9 +198,26 @@ CPTG CMB work is organized as a comparison layer between CPTG-native geometric q
 
 In this view, curvature transport precedes galaxy-scale curvature polarization. The CMB question is whether the gravitational role usually assigned to cold dark matter can be represented by an early transported-curvature source and a fixed acoustic-transport comparison map.
 
-The current locked cleaned CMB comparison layer reaches control-level recovery across high-ell profile robustness, converged Plik/SPT posterior-proxy checks, low-ell and lensing diagnostic stability, and combined-stack profile validation. The combined-stack profile tests include Plik TTTEEE+lowE+Planck lensing, decisive NPIPE CamSpec+lowE+Planck lensing, and SPT-3G TEEE+ACT DR6 lensing, with the lensing-amplitude setting fixed at `A_lens = 1`.
+The current locked cleaned CMB comparison layer reaches control-level combined-stack profile and posterior validation across Plik, decisive full NPIPE CamSpec, and SPT/ACT, with the lensing-amplitude setting fixed at `A_lens = 1`. It also includes high-ell profile robustness, converged Plik/SPT posterior-proxy checks, and low-ell/lensing diagnostic stability.
 
-This is stronger than a high-ell-only validation candidate. It should be described as a locked cleaned comparison-layer CMB pass through the completed profile, posterior-proxy, lowE/lensing, and combined-stack profile tests. It is not the same as a full Boltzmann-code or full perturbation-equation implementation. The open CMB likelihood item is combined-stack posterior validation. Longer-term theory work remains to express the scalar-amplitude and optical-depth comparison gates directly inside the full perturbation framework.
+The current locked CMB comparison map uses:
+
+```text
+omega_c,eff h^2 = omega_c,CPTG h^2 D_c
+A_s,eff = A_s,CPTG pi/3
+tau_eff = tau_CPTG G_T^2
+```
+
+with:
+
+```text
+D_c = 0.9735353159758136
+G_T^2 = 0.8928920596100127
+tau_eff = 0.05893087593426084
+A_lens = 1
+```
+
+This is stronger than a high-ell-only validation candidate. It should be described as a locked cleaned comparison-layer CMB pass through the completed profile, posterior-proxy, lowE/lensing diagnostic, combined-stack profile, and combined-stack posterior tests. It is not the same as a full Boltzmann-code or full perturbation-equation implementation. The combined-stack posterior validation item is now completed under the locked comparison layer. The remaining CMB work is theoretical and implementation-facing: deriving or fully motivating the scalar-amplitude gate `A_s -> A_s pi/3` and the optical-depth gate `tau -> tau G_T^2`, and expressing the comparison layer inside a full perturbation-equation framework.
 
 ### Pantheon+ Supernova Distance-Shape Test
 
@@ -238,7 +271,7 @@ For a SH0ES-like endpoint of `H0 = 73.04`, the required local luminosity-transpo
 L_loc ~= 1.052203
 ```
 
-This work does not claim that either Planck or SH0ES is simply wrong. It asks whether the apparent disagreement can be organized as a two-sided comparison-layer projection around one native CPTG geometric branch.
+This work does not claim that either Planck or SH0ES is simply wrong. It asks whether the apparent disagreement can be expressed as two observational comparison projections of one native CPTG geometric branch: an acoustic/CMB projection below the native branch and a local luminosity-distance projection above it.
 
 ---
 
@@ -294,7 +327,7 @@ CPTG results in this repository should be read at different levels of maturity.
 | Diagnostic pass | A compressed or reduced comparison succeeds, but the full likelihood or full physical implementation remains future work. |
 | Exploratory | Used to scope theory behavior, not presented as a settled result. |
 
-This distinction is especially important for cosmology-facing work. The current CMB status is a locked cleaned comparison-layer pass through the completed profile, posterior-proxy, lowE/lensing, and combined-stack profile tests, while combined-stack posterior validation and a full perturbation-equation implementation remain open. DESI ShapeFit and BAO currently sit at compressed-coordinate and coordinate-wrapper level; the DESI full-shape AP/growth spectrum-shell work remains exploratory until the official nuisance-preserving likelihood machinery is used.
+This distinction is especially important for cosmology-facing work. The current CMB status is a locked cleaned comparison-layer pass through completed high-ell profile robustness, lowE/lensing diagnostic stability, posterior-proxy checks, combined-stack profile validation, and combined-stack posterior validation. This remains a comparison-layer result rather than a full Boltzmann-code or full perturbation-equation implementation; the remaining CMB theory work is amplitude/tau gate derivation and perturbation-level implementation. DESI ShapeFit and BAO currently sit at compressed-coordinate and coordinate-wrapper level; the DESI full-shape AP/growth spectrum-shell work remains exploratory until the official nuisance-preserving likelihood machinery is used.
 
 CPTG comparison-layer results should not be confused with full Boltzmann-code validation, full raw DESI likelihood validation, or full weak-lensing shear-likelihood validation unless those specific implementations are provided.
 
@@ -355,11 +388,11 @@ These continuing investigations are included to make the research path transpare
 
 If referencing the CPTG framework, please cite:
 
-Carter L. Glass Jr., *Curvature Polarization Transport Gravity: A Variational Framework for Galaxies and Cluster Mergers*, DOI: 10.13140/RG.2.2.30385.95841/1.
+Carter L. Glass Jr., *Curvature Polarization Transport Gravity: A Variational Framework for Galaxies and Cluster Mergers*, [DOI: 10.13140/RG.2.2.30385.95841/1](https://doi.org/10.13140/RG.2.2.30385.95841/1).
 
 For the repository and supporting code package, cite:
 
-CPTG, Supporting Python Models, Benchmark Implementations, and Research References for Curvature Polarization Transport Gravity, companion resource, available at https://github.com/CLG2025/CPTG.
+CPTG, Supporting Python Models, Benchmark Implementations, and Research References for Curvature Polarization Transport Gravity, companion resource, available at [https://github.com/CLG2025/CPTG](https://github.com/CLG2025/CPTG).
 
 ---
 
