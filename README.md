@@ -388,7 +388,7 @@ These continuing investigations are included to make the research path transpare
 
 If referencing the CPTG framework, please cite:
 
-Carter L. Glass Jr., *Curvature Polarization Transport Gravity: A Variational Framework for Galaxies and Cluster Mergers*, [DOI: 10.13140/RG.2.2.30385.95841/1](https://doi.org/10.13140/RG.2.2.30385.95841/1).
+Carter L. Glass Jr., *Curvature Polarization Transport Gravity: A Unified Geometric Framework for Cosmic Structure and Expansion*, [DOI: 10.13140/RG.2.2.26030.68164](https://doi.org/10.13140/RG.2.2.26030.68164).
 
 For the repository and supporting code package, cite:
 
