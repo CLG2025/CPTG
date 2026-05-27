@@ -80,8 +80,8 @@ The main public benchmark scripts are:
 |---|---|
 | `SPARC_CPTG_MOND_Benchmark.py` | Galaxy rotation-curve benchmark against SPARC data. |
 | `CPTG_Bullet_Cluster_Merger.py` | Reduced merger-plane curvature-transport/lensing benchmark. |
-| Cluster active-gate calculator, when included | Single-aperture and aperture-ladder cluster-response calculations from baryonic loading, support temperature, redshift, and aperture. |
-| Upsilon benchmark script | MOND/CPTG comparison with stellar mass-to-light freedom. |
+| Cluster active-gate calculator (Pending) | Single-aperture and aperture-ladder cluster-response calculations from baryonic loading, support temperature, redshift, and aperture. |
+| `CPTG_MOND_Upsilon_SPARC_Benchmark.py` | MOND/CPTG comparison with stellar mass-to-light freedom. |
 
 ---
 
