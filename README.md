@@ -18,7 +18,7 @@ CPTG is a unified geometric gravity framework in which baryonic matter sources a
 - **Curvature polarization**, which changes the effective gravitational response according to the strength and structure of the field.
 - **Curvature transport**, which allows organized curvature to be redistributed directionally in dynamical systems and comparison-layer projections.
 
-In this framework, compact systems recover the Newtonian limit, galaxies probe the polarization-dominated low-acceleration regime, dissociative cluster mergers probe the regime where polarization and directional transport act together to produce displaced lensing structure, and cosmology-facing tests examine whether acoustic, luminosity-distance, abundance, and growth summaries can be organized through CPTG comparison layers.
+In this framework, compact systems recover the Newtonian limit, galaxies probe the polarization-dominated low-acceleration regime, relaxed cluster apertures test active-gate curvature response from gas loading and support temperature, dissociative cluster mergers probe the regime where polarization and directional transport act together to produce displaced lensing structure, and cosmology-facing tests examine whether acoustic, luminosity-distance, abundance, and growth summaries can be organized through CPTG comparison layers.
 
 CPTG is therefore intended to connect galaxy rotation curves, cluster-merger lensing offsets, and selected cosmological comparison quantities within a single geometric framework.
 
@@ -32,6 +32,7 @@ CPTG is being developed as a geometric framework with several reduced-limit test
 |---|---|---|
 | SPARC galaxy rotation curves | Public reduced-limit benchmark against observed rotation curves and MOND-style comparisons | Reproducible galaxy-scale benchmark |
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
+| Cluster active-gate apertures | Single-aperture cluster-response law tested on ACCEPT diagnostics and X-COP hydrostatic-mass apertures | Diagnostic cluster-scale active-gate pass and same-aperture X-COP hydrostatic-mass consistency pass |
 | Pantheon+ supernova distances | Full-covariance distance-shape comparison with marginalized intercept | Distance-shape pass, not an H0 calibration claim |
 | BBN abundance comparison | Primary abundance comparison using CPTG transported baryon/acoustic quantities | Within representative observational bands |
 | Weak-lensing S8 | Compressed comparison against representative weak-lensing and CMB S8 anchors | Diagnostic pass, not a full shear likelihood |
@@ -48,6 +49,7 @@ This repository contains the public academic package for CPTG, including:
 - the current CPTG theory manuscript and research papers,
 - SPARC galaxy rotation-curve benchmark scripts,
 - Bullet Cluster reduced merger-plane benchmark scripts,
+- cluster-scale active-gate research notes and calculation material when publicly included,
 - supporting SPARC data and metadata,
 - comparison scripts against MOND-style galaxy predictions,
 - cosmology-facing comparison-layer scripts and audit outputs when publicly included,
@@ -78,6 +80,7 @@ The main public benchmark scripts are:
 |---|---|
 | `SPARC_CPTG_MOND_Benchmark.py` | Galaxy rotation-curve benchmark against SPARC data. |
 | `CPTG_Bullet_Cluster_Merger.py` | Reduced merger-plane curvature-transport/lensing benchmark. |
+| Cluster active-gate calculator, when included | Single-aperture and aperture-ladder cluster-response calculations from baryonic loading, support temperature, redshift, and aperture. |
 | Upsilon benchmark script | MOND/CPTG comparison with stellar mass-to-light freedom. |
 
 ---
@@ -167,6 +170,47 @@ The third benchmark figure shows how CPTG reconstructs displaced lensing structu
 ![Normalized CPTG kappa reconstruction of the Bullet Cluster merger plane. The map shows two main convergence structures: a compact Bullet-side lensing feature on the left, displaced from the Bullet gas peak, and a larger main-cluster lensing structure on the right with north and south substructure. White contours trace the strongest reconstructed convergence regions. Markers identify Bullet and main gas peaks, galaxy peaks, lensing peaks, and main-cluster north/south lens peaks. A scale bar marks 100 kpc.](https://github.com/CLG2025/CPTG/blob/main/images/CPTG-Curvature-Transport-Model.png)
 
 <sup>Figure: CPTG Bullet Cluster kappa reconstruction showing gas-lensing separation.</sup>
+
+---
+
+## Cluster-Scale Active-Gate Test: ACCEPT and X-COP
+
+The cluster-scale active-gate work extends CPTG beyond galaxy rotation curves and reduced merger-plane reconstruction into relaxed or approximately coherent galaxy-cluster apertures. The calculation asks whether a cluster aperture can be described by baryonic loading, support temperature, redshift, and aperture radius through one active curvature-response state.
+
+For a selected aperture `R_delta`, the calculation uses:
+
+```text
+z, Delta, R_delta, M_gas(<R_delta), M_star(<R_delta), M_ICL(<R_delta), T_gate
+```
+
+and computes the baryonic loading `F_delta`, the support ratio `theta_T`, the critical support threshold `theta_crit`, the active-gate variable `Q_C`, the mass ratio `y_delta`, and the predicted cluster mass:
+
+```text
+M_CPTG,delta = y_delta M_ref,delta
+```
+
+The active-gate classes are:
+
+```text
+Q_C > 1.2        -> closure-stable
+0.8 <= Q_C <= 1.2 -> watch
+0.5 <= Q_C < 0.8 -> suppressed
+Q_C < 0.5       -> strongly suppressed
+```
+
+The cluster structural mode is the response-load variable already present in the active-gate equation:
+
+```text
+N_C,delta = y_delta N_C0 / Q_C^2
+```
+
+This is not the same as the total-to-baryon mass multiplier. `M_CPTG/M_b` is a mass accounting ratio, while `N_C,delta` measures how deeply the selected aperture sits in the active curvature-response branch.
+
+In the current X-COP same-aperture `R500` comparison, the active-gate calculation was evaluated against 12 hydrostatic-mass cluster apertures. The median CPTG/HSE ratio is about `0.989`, the median absolute fractional difference is about `1.08%`, and the maximum absolute difference is about `2.68%`. The strongest X-COP result is the aperture-ladder behavior: the median active-gate variable decreases smoothly from inner closure-stable apertures to the outer active-gate regime, with median `Q_C` moving from about `1.5781` at `R2500` to about `0.9701` at `R500`.
+
+The ACCEPT diagnostic sample provides an independent clean outer-profile ordering test. In the full clean outer-profile pass, closure-stable rows have higher median `Q_C`, suppressed rows have lower median `Q_C`, and strongly suppressed rows show the lowest median `y_delta`. A representative 100-row subset preserves the same ordering: high-`Q_C` rows close, low-`Q_C` rows suppress, and the active gate sorts cluster-profile rows by response state.
+
+This active-gate result should be read as a diagnostic cluster-scale response pass and a same-aperture X-COP hydrostatic-mass consistency pass. It is not a claim that one single-aperture formula describes strong cluster mergers without decomposition. Strong mergers are best treated separately unless gas, stellar, temperature, and mass components can be assigned consistently to the same dynamical aperture.
 
 ---
 
@@ -344,7 +388,7 @@ Recent CPTG writing has expanded beyond the original galaxy and Bullet Cluster b
 - DESI DR1 compressed ShapeFit coordinate-level dry run and BAO quarter-ruler diagnostic,
 - Hubble-tension bridge article,
 - compact high-redshift galaxy stress tests,
-- cluster-scale curvature-polarization/transport development.
+- cluster-scale active-gate extension using ACCEPT diagnostics and X-COP same-aperture/aperture-ladder comparisons.
 
 These articles should be read as part of the active research program.
 
@@ -364,7 +408,9 @@ The purpose of SRD is to ask whether CPTG contains a useful internal distance-di
 
 ### Cluster-Scale Development
 
-CPTG cluster-scale work is being extended beyond the reduced Bullet Cluster merger plane. The active goal is to scale galaxy-level curvature-polarization structure into cluster environments while keeping actual polarization and transport terms explicit. Cluster baryon closure, gas distribution, galaxy density, brightness structure, hydrostatic mass estimates, merger geometry, and lensing offsets are all relevant to this development.
+CPTG cluster-scale work now has two complementary public directions. The reduced Bullet Cluster benchmark tests curvature transport and displaced lensing structure in a dissociative merger plane. The cluster active-gate work tests relaxed or approximately coherent apertures using baryonic loading, support temperature, redshift, and aperture radius. The current ACCEPT and X-COP diagnostics indicate that inner apertures tend toward closure-stable response while outer apertures expose active-gate sensitivity.
+
+The next cluster-scale goals are to expand the X-COP/ACCEPT-style sample, add lensing-mass comparisons where reliable same-aperture products are available, improve treatment of stellar and intracluster-light baryons, and develop merger-aware decompositions for disturbed systems where a single-aperture relaxed interpretation is not adequate.
 
 ### Perturbation-Level CMB Development
 
@@ -376,7 +422,7 @@ The next development goals are:
 
 - strengthen the mathematical connection between curvature transport, curvature polarization, and observed galaxy structure;
 - evaluate whether SRD distance refinements correlate with independent distance-quality indicators;
-- extend cluster-scale tests to larger samples and more realistic gas/galaxy/lensing structure;
+- extend cluster active-gate tests to larger same-aperture samples and connect them to gas, galaxy, lensing, and merger-aware decompositions;
 - convert the locked CMB acoustic-transport comparison layer into a more physical perturbation-equation model;
 - keep all numerical tests reproducible, compact, and open to criticism.
 
@@ -401,4 +447,4 @@ CPTG, Supporting Python Models, Benchmark Implementations, and Research Referenc
 
 CPTG is not a dark matter halo fit and is not a MOND interpolation law. It is a geometric gravity framework in which gravitational enhancement, lensing displacement, cosmological comparison quantities, and possible Hubble-tension structure are modeled through curvature polarization, curvature transport, and branch-specific observational projection.
 
-The public repository contains reduced numerical implementations, benchmark scripts, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy and cluster scripts represent the most direct public benchmarks, while cosmology-facing work is organized by claim level: comparison-layer pass, diagnostic pass, validation candidate, or exploratory extension depending on the maturity of the implementation.
+The public repository contains reduced numerical implementations, benchmark scripts, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks, while cosmology-facing work is organized by claim level: comparison-layer pass, diagnostic pass, validation candidate, or exploratory extension depending on the maturity of the implementation.
