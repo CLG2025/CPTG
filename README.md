@@ -1,6 +1,17 @@
 # CPTG
 ## Curvature Polarization Transport Gravity
 
+
+## Start Here: Core CPTG Papers
+
+- **[Curvature Polarization Transport Gravity: A Unified Geometric Framework for Cosmic Structure and Expansion](https://github.com/CLG2025/CPTG/blob/main/CPTG_Unified_Geometric_Framework_Cosmic_Structure_Expansion.pdf)**  
+  Primary CPTG theory paper. This manuscript lays out the unified geometric framework: baryon-sourced curvature polarization, curvature transport, the cosmic/structure expansion connection, galaxy and cluster limits, and the broader comparison-layer program.
+
+- **[CPTG Geometric Pi Branch Comparison Coordinates](https://github.com/CLG2025/CPTG/blob/main/CPTG_Geometric_Pi_Branch_Comparison_Coordinates.pdf)**  
+  Comparison-coordinate guide for the locked geometric pi branch. This paper explains how CPTG-native quantities are mapped into observational coordinates for CMB, BAO, BBN, supernova, growth, and DESI-style comparison layers without treating those observational coordinates as the theory itself.
+
+---
+
 ## Plain-Language Summary
 
 *Curvature Polarization Transport Gravity* (CPTG) is an active research framework exploring whether effects usually attributed to dark matter can instead arise from the way spacetime curvature responds to ordinary baryonic matter.
