@@ -48,6 +48,7 @@ CPTG is being developed as a geometric framework with several reduced-limit test
 | BBN abundance comparison | Primary abundance comparison using CPTG transported baryon/acoustic quantities | Within representative observational bands |
 | Weak-lensing S8 | Compressed comparison against representative weak-lensing and CMB S8 anchors | Diagnostic pass, not a full shear likelihood |
 | CMB comparison layer | Locked cleaned comparison-layer recovery across high-ell profile robustness, lowE/lensing diagnostic stability, posterior-proxy checks, combined-stack profile validation, and combined-stack posterior validation | Control-level combined-stack profile and posterior validation under a locked cleaned comparison layer; amplitude/tau gate derivation and full perturbation implementation remain open |
+| Cosmological horizon mechanism | Structural horizon-branch article using finite curvature saturation and active geometric transport to address pre-recombination causal uniformity | Theory mechanism and falsifiable CMB-perturbation program; not a full perturbation-code validation |
 | DESI DR1 compressed ShapeFit and BAO | Official compressed-coordinate dry run plus BAO quarter-ruler coordinate-wrapper diagnostic | ShapeFit coordinate-level pass and BAO ruler support; not full raw DESI validation |
 | Hubble-tension bridge | Native CPTG branch projected into CMB/acoustic and local luminosity-distance comparison layers | Article-stage interpretation and derivation target |
 
@@ -64,6 +65,7 @@ This repository contains the public academic package for CPTG, including:
 - supporting SPARC data and metadata,
 - comparison scripts against MOND-style galaxy predictions,
 - cosmology-facing comparison-layer scripts and audit outputs when publicly included,
+- horizon-mechanism and structural-branch articles when publicly included,
 - benchmark figures and reconstruction images.
 
 The recommended public download is **`CPTG_academic_package.zip`**, located in the **`/archive/`** folder.
@@ -91,7 +93,7 @@ The main public benchmark scripts are:
 |---|---|
 | `SPARC_CPTG_MOND_Benchmark.py` | Galaxy rotation-curve benchmark against SPARC data. |
 | `CPTG_Bullet_Cluster_Merger.py` | Reduced merger-plane curvature-transport/lensing benchmark. |
-| Cluster active-gate calculator (Pending) | Single-aperture and aperture-ladder cluster-response calculations from baryonic loading, support temperature, redshift, and aperture. |
+| `CPTG_ClusterActiveGate_IntegratedTool_v0_5.py` | Single-aperture and aperture-ladder cluster-response calculations from baryonic loading, support temperature, redshift, and aperture. Requires cluster archive: https://drive.switch.ch/index.php/s/j3WUOYXWgv9Jbnz/download|
 | `CPTG_MOND_Upsilon_SPARC_Benchmark.py` | MOND/CPTG comparison with stellar mass-to-light freedom. |
 
 ---
@@ -292,6 +294,18 @@ CPTG large-scale-structure work separates DESI comparisons into layers. The curr
 
 The full-shape AP/growth work remains an exploratory spectrum-shell diagnostic. It is not a raw DESI full-shape validation claim and should not be described as one. A full raw DESI validation requires nuisance-preserving AP, RSD, tracer-window, covariance, nuisance, counterterm, and stochastic machinery to be wired consistently through the official likelihood path.
 
+### Cosmological Horizon Mechanism
+
+A current CPTG horizon-mechanism article treats the cosmological horizon problem as a structural-curvature synchronization problem rather than as a scalar-field inflation mechanism. The relevant scale in that paper is the structural Hubble-equivalent branch,
+
+```text
+H_struct(t) = (16 pi / 3) a_star(t) / c
+```
+
+This structural scale is kept distinct from the native pi-branch quantities `H_infinity` and `H0^(pi)`, and from the transported CMB comparison value `H0_CMB^CPTG`. In this framing, early-universe uniformity is not attributed to ordinary thermal contact between widely separated matter regions. It is attributed to finite curvature saturation and active geometric transport synchronizing the primordial curvature state before decoupling.
+
+The claim level is a theory mechanism with falsifiable consequences. The article identifies CMB anisotropy statistics, primordial non-Gaussianity, tensor-background limits, acoustic consistency, and the relation between structural acceleration response and cosmological expansion as the relevant stress tests. It should not be read as a completed Boltzmann-code implementation or a replacement for the locked CMB comparison-layer audits.
+
 ### Hubble-Tension Bridge
 
 A current CPTG article develops a geometric interpretation of the Hubble tension. In this framing, the Planck/CMB value and the local distance-ladder value are not treated as two incompatible physical expansion histories. They are treated as different comparison-layer projections of one native CPTG geometric branch.
@@ -398,6 +412,7 @@ Recent CPTG writing has expanded beyond the original galaxy and Bullet Cluster b
 - weak-lensing S8 compressed comparison,
 - DESI DR1 compressed ShapeFit coordinate-level dry run and BAO quarter-ruler diagnostic,
 - Hubble-tension bridge article,
+- cosmological horizon-mechanism article using finite curvature saturation and active geometric transport,
 - compact high-redshift galaxy stress tests,
 - cluster-scale active-gate extension using ACCEPT diagnostics and X-COP same-aperture/aperture-ladder comparisons.
 
@@ -425,7 +440,7 @@ The next cluster-scale goals are to expand the X-COP/ACCEPT-style sample, add le
 
 ### Perturbation-Level CMB Development
 
-The locked CMB comparison layer now provides a strong set of fixed-row likelihood checks, but it is still a comparison-layer construction. A deeper CMB implementation requires a perturbation-equation treatment comparable in role to CLASS or CAMB. The long-term goal is to express early curvature transport, acoustic source structure, optical-depth visibility, and scalar-amplitude response directly in a physical perturbation model rather than relying on comparison-layer maps alone.
+The locked CMB comparison layer now provides a strong set of fixed-row likelihood checks, but it is still a comparison-layer construction. A deeper CMB implementation requires a perturbation-equation treatment comparable in role to CLASS or CAMB. The long-term goal is to express early curvature transport, acoustic source structure, optical-depth visibility, scalar-amplitude response, and the horizon-mechanism curvature-state synchronization directly in a physical perturbation model rather than relying on comparison-layer maps alone.
 
 ### Direction of Development
 
@@ -457,4 +472,4 @@ CPTG, Supporting Python Models, Benchmark Implementations, and Research Referenc
 
 CPTG is not a dark matter halo fit and is not a MOND interpolation law. It is a geometric gravity framework in which gravitational enhancement, lensing displacement, cosmological comparison quantities, and possible Hubble-tension structure are modeled through curvature polarization, curvature transport, and branch-specific observational projection.
 
-The public repository contains reduced numerical implementations, benchmark scripts, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks, while cosmology-facing work is organized by claim level: comparison-layer pass, diagnostic pass, validation candidate, or exploratory extension depending on the maturity of the implementation.
+The public repository contains reduced numerical implementations, benchmark scripts, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks, while cosmology-facing work is organized by claim level: comparison-layer pass, diagnostic pass, validation candidate, theory mechanism, or exploratory extension depending on the maturity of the implementation.
