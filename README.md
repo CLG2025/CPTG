@@ -45,7 +45,8 @@ CPTG is being developed as a geometric framework with several reduced-limit test
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Cluster active-gate apertures | Single-aperture cluster-response law tested on ACCEPT diagnostics and X-COP hydrostatic-mass apertures | Diagnostic cluster-scale active-gate pass and same-aperture X-COP hydrostatic-mass consistency pass |
 | Pantheon+ supernova distances | Full-covariance distance-shape comparison with marginalized intercept | Distance-shape pass, not an H0 calibration claim |
-| BBN abundance comparison | Primary abundance comparison using CPTG transported baryon/acoustic quantities | Within representative observational bands |
+| BBN table-control abundance comparison | Transported CPTG BBN coordinate checked against PRIMAT/PArthENoPE/CAMB abundance tables | D/H and helium table-control pass under the BBN coordinate; coordinate-layer validation |
+| Cosmological lithium problem | Locked CPTG lithium gate applied to live `7Li` and `7Be` source-network channels in PRyMordial and AlterBBN | Two-code source-network validation within the stated background-admissible standard; final AlterBBN `N=200` audit gives `484/484` admitted gated rows passing D/H, helium, and lithium |
 | Weak-lensing S8 | Compressed comparison against representative weak-lensing and CMB S8 anchors | Diagnostic pass, not a full shear likelihood |
 | CMB comparison layer | Locked cleaned comparison-layer recovery across high-ell profile robustness, lowE/lensing diagnostic stability, posterior-proxy checks, combined-stack profile validation, and combined-stack posterior validation | Control-level combined-stack profile and posterior validation under a locked cleaned comparison layer; amplitude/tau gate derivation and full perturbation implementation remain open |
 | Cosmological horizon mechanism | Structural horizon-branch article using finite curvature saturation and active geometric transport to address pre-recombination causal uniformity | Theory mechanism and falsifiable CMB-perturbation program; not a full perturbation-code validation |
@@ -65,6 +66,7 @@ This repository contains the public academic package for CPTG, including:
 - supporting SPARC data and metadata,
 - comparison scripts against MOND-style galaxy predictions,
 - cosmology-facing comparison-layer scripts and audit outputs when publicly included,
+- BBN table-control and lithium source-network validation notes when publicly included,
 - horizon-mechanism and structural-branch articles when publicly included,
 - benchmark figures and reconstruction images.
 
@@ -280,9 +282,33 @@ This is stronger than a high-ell-only validation candidate. It should be describ
 
 CPTG has been tested against Pantheon+ supernova distance-shape data using a full-covariance comparison with a marginalized intercept. This is a distance-shape test, not a local H0 calibration claim. The purpose is to ask whether the CPTG expansion branch can reproduce the relative supernova distance trend once the absolute calibration is marginalized.
 
-### BBN Abundance Comparison
+### BBN Abundance and Lithium Source-Network Tests
 
-CPTG abundance work compares transported baryon and acoustic quantities against primary BBN abundance summaries. These comparisons are useful because they test whether the CPTG branch remains compatible with early-universe light-element constraints. They should be read as abundance comparisons, not as a complete replacement for a full nuclear reaction-network derivation inside CPTG.
+CPTG abundance work is separated into two layers.
+
+The first layer is the BBN table-control comparison. This layer checks whether the transported CPTG BBN coordinate remains compatible with standard light-element controls, especially deuterium and helium. In this comparison, the acoustic/CMB baryon coordinate is not inserted directly into the nuclear-abundance table. The BBN abundance coordinate is the transported one:
+
+```text
+eta10_BBN = 5.998071834744
+Omega_b h^2_BBN = 0.021898765370
+```
+
+This distinction matters because D/H is a sensitive background control. Rows whose unmodified background already fails D/H or helium are not used to judge a lithium correction.
+
+The second layer is the CPTG lithium source-network test. The cosmological lithium problem is treated as a surviving mass-seven abundance problem, because most final primordial lithium is carried through `7Be` during BBN and later appears as `7Li`. The locked CPTG lithium gate is:
+
+```text
+Y_7,CPTG = Y_7,raw / pi
+integral Gamma_7 dt = ln(pi)
+```
+
+Operationally, the gate is applied to the live `7Li` and `7Be` channels inside the source network, and the network is then re-evolved. It is not a post-processing division applied after the final abundance table is produced.
+
+The source-network validation now uses two independent BBN networks. PRyMordial gives `205/205` passing background-admissible locked-gate cases. AlterBBN gives `24/24` passing thermal-window and shape cases, `33/33` passing eta/rate admitted gated rows, and `484/484` passing background-admissible gated rows in the final `N=200` combined Monte Carlo audit.
+
+The claim level is therefore a two-code source-network validation under the stated background-admissible standard. It should not be read as an assertion that every possible BBN code, every stellar lithium systematic, or every observational systematic has been exhausted.
+
+AlterBBN has an important output convention: its reported final `Li7/H` column already includes the post-BBN `7Be -> 7Li` contribution. The diagnostic `Be7/H` column is therefore not added a second time.
 
 ### Weak-Lensing S8 Comparison
 
@@ -392,9 +418,12 @@ CPTG results in this repository should be read at different levels of maturity.
 |---|---|
 | Public benchmark | Script and data package are available for reproduction. |
 | Comparison-layer pass | A locked CPTG comparison map passes the stated likelihood or compressed-coordinate test without retuning the branch. |
+| Source-network validation | A locked source-level intervention passes independent reaction-network implementations under stated background-admissibility rules. |
 | Validation candidate | A result passes strong locked tests but still needs broader independent confirmation or a deeper physical implementation. |
 | Diagnostic pass | A compressed or reduced comparison succeeds, but the full likelihood or full physical implementation remains future work. |
 | Exploratory | Used to scope theory behavior, not presented as a settled result. |
+
+This distinction is especially important for cosmology-facing work. The lithium result is classified as a source-network validation: the locked CPTG lithium gate has been applied inside two independent source-network implementations, with D/H and helium used as background controls before lithium is judged. This is stronger than a table-level abundance comparison, but it is still distinct from claiming that every possible BBN implementation or every stellar lithium systematic has been exhausted.
 
 This distinction is especially important for cosmology-facing work. The current CMB status is a locked cleaned comparison-layer pass through completed high-ell profile robustness, lowE/lensing diagnostic stability, posterior-proxy checks, combined-stack profile validation, and combined-stack posterior validation. This remains a comparison-layer result rather than a full Boltzmann-code or full perturbation-equation implementation; the remaining CMB theory work is amplitude/tau gate derivation and perturbation-level implementation. DESI ShapeFit and BAO currently sit at compressed-coordinate and coordinate-wrapper level; the DESI full-shape AP/growth spectrum-shell work remains exploratory until the official nuisance-preserving likelihood machinery is used.
 
@@ -402,13 +431,14 @@ CPTG comparison-layer results should not be confused with full Boltzmann-code va
 
 ---
 
-## Recent CPTG Articles and Drafts
+## Recent CPTG Articles and Research Notes
 
 Recent CPTG writing has expanded beyond the original galaxy and Bullet Cluster benchmarks into several focused theory and validation articles:
 
 - unified CPTG cosmology and comparison-layer framework,
 - Pantheon+ supernova distance-shape comparison,
 - BBN transported-baryon abundance comparison,
+- cosmological lithium problem and CPTG lithium solution with two-code source-network validation,
 - weak-lensing S8 compressed comparison,
 - DESI DR1 compressed ShapeFit coordinate-level dry run and BAO quarter-ruler diagnostic,
 - Hubble-tension bridge article,
@@ -472,4 +502,4 @@ CPTG, Supporting Python Models, Benchmark Implementations, and Research Referenc
 
 CPTG is not a dark matter halo fit and is not a MOND interpolation law. It is a geometric gravity framework in which gravitational enhancement, lensing displacement, cosmological comparison quantities, and possible Hubble-tension structure are modeled through curvature polarization, curvature transport, and branch-specific observational projection.
 
-The public repository contains reduced numerical implementations, benchmark scripts, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks, while cosmology-facing work is organized by claim level: comparison-layer pass, diagnostic pass, validation candidate, theory mechanism, or exploratory extension depending on the maturity of the implementation.
+The public repository contains reduced numerical implementations, benchmark scripts, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks, while cosmology-facing work is organized by claim level: comparison-layer pass, source-network validation, diagnostic pass, validation candidate, theory mechanism, or exploratory extension depending on the maturity of the implementation. The current lithium result belongs to the source-network validation category because it has passed locked PRyMordial and AlterBBN source-network tests under the stated background-admissible rule.
