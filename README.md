@@ -48,7 +48,7 @@ CPTG is being developed as a geometric framework with several reduced-limit test
 | BBN table-control abundance comparison | Transported CPTG BBN coordinate checked against PRIMAT/PArthENoPE/CAMB abundance tables | D/H and helium table-control pass under the BBN coordinate; coordinate-layer validation |
 | Cosmological lithium problem | Locked CPTG lithium gate applied to live `7Li` and `7Be` source-network channels in PRyMordial and AlterBBN | Two-code source-network validation within the stated background-admissible standard; final AlterBBN `N=200` audit gives `484/484` admitted gated rows passing D/H, helium, and lithium |
 | Weak-lensing S8 | Compressed comparison against representative weak-lensing and CMB S8 anchors | Diagnostic pass, not a full shear likelihood |
-| CMB comparison layer | Locked cleaned comparison-layer recovery across high-ell profile robustness, lowE/lensing diagnostic stability, posterior-proxy checks, combined-stack profile validation, and combined-stack posterior validation | Control-level combined-stack profile and posterior validation under a locked cleaned comparison layer; amplitude/tau gate derivation and full perturbation implementation remain open |
+| CMB comparison-map closure | Locked geometric-pi CMB branch tested against real Planck component maps, Planck split maps, WMAP low-ell support products, smoothing controls, mask and sky-fraction controls, and null-envelope controls | Real-map comparison-map closure pass; CPTG remains near-degenerate with the Planck comparison envelope at sub-microkelvin residual-gap scale while generic null envelopes fail much more strongly |
 | Cosmological horizon mechanism | Structural horizon-branch article using finite curvature saturation and active geometric transport to address pre-recombination causal uniformity | Theory mechanism and falsifiable CMB-perturbation program; not a full perturbation-code validation |
 | DESI DR1 compressed ShapeFit and BAO | Official compressed-coordinate dry run plus BAO quarter-ruler coordinate-wrapper diagnostic | ShapeFit coordinate-level pass and BAO ruler support; not full raw DESI validation |
 | Hubble-tension bridge | Native CPTG branch projected into CMB/acoustic and local luminosity-distance comparison layers | Article-stage interpretation and derivation target |
@@ -66,6 +66,7 @@ This repository contains the public academic package for CPTG, including:
 - supporting SPARC data and metadata,
 - comparison scripts against MOND-style galaxy predictions,
 - cosmology-facing comparison-layer scripts and audit outputs when publicly included,
+- CMB comparison-map closure Python scripts, CSV summaries, figures, and source/data availability notes when publicly included,
 - BBN table-control and lithium source-network validation notes when publicly included,
 - horizon-mechanism and structural-branch articles when publicly included,
 - benchmark figures and reconstruction images.
@@ -89,6 +90,8 @@ The public benchmarks are intended to be inspectable and reproducible.
 5. Run the benchmark scripts with Python 3.
 6. Compare generated outputs against the included figures and summary files.
 
+The package root directory may be renamed freely. Reproducibility depends on preserving the internal relative layout, or on passing explicit input/output paths when running scripts. Planck and WMAP FITS products are not bundled with CMB map-closure packages; they must be placed in the documented data location or supplied by command-line path.
+
 The main public benchmark scripts are:
 
 | Script | Purpose |
@@ -97,6 +100,7 @@ The main public benchmark scripts are:
 | `CPTG_Bullet_Cluster_Merger.py` | Reduced merger-plane curvature-transport/lensing benchmark. |
 | `CPTG_ClusterActiveGate_IntegratedTool_v0_5.py` | Single-aperture and aperture-ladder cluster-response calculations from baryonic loading, support temperature, redshift, and aperture. Requires cluster archive: https://drive.switch.ch/index.php/s/j3WUOYXWgv9Jbnz/download|
 | `CPTG_MOND_Upsilon_SPARC_Benchmark.py` | MOND/CPTG comparison with stellar mass-to-light freedom. |
+| `CPTG-CMB.zip` | CMB comparison-map closure scripts for Planck/WMAP component maps, split maps, smoothing/mask controls, visual comparisons, summary reports, and null-envelope controls. |
 
 ---
 
@@ -247,36 +251,87 @@ H0_CMB^CPTG = 67.4777967351 km s^-1 Mpc^-1
 A_lens = 1
 ```
 
-These values define the fixed branch used in the current comparison-layer audits.
-
-### CMB Comparison Layer
-
-CPTG CMB work is organized as a comparison layer between CPTG-native geometric quantities and the conventional variables used by CMB likelihoods. The early-universe ordering is not treated as a direct copy of the late-time galaxy regime. The working physical order is:
-
-> early expansion -> curvature transport through the hot plasma -> organized pre-recombination gravitational source structure -> recombination imprint -> later curvature polarization in bound systems.
-
-In this view, curvature transport precedes galaxy-scale curvature polarization. The CMB question is whether the gravitational role usually assigned to cold dark matter can be represented by an early transported-curvature source and a fixed acoustic-transport comparison map.
-
-The current locked cleaned CMB comparison layer reaches control-level combined-stack profile and posterior validation across Plik, decisive full NPIPE CamSpec, and SPT/ACT, with the lensing-amplitude setting fixed at `A_lens = 1`. It also includes high-ell profile robustness, converged Plik/SPT posterior-proxy checks, and low-ell/lensing diagnostic stability.
-
-The current locked CMB comparison map uses:
+The locked CMB comparison-map row used in the current Planck/WMAP map-space closure paper is:
 
 ```text
-omega_c,eff h^2 = omega_c,CPTG h^2 D_c
-A_s,eff = A_s,CPTG pi/3
-tau_eff = tau_CPTG G_T^2
-```
-
-with:
-
-```text
-D_c = 0.9735353159758136
-G_T^2 = 0.8928920596100127
-tau_eff = 0.05893087593426084
+H0 = 67.4777967351 km s^-1 Mpc^-1
+omega_b h^2 = 0.022527857494
+omega_c h^2 = 0.117685841620526
+n_s = 0.968584073464
+N_eff = 2.968584073464
+A_s = 2.136283004441e-9
+tau = 0.058930875934
 A_lens = 1
 ```
 
-This is stronger than a high-ell-only validation candidate. It should be described as a locked cleaned comparison-layer CMB pass through the completed profile, posterior-proxy, lowE/lensing diagnostic, combined-stack profile, and combined-stack posterior tests. It is not the same as a full Boltzmann-code or full perturbation-equation implementation. The combined-stack posterior validation item is now completed under the locked comparison layer. The remaining CMB work is theoretical and implementation-facing: deriving or fully motivating the scalar-amplitude gate `A_s -> A_s pi/3` and the optical-depth gate `tau -> tau G_T^2`, and expressing the comparison layer inside a full perturbation-equation framework.
+These values define the fixed geometric-pi CMB branch used in the current comparison-map closure audits. The branch is locked before the map tests and is not refit to the individual CMB maps.
+
+### CMB Comparison-Map Closure
+
+CPTG CMB map work is organized as a real-map comparison test between the locked geometric-pi CMB branch and public CMB map products. The current paper uses real Planck component maps, Planck split maps, and WMAP low-ell support products.
+
+The map-space procedure uses the same comparison coordinate for CPTG, the Planck envelope, and controls. It reads the temperature field from the public CMB map product, applies the documented mask, converts to microkelvin, downgrades to `Nside = 256`, uses `ell_max = 767`, removes the monopole and dipole on the valid sky, extracts the observed phase scaffold, and builds phase-locked comparison maps for the locked CPTG branch, the Planck baseline envelope, and null controls. The fitted comparison map is evaluated with the same amplitude-plus-offset residual rule:
+
+```text
+T_fit(nhat) = A T_template(nhat) + B
+```
+
+The central result is that the locked CPTG geometric-pi branch reaches near-degenerate CMB comparison-map closure with the Planck comparison envelope across real CMB map products and control layers.
+
+Representative map-space values from the SMICA visual comparison are:
+
+```text
+Observed RMS = 100.509653 microK
+Raw CPTG RMS = 118.452082 microK
+Raw residual RMS = 26.784740 microK
+Fitted CPTG RMS = 98.844631 microK
+Fitted residual RMS = 18.218928 microK
+Observed vs fitted correlation = 0.983434
+```
+
+Across Planck component maps, the representative CPTG-minus-Planck fitted-residual RMS gap is:
+
+```text
+Mean component-map gap = +0.023518 microK
+Inpainted component-map gap = about +0.0264 microK
+```
+
+Across Planck full-band split maps, the result is highly stable:
+
+```text
+Full-band split mean RMS gap = +0.023891 microK
+Split-to-split span = 0.000690 microK
+```
+
+The full control-scatter audit contains `1159` control rows:
+
+```text
+Mean CPTG-minus-Planck RMS gap = +0.034265 microK
+Full control span = 0.056006 microK
+Planck-ahead fraction = 0.9931
+```
+
+Mask and sky-fraction controls show that the residual gap is strongly sky-selection sensitive at high Galactic latitude:
+
+```text
+No Galactic cut gap = about +0.02379 microK
+|b| > 40 degrees gap = about +0.00146 microK
+```
+
+The null-envelope audit shows that the near-degeneracy is not produced automatically by reusing the observed phase scaffold. The Planck and CPTG envelopes remain adjacent, while generic controls fail much more strongly under the same procedure:
+
+```text
+Observed self-spectrum control = 11.503 microK
+Planck baseline = 18.230 microK
+CPTG locked pi-CMB = 18.253 microK
+Smoothed observed spectrum control = 19.282 microK
+Flat D_ell null = 39.281 microK
+Power-law D_ell null = 56.247 microK
+Flat C_ell null = 78.236 microK
+Shuffled-spectrum nulls = 95.461 microK
+```
+
+This is the current public CMB comparison-map closure result: a fixed geometric-pi branch projects into real Planck/WMAP CMB map space at essentially the Planck-envelope residual scale, while generic null envelopes fail under the same map-space test.
 
 ### Pantheon+ Supernova Distance-Shape Test
 
@@ -417,17 +472,20 @@ CPTG results in this repository should be read at different levels of maturity.
 | Label | Meaning |
 |---|---|
 | Public benchmark | Script and data package are available for reproduction. |
+| Comparison-map closure pass | A locked CPTG comparison branch projects into real observed map products at the stated residual scale without retuning the branch. |
 | Comparison-layer pass | A locked CPTG comparison map passes the stated likelihood or compressed-coordinate test without retuning the branch. |
 | Source-network validation | A locked source-level intervention passes independent reaction-network implementations under stated background-admissibility rules. |
 | Validation candidate | A result passes strong locked tests but still needs broader independent confirmation or a deeper physical implementation. |
 | Diagnostic pass | A compressed or reduced comparison succeeds, but the full likelihood or full physical implementation remains future work. |
 | Exploratory | Used to scope theory behavior, not presented as a settled result. |
 
-This distinction is especially important for cosmology-facing work. The lithium result is classified as a source-network validation: the locked CPTG lithium gate has been applied inside two independent source-network implementations, with D/H and helium used as background controls before lithium is judged. This is stronger than a table-level abundance comparison, but it is still distinct from claiming that every possible BBN implementation or every stellar lithium systematic has been exhausted.
+This distinction is especially important for cosmology-facing work. The current CMB map-space result is classified as a comparison-map closure pass: the locked geometric-pi branch has been tested against real Planck component maps, Planck split maps, WMAP low-ell support products, smoothing controls, mask and sky-fraction controls, and null-envelope controls. The important repository claim is real-map closure in the stated comparison coordinate: CPTG remains near-degenerate with the Planck envelope, while generic null envelopes fail much more strongly.
 
-This distinction is especially important for cosmology-facing work. The current CMB status is a locked cleaned comparison-layer pass through completed high-ell profile robustness, lowE/lensing diagnostic stability, posterior-proxy checks, combined-stack profile validation, and combined-stack posterior validation. This remains a comparison-layer result rather than a full Boltzmann-code or full perturbation-equation implementation; the remaining CMB theory work is amplitude/tau gate derivation and perturbation-level implementation. DESI ShapeFit and BAO currently sit at compressed-coordinate and coordinate-wrapper level; the DESI full-shape AP/growth spectrum-shell work remains exploratory until the official nuisance-preserving likelihood machinery is used.
+The lithium result is classified as a source-network validation: the locked CPTG lithium gate has been applied inside two independent source-network implementations, with D/H and helium used as background controls before lithium is judged. This is stronger than a table-level abundance comparison, but it is still distinct from claiming that every possible BBN implementation or every stellar lithium systematic has been exhausted.
 
-CPTG comparison-layer results should not be confused with full Boltzmann-code validation, full raw DESI likelihood validation, or full weak-lensing shear-likelihood validation unless those specific implementations are provided.
+DESI ShapeFit and BAO currently sit at compressed-coordinate and coordinate-wrapper level; the DESI full-shape AP/growth spectrum-shell work remains exploratory until the official nuisance-preserving likelihood machinery is used.
+
+CPTG comparison-layer results should not be confused with full raw DESI likelihood validation or full weak-lensing shear-likelihood validation unless those specific implementations are provided.
 
 ---
 
@@ -436,6 +494,7 @@ CPTG comparison-layer results should not be confused with full Boltzmann-code va
 Recent CPTG writing has expanded beyond the original galaxy and Bullet Cluster benchmarks into several focused theory and validation articles:
 
 - unified CPTG cosmology and comparison-layer framework,
+- CMB comparison-map closure with real Planck component maps, Planck split maps, and WMAP low-ell support products,
 - Pantheon+ supernova distance-shape comparison,
 - BBN transported-baryon abundance comparison,
 - cosmological lithium problem and CPTG lithium solution with two-code source-network validation,
@@ -470,7 +529,7 @@ The next cluster-scale goals are to expand the X-COP/ACCEPT-style sample, add le
 
 ### Perturbation-Level CMB Development
 
-The locked CMB comparison layer now provides a strong set of fixed-row likelihood checks, but it is still a comparison-layer construction. A deeper CMB implementation requires a perturbation-equation treatment comparable in role to CLASS or CAMB. The long-term goal is to express early curvature transport, acoustic source structure, optical-depth visibility, scalar-amplitude response, and the horizon-mechanism curvature-state synchronization directly in a physical perturbation model rather than relying on comparison-layer maps alone.
+The locked CMB comparison-map closure paper provides a real-map benchmark for the geometric-pi branch using Planck component maps, Planck split maps, WMAP low-ell support products, control ladders, and null-envelope tests. The long-term CMB development goal is to express early curvature transport, acoustic source structure, optical-depth visibility, scalar-amplitude response, and horizon-mechanism curvature-state synchronization directly in a physical perturbation model comparable in role to CLASS or CAMB.
 
 ### Direction of Development
 
@@ -479,7 +538,7 @@ The next development goals are:
 - strengthen the mathematical connection between curvature transport, curvature polarization, and observed galaxy structure;
 - evaluate whether SRD distance refinements correlate with independent distance-quality indicators;
 - extend cluster active-gate tests to larger same-aperture samples and connect them to gas, galaxy, lensing, and merger-aware decompositions;
-- convert the locked CMB acoustic-transport comparison layer into a more physical perturbation-equation model;
+- carry the locked CMB comparison-map closure result forward into a more physical perturbation-equation model;
 - keep all numerical tests reproducible, compact, and open to criticism.
 
 These continuing investigations are included to make the research path transparent. They should be read as active development directions, not settled conclusions.
@@ -500,6 +559,8 @@ CPTG, Supporting Python Models, Benchmark Implementations, and Research Referenc
 
 ## Summary
 
-CPTG is not a dark matter halo fit and is not a MOND interpolation law. It is a geometric gravity framework in which gravitational enhancement, lensing displacement, cosmological comparison quantities, and possible Hubble-tension structure are modeled through curvature polarization, curvature transport, and branch-specific observational projection.
+CPTG is not a dark matter halo fit and is not a MOND interpolation law. It is a geometric gravity framework in which gravitational enhancement, lensing displacement, cosmological comparison quantities, CMB map-space closure, and possible Hubble-tension structure are modeled through curvature polarization, curvature transport, and branch-specific observational projection.
 
-The public repository contains reduced numerical implementations, benchmark scripts, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks, while cosmology-facing work is organized by claim level: comparison-layer pass, source-network validation, diagnostic pass, validation candidate, theory mechanism, or exploratory extension depending on the maturity of the implementation. The current lithium result belongs to the source-network validation category because it has passed locked PRyMordial and AlterBBN source-network tests under the stated background-admissible rule.
+The public repository contains reduced numerical implementations, benchmark scripts, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. Cosmology-facing work is organized by claim level: comparison-map closure pass, comparison-layer pass, source-network validation, diagnostic pass, validation candidate, theory mechanism, or exploratory extension depending on the maturity of the implementation.
+
+The current CMB result belongs to the comparison-map closure category because the locked geometric-pi branch has been tested against real Planck and WMAP CMB map products under a common phase-scaffold, masking, resolution, and residual-evaluation procedure. The current lithium result belongs to the source-network validation category because it has passed locked PRyMordial and AlterBBN source-network tests under the stated background-admissible rule.
