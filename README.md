@@ -272,7 +272,7 @@ CPTG CMB map work is organized as a real-map comparison test between the locked 
 
 ![Observed Planck SMICA vs fitted CPTG comparison map](images/fig_visual_fitted.png)
 
-<sup>Figure: SMICA visual comparison from the CMB comparison-map closure paper. Left: observed Planck SMICA temperature map. Center: fitted CPTG comparison map. Right: observed-minus-fitted-CPTG residual.</sup>
+<sup>Figure: SMICA visual comparison from the CMB comparison-map closure paper. Top: observed Planck SMICA temperature map. Center: fitted CPTG comparison map. Bottom: observed-minus-fitted-CPTG residual.</sup>
 
 The map-space procedure uses the same comparison coordinate for CPTG, the Planck envelope, and controls. It reads the temperature field from the public CMB map product, applies the documented mask, converts to microkelvin, downgrades to `Nside = 256`, uses `ell_max = 767`, removes the monopole and dipole on the valid sky, extracts the observed phase scaffold, and builds phase-locked comparison maps for the locked CPTG branch, the Planck baseline envelope, and null controls. The fitted comparison map is evaluated with the same amplitude-plus-offset residual rule:
 
