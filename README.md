@@ -270,6 +270,10 @@ These values define the fixed geometric-pi CMB branch used in the current compar
 
 CPTG CMB map work is organized as a real-map comparison test between the locked geometric-pi CMB branch and public CMB map products. The current paper uses real Planck component maps, Planck split maps, and WMAP low-ell support products.
 
+![Observed Planck SMICA vs fitted CPTG comparison map](images/fig_visual_fitted.png)
+
+<sup>Figure: SMICA visual comparison from the CMB comparison-map closure paper. Left: observed Planck SMICA temperature map. Center: fitted CPTG comparison map. Right: observed-minus-fitted-CPTG residual.</sup>
+
 The map-space procedure uses the same comparison coordinate for CPTG, the Planck envelope, and controls. It reads the temperature field from the public CMB map product, applies the documented mask, converts to microkelvin, downgrades to `Nside = 256`, uses `ell_max = 767`, removes the monopole and dipole on the valid sky, extracts the observed phase scaffold, and builds phase-locked comparison maps for the locked CPTG branch, the Planck baseline envelope, and null controls. The fitted comparison map is evaluated with the same amplitude-plus-offset residual rule:
 
 ```text
@@ -482,30 +486,6 @@ In short:
 - **CPTG** tests whether the same observed effects can emerge from baryon-sourced curvature polarization, curvature transport, and theory-derived structural organization.
 
 The purpose of the repository is not to declare the issue settled, but to make the CPTG comparison reproducible: the same public scripts load the data, solve the reduced CPTG equations, compute the MOND comparison, and report the resulting diagnostics.
-
----
-
-## Claim-Level Guide
-
-CPTG results in this repository should be read at different levels of maturity.
-
-| Label | Meaning |
-|---|---|
-| Public benchmark | Script and data package are available for reproduction. |
-| Comparison-map closure pass | A locked CPTG comparison branch projects into real observed map products at the stated residual scale without retuning the branch. |
-| Comparison-layer pass | A locked CPTG comparison map passes the stated likelihood or compressed-coordinate test without retuning the branch. |
-| Source-network validation | A locked source-level intervention passes independent reaction-network implementations under stated background-admissibility rules. |
-| Validation candidate | A result passes strong locked tests but still needs broader independent confirmation or a deeper physical implementation. |
-| Diagnostic pass | A compressed or reduced comparison succeeds, but the full likelihood or full physical implementation remains future work. |
-| Exploratory | Used to scope theory behavior, not presented as a settled result. |
-
-This distinction is especially important for cosmology-facing work. The current CMB map-space result is classified as a comparison-map closure pass: the locked geometric-pi branch has been tested against real Planck component maps, Planck split maps, WMAP low-ell support products, smoothing controls, mask and sky-fraction controls, and null-envelope controls. The important repository claim is real-map closure in the stated comparison coordinate: CPTG remains near-degenerate with the Planck envelope, while generic null envelopes fail much more strongly.
-
-The lithium result is classified as a source-network validation: the locked CPTG lithium gate has been applied inside two independent source-network implementations, with D/H and helium used as background controls before lithium is judged. This is stronger than a table-level abundance comparison, but it is still distinct from claiming that every possible BBN implementation or every stellar lithium systematic has been exhausted.
-
-DESI ShapeFit and BAO currently sit at compressed-coordinate and coordinate-wrapper level; the DESI full-shape AP/growth spectrum-shell work remains exploratory until the official nuisance-preserving likelihood machinery is used.
-
-CPTG comparison-layer results should not be confused with full raw DESI likelihood validation or full weak-lensing shear-likelihood validation unless those specific implementations are provided.
 
 ---
 
