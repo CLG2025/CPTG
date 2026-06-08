@@ -49,6 +49,7 @@ CPTG is being developed as a geometric framework with several reduced-limit test
 | Cosmological lithium problem | Locked CPTG lithium gate applied to live `7Li` and `7Be` source-network channels in PRyMordial and AlterBBN | Two-code source-network validation within the stated background-admissible standard; final AlterBBN `N=200` audit gives `484/484` admitted gated rows passing D/H, helium, and lithium |
 | Weak-lensing S8 | Compressed comparison against representative weak-lensing and CMB S8 anchors | Diagnostic pass, not a full shear likelihood |
 | CMB comparison-map closure | Locked geometric-pi CMB branch tested against real Planck component maps, Planck split maps, WMAP low-ell support products, smoothing controls, mask and sky-fraction controls, and null-envelope controls | Real-map comparison-map closure pass; CPTG remains near-degenerate with the Planck comparison envelope at sub-microkelvin residual-gap scale while generic null envelopes fail much more strongly |
+| CMB Route B Option 1 curvature-transport bridge | Geometry-first amplitude-level bridge tested through CAMB `C_l` plumbing and Planck likelihood families, including NPIPE high-ell TTTEEE, NPIPE split TT/TE/EE sectors, Plik split sectors, Planck low-ell TT/EE, and PR4/NPIPE marginalized lensing smoke integration | Geometry-first CMB likelihood-bridge validation; not native CPTG perturbation-code validation and not a completed Boltzmann/source implementation |
 | Cosmological horizon mechanism | Structural horizon-branch article using finite curvature saturation and active geometric transport to address pre-recombination causal uniformity | Theory mechanism and falsifiable CMB-perturbation program; not a full perturbation-code validation |
 | DESI DR1 compressed ShapeFit and BAO | Official compressed-coordinate dry run plus BAO quarter-ruler coordinate-wrapper diagnostic | ShapeFit coordinate-level pass and BAO ruler support; not full raw DESI validation |
 | Hubble-tension bridge | Native CPTG branch projected into CMB/acoustic and local luminosity-distance comparison layers | Article-stage interpretation and derivation target |
@@ -67,6 +68,7 @@ This repository contains the public academic package for CPTG, including:
 - comparison scripts against MOND-style galaxy predictions,
 - cosmology-facing comparison-layer scripts and audit outputs when publicly included,
 - CMB comparison-map closure Python scripts, CSV summaries, figures, and source/data availability notes when publicly included,
+- Route B Option 1 CMB curvature-transport bridge reports and audit summaries when publicly included,
 - BBN table-control and lithium source-network validation notes when publicly included,
 - horizon-mechanism and structural-branch articles when publicly included,
 - benchmark figures and reconstruction images.
@@ -357,6 +359,46 @@ The original Planck and WMAP survey FITS maps are **not bundled** because they a
 The Planck rows use the temperature fields and embedded mask fields declared by the CMB scripts. The WMAP row is the tested low-ell cross-mission support product. No optional WMAP masks, SEVEM R3.01 substitute, or other alternate FITS products are part of this strict control list.
 
 
+### CMB Route B Option 1 Curvature-Transport Bridge
+
+A separate CMB development branch tests the Route B Option 1 curvature-transport bridge at the `C_l` and Planck-likelihood plumbing level. This is distinct from the CMB comparison-map closure work above.
+
+The validated bridge applies the CPTG curvature-transport response at the amplitude/potential level:
+
+```text
+Phi_pi(a,k) = Phi_0(k) C_T(a,k)
+```
+
+Because the response acts at amplitude level, the corresponding power-spectrum bridge is:
+
+```text
+P(k) -> P(k) C_T(a,k)^2
+```
+
+This branch was accepted by CAMB bridge smoke tests, `C_l` residual audits, NPIPE high-ell TTTEEE controlled near-identity ladders, NPIPE split TT/TE/EE/TTTEEE sectors, Plik split TT/TE/EE/TTTEEE sectors, Planck low-ell TT and EE, PR4/NPIPE marginalized lensing, and a combined high-ell + low-ell + lensing smoke stack.
+
+The strongest with-lensing endpoint was:
+
+```text
+f_r = 1.000
+summed chi2 = 11094.58772933417
+
+f_r = 0.999
+summed chi2 = 11094.937838138996
+
+delta chi2 = +0.3501088048269594
+```
+
+The Plik TE sector showed a diagnostic inversion rather than a branch rejection. The refined TE diagnostic anchor was:
+
+```text
+best f_r = 0.996
+best chi2 = 891.3320114884485
+best delta chi2 vs identity = -0.4459062018408986
+```
+
+This result should be read as geometry-first Route B bridge validation. It validates the curvature-transport mapping and likelihood plumbing across tested Planck likelihood families. It is not native CPTG perturbation-code validation, not a completed Boltzmann/source implementation, and not the earlier locked `f -> A_s` proxy mapping.
+
 ### Pantheon+ Supernova Distance-Shape Test
 
 CPTG has been tested against Pantheon+ supernova distance-shape data using a full-covariance comparison with a marginalized intercept. This is a distance-shape test, not a local H0 calibration claim. The purpose is to ask whether the CPTG expansion branch can reproduce the relative supernova distance trend once the absolute calibration is marginalized.
@@ -463,7 +505,7 @@ The included scripts implement reduced limits of the theory:
 - the reduced merger-plane transport/lensing limit for dissociative clusters;
 - comparison-layer cosmology audits that map CPTG-native quantities into conventional observational summaries.
 
-They are not full numerical-relativity solvers for the complete covariant CPTG field equations. Cosmology-facing scripts are not automatically full Boltzmann, full DESI, or full weak-lensing likelihood implementations unless those specific pipelines are provided. Their purpose is to test whether reduced CPTG equations and comparison maps reproduce important observational signatures normally associated with dark matter, dark energy, or parameter tension.
+They are not full numerical-relativity solvers for the complete covariant CPTG field equations. Cosmology-facing scripts are not automatically full Boltzmann, full DESI, or full weak-lensing likelihood implementations unless those specific pipelines are provided. The Route B Option 1 CMB result is a geometry-first curvature-transport bridge validation through CAMB and Planck likelihood plumbing; it should not be described as native CPTG perturbation-code validation or as a completed CPTG Boltzmann/source solver. Their purpose is to test whether reduced CPTG equations and comparison maps reproduce important observational signatures normally associated with dark matter, dark energy, or parameter tension.
 
 ---
 
@@ -531,6 +573,8 @@ The next cluster-scale goals are to expand the X-COP/ACCEPT-style sample, add le
 
 The locked CMB comparison-map closure paper provides a real-map benchmark for the geometric-pi branch using Planck component maps, Planck split maps, WMAP low-ell support products, control ladders, and null-envelope tests. The long-term CMB development goal is to express early curvature transport, acoustic source structure, optical-depth visibility, scalar-amplitude response, and horizon-mechanism curvature-state synchronization directly in a physical perturbation model comparable in role to CLASS or CAMB.
 
+The Route B Option 1 bridge is an intermediate step in this development path. It shows that an amplitude-level CPTG curvature-transport response can be mapped into the CMB spectrum pipeline as a squared power-spectrum response and remain accepted across tested Planck likelihood families. The next stage remains a native CPTG perturbation/source-equation implementation rather than another bridge or proxy layer.
+
 ### Direction of Development
 
 The next development goals are:
@@ -563,4 +607,4 @@ CPTG is not a dark matter halo fit and is not a MOND interpolation law. It is a 
 
 The public repository contains reduced numerical implementations, benchmark scripts, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. Cosmology-facing work is organized by claim level: comparison-map closure pass, comparison-layer pass, source-network validation, diagnostic pass, validation candidate, theory mechanism, or exploratory extension depending on the maturity of the implementation.
 
-The current CMB result belongs to the comparison-map closure category because the locked geometric-pi branch has been tested against real Planck and WMAP CMB map products under a common phase-scaffold, masking, resolution, and residual-evaluation procedure. The current lithium result belongs to the source-network validation category because it has passed locked PRyMordial and AlterBBN source-network tests under the stated background-admissible rule.
+The current CMB result belongs to the comparison-map closure category because the locked geometric-pi branch has been tested against real Planck and WMAP CMB map products under a common phase-scaffold, masking, resolution, and residual-evaluation procedure. The Route B Option 1 CMB result belongs to the separate geometry-first likelihood-bridge category because it validates the amplitude-level curvature-transport mapping and Planck likelihood plumbing, not a native perturbation-code solver. The current lithium result belongs to the source-network validation category because it has passed locked PRyMordial and AlterBBN source-network tests under the stated background-admissible rule.
