@@ -4,12 +4,15 @@
 
 ## Start Here: Core CPTG Papers
 
-- **[Curvature Polarization Transport Gravity: A Unified Geometric Framework for Cosmic Structure and Expansion](https://github.com/CLG2025/CPTG/blob/main/CPTG_Unified_Geometric_Framework_Cosmic_Structure_Expansion.pdf)**  
+- **[Curvature Polarization Transport Gravity: A Unified Geometric Framework for Cosmic Structure and Expansion](https://raw.githubusercontent.com/CLG2025/CPTG/main/CPTG_Unified_Geometric_Framework_Cosmic_Structure_Expansion.pdf)**  
   Primary CPTG theory paper. This manuscript lays out the unified geometric framework: baryon-sourced curvature polarization, curvature transport, the cosmic/structure expansion connection, galaxy and cluster limits, and the broader comparison-layer program.
 
-- **[CPTG Geometric Pi Branch Comparison Coordinates](https://github.com/CLG2025/CPTG/blob/main/CPTG_Geometric_Pi_Branch_Comparison_Coordinates.pdf)**  
+- **[CPTG Geometric Pi Branch Comparison Coordinates](https://raw.githubusercontent.com/CLG2025/CPTG/main/CPTG_Geometric_Pi_Branch_Comparison_Coordinates.pdf)**  
   Comparison-coordinate guide for the locked geometric pi branch. This paper explains how CPTG-native quantities are mapped into observational coordinates for CMB, BAO, BBN, supernova, growth, and DESI-style comparison layers without treating those observational coordinates as the theory itself.
 
+- **[The Science Behind CPTG: A Geometric Alternative to Dark Matter, Dark Energy, and MOND](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/The_Science_Behind_CPTG.pdf)**  
+  A public-facing introduction to Curvature Polarization Transport Gravity. This paper explains what makes CPTG different from dark matter, dark energy, and MOND-style approaches: baryon-sourced curvature polarization, curvature transport, structural modes, active gates, and scalable comparison coordinates derived from one geometric framework rather than sector-by-sector tuning.
+  
 ---
 
 ## Plain-Language Summary
