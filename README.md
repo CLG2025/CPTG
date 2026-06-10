@@ -3,10 +3,10 @@
 
 ## Start Here: Core CPTG Papers
 
-- **[Curvature Polarization Transport Gravity: A Unified Geometric Framework for Cosmic Structure and Expansion](https://raw.githubusercontent.com/CLG2025/CPTG/main/CPTG_Unified_Geometric_Framework_Cosmic_Structure_Expansion.pdf)**  
+- **[Curvature Polarization Transport Gravity: A Unified Geometric Framework for Cosmic Structure and Expansion](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Unified_Geometric_Framework_Cosmic_Structure_Expansion.pdf)**  
   Primary CPTG theory paper. This manuscript lays out the unified geometric framework: baryon-sourced curvature polarization, curvature transport, the cosmic/structure expansion connection, galaxy and cluster limits, and the broader comparison-layer program.
 
-- **[CPTG Geometric Pi Branch Comparison Coordinates](https://raw.githubusercontent.com/CLG2025/CPTG/main/CPTG_Geometric_Pi_Branch_Comparison_Coordinates.pdf)**  
+- **[CPTG Geometric Pi Branch Comparison Coordinates](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Geometric_Pi_Branch_Comparison_Coordinates.pdf)**  
   Comparison-coordinate guide for the locked geometric pi branch. This paper explains how CPTG-native quantities are mapped into observational coordinates for CMB, BAO, BBN, supernova, growth, and DESI-style comparison layers without treating those observational coordinates as the theory itself.
 
 - **[The Science Behind CPTG: A Geometric Alternative to Dark Matter, Dark Energy, and MOND](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/The_Science_Behind_CPTG.pdf)**  
@@ -15,7 +15,7 @@
 
 ## CPTG Pi-Bridge
 
-CPTG Pi-Bridge is a local research workbench planned for introduction in the near future.
+CPTG Pi-Bridge is a local [research workbench](https://raw.githubusercontent.com/CLG2025/CPTG/main/images/CPTG-Pi-Bridge-Local-Workbench.png) planned for introduction in the near future.
 
 It is being developed to give researchers a practical way to use CPTG against real astronomy and cosmology data. The goal is to provide one local interface where users can load public datasets, select a CPTG comparison branch, run the CPTG audit engine, inspect the results, and export a reproducible validation package.
 
