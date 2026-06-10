@@ -234,7 +234,7 @@ These values define the fixed geometric-pi CMB branch used in the current compar
 
 ### CMB Comparison-Map Closure
 
-CPTG CMB map work is organized as a real-map comparison test between the locked geometric-pi CMB branch and public CMB map products. The current paper uses real Planck component maps, Planck split maps, and WMAP low-ell support products.
+CPTG CMB map work is organized as a [real-map comparison test](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_CMB_Comparison_Map_Closure.pdf) between the locked geometric-pi CMB branch and public CMB map products. The current paper uses real Planck component maps, Planck split maps, and WMAP low-ell support products.
 
 ![Observed Planck SMICA vs fitted CPTG comparison map](images/fig_visual_fitted.png)
 
@@ -269,7 +269,7 @@ The Planck rows use the temperature fields and embedded mask fields declared by 
 
 ### CMB Route B Option 1 Curvature-Transport Bridge
 
-A separate CMB comparison-coordinate branch tests the Route B Option 1 curvature-transport bridge at the `C_l` and Planck likelihood-coordinate level. This is distinct from the CMB comparison-map closure work above.
+A separate CMB comparison-coordinate branch tests the [Route B Option 1](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Route_B_Option1_Curvature_Transport_Geometry_Bridge_Report_v1.pdf) curvature-transport bridge at the `C_l` and Planck likelihood-coordinate level. This is distinct from the CMB comparison-map closure work above.
 
 The validated bridge applies the CPTG curvature-transport response at the amplitude/potential level:
 
