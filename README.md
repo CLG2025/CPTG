@@ -300,7 +300,7 @@ eta10_BBN = 5.998071834744
 Omega_b h^2_BBN = 0.021898765370
 ```
 
-The second layer is the CPTG lithium source-network test. The cosmological lithium problem is treated as a surviving mass-seven abundance problem because most final primordial lithium is carried through `7Be` during BBN and later appears as `7Li`. The locked CPTG lithium gate is:
+The second layer is the CPTG lithium source-network test. The [cosmological lithium problem](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Cosmological_Lithium_Problem.pdf) is treated as a surviving mass-seven abundance problem because most final primordial lithium is carried through `7Be` during BBN and later appears as `7Li`. The locked CPTG lithium gate is:
 
 ```text
 Y_7,CPTG = Y_7,raw / pi
@@ -323,13 +323,11 @@ The full-shape AP/growth work remains an exploratory spectrum-shell diagnostic. 
 
 ### Cosmological Horizon Mechanism
 
-A current CPTG horizon-mechanism article treats the cosmological horizon problem as a structural-curvature synchronization problem rather than as a scalar-field inflation mechanism. In this framing, early-universe uniformity is attributed to finite curvature saturation and active geometric transport synchronizing the primordial curvature state before decoupling.
-
-The claim level is a theory mechanism with falsifiable consequences. It should not be read as a completed Boltzmann-code implementation or a replacement for the locked CMB comparison-layer audits.
+A current CPTG horizon-mechanism article treats the [cosmological horizon problem](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_and_the_Cosmological_Horizon_Problem.pdf) as a structural-curvature synchronization problem rather than as a scalar-field inflation mechanism. In this framing, early-universe uniformity is attributed to finite curvature saturation and active geometric transport synchronizing the primordial curvature state before decoupling.
 
 ### Hubble-Tension Bridge
 
-A current CPTG article develops a geometric interpretation of the Hubble tension. In this framing, the Planck/CMB value and the local distance-ladder value are treated as different comparison-layer projections of one native CPTG geometric branch rather than as two unrelated expansion histories.
+A current CPTG article develops a geometric interpretation of the [Hubble tension](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Hubble_Tension_Bridge.pdf). In this framing, the Planck/CMB value and the local distance-ladder value are treated as different comparison-layer projections of one native CPTG geometric branch rather than as two unrelated expansion histories.
 
 The locked working bridge is:
 
