@@ -12,18 +12,23 @@
 - **[The Science Behind CPTG: A Geometric Alternative to Dark Matter, Dark Energy, and MOND](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/The_Science_Behind_CPTG.pdf)**  
   A public-facing introduction to Curvature Polarization Transport Gravity. This paper explains what makes CPTG different from dark matter, dark energy, and MOND-style approaches: baryon-sourced curvature polarization, curvature transport, structural modes, active gates, and scalable comparison coordinates derived from one geometric framework rather than sector-by-sector tuning.
   
+---
 
-## CPTG Pi-Bridge
+## Available Tools
 
-CPTG Pi-Bridge is a local [research workbench](https://raw.githubusercontent.com/CLG2025/CPTG/main/images/CPTG-Pi-Bridge-Local-Workbench.png) planned for introduction in the near future.
+### CPTG SPARC Browser Workbench
 
-It is being developed to give researchers a practical way to use CPTG against real astronomy and cosmology data. The goal is to provide one local interface where users can load public datasets, select a CPTG comparison branch, run the CPTG audit engine, inspect the results, and export a reproducible validation package.
+A Windows 11 and Linux-compatible local browser application for analyzing the included SPARC galaxy rotation-curve files with CPTG and MOND comparison models. It supports single-galaxy and batch analysis, SPARC metadata filtering, plots, tables, summaries, and downloadable result bundles. [Download](https://github.com/CLG2025/CPTG/releases/tag/v1.11.9)
 
-Pi-Bridge is intended to reduce the need for scattered notebooks, one-off validation scripts, and custom comparison pipelines for every separate test. For CPTG work, it is being designed to serve the role that larger modeling portals or solver pipelines often serve in standard cosmology: a repeatable place to load data, run the model-side comparison, review the evidence, and preserve the audit trail.
+### CPTG Pi-Bridge
 
-The translation layer uses the geometric-pi comparison-coordinate method from the CPTG pi-branch paper. CPTG-native quantities are first kept in their native geometric branch, then projected into conventional observational coordinates such as CMB, BAO, BBN, supernova, growth, and DESI-style summaries. Pi-Bridge uses that comparison-coordinate approach so researchers can compare CPTG outputs against public data products without treating the observational coordinate system as the theory itself.
+CPTG Pi-Bridge is a local [research workbench](https://raw.githubusercontent.com/CLG2025/CPTG/main/images/CPTG-Pi-Bridge-Local-Workbench.png) currently in beta development.
 
-The browser workbench is currently in beta testing.
+It is designed to give researchers a practical interface for loading public astronomy and cosmology datasets, selecting a CPTG comparison branch, running the CPTG audit engine, reviewing results, and exporting reproducible validation packages.
+
+Pi-Bridge is intended to replace scattered notebooks, one-off validation scripts, and separate comparison pipelines with a consistent local workflow. It provides a repeatable environment for loading data, running CPTG comparisons, examining the evidence, and preserving the audit trail.
+
+The translation layer uses the geometric-pi comparison-coordinate method defined in the CPTG pi-branch paper. CPTG-native quantities remain in their native geometric branch before being projected into conventional observational coordinates, including CMB, BAO, BBN, supernova, growth, and DESI-style summaries. This allows CPTG outputs to be compared with public data products without treating the observational coordinate system as the underlying theory.
 
 ---
 
