@@ -18,7 +18,7 @@
 
 ### CPTG SPARC Browser Workbench
 
-A Windows 11 and Linux-compatible local browser application for analyzing the included SPARC galaxy rotation-curve files with CPTG and MOND comparison models. It supports single-galaxy and batch analysis, SPARC metadata filtering, plots, tables, summaries, and downloadable result bundles. [Download](https://github.com/CLG2025/CPTG/releases/tag/v1.11.9)
+A Windows 11 and Linux-compatible local browser application for analyzing the included SPARC galaxy rotation-curve files with CPTG and MOND [comparison models](https://raw.githubusercontent.com/CLG2025/CPTG/main/images/CPTG_SPARC_Browser_Workbench.png). It supports single-galaxy and batch analysis, SPARC metadata filtering, plots, tables, summaries, and downloadable result bundles. [Download](https://github.com/CLG2025/CPTG/releases/tag/v1.11.9)
 
 ### CPTG Pi-Bridge
 
