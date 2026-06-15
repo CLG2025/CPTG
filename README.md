@@ -134,7 +134,7 @@ The main public benchmark scripts are:
 
 The **CPTG SPARC Browser Workbench v1.11.9** provides a local browser interface for testing CPTG and MOND against SPARC galaxy rotation-curve data.
 
-The standalone workbench package includes the SPARC galaxy data needed to begin running analyses immediately. It supports:
+The standalone workbench [package](https://github.com/CLG2025/CPTG/releases/tag/v1.11.9) includes the SPARC galaxy data needed to begin running analyses immediately. It supports:
 
 - single-galaxy analysis,
 - multi-galaxy analysis,
