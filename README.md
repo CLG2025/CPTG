@@ -9,7 +9,7 @@
 - [Current Research Status](#current-research-status)
 - [Repository Contents](#what-this-repository-contains)
 - [Reproducing the Public Benchmarks](#reproducing-the-public-benchmarks)
-- [CPTG SPARC Browser Workbench](#galaxy-scale-test-cptg-sparc-browser-workbench-v1119)
+- [CPTG SPARC Browser Workbench](#galaxy-scale-test-cptg-sparc-browser-workbench)
 - [Curvature-Weighted Structural Mode Index](#curvature-weighted-structural-mode-index)
 - [Outer-Slope Convergence Test](#outer-slope-convergence-test)
 - [Bullet Cluster Benchmark](#cluster-merger-test-bullet-cluster-benchmark)
