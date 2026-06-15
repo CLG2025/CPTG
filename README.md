@@ -1,6 +1,23 @@
 # CPTG
 ## Curvature Polarization Transport Gravity
 
+## Contents
+
+- [Core CPTG Papers](#start-here-core-cptg-papers)
+- [Available Tools](#available-tools)
+- [Overview](#overview)
+- [Current Research Status](#current-research-status)
+- [Repository Contents](#what-this-repository-contains)
+- [Reproducing the Public Benchmarks](#reproducing-the-public-benchmarks)
+- [CPTG SPARC Browser Workbench](#galaxy-scale-test-cptg-sparc-browser-workbench-v1119)
+- [Curvature-Weighted Structural Mode Index](#curvature-weighted-structural-mode-index)
+- [Outer-Slope Convergence Test](#outer-slope-convergence-test)
+- [Bullet Cluster Benchmark](#cluster-merger-test-bullet-cluster-benchmark)
+- [Cluster Active-Gate Test](#cluster-scale-active-gate-test-accept-and-x-cop)
+- [Cosmology and Comparison-Layer Tests](#cosmology-and-comparison-layer-tests)
+- [What CPTG Is Not](#what-cptg-is-not)
+- [Citation](#citation)
+
 ## Start Here: Core CPTG Papers
 
 - **[Curvature Polarization Transport Gravity: A Unified Geometric Framework for Cosmic Structure and Expansion](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Unified_Geometric_Framework_Cosmic_Structure_Expansion.pdf)**  
@@ -16,40 +33,37 @@
 
 ## Available Tools
 
+The repository provides two complementary public access paths:
+
+- **CPTG academic package** — the compact reproducibility archive for the core SPARC galaxy and Bullet Cluster reduced-limit benchmarks.
+- **CPTG SPARC Browser Workbench v1.11.9** — a larger standalone application for users focused on interactive SPARC rotation-curve analysis.
+
 ### CPTG SPARC Browser Workbench
 
-A Windows 11 and Linux-compatible local browser application for analyzing the included SPARC galaxy rotation-curve files with CPTG and MOND [comparison models](https://raw.githubusercontent.com/CLG2025/CPTG/main/images/CPTG_SPARC_Browser_Workbench.png). It supports single-galaxy and batch analysis, SPARC metadata filtering, plots, tables, summaries, and downloadable result bundles. [Download](https://github.com/CLG2025/CPTG/releases/tag/v1.11.9)
+The **CPTG SPARC Browser Workbench v1.11.9** is a local browser application available as a Windows release package and as a Python application for supported Windows and Linux environments.
+
+It analyzes the included SPARC galaxy rotation-curve files with CPTG and MOND and supports single-galaxy and batch analysis, SPARC metadata filtering, plots, tables, summaries, and downloadable result bundles.
+
+[View the interface](images/CPTG_SPARC_Browser_Workbench.png) · [Download v1.11.9](https://github.com/CLG2025/CPTG/releases/tag/v1.11.9)
 
 ### CPTG Pi-Bridge
 
-CPTG Pi-Bridge is a local [research workbench](https://raw.githubusercontent.com/CLG2025/CPTG/main/images/CPTG-Pi-Bridge-Local-Workbench.png) currently in beta development.
+CPTG Pi-Bridge is a local [research workbench](images/CPTG-Pi-Bridge-Local-Workbench.png) currently in beta development. It is designed to load public astronomy and cosmology datasets, select a CPTG comparison branch, run the audit engine, review results, and export reproducible validation packages.
 
-It is designed to give researchers a practical interface for loading public astronomy and cosmology datasets, selecting a CPTG comparison branch, running the CPTG audit engine, reviewing results, and exporting reproducible validation packages.
-
-Pi-Bridge is intended to replace scattered notebooks, one-off validation scripts, and separate comparison pipelines with a consistent local workflow. It provides a repeatable environment for loading data, running CPTG comparisons, examining the evidence, and preserving the audit trail.
-
-The translation layer uses the geometric-pi comparison-coordinate method defined in the CPTG pi-branch paper. CPTG-native quantities remain in their native geometric branch before being projected into conventional observational coordinates, including CMB, BAO, BBN, supernova, growth, and DESI-style summaries. This allows CPTG outputs to be compared with public data products without treating the observational coordinate system as the underlying theory.
+Its translation layer uses the geometric-π comparison-coordinate method defined in the CPTG π-branch paper. CPTG-native quantities remain in their native geometric branch before being projected into conventional CMB, BAO, BBN, supernova, growth, and DESI-style comparison coordinates.
 
 ---
 
-## Plain-Language Summary
+## Overview
 
-*Curvature Polarization Transport Gravity* (CPTG) is an active research framework exploring whether effects usually attributed to dark matter can instead arise from the way spacetime curvature responds to ordinary baryonic matter.
+*Curvature Polarization Transport Gravity* (CPTG) is an active geometric-gravity framework exploring whether effects commonly attributed to dark matter can arise from the response of spacetime curvature to ordinary baryonic matter.
 
-In this view, galaxies do not require separate dark matter halos to explain their rotation curves. Instead, weak gravitational fields develop a nonlinear curvature-polarization response. In merging galaxy clusters, organized curvature can also be directionally transported, allowing lensing peaks to separate from hot gas without introducing an additional collisionless matter component.
+CPTG is built around two linked mechanisms:
 
-The purpose of this repository is to make the CPTG theory, benchmark scripts, data package, public figures, and continuing comparison-layer tests available for inspection, reproduction, and criticism.
+* **Curvature polarization**, which modifies the effective gravitational response according to the strength and structure of the field.
+* **Curvature transport**, which allows organized curvature to be redistributed directionally in dynamic systems.
 
----
-
-## Technical Overview
-
-CPTG is a geometric gravity framework in which ordinary baryonic matter sources a nonlinear curvature response rather than requiring a separate non-baryonic dark matter halo. The theory is built around two linked mechanisms:
-
-- **Curvature polarization**, which changes the effective gravitational response according to the strength and structure of the field.
-- **Curvature transport**, which allows organized curvature to be redistributed directionally in dynamical systems and comparison-layer projections.
-
-The same framework is tested in reduced limits across galaxy rotation curves, cluster-merger lensing structure, relaxed cluster apertures, and cosmology-facing comparison layers. The repository is organized to keep these tests reproducible and to separate established benchmarks from active validation candidates.
+The framework is tested across galaxy rotation curves, cluster-merger lensing, relaxed galaxy clusters, and cosmology-facing comparison layers. The repository provides the current theory papers, CPTG SPARC Browser Workbench, included data, public figures, and reproducible validation materials for inspection, testing, and criticism.
 
 ## Current Research Status
 
@@ -57,7 +71,7 @@ CPTG is being developed as a geometric framework with reduced-limit tests and co
 
 | Area | Current CPTG status | Claim level |
 |---|---|---|
-| SPARC galaxy rotation curves | Public reduced-limit benchmark against observed rotation curves and MOND-style comparisons | Reproducible galaxy-scale benchmark |
+| SPARC galaxy rotation curves | Public reduced-limit SPARC test available through the compact academic package and the interactive browser workbench | Reproducible galaxy-scale benchmark |
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Cluster active-gate apertures | Same-aperture cluster-response tests using baryonic loading, support temperature, redshift, and aperture radius | Diagnostic cluster-scale active-gate and X-COP consistency [pass](#Cluster-Scale-Active-Gate-Test-ACCEPT-and-X-COP) |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape [pass](#Pantheon-Supernova-Distance-Shape-Test), not an H0 calibration claim |
@@ -67,6 +81,14 @@ CPTG is being developed as a geometric framework with reduced-limit tests and co
 | CMB Route B Option 1 bridge | Fixed amplitude-level curvature-transport bridge tested through CMB spectrum and Planck likelihood-coordinate plumbing | Geometry-first comparison-coordinate bridge [validation](#CMB-Route-B-Option-1-Curvature-Transport-Bridge) |
 | DESI compressed ShapeFit and BAO | Compressed-coordinate and ruler-wrapper diagnostics | Coordinate-level [support](#DESI-DR1-Compressed-ShapeFit-and-BAO-Quarter-Ruler), not full raw DESI validation |
 | Horizon and Hubble-tension mechanisms | Structural articles mapping CPTG-native branches into observational comparison layers | Theory [mechanism](#Hubble-Tension-Bridge) and derivation-stage interpretation |
+
+Claim levels are used consistently throughout this README:
+
+- **Benchmark** — a reproducible reduced-limit calculation compared with data.
+- **Diagnostic pass** — a result compatible with the stated controls.
+- **Coordinate-layer validation** — a tested observational mapping or likelihood interface.
+- **Closure pass** — agreement within a declared fixed-branch closure protocol.
+- **Theory mechanism** — a derived interpretation that is not yet a complete observational likelihood test.
 
 ## What This Repository Contains
 
@@ -79,7 +101,9 @@ This repository contains the public academic package for CPTG, including:
 - CMB source/data availability notes and strict rerun file lists,
 - figures, summaries, and reproducibility material.
 
-The recommended public download is **`CPTG_academic_package.zip`**, located in the **`/archive/`** folder. That archive contains the public benchmark package for the original SPARC galaxy and Bullet Cluster reduced-limit tests. Additional Python files in the repository should be treated as version upgrades, development variants, or replacement implementations unless a specific package README states otherwise.
+The recommended compact reproducibility download is **`CPTG_academic_package.zip`**, located in the **`/archive/`** folder. It preserves the public core benchmark environment for the SPARC galaxy and Bullet Cluster reduced-limit tests.
+
+The larger **CPTG SPARC Browser Workbench v1.11.9** is distributed separately for interactive rotation-curve analysis. Additional Python files in the repository should be treated as version upgrades, development variants, or replacement implementations unless a specific package README states otherwise.
 
 ## Reproducing the Public Benchmarks
 
@@ -96,60 +120,43 @@ The package root directory may be renamed freely. Reproducibility depends on pre
 
 The main public benchmark scripts are:
 
-| Script | Purpose |
+| Package or tool | Purpose |
 |---|---|
-| `SPARC_CPTG_MOND_Benchmark.py` | Galaxy rotation-curve benchmark against SPARC data. |
+| `SPARC_CPTG_MOND_Benchmark.py` | Original galaxy rotation-curve benchmark against SPARC data. |
 | `CPTG_Bullet_Cluster_Merger.py` | Reduced merger-plane curvature-transport/lensing benchmark. |
-| `CPTG_ClusterActiveGate_IntegratedTool_v0_5.py` | Single-aperture and aperture-ladder cluster-response calculations from baryonic loading, support temperature, redshift, and aperture. Requires cluster archive: https://drive.switch.ch/index.php/s/j3WUOYXWgv9Jbnz/download|
+| `CPTG_ClusterActiveGate_IntegratedTool_v0_5.py` | Single-aperture and aperture-ladder cluster-response calculations from baryonic loading, support temperature, redshift, and aperture. Requires the [public X-COP cluster archive](https://drive.switch.ch/index.php/s/j3WUOYXWgv9Jbnz/download). |
 | `CPTG_MOND_Upsilon_SPARC_Benchmark.py` | MOND/CPTG comparison with stellar mass-to-light freedom. |
 | `CPTG-CMB.zip` | CMB comparison-map closure scripts for Planck/WMAP component maps, split maps, smoothing/mask controls, visual comparisons, summary reports, and null-envelope controls. |
 
 ---
 
-## Galaxy-Scale Test: SPARC Benchmark
+## Galaxy-Scale Test: CPTG SPARC Browser Workbench
 
-The **`SPARC_CPTG_MOND_Benchmark.py`** script tests the CPTG galaxy-limit equation against SPARC rotation-curve data.
+The **CPTG SPARC Browser Workbench v1.11.9** provides a local browser interface for testing CPTG and MOND against SPARC galaxy rotation-curve data.
 
-The benchmark loads the same galaxy files for CPTG and MOND, builds the corresponding baryonic source fields, solves the CPTG nonlinear acceleration equation, computes the MOND comparison, and reports full-database, metadata-defined primary-sample, and mode-filtered benchmark results.
+The standalone workbench package includes the SPARC galaxy data needed to begin running analyses immediately. It supports:
 
-Its diagnostics include:
+- single-galaxy analysis,
+- multi-galaxy analysis,
+- full SPARC directory scans,
+- SPARC metadata files,
+- primary-sample filtering,
+- CPTG and MOND fit comparisons,
+- averaged normalized rotation curves,
+- averaged RAR scatter vs radius,
+- galaxy-level fit and structural-mode summaries.
 
-- total rotation-curve chi-square,
-- chi-square per datapoint,
-- conservative effective-DOF audits,
-- velocity RMS residuals,
-- mean absolute velocity error,
-- radial acceleration relation scatter,
-- galaxy-level CPTG/MOND win counts,
-- Curvature-Weighted Structural Mode Index values.
+All calculations are performed locally. Each galaxy is solved independently before aggregate results and plots are generated.
 
-The benchmark supports the included SPARC database, user-supplied galaxy databases, and targeted single-galaxy or multi-galaxy comparison runs.
+For aggregate plots, each galaxy is normalized independently and interpolated onto a shared normalized radial grid. Each galaxy receives equal weight at each grid location, and the outer endpoint at `r / r_max = 1` is retained.
 
-The main public significance of this test is that CPTG is evaluated directly against observed galaxy rotation data rather than only being presented as a conceptual theory.
+SPARC data source: Lelli, McGaugh, and Schombert, *The Astronomical Journal* 152, 157 (2016), “SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves.”
 
----
+The figure below summarizes the averaged SPARC results produced by the workbench.
 
-The first benchmark figure summarizes how CPTG and MOND compare across the full SPARC galaxy sample.
+![CPTG SPARC Browser Workbench summary showing the average normalized RAR scatter vs radius and the average normalized SPARC rotation curve.](images/combined_workbench_plots_side_by_side.png)
 
-![Composite CPTG--MOND benchmark summary for the full 175-galaxy SPARC sample. The panels compare RAR scatter, population-averaged normalized rotation curves, all-galaxy velocity medians, and separate CPTG- and MOND-source RAR trends. Across these diagnostics, CPTG more closely tracks the observed SPARC behavior, with lower RAR scatter, closer normalized rotation-curve agreement, and better velocity-median alignment than MOND.](https://github.com/CLG2025/CPTG/blob/main/images/CPTG-MOND-Benchmark.png)
-
-<sup>Figure: Average SPARC Benchmark Across 175 Galaxies</sup>
-
----
-
-## Outer-Slope Convergence Test
-
-The CPTG galaxy benchmark also includes an outer-slope convergence test. This test extends the solved CPTG rotation-curve behavior beyond the outermost measured SPARC data points to examine how the theory behaves in the far outer regions of galaxies.
-
-The purpose of this test is not to claim that current observations already measure this far-out behavior directly. Instead, it checks whether the reduced CPTG galaxy equation develops a stable long-range trend once the model is continued beyond the observed rotation-curve domain.
-
-In CPTG, this outer behavior is important because the theory predicts that weak-field galaxy outskirts should not drift randomly. They should gradually approach a consistent curvature-polarization pattern. The convergence plot visualizes that prediction across the SPARC galaxy sample.
-
-The second benchmark figure shows the stacked CPTG outer-slope convergence trend for the SPARC galaxy sample.
-
-![CPTG outer-slope convergence in the asymptotic extension regime. The plot shows how the extended CPTG rotation-curve behavior evolves beyond the observed SPARC rotation-curve domain. The median trend approaches the predicted CPTG outer-regime behavior, while the shaded region shows the galaxy-to-galaxy spread. This figure illustrates that the extended CPTG solution approaches a stable long-range pattern rather than drifting arbitrarily outside the measured data range.](https://github.com/CLG2025/CPTG/blob/main/images/cptg_outer_slope_convergence.png)
-
-<sup>Figure: CPTG outer-slope convergence in the extended galaxy-outskirts regime.</sup>
+<sup>Figure: CPTG SPARC Browser Workbench averaged results for the full 175-galaxy SPARC run. Primary-sample metadata filtering was not applied to this figure.</sup>
 
 ---
 
@@ -157,13 +164,59 @@ The second benchmark figure shows the stacked CPTG outer-slope convergence trend
 
 The Curvature-Weighted Structural Mode Index, **N**, is a CPTG diagnostic derived from the solved acceleration field.
 
-It measures how curvature support is organized inside a galaxy. It is not assigned from catalog morphology, galaxy name, or visual classification. Mode-filtered runs allow galaxies with similar CPTG structural organization to be benchmarked as subsets of the full database.
+It measures how curvature support is organized inside a galaxy:
 
-In public-facing terms, **N** is a way of asking:
+**N = R / λ**
+
+where:
+
+* **R** is the outer solved radius.
+* **λ** is the curvature-weighted structural scale.
+
+The workbench translates the continuous mode value into a named **CSMI Type**:
+
+| Structural Mode N | CSMI Type             |
+| ----------------: | --------------------- |
+|          N ≤ 1.45 | Dwarf Irregular       |
+|   1.45 < N ≤ 1.75 | Magellanic Irregular  |
+|   1.75 < N ≤ 1.95 | LSB Dwarf Disk        |
+|   1.95 < N ≤ 2.15 | Transition Dwarf      |
+|   2.15 < N ≤ 2.35 | LSB Spiral            |
+|   2.35 < N ≤ 2.55 | Very Late Spiral      |
+|   2.55 < N ≤ 2.80 | Late Spiral           |
+|   2.80 < N ≤ 3.05 | Intermediate Spiral   |
+|   3.05 < N ≤ 3.30 | Early Spiral          |
+|   3.30 < N ≤ 3.55 | Bulged Spiral         |
+|   3.55 < N ≤ 3.72 | Lenticular/Early Disk |
+|          N > 3.72 | High-Mode Outlier     |
+
+The CSMI Type is assigned only from the solved mode value. It is not taken from galaxy names, SPARC metadata, catalog morphology, or visual classification.
+
+Mode-filtered runs allow galaxies with similar CPTG structural organization to be evaluated as subsets of the full database.
+
+In public-facing terms, **N** asks:
 
 > How is the solved curvature structure organized inside this galaxy?
 
-This makes the mode index a theory-derived structural diagnostic rather than a conventional galaxy-type label.
+This makes the mode and its CSMI Type theory-derived structural diagnostics rather than conventional galaxy classifications.
+
+---
+
+## Outer-Slope Convergence Test
+
+The CPTG outer-slope convergence test evaluates a theory-defined prediction of the reduced galaxy equation: once the solved field is extended beyond the outermost measured SPARC radius, the rotation-curve response should approach a stable CPTG outer-regime trend rather than drift arbitrarily.
+
+This is an important strength of CPTG because the far-outer behavior follows from the solved curvature-polarization and transport structure. It is not independently fitted to artificial outer data points.
+
+The purpose of the test is not to claim that current observations already measure the entire extended regime. It checks whether the reduced CPTG galaxy equation develops the stable long-range behavior predicted by the theory when continued beyond the observed rotation-curve domain.
+
+In CPTG, weak-field galaxy outskirts should gradually approach a consistent curvature-polarization pattern. The convergence plot visualizes that prediction across the SPARC galaxy sample.
+
+The second benchmark figure shows the stacked CPTG outer-slope convergence trend for the SPARC galaxy sample.
+
+![CPTG outer-slope convergence in the asymptotic extension regime. The plot shows how the extended CPTG rotation-curve behavior evolves beyond the observed SPARC rotation-curve domain. The median trend approaches the predicted CPTG outer-regime behavior, while the shaded region shows the galaxy-to-galaxy spread. This figure illustrates that the extended CPTG solution approaches a stable long-range pattern rather than drifting arbitrarily outside the measured data range.](images/cptg_outer_slope_convergence.png)
+
+<sup>Figure: CPTG outer-slope convergence in the extended galaxy-outskirts regime.</sup>
 
 ---
 
@@ -188,7 +241,7 @@ The public significance of this test is that CPTG attempts to address not only g
 
 The third benchmark figure shows how CPTG reconstructs displaced lensing structure in the Bullet Cluster merger plane.
 
-![Normalized CPTG kappa reconstruction of the Bullet Cluster merger plane. The map shows two main convergence structures: a compact Bullet-side lensing feature on the left, displaced from the Bullet gas peak, and a larger main-cluster lensing structure on the right with north and south substructure. White contours trace the strongest reconstructed convergence regions. Markers identify Bullet and main gas peaks, galaxy peaks, lensing peaks, and main-cluster north/south lens peaks. A scale bar marks 100 kpc.](https://github.com/CLG2025/CPTG/blob/main/images/CPTG-Curvature-Transport-Model.png)
+![Normalized CPTG kappa reconstruction of the Bullet Cluster merger plane. The map shows two main convergence structures: a compact Bullet-side lensing feature on the left, displaced from the Bullet gas peak, and a larger main-cluster lensing structure on the right with north and south substructure. White contours trace the strongest reconstructed convergence regions. Markers identify Bullet and main gas peaks, galaxy peaks, lensing peaks, and main-cluster north/south lens peaks. A scale bar marks 100 kpc.](images/CPTG-Curvature-Transport-Model.png)
 
 <sup>Figure: CPTG Bullet Cluster kappa reconstruction showing gas-lensing separation.</sup>
 
@@ -356,7 +409,13 @@ The included scripts implement reduced limits of the theory:
 - the reduced merger-plane transport/lensing limit for dissociative clusters;
 - comparison-layer cosmology audits that map CPTG-native quantities into conventional observational summaries.
 
-They are not full numerical-relativity solvers for the complete covariant CPTG field equations. Cosmology-facing scripts are not automatically full Boltzmann, full DESI, or full weak-lensing likelihood implementations unless those specific pipelines are provided. The Route B Option 1 CMB result is a fixed curvature-transport comparison-coordinate bridge carried through CAMB and Planck likelihood plumbing; it should not be described as native CPTG perturbation-code validation or as a movable Boltzmann/source implementation. These reduced implementations test whether CPTG equations and comparison maps reproduce important observational signatures normally associated with dark matter, dark energy, or parameter tension.
+CPTG does not require a movable perturbation-code model to generate its cosmological predictions. Its strength is that the relevant comparison quantities are derived from a locked geometric framework and scaled through fixed mathematical relations rather than refitted independently to each observational sector.
+
+The CPTG branch remains unchanged when it is compared with CMB, BAO, supernova, growth, weak-lensing, or DESI data. External tools such as CAMB, Planck likelihoods, and survey data products are used only to translate the fixed CPTG geometry into familiar observational coordinates and to measure its agreement with public data. They do not define, tune, or evolve the theory.
+
+The Route B Option 1 CMB bridge demonstrates this geometry-first approach. A fixed curvature-transport response is applied at the amplitude level and carried through CAMB and Planck likelihood-coordinate plumbing without introducing movable CPTG source parameters or fitting the underlying branch to the Planck likelihood.
+
+This creates a stricter comparison than a conventional parameter-fitting workflow: CPTG must reproduce the observed signatures while preserving the same locked geometric relations. The comparison layers test the scalability and observational reach of the theory, not whether CPTG can be reshaped into a ΛCDM-style perturbation model.
 
 ---
 
@@ -368,13 +427,13 @@ The repository compares CPTG to MOND-style galaxy predictions and to the broader
 - **ΛCDM** explains galaxy and cluster dynamics through non-baryonic dark matter, with individual galaxy rotation curves often modeled through halo fitting and related nuisance parameters.
 - **CPTG** tests whether similar observed effects can emerge from baryon-sourced curvature polarization, curvature transport, and theory-derived structural organization.
 
-The public SPARC benchmark evaluates CPTG directly against observed galaxy rotation data and includes a MOND-style comparison under the same loaded galaxy database. The Upsilon benchmark adds stellar mass-to-light freedom as a stricter comparison layer. These tests are included so the comparison can be reproduced rather than treated as a qualitative claim.
+The CPTG SPARC tools evaluate CPTG directly against observed galaxy rotation data and include a MOND-style comparison under the same loaded galaxy database. The Upsilon benchmark adds stellar mass-to-light freedom as a stricter comparison layer. These tests are included so the comparison can be reproduced rather than treated as a qualitative claim.
 
 Compared with ΛCDM halo fitting, CPTG makes a different kind of test: it asks whether galaxy rotation behavior and dissociative cluster-lensing offsets can be reproduced geometrically through baryon-sourced curvature response rather than by fitting non-baryonic halo components.
 
 ## Recent CPTG Articles and Research Notes
 
-Recent CPTG writing has expanded beyond the original galaxy and Bullet Cluster benchmarks into focused theory and validation articles, including CMB comparison-map closure, Route B Option 1 CMB comparison-coordinate bridge validation, Pantheon+ distance-shape tests, BBN and lithium source-network validation, weak-lensing S8 diagnostics, DESI compressed-coordinate tests, Hubble-tension bridge work, cosmological horizon-mechanism work, compact high-redshift galaxy stress tests, and cluster active-gate extensions.
+Recent CPTG writing has expanded beyond the core galaxy and Bullet Cluster benchmarks into focused theory and validation articles, including CMB comparison-map closure, Route B Option 1 CMB comparison-coordinate bridge validation, Pantheon+ distance-shape tests, BBN and lithium source-network validation, weak-lensing S8 diagnostics, DESI compressed-coordinate tests, Hubble-tension bridge work, cosmological horizon-mechanism work, compact high-redshift galaxy stress tests, and cluster active-gate extensions.
 
 These articles should be read as part of the active research program. Their claim levels vary by implementation maturity and are identified in the relevant papers or audit reports.
 
@@ -389,6 +448,11 @@ CPTG is being developed as an active research program rather than a single fixed
 - keeping numerical tests reproducible, compact, and open to criticism.
 
 These continuing investigations are included to make the research path transparent. They should be read as active development directions, not settled conclusions.
+
+## Repository Policies
+
+- [Security policy](SECURITY.md)
+- [Citation information](#citation)
 
 ## Citation
 
@@ -406,4 +470,4 @@ CPTG, Supporting Python Models, Benchmark Implementations, and Research Referenc
 
 CPTG is not a dark matter halo fit and is not a MOND interpolation law. It is a geometric gravity framework in which gravitational enhancement, lensing displacement, cosmological comparison quantities, CMB map-space closure, and possible Hubble-tension structure are modeled through curvature polarization, curvature transport, and branch-specific observational projection.
 
-The public repository contains reduced numerical implementations, benchmark scripts, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. Cosmology-facing work is organized by claim level in the relevant sections and dedicated papers.
+The public repository contains reduced numerical implementations, the compact academic benchmark package, the standalone CPTG SPARC Browser Workbench, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. Cosmology-facing work is organized by claim level in the relevant sections and dedicated papers.
