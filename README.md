@@ -341,7 +341,7 @@ Because the response acts at amplitude level, the corresponding power-spectrum b
 P(k) -> P(k) C_T(a,k)^2
 ```
 
-This result should be read as geometry-first CMB comparison-coordinate bridge validation. It validates the fixed curvature-transport mapping and Planck likelihood-coordinate compatibility across tested likelihood families. It is not native CPTG perturbation-code validation, not a movable Boltzmann/source implementation, and not the earlier locked `f -> A_s` proxy mapping. The detailed likelihood smoke tests and sector-specific diagnostics are kept in the dedicated Route B Option 1 reports.
+This result should be understood as a geometry-first CMB comparison-coordinate bridge validation. It demonstrates that the fixed CPTG curvature-transport mapping remains compatible with Planck likelihood coordinates across the tested likelihood families while preserving the underlying geometric branch unchanged. CPTG is not implemented as a movable Boltzmann-source or perturbation-code model; the comparison layer tests the observational reach of its locked geometric relations. Detailed likelihood smoke tests and sector-specific diagnostics are provided in the dedicated Route B Option 1 reports.
 
 ### Pantheon+ Supernova Distance-Shape Test
 
