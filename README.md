@@ -190,7 +190,7 @@ The workbench translates the continuous mode value into a named **CSMI Type**:
 |   3.55 < N ≤ 3.72 | Lenticular/Early Disk |
 |          N > 3.72 | High-Mode Outlier     |
 
-The CSMI Type is assigned only from the solved mode value. It is not taken from galaxy names, SPARC metadata, catalog morphology, or visual classification.
+The CSMI Type is assigned only from the solved mode value. It is not taken from galaxy names, SPARC metadata, catalog morphology, or visual classification. As larger and more diverse galaxy samples are analyzed, future CSMI catalogs will likely expand, subdivide, or refine the named structural types to represent newly resolved mode populations. Any additional categories would remain derived from the solved CPTG mode distribution rather than being imposed from conventional morphological classifications.
 
 Mode-filtered runs allow galaxies with similar CPTG structural organization to be evaluated as subsets of the full database.
 
