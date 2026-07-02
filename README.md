@@ -14,6 +14,7 @@
 - [Outer-Slope Convergence Test](#outer-slope-convergence-test)
 - [Bullet Cluster Benchmark](#cluster-merger-test-bullet-cluster-benchmark)
 - [Cluster Active-Gate Test](#cluster-scale-active-gate-test-accept-and-x-cop)
+- [Nuclear-Scale Reaction Program](#nuclear-scale-reaction-program-deuterium-proton-radiative-capture)
 - [Cosmology and Comparison-Layer Tests](#cosmology-and-comparison-layer-tests)
 - [What CPTG Is Not](#what-cptg-is-not)
 - [Citation](#citation)
@@ -63,7 +64,7 @@ CPTG is built around two linked mechanisms:
 * **Curvature polarization**, which modifies the effective gravitational response according to the strength and structure of the field.
 * **Curvature transport**, which allows organized curvature to be redistributed directionally in dynamic systems.
 
-The framework is tested across galaxy rotation curves, cluster-merger lensing, relaxed galaxy clusters, and cosmology-facing comparison layers. The repository provides the current theory papers, CPTG SPARC Browser Workbench, included data, public figures, and reproducible validation materials for inspection, testing, and criticism.
+The framework is tested across galaxy rotation curves, cluster-merger lensing, relaxed galaxy clusters, cosmology-facing comparison layers, and a nuclear-scale radiative-capture commissioning program. The repository provides the current theory papers, CPTG SPARC Browser Workbench, included data, public figures, and reproducible validation materials for inspection, testing, and criticism.
 
 ## Current Research Status
 
@@ -74,6 +75,7 @@ CPTG is being developed as a geometric framework with reduced-limit tests and co
 | SPARC galaxy rotation curves | Public reduced-limit SPARC test available through the compact academic package and the interactive browser workbench | Reproducible galaxy-scale benchmark |
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Cluster active-gate apertures | Same-aperture cluster-response tests using baryonic loading, support temperature, redshift, and aperture radius | Diagnostic cluster-scale active-gate and X-COP consistency [pass](#Cluster-Scale-Active-Gate-Test-ACCEPT-and-X-COP) |
+| Nuclear-scale deuterium-proton radiative capture | Native CPTG geometry-to-reaction-rate commissioning for `D(p,γ)³He` and the reverse photodisintegration channel, including bound/continuum state handling, six-map support transport, a five-current operator basis, and source-authority closure | Active reaction-specific [derivation and reproducibility program](#nuclear-scale-reaction-program-deuterium-proton-radiative-capture) |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape [pass](#Pantheon-Supernova-Distance-Shape-Test), not an H0 calibration claim |
 | BBN abundance and lithium tests | Transported BBN coordinate and locked lithium source-network gate checked in independent BBN workflows | Coordinate-layer and source-network [validation](#BBN-Abundance-and-Lithium-Source-Network-Tests) under stated controls |
 | Weak-lensing S8 | Compressed comparison against representative weak-lensing and CMB S8 anchors | Diagnostic [pass](#Weak-Lensing-S8-Comparison), not a full shear likelihood |
@@ -98,6 +100,7 @@ This repository contains the public academic package for CPTG, including:
 - reduced benchmark scripts for galaxy and cluster tests,
 - supporting public data packages and metadata when included,
 - comparison-layer scripts and audit outputs when publicly included,
+- nuclear reaction-rate source packages, authority records, and replay audits when publicly included,
 - CMB source/data availability notes and strict rerun file lists,
 - figures, summaries, and reproducibility material.
 
@@ -256,6 +259,50 @@ For a selected aperture `R_delta`, the calculation uses gas mass, stellar/intrac
 This work provides a same-aperture test of both the accuracy and structural response of the CPTG cluster active-gate law. Across the tested 12-cluster X-COP R₅₀₀ sample, the predicted CPTG masses achieved a median CPTG-to-hydrostatic mass ratio of 0.9892, corresponding to a median absolute fractional difference of approximately 1.08%. The mean absolute difference was approximately 1.19%, and the largest individual difference was approximately 2.68%. The X-COP aperture ladder further reproduced the predicted transition from closure-stable inner apertures to greater active-gate sensitivity at R₅₀₀. Independently, the ACCEPT analysis ordered 379 clean profile rows across 45 clusters into the expected closure-stable, watch, suppressed, and strongly suppressed response states. Together, these results show that the same fixed CPTG law produces percent-level same-aperture mass agreement while also recovering the theory-defined structural ordering of cluster apertures.
 
 This result should be read as a diagnostic cluster-scale active-gate pass and an X-COP same-aperture consistency pass. It is not a claim that one single-aperture formula describes strong cluster mergers without decomposition. Strong mergers are best treated separately unless gas, stellar, temperature, and mass components can be assigned consistently to the same dynamical aperture.
+
+## Nuclear-Scale Reaction Program: Deuterium-Proton Radiative Capture
+
+The CPTG nuclear program is commissioning a native geometry-to-reaction-rate calculation for deuterium-proton radiative capture,
+
+```text
+²H + p → ³He + γ
+```
+
+together with the reverse photodisintegration channel,
+
+```text
+³He + γ → p + ²H
+```
+
+The mission is to carry CPTG structural geometry through a reaction-specific bound-to-continuum transition calculation and into an auditable rate prediction that can be compared directly with measured nuclear observables and their uncertainties.
+
+### Verified Computational Architecture
+
+The accepted calculation chain now includes:
+
+- native bound-state and continuum-state handling for the locked `D_P_GAMMA_HE3` reaction;
+- the accepted `96 x 96` auxiliary/common-support grid and its interpolation stencils;
+- a `99`-anchor radial six-map expansion;
+- sparse six-map pullback and adjoint transport;
+- a global affine support registry of `272` nodes;
+- an active operator-support union of `199` nodes, with exact identity preserved across the retained contraction lineage;
+- five independently retained electromagnetic-current directions:
+  `C15'`, `C16'`, `d8'`, `d9'`, and `d21'`;
+- reproducible source manifests, SHA-256 ledgers, ZIP-integrity checks, and exact-input replay at each accepted stage.
+
+### Current Verified Milestones
+
+The support-authority audit separated the complete `272`-node affine registry from the `199` nodes actively used by the contracted operator payload and verified both scopes independently. This resolved the support-count contract while preserving the accepted six-map and operator results.
+
+The primary-source coefficient qualification audited `20` published numerical entries across `4` complete source families and verified the corresponding delta-saturation relation in `4/4` source cases. This established a source-backed compatibility standard for the retained semilocal momentum-space N4LO+ interaction at `450 MeV`.
+
+The exact accepted five-current basis source was then recovered in `22` byte-identical copies under the authorized local search scope. Its SHA-256 identity was verified, and all `5/5` retained current-direction equations were replayed successfully.
+
+The active v10.454 stage is auditing the local response/design-matrix authority required for an interaction-consistent five-parameter determination. Candidate matrices are tested for exact SMS N4LO+ `450 MeV` provenance, complete five-direction coverage, independent calibration-observable coverage, and numerical rank `5`.
+
+### Research Objective
+
+Completion of the support-value and five-current authority layers will provide the inputs required to assemble the accepted coherent transition amplitude, calculate the reaction observable and thermonuclear rate, and place the resulting CPTG prediction beside the measured value with its experimental uncertainty.
 
 ## Cosmology and Comparison-Layer Tests
 
@@ -433,7 +480,7 @@ Compared with ΛCDM halo fitting, CPTG makes a different kind of test: it asks w
 
 ## Recent CPTG Articles and Research Notes
 
-Recent CPTG writing has expanded beyond the core galaxy and Bullet Cluster benchmarks into focused theory and validation articles, including CMB comparison-map closure, Route B Option 1 CMB comparison-coordinate bridge validation, Pantheon+ distance-shape tests, BBN and lithium source-network validation, weak-lensing S8 diagnostics, DESI compressed-coordinate tests, Hubble-tension bridge work, cosmological horizon-mechanism work, compact high-redshift galaxy stress tests, and cluster active-gate extensions.
+Recent CPTG writing has expanded beyond the core galaxy and Bullet Cluster benchmarks into focused theory and validation articles, including CMB comparison-map closure, Route B Option 1 CMB comparison-coordinate bridge validation, Pantheon+ distance-shape tests, BBN and lithium source-network validation, weak-lensing S8 diagnostics, DESI compressed-coordinate tests, Hubble-tension bridge work, cosmological horizon-mechanism work, compact high-redshift galaxy stress tests, cluster active-gate extensions, and the nuclear geometry-to-reaction-rate commissioning program for deuterium-proton radiative capture.
 
 These articles should be read as part of the active research program. Their claim levels vary by implementation maturity and are identified in the relevant papers or audit reports.
 
@@ -445,6 +492,7 @@ CPTG is being developed as an active research program rather than a single fixed
 - testing whether structure-response distance refinements correlate with independent distance-quality indicators;
 - extending cluster active-gate tests to larger same-aperture samples and improving treatment of gas, stellar, intracluster-light, lensing, and merger-aware decompositions;
 - carrying the locked CMB comparison-map closure result into higher-resolution geometric projections into CMB observables;
+- completing the `D(p,γ)³He` support-value and five-current SMS N4LO+ `450 MeV` authority layers, then carrying the accepted contraction into the transition amplitude, observable, and thermonuclear-rate comparison;
 - keeping numerical tests reproducible, compact, and open to criticism.
 
 These continuing investigations are included to make the research path transparent. They should be read as active development directions, not settled conclusions.
@@ -470,4 +518,4 @@ CPTG, Supporting Python Models, Benchmark Implementations, and Research Referenc
 
 CPTG is not a dark matter halo fit and is not a MOND interpolation law. It is a geometric gravity framework in which gravitational enhancement, lensing displacement, cosmological comparison quantities, CMB map-space closure, and possible Hubble-tension structure are modeled through curvature polarization, curvature transport, and branch-specific observational projection.
 
-The public repository contains reduced numerical implementations, the compact academic benchmark package, the standalone CPTG SPARC Browser Workbench, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. Cosmology-facing work is organized by claim level in the relevant sections and dedicated papers.
+The public repository contains reduced numerical implementations, the compact academic benchmark package, the standalone CPTG SPARC Browser Workbench, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. The active nuclear-scale program extends the same audit-first approach into a native geometry-to-reaction-rate calculation for deuterium-proton radiative capture. Cosmology-facing work is organized by claim level in the relevant sections and dedicated papers.
