@@ -75,7 +75,7 @@ CPTG is being developed as a geometric framework with reduced-limit tests and co
 | SPARC galaxy rotation curves | Public reduced-limit SPARC test available through the compact academic package and the interactive browser workbench | Reproducible galaxy-scale benchmark |
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Cluster active-gate apertures | Same-aperture cluster-response tests using baryonic loading, support temperature, redshift, and aperture radius | Diagnostic cluster-scale active-gate and X-COP consistency [pass](#Cluster-Scale-Active-Gate-Test-ACCEPT-and-X-COP) |
-| Nuclear-scale deuterium-proton radiative capture | Native CPTG geometry-to-reaction-rate commissioning for `D(p,γ)³He` and the reverse photodisintegration channel. The retained program now includes exact production pp `¹S₀` matrices, a verified 104-matrix pp/np/nn production-grid ledger, complete six-map support transport, and a five-current operator basis. | Active reaction-specific [derivation and reproducibility program](#nuclear-scale-reaction-program-deuterium-proton-radiative-capture) |
+| Nuclear-scale deuterium-proton radiative capture | Native CPTG geometry-to-reaction-rate commissioning for `D(p,γ)³He` and the reverse photodisintegration channel. The retained reproducibility frontier now verifies the official TNFME/3NF backend, the 104-matrix pp/np/nn ledger, native A=3 bound-state objects, A=3 normalization and energy conventions, source-literal TNFME 24→64 Cubherm radial action, and the closed channel/support embeddings needed for the common-Hamiltonian audit. | Active reaction-specific [source-contract closure and reproducibility program](#nuclear-scale-reaction-program-deuterium-proton-radiative-capture); final residual, S-factor, and rate prediction remain pending source-literal NN radial-action and A=3 kinetic-action contracts |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape [pass](#Pantheon-Supernova-Distance-Shape-Test), not an H0 calibration claim |
 | BBN abundance and lithium tests | Transported BBN coordinate and locked lithium source-network gate checked in independent BBN workflows | Coordinate-layer and source-network [validation](#BBN-Abundance-and-Lithium-Source-Network-Tests) under stated controls |
 | Weak-lensing S8 | Compressed comparison against representative weak-lensing and CMB S8 anchors | Diagnostic [pass](#Weak-Lensing-S8-Comparison), not a full shear likelihood |
@@ -276,6 +276,33 @@ together with the reverse photodisintegration channel,
 
 The mission is to carry CPTG structural geometry through a reaction-specific bound-to-continuum transition calculation and into an auditable rate prediction that can be compared directly with measured nuclear observables and their uncertainties.
 
+This program is deliberately audit-first. The present public status is not a final `S(E)`, cross-section, thermonuclear-rate, or reverse-rate claim. It is a source-contract closure program for the interaction-consistent nuclear baseline that must exist before a CPTG geometry-to-rate correction can be responsibly populated.
+
+### Current Public Status
+
+The retained frontier is the `v10.502` source-contract review state. The common-Hamiltonian action audit has closed seven of ten required C2.4 action elements and has reduced the remaining work to two source-literal implementation contracts plus the residual definition that depends on them.
+
+Closed C2.4 action elements include:
+
+- official TNFME/3NF backend identity and exact LMAX13 factorized recoupling support;
+- native A=3 bound-state object binding and mirror-registry handling;
+- TNFME `24 → 64` Cubherm radial action, replayed through the published Appendix-B cubic-Hermite rule;
+- A=3 normalization convention;
+- A=3 component-axis contraction rule;
+- expected A=3 energy formula;
+- TNFME `42 → 76` and LMAX13 `104 → 76` active-channel embeddings;
+- NN `104`-ledger to native A=3 NN-support projection, with source-extra unsupported rows explicitly accounted.
+
+The remaining C2.4 blockers are:
+
+```text
+NN_81_TO_A3_64_ACTION
+A3_KINETIC_ACTION
+COMMON_H_RESIDUAL_AND_TOLERANCE
+```
+
+The last item is dependent: the common-Hamiltonian residual is not executed until the NN radial-action and A=3 kinetic-action contracts are source-literally promoted.
+
 ### Verified Computational Architecture
 
 The accepted calculation chain now includes:
@@ -286,6 +313,11 @@ The accepted calculation chain now includes:
 - sparse six-map pullback and adjoint transport;
 - a global affine support registry of `272` nodes;
 - an active operator-support union of `199` nodes, with exact identity preserved across the retained contraction lineage;
+- exact production pp `¹S₀` matrices at `1`, `5`, `10`, and `25 MeV`;
+- a verified `104`-matrix pp/np/nn production-grid ledger;
+- official TNFME/3NF source identity and executable backend evidence;
+- exact LMAX13 recoupling and factorized 3NF backend replay;
+- two native A=3 bound-state objects with `3namp`, native grids, weights, and channel registries;
 - five independently retained electromagnetic-current directions:
   `C15'`, `C16'`, `d8'`, `d9'`, and `d21'`;
 - reproducible source manifests, SHA-256 ledgers, ZIP-integrity checks, and exact-input replay at each accepted stage.
@@ -294,9 +326,9 @@ The accepted calculation chain now includes:
 
 The accepted support architecture contains a `272`-node global affine registry and a distinct `199`-node active operator-support union. The accepted six-map transport, `99`-anchor operator expansion, exchange reconstruction, pullback/adjoint structure, and five-current basis are preserved without reduction.
 
-The exact production pp `¹S₀` interaction has been captured and preserved as four hash-locked `81 x 81` matrices at laboratory energies of `1`, `5`, `10`, and `25 MeV`. The corresponding production phases and solver outputs were replayed and independently verified.
+The exact production pp `¹S₀` interaction has been captured and preserved as four hash-locked `81 x 81` matrices at laboratory energies of `1`, `5`, and `10`, and `25 MeV`. The corresponding production phases and solver outputs were replayed and independently verified.
 
-A complete production-grid charge-sector candidate set has also been generated:
+The verified production-grid charge-sector ledger contains:
 
 ```text
 np: 48 matrices
@@ -305,15 +337,58 @@ nn: 28 matrices
 total: 104 matrices
 ```
 
-The pp and nn reduced strong operators agree after their required sector mass normalizations. A component-level comparison further established that the earlier pp `¹S₀` discrepancy was concentrated in the long-range spectral operator rather than the three retained contact coefficients. The exact production pp `¹S₀` matrices have therefore been preserved inside the promoted full-grid charge ledger.
+The accepted matrix set contains both single-channel and coupled-channel objects:
 
-The published SMS N4LO+ `450 MeV` model scope has also been clarified: fitted charge-dependent contacts are confined to `¹S₀`, while the P-wave contacts are shared isospin-allowed coefficients.
+```text
+single-channel matrices: 72 at 81 x 81
+coupled-channel matrices: 32 at 162 x 162
+```
+
+The native A=3 object binding has also been verified. The accepted objects contain `/3NBOUNDFAD` and `/3NBOUNDWAVE` groups with native `3namp` arrays, `p12p`, `p12w`, `p3p`, `p3w`, `qnalpha3N`, and `qnalphaNN`. The two accepted A=3 objects are treated as a mirror/sign-conjugate pair: their NN channel registries agree, while the three-body registry differs by the expected `2mT` sign relation.
+
+The C2.4 source-contract audit has closed several important Hamiltonian-action ingredients:
+
+```text
+TNFME 24→A3 64 Cubherm action: closed
+A3 normalization convention: closed
+A3 component contraction rule: closed
+Expected A3 energy formula: closed
+TNFME42→A3 76 embedding: closed
+LMAX13 104→A3 76 active embedding: closed
+NN104 native A3 support projection: closed
+```
+
+The exact A=3 normalization/source contraction currently retained is:
+
+```python
+norm = 3.0*np.einsum("ijkl,ijkl,k,k,j,j->", fad, wave, p12**2, w12, p3**2, w3)
+```
+
+The accepted A=3 expected-energy relation is:
+
+```python
+binding_energy_mev = BENER*hbarc
+```
+
+The NN source-ledger support projection is also closed. Of the `104` source-ledger rows, `96` project to native A=3 NN support. The eight accounted source-extra rows are:
+
+```text
+np 1P1 at 1, 5, 10, 25 MeV
+np 1F3 at 1, 5, 10, 25 MeV
+```
+
+These rows are not treated as missing matrices; they are source-extra scattering rows outside the retained native A=3 bound-state NN-support registry.
 
 ### Current Research Objective
 
-The next closure-relevant calculation is a hybrid charge-complete matrix ledger that retains the exact full-channel production matrices while inserting the sealed production pp `¹S₀` matrices. The resulting interaction will be tested through source-coordinate-aware pp phase-shift and mixing-angle replay across the retained T=1 channels.
+The target is to promote or reject, source-literally, the two unresolved action contracts:
 
-Completion of that replay will establish whether the published-model charge-complete NN interaction can be promoted into the common NN+3NF Hamiltonian required for the bound-state, continuum-state, current, transition-amplitude, observable, and thermonuclear-rate stages.
+```text
+NN_81_TO_A3_64_ACTION
+A3_KINETIC_ACTION
+```
+
+Only after those contracts are closed can the common-Hamiltonian residual and tolerance be defined and executed. Until then, the nuclear program remains an active reaction-specific derivation and reproducibility program rather than a final astrophysical-rate result.
 
 ## Cosmology and Comparison-Layer Tests
 
@@ -503,7 +578,7 @@ CPTG is being developed as an active research program rather than a single fixed
 - testing whether structure-response distance refinements correlate with independent distance-quality indicators;
 - extending cluster active-gate tests to larger same-aperture samples and improving treatment of gas, stellar, intracluster-light, lensing, and merger-aware decompositions;
 - carrying the locked CMB comparison-map closure result into higher-resolution geometric projections into CMB observables;
-- completing the published-model pp/np/nn charge ledger and all-channel pp phase-shift and mixing-angle replay, followed by construction of the common NN+N2LO 3NF Hamiltonian and continuation into the interaction-consistent capture calculation;
+- completing the `D_P_GAMMA_HE3` common-Hamiltonian source-contract closure by promoting or rejecting the exact NN `81 → 64` radial action and A=3 kinetic-action contracts from installed package source, followed only then by the residual/tolerance audit and continuation into the interaction-consistent capture calculation;
 - keeping numerical tests reproducible, compact, and open to criticism.
 
 These continuing investigations are included to make the research path transparent. They should be read as active development directions, not settled conclusions.
