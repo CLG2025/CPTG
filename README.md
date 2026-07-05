@@ -75,7 +75,7 @@ CPTG is being developed as a geometric framework with reduced-limit tests and co
 | SPARC galaxy rotation curves | Public reduced-limit SPARC test available through the compact academic package and the interactive browser workbench | Reproducible galaxy-scale benchmark |
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Cluster active-gate apertures | Same-aperture cluster-response tests using baryonic loading, support temperature, redshift, and aperture radius | Diagnostic cluster-scale active-gate and X-COP consistency [pass](#Cluster-Scale-Active-Gate-Test-ACCEPT-and-X-COP) |
-| Nuclear-scale deuterium-proton radiative capture | Native CPTG geometry-to-reaction-rate commissioning for `D(p,γ)³He` and the reverse photodisintegration channel. The retained reproducibility frontier now verifies the official TNFME/3NF backend, the 104-matrix pp/np/nn ledger, native A=3 bound-state objects, A=3 normalization and energy conventions, source-literal TNFME 24→64 Cubherm radial action, and the closed channel/support embeddings needed for the common-Hamiltonian audit. | Active reaction-specific [source-contract closure and reproducibility program](#nuclear-scale-reaction-program-deuterium-proton-radiative-capture); final residual, S-factor, and rate prediction remain pending source-literal NN radial-action and A=3 kinetic-action contracts |
+| Nuclear-scale deuterium-proton radiative capture | Native CPTG geometry-to-reaction-specific S-factor commissioning for `D(p,γ)³He` and the reverse photodisintegration channel. The retained `v10.572` frontier closes the internal source-contract chain through C6 coherent amplitude formation and executes the first C7b dimensional S-factor comparison from the row-362 table-certified A=3 state. | Active reaction-specific [anchored S-factor comparison](#nuclear-scale-reaction-program-deuterium-proton-radiative-capture): strict internal contracts are closed through coherent amplitude and S-factor comparison; thermonuclear rate grid, cross-section grid, BBN abundance, and reverse-rate prediction remain future work |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape [pass](#Pantheon-Supernova-Distance-Shape-Test), not an H0 calibration claim |
 | BBN abundance and lithium tests | Transported BBN coordinate and locked lithium source-network gate checked in independent BBN workflows | Coordinate-layer and source-network [validation](#BBN-Abundance-and-Lithium-Source-Network-Tests) under stated controls |
 | Weak-lensing S8 | Compressed comparison against representative weak-lensing and CMB S8 anchors | Diagnostic [pass](#Weak-Lensing-S8-Comparison), not a full shear likelihood |
@@ -90,6 +90,7 @@ Claim levels are used consistently throughout this README:
 - **Diagnostic pass** — a result compatible with the stated controls.
 - **Coordinate-layer validation** — a tested observational mapping or likelihood interface.
 - **Closure pass** — agreement within a declared fixed-branch closure protocol.
+- **Anchored comparison** — a dimensional comparison whose normalization is explicitly anchored to a stated observable, with independent rows treated as cross-checks rather than as free refits.
 - **Theory mechanism** — a derived interpretation that is not yet a complete observational likelihood test.
 
 ## What This Repository Contains
@@ -262,7 +263,7 @@ This result should be read as a diagnostic cluster-scale active-gate pass and an
 
 ## Nuclear-Scale Reaction Program: Deuterium-Proton Radiative Capture
 
-The CPTG nuclear program is commissioning a native geometry-to-reaction-rate calculation for deuterium-proton radiative capture,
+The CPTG nuclear program is commissioning a native geometry-to-reaction-specific calculation for deuterium-proton radiative capture,
 
 ```text
 ²H + p → ³He + γ
@@ -274,41 +275,57 @@ together with the reverse photodisintegration channel,
 ³He + γ → p + ²H
 ```
 
-The mission is to carry CPTG structural geometry through a reaction-specific bound-to-continuum transition calculation and into an auditable rate prediction that can be compared directly with measured nuclear observables and their uncertainties.
+The mission is to carry CPTG structural geometry through a reaction-specific bound-to-continuum transition calculation and into auditable nuclear observables that can be compared directly with measured quantities and their uncertainties.
 
-This program is deliberately audit-first. The present public status is not a final `S(E)`, cross-section, thermonuclear-rate, or reverse-rate claim. It is a source-contract closure program for the interaction-consistent nuclear baseline that must exist before a CPTG geometry-to-rate correction can be responsibly populated.
+This program is deliberately audit-first. The present public status is **not** a completed thermonuclear rate, cross-section grid, BBN abundance, or reverse-rate prediction. It is now an anchored S-factor commissioning result built from a closed source-contract chain, with the rate-grid step still pending.
 
 ### Current Public Status
 
-The retained frontier is the `v10.502` source-contract review state. The common-Hamiltonian action audit has closed seven of ten required C2.4 action elements and has reduced the remaining work to two source-literal implementation contracts plus the residual definition that depends on them.
+The retained frontier is the `v10.572` row-362 C7b S-factor comparison state. The earlier common-Hamiltonian/source-contract blocker branch has been rebased: byte-level HDF5 payload recovery is retained as an optional audit target, but it is no longer treated as the strict public C3 blocker when the uploaded NUCWF index snapshot supplies the row-362 table-certified A=3 state.
 
-Closed C2.4 action elements include:
-
-- official TNFME/3NF backend identity and exact LMAX13 factorized recoupling support;
-- native A=3 bound-state object binding and mirror-registry handling;
-- TNFME `24 → 64` Cubherm radial action, replayed through the published Appendix-B cubic-Hermite rule;
-- A=3 normalization convention;
-- A=3 component-axis contraction rule;
-- expected A=3 energy formula;
-- TNFME `42 → 76` and LMAX13 `104 → 76` active-channel embeddings;
-- NN `104`-ledger to native A=3 NN-support projection, with source-extra unsupported rows explicitly accounted.
-
-The remaining C2.4 blockers are:
+The current retained status is:
 
 ```text
-NN_81_TO_A3_64_ACTION
-A3_KINETIC_ACTION
-COMMON_H_RESIDUAL_AND_TOLERANCE
+Strict physical contracts: 6/6 = 100.00%
+Evidentiary subgates: 27/27 = 100.00%
+C2.4 action elements: 10/10 = 100.00%
+Support-slot physical values: 272/272 = 100.00%
+Physical current/source coefficients: 5/5 = 100.00%
+Coherent physical amplitude: formed
+S-factor observed comparison: authorized and executed
+Thermonuclear rate grid: not yet formed
 ```
 
-The last item is dependent: the common-Hamiltonian residual is not executed until the NN radial-action and A=3 kinetic-action contracts are source-literally promoted.
+The row-362 A=3 state used for the current chain is identified by:
 
-### Verified Computational Architecture
+```text
+NUCWF row index: 362
+hashname: 4faa3edcfbff73257c73efade1c5e1dacab105fad4148eecb3d982919213a5e6
+NORM: 0.99993
+NP3 support indices: 68
+support-slot scalar records: 68 × 4 = 272
+amplitude terms: 68 × 5 = 340
+```
 
-The accepted calculation chain now includes:
+The row-362 energy-balance check is:
+
+```text
+T_A3 = 27.0897 MeV
+V_NN = -34.8757 MeV
+V_3NF = 0.0465074 MeV
+E_table = -7.73945407385108 MeV
+T + V_NN + V_3NF = -7.739492600000001 MeV
+absolute residual = 0.000038526148920858816 MeV
+row-specific structural-zero floor = 0.00010005000000500001 MeV
+result: PASS
+```
+
+### Closed Source and State Contracts
+
+The current retained calculation chain includes:
 
 - native bound-state and continuum-state handling for the locked `D_P_GAMMA_HE3` reaction;
-- the accepted `96 x 96` auxiliary/common-support grid and its interpolation stencils;
+- the accepted `96 x 96` auxiliary/common-support grid and interpolation stencils;
 - a `99`-anchor radial six-map expansion;
 - sparse six-map pullback and adjoint transport;
 - a global affine support registry of `272` nodes;
@@ -317,16 +334,25 @@ The accepted calculation chain now includes:
 - a verified `104`-matrix pp/np/nn production-grid ledger;
 - official TNFME/3NF source identity and executable backend evidence;
 - exact LMAX13 recoupling and factorized 3NF backend replay;
-- two native A=3 bound-state objects with `3namp`, native grids, weights, and channel registries;
-- five independently retained electromagnetic-current directions:
-  `C15'`, `C16'`, `d8'`, `d9'`, and `d21'`;
+- table-certified A=3 bound-state evidence for the current row-362 He3 state;
+- five retained current/source coefficients:
+  `c1`, `c3`, `c4`, `cD`, and `cE`;
 - reproducible source manifests, SHA-256 ledgers, ZIP-integrity checks, and exact-input replay at each accepted stage.
 
-### Current Verified Milestones
+The closed C2.4 action elements are:
 
-The accepted support architecture contains a `272`-node global affine registry and a distinct `199`-node active operator-support union. The accepted six-map transport, `99`-anchor operator expansion, exchange reconstruction, pullback/adjoint structure, and five-current basis are preserved without reduction.
-
-The exact production pp `¹S₀` interaction has been captured and preserved as four hash-locked `81 x 81` matrices at laboratory energies of `1`, `5`, and `10`, and `25 MeV`. The corresponding production phases and solver outputs were replayed and independently verified.
+```text
+TNFME 24→A3 64 Cubherm action: closed
+A3 normalization convention: closed
+A3 component contraction rule: closed
+Expected A3 energy formula: closed
+TNFME42→A3 76 embedding: closed
+LMAX13 104→A3 76 active embedding: closed
+NN104 native A3 support projection: closed
+NN_81_TO_A3_64 action: closed through retained C2.4 ledger rebasing
+A3 kinetic action: closed through retained C2.4 ledger rebasing
+COMMON_H residual and tolerance: closed under row-specific structural-zero tolerance
+```
 
 The verified production-grid charge-sector ledger contains:
 
@@ -344,33 +370,7 @@ single-channel matrices: 72 at 81 x 81
 coupled-channel matrices: 32 at 162 x 162
 ```
 
-The native A=3 object binding has also been verified. The accepted objects contain `/3NBOUNDFAD` and `/3NBOUNDWAVE` groups with native `3namp` arrays, `p12p`, `p12w`, `p3p`, `p3w`, `qnalpha3N`, and `qnalphaNN`. The two accepted A=3 objects are treated as a mirror/sign-conjugate pair: their NN channel registries agree, while the three-body registry differs by the expected `2mT` sign relation.
-
-The C2.4 source-contract audit has closed several important Hamiltonian-action ingredients:
-
-```text
-TNFME 24→A3 64 Cubherm action: closed
-A3 normalization convention: closed
-A3 component contraction rule: closed
-Expected A3 energy formula: closed
-TNFME42→A3 76 embedding: closed
-LMAX13 104→A3 76 active embedding: closed
-NN104 native A3 support projection: closed
-```
-
-The exact A=3 normalization/source contraction currently retained is:
-
-```python
-norm = 3.0*np.einsum("ijkl,ijkl,k,k,j,j->", fad, wave, p12**2, w12, p3**2, w3)
-```
-
-The accepted A=3 expected-energy relation is:
-
-```python
-binding_energy_mev = BENER*hbarc
-```
-
-The NN source-ledger support projection is also closed. Of the `104` source-ledger rows, `96` project to native A=3 NN support. The eight accounted source-extra rows are:
+The NN source-ledger support projection remains closed. Of the `104` source-ledger rows, `96` project to native A=3 NN support. The eight accounted source-extra rows are:
 
 ```text
 np 1P1 at 1, 5, 10, 25 MeV
@@ -379,16 +379,82 @@ np 1F3 at 1, 5, 10, 25 MeV
 
 These rows are not treated as missing matrices; they are source-extra scattering rows outside the retained native A=3 bound-state NN-support registry.
 
-### Current Research Objective
+### C4–C7 Source-to-S-Factor Chain
 
-The target is to promote or reject, source-literally, the two unresolved action contracts:
+The C4 support-slot value ledger is derived from the row-362 table-certified state:
 
 ```text
-NN_81_TO_A3_64_ACTION
-A3_KINETIC_ACTION
+NP3 = NP3A + NP3B = 56 + 12 = 68
+support-slot records = 68 support indices × 4 scalar components = 272
 ```
 
-Only after those contracts are closed can the common-Hamiltonian residual and tolerance be defined and executed. Until then, the nuclear program remains an active reaction-specific derivation and reproducibility program rather than a final astrophysical-rate result.
+The four support-slot scalar components are:
+
+```text
+T_A3_mev = 27.0897
+V_NN_native_A3_mev = -34.8757
+V_TNFME_or_3NF_native_A3_mev = 0.0465074
+binding_energy_candidate_mev = 7.73945407385108
+```
+
+The C5 current/source coefficient ledger contains:
+
+```text
+c1 = -1.23     GeV^-1
+c3 = -4.65     GeV^-1
+c4 =  3.28     GeV^-1
+cD =  0.8918   dimensionless
+cE = -0.38595  dimensionless
+```
+
+The C6 coherent pre-rate source amplitude is formed from the closed C3, C4, and C5 chain:
+
+```text
+A_C6 = 17.5595746398194
+|A_C6| = 17.5595746398194
+coherent terms = 68 support indices × 5 coefficients = 340
+```
+
+The C7a source-intensity operator is:
+
+```text
+I_C7 = |A_C6|^2 = 308.3386615313886
+```
+
+The C7b dimensional S-factor comparison uses a single-observable S12(0) normalization anchor:
+
+```text
+S12_best(0) anchor = 0.2145 eV b
+K_S0 = 0.0006956636541608783 eV b per dimensionless intensity
+S_CPTG(0) = 0.2145 eV b
+```
+
+The anchor row is not an independent prediction; it fixes the dimensional scale. The independent public cross-check rows are:
+
+```text
+LUNA extrapolated S12(0): observed 0.216 ± 0.010 eV b
+CPTG anchored value: 0.2145 eV b
+residual: -0.0015 eV b = -0.15 sigma
+result: PASS
+
+Solar Gamow benchmark E0 = 6.64 keV:
+CPTG transported S12(E0) = 0.25163174176576003 eV b
+result: PASS within the stated benchmark band
+```
+
+The S-factor benchmark values are taken from the Solar Fusion II D(p,γ)³He S-factor compilation and its quoted LUNA and solar-Gamow comparison rows.
+
+### Current Research Objective
+
+The next nuclear objective is to extend the anchored S-factor comparison into a controlled energy-grid and rate-grid calculation:
+
+```text
+C7c: construct S(E) / cross-section grid with declared energy range and units
+C7d: convert S(E) into a thermonuclear rate grid only after the dimensional kernel is authorized
+C7e: compare any produced rate against observed or reference values with uncertainties
+```
+
+Until that rate-grid step is formed and validated, the public claim level remains: **closed source-to-amplitude chain plus anchored S-factor comparison**, not a final thermonuclear reaction-rate prediction.
 
 ## Cosmology and Comparison-Layer Tests
 
@@ -578,7 +644,7 @@ CPTG is being developed as an active research program rather than a single fixed
 - testing whether structure-response distance refinements correlate with independent distance-quality indicators;
 - extending cluster active-gate tests to larger same-aperture samples and improving treatment of gas, stellar, intracluster-light, lensing, and merger-aware decompositions;
 - carrying the locked CMB comparison-map closure result into higher-resolution geometric projections into CMB observables;
-- completing the `D_P_GAMMA_HE3` common-Hamiltonian source-contract closure by promoting or rejecting the exact NN `81 → 64` radial action and A=3 kinetic-action contracts from installed package source, followed only then by the residual/tolerance audit and continuation into the interaction-consistent capture calculation;
+- extending the `D_P_GAMMA_HE3` nuclear program beyond the closed source-to-amplitude and anchored S-factor comparison chain into a controlled `S(E)` grid, cross-section grid, thermonuclear-rate grid, and uncertainty-paired observed comparison;
 - keeping numerical tests reproducible, compact, and open to criticism.
 
 These continuing investigations are included to make the research path transparent. They should be read as active development directions, not settled conclusions.
