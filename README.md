@@ -75,9 +75,9 @@ CPTG is being developed as a geometric framework with reduced-limit tests and co
 | SPARC galaxy rotation curves | Public reduced-limit SPARC test available through the compact academic package and the interactive browser workbench | Reproducible galaxy-scale benchmark |
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Cluster active-gate apertures | Same-aperture cluster-response tests using baryonic loading, support temperature, redshift, and aperture radius | Diagnostic cluster-scale active-gate and X-COP consistency [pass](#Cluster-Scale-Active-Gate-Test-ACCEPT-and-X-COP) |
-| Nuclear-scale deuterium-proton radiative capture | Native CPTG geometry-to-reaction-specific `D(p,γ)³He` chain retained through the row-362 source-to-amplitude ledger, anchored S-factor comparison, native p+D rate branch, PRIMAT-compatible BBN current chain, and live locked A = 7 transport-gate implementation. | Active reaction-specific [current-chain BBN/lithium ledger](#nuclear-scale-reaction-program-deuterium-proton-radiative-capture): strict internal contracts, source-required small-network payloads, temperature-domain gates, observed comparison, live A = 7 RHS gate, and 12/12 support/width MC preflight are complete in the retained current-chain ledger |
+| Nuclear-scale deuterium-proton radiative capture | Native CPTG geometry-to-reaction-specific `D(p,γ)³He` chain retained through the row-362 source-to-amplitude ledger, anchored S-factor comparison, native p+D rate branch, PRIMAT-compatible BBN current chain, live locked A = 7 transport-gate implementation, and fresh two-code locked-gate closure reconciliation through `v10.670 / C7CQ`. | Active reaction-specific [current-chain BBN/lithium ledger](#nuclear-scale-reaction-program-deuterium-proton-radiative-capture): strict internal contracts, source-required small-network payloads, temperature-domain gates, observed comparison, live A = 7 RHS gate, 12/12 support/width MC preflight, fresh PRyMordial closure, fresh local AlterBBN physical-eta closure, and complete evidence-chain handoff are complete while retaining `v10.641 / C7BP` as the integrated PRIMAT-compatible current-chain frontier |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape [pass](#Pantheon-Supernova-Distance-Shape-Test), not an H0 calibration claim |
-| BBN abundance and lithium tests | Transported BBN coordinate, locked live A = 7 lithium gate, reference PRyMordial/AlterBBN two-code validation, and current-chain live-gate support/width MC ledger | Coordinate-layer and source-network [validation](#BBN-Abundance-and-Lithium-Source-Network-Tests): reference two-code evidence plus current-chain live-gate implementation, support scan, randomized MC preflight, and observed residual ledger |
+| BBN abundance and lithium tests | Transported BBN coordinate, locked live A = 7 lithium gate, reference PRyMordial/AlterBBN validation, fresh PRyMordial/PDF-authorized closure, fresh local AlterBBN physical-eta closure, and current-chain live-gate support/width MC ledger | Coordinate-layer and source-network [validation](#bbn-abundance-and-lithium-source-network-tests): fresh two-code locked-gate closure reconciled in `v10.670 / C7CQ`, with retained reference evidence, current-chain live-gate implementation, support scan, randomized MC preflight, and observed residual ledger |
 | Weak-lensing S8 | Compressed comparison against representative weak-lensing and CMB S8 anchors | Diagnostic [pass](#Weak-Lensing-S8-Comparison), not a full shear likelihood |
 | CMB comparison-map closure | Locked geometric-pi CMB branch tested against real Planck/WMAP temperature-map products and null controls | Real-map [comparison-map closure](#CMB-Comparison-Map-Closure) pass |
 | CMB Route B Option 1 bridge | Fixed amplitude-level curvature-transport bridge tested through CMB spectrum and Planck likelihood-coordinate plumbing | Geometry-first comparison-coordinate bridge [validation](#CMB-Route-B-Option-1-Curvature-Transport-Bridge) |
@@ -277,11 +277,13 @@ together with the reverse photodisintegration channel,
 
 The mission is to carry CPTG structural geometry through a reaction-specific bound-to-continuum transition calculation, into auditable nuclear observables, and then into carefully gated abundance-network tests whose claim level is separated from the underlying nuclear calculation.
 
-This program is deliberately audit-first. The retained current-chain frontier is `v10.641`, which preserves the closed source-to-amplitude and anchored S-factor chain, extends it through a native CPTG `D(p,γ)³He` rate branch, integrates the PRIMAT-compatible BBN network chain, and implements the locked live CPTG A = 7 transport gate used in the lithium source-network work.
+This program is deliberately audit-first. The retained integrated current-chain frontier is `v10.641 / C7BP`, which preserves the closed source-to-amplitude and anchored S-factor chain, extends it through a native CPTG `D(p,γ)³He` rate branch, integrates the PRIMAT-compatible BBN network chain, and implements the locked live CPTG A = 7 transport gate used in the lithium source-network work. The current report and handoff frontier is `v10.670 / C7CQ`, which reconciles the fresh PRyMordial and fresh local AlterBBN locked-gate closure lane without overwriting the retained integrated current-chain frontier.
 
 ### Current Public Status
 
-The retained frontier is the `v10.641` C7BP reference two-code crosswalk and current-chain ledger. It consolidates the source-to-amplitude chain, anchored S-factor comparison, native CPTG p+D rate branch, PRIMAT-compatible BBN integration chain, live A = 7 RHS gate, structured support scan, randomized support/width MC preflight, report update, and reference two-code crosswalk into one public progress state. The earlier PRyMordial and AlterBBN two-code validation from the lithium paper is retained as reference evidence, and the current chain adds a PRIMAT-compatible replay ledger with observed residuals and live-gate robustness checks.
+The retained integrated frontier is the `v10.641 / C7BP` reference two-code crosswalk and current-chain ledger. It consolidates the source-to-amplitude chain, anchored S-factor comparison, native CPTG p+D rate branch, PRIMAT-compatible BBN integration chain, live A = 7 RHS gate, structured support scan, randomized support/width MC preflight, report update, and reference two-code crosswalk into one public progress state. That frontier remains retained and is not overwritten.
+
+The fresh two-code locked A = 7 gate lane is now reconciled through `v10.669 / C7CP` and packaged for report/evidence-chain handoff as `v10.670 / C7CQ`. This lane adds fresh PRyMordial replay with literal PDF-authorized `1/pi` gate closure and fresh local AlterBBN `alter_eta.x` physical-eta replay closure. The earlier PRyMordial and AlterBBN two-code validation from the lithium paper remains retained as reference evidence, and the current chain also retains the PRIMAT-compatible replay ledger with observed residuals and live-gate robustness checks.
 
 The current retained status is:
 
@@ -304,6 +306,45 @@ Live locked A = 7 RHS gate: implemented
 Structured live-gate support scenarios: 10/10 = 100.00%
 Current-chain randomized live-gate support/width MC: 12/12 = 100.00%
 Reference two-code crosswalk: closed
+```
+
+The fresh two-code locked-gate closure status is:
+
+```text
+Fresh package/report frontier: v10.670 / C7CQ
+Fresh PRyMordial/PDF-authorized locked gate: CLOSED
+Fresh local AlterBBN physical-eta locked gate: CLOSED
+Fresh two-code locked A = 7 gate reconciliation: CLOSED
+Retained integrated PRIMAT-compatible current-chain frontier: v10.641 / C7BP retained, not overwritten
+```
+
+The canonical fresh two-code closure table is:
+
+```text
+PRyMordial fresh replay / PDF-authorized fastpath:
+row label: transport_sqrtGT_large_PRIMAT
+eta10_BBN: 5.998071834744
+D/H pull: -0.019 sigma
+Yp pull: +0.231 sigma
+raw Li7/H: 5.266820229187348e-10
+authorized survival factor: 1/pi = 0.3183098861837907
+gated Li7/H: 1.6764809477031113e-10
+gated Li7 pull: +0.9059237908124455 sigma
+status: PASS
+
+AlterBBN fresh local replay / alter_eta precise:
+row label: correct_physical_eta_cptg_bbn_failsafe1
+eta10_BBN: 5.998071834744
+eta argument: 5.9980718347440000E-10
+D/H: 2.500e-05
+D/H pull: -0.27586206896551463 sigma
+Yp: 0.2471
+Yp pull: +0.699999999999997 sigma
+raw Li7/H: 5.291e-10
+authorized survival factor: 1/pi = 0.3183098861837907
+gated Li7/H: 1.6841776077984365e-10
+gated Li7 pull: +0.9367104311937463 sigma
+status: PASS
 ```
 
 The row-362 A=3 state used for the retained source-to-amplitude chain is identified by:
@@ -530,7 +571,16 @@ current raw lithium: matches the reference AlterBBN raw scale
 current live-gated lithium: lies inside the reference locked-gate lithium band
 ```
 
-The public progress state is therefore a combined evidence chain: source-to-amplitude closure, anchored S-factor comparison, native CPTG p+D rate branch, PRIMAT-compatible BBN integration, live A = 7 RHS implementation, randomized support/width robustness, observed residual comparison, and reference two-code crosswalk. The audit controls preserve the fixed optical depth, live source-network gate, native p+D normalization, and retained Be7/Li7 source-rate authority.
+The fresh two-code closure lane adds the following non-overwriting confirmation:
+
+```text
+v10.660 / C7CG: fresh PRyMordial plus PDF-authorized locked 1/pi gate PASS
+v10.668 / C7CO: fresh local AlterBBN correct physical-eta alter_eta replay PASS
+v10.669 / C7CP: fresh two-code locked-gate reconciliation PASS
+v10.670 / C7CQ: complete fresh two-code closure evidence report and AI handoff READY
+```
+
+The public progress state is therefore a combined evidence chain: source-to-amplitude closure, anchored S-factor comparison, native CPTG p+D rate branch, PRIMAT-compatible BBN integration, live A = 7 RHS implementation, randomized support/width robustness, observed residual comparison, retained reference two-code crosswalk, and fresh PRyMordial/AlterBBN locked-gate closure. The audit controls preserve the fixed optical depth, live source-network gate, native p+D normalization, and retained Be7/Li7 source-rate authority.
 
 ## Cosmology and Comparison-Layer Tests
 
@@ -648,6 +698,28 @@ The current CPTG D(p,γ)³He chain also carries a current-chain PRIMAT-compatibl
 
 Together, the reference two-code validation and the current-chain live-gate ledger give a progress-forward abundance record: transported BBN coordinate control, live source-network A = 7 gate, current-chain PRIMAT-compatible integration, observed residual comparison, and randomized support/width robustness under the locked `ln(pi)` optical-depth rule.
 
+The current fresh two-code closure package, `v10.670 / C7CQ`, reconciles the PRyMordial and local AlterBBN lanes without overwriting the retained integrated `v10.641 / C7BP` frontier:
+
+```text
+PRyMordial fresh replay:
+raw Li7/H = 5.266820229187348e-10
+gated Li7/H = 1.6764809477031113e-10
+Li7 pull after gate = +0.9059237908124455 sigma
+status = PASS
+
+AlterBBN fresh local replay:
+canonical row = correct_physical_eta_cptg_bbn_failsafe1
+eta argument = 5.9980718347440000E-10
+D/H pull = -0.27586206896551463 sigma
+Yp pull = +0.699999999999997 sigma
+raw Li7/H = 5.291e-10
+gated Li7/H = 1.6841776077984365e-10
+Li7 pull after gate = +0.9367104311937463 sigma
+status = PASS
+```
+
+This upgrades the public abundance status from retained reference two-code evidence plus current-chain support checks to retained reference evidence plus a fresh two-code locked-gate closure and complete handoff/evidence package.
+
 ### Weak-Lensing S8 Comparison
 
 CPTG weak-lensing work currently uses compressed S8 comparisons against representative weak-lensing and CMB anchors. These tests are diagnostic: they show whether the CPTG growth/lensing branch lies within representative observational bands, but they are not a substitute for a full shear-correlation likelihood or survey-level weak-lensing pipeline.
@@ -684,7 +756,7 @@ The included scripts implement reduced limits of the theory:
 - the reduced merger-plane transport/lensing limit for dissociative clusters;
 - cluster active-gate aperture response from baryonic loading, support temperature, redshift, and aperture radius;
 - comparison-layer cosmology audits that map CPTG-native quantities into conventional observational summaries;
-- the audit-first nuclear and abundance current chain for `D(p,γ)³He`, PRIMAT-compatible BBN integration, and the locked live A = 7 transport gate.
+- the audit-first nuclear and abundance current chain for `D(p,γ)³He`, PRIMAT-compatible BBN integration, the locked live A = 7 transport gate, and fresh two-code PRyMordial/AlterBBN locked-gate closure.
 
 The repository is organized around reproducibility: fixed branch values, declared comparison coordinates, source manifests, package ledgers, and direct residual tables against observational anchors. External tools such as CAMB, Planck likelihoods, BBN codes, and survey products are used as comparison layers and replay environments for the locked CPTG branch.
 
@@ -720,10 +792,10 @@ CPTG is being developed as an active research program with reproducible public m
 - locked geometric-pi CMB comparison-map closure and Route B Option 1 curvature-transport bridge validation;
 - transported BBN coordinate control with D/H and helium agreement;
 - locked live A = 7 lithium source-network gate with reference two-code validation and current-chain support/width MC;
-- native `D_P_GAMMA_HE3` source-to-amplitude closure, anchored S-factor comparison, rate-branch integration, PRIMAT-compatible BBN current chain, and v10.641 crosswalk ledger;
+- native `D_P_GAMMA_HE3` source-to-amplitude closure, anchored S-factor comparison, rate-branch integration, PRIMAT-compatible BBN current chain, v10.641 crosswalk ledger, fresh PRyMordial and AlterBBN locked-gate closure, and v10.670 complete evidence-chain handoff;
 - compact reproducibility packages, SHA-256 ledgers, source manifests, and exact-input replay records across the audit chain.
 
-Active development continues by extending the same audit-first approach to broader eta/rate sampling, additional current-chain replay environments, higher-resolution CMB projections, larger same-aperture cluster samples, and manuscript/report consolidation.
+Active development continues by extending the same audit-first approach to broader eta/rate sampling, additional current-chain replay environments, higher-resolution CMB projections, larger same-aperture cluster samples, and manuscript/report consolidation. The current nuclear/abundance public handoff baseline is `v10.670 / C7CQ`.
 
 ## Repository Policies
 
@@ -746,4 +818,4 @@ CPTG, Supporting Python Models, Benchmark Implementations, and Research Referenc
 
 CPTG is a geometric gravity framework in which gravitational enhancement, lensing displacement, cosmological comparison quantities, CMB map-space closure, Hubble-tension structure, and nuclear/abundance transport are modeled through curvature polarization, curvature transport, and branch-specific observational projection.
 
-The public repository contains reduced numerical implementations, the compact academic benchmark package, the standalone CPTG SPARC Browser Workbench, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. Cosmology-facing work is organized through fixed comparison branches. The active nuclear-scale program now extends the audit-first chain through native `D(p,γ)³He` source closure, anchored S-factor comparison, rate-branch integration, PRIMAT-compatible BBN replay, and the locked live A = 7 lithium gate ledger.
+The public repository contains reduced numerical implementations, the compact academic benchmark package, the standalone CPTG SPARC Browser Workbench, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. Cosmology-facing work is organized through fixed comparison branches. The active nuclear-scale program now extends the audit-first chain through native `D(p,γ)³He` source closure, anchored S-factor comparison, rate-branch integration, PRIMAT-compatible BBN replay, the locked live A = 7 lithium gate ledger, fresh PRyMordial/AlterBBN locked-gate closure, and the `v10.670 / C7CQ` evidence-chain handoff baseline.
