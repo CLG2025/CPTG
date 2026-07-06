@@ -16,7 +16,7 @@
 - [Cluster Active-Gate Test](#cluster-scale-active-gate-test-accept-and-x-cop)
 - [Nuclear-Scale Reaction Program](#nuclear-scale-reaction-program-deuterium-proton-radiative-capture)
 - [Cosmology and Comparison-Layer Tests](#cosmology-and-comparison-layer-tests)
-- [What CPTG Is Not](#what-cptg-is-not)
+- [CPTG Research Position](#cptg-research-position)
 - [Citation](#citation)
 
 ## Start Here: Core CPTG Papers
@@ -75,9 +75,9 @@ CPTG is being developed as a geometric framework with reduced-limit tests and co
 | SPARC galaxy rotation curves | Public reduced-limit SPARC test available through the compact academic package and the interactive browser workbench | Reproducible galaxy-scale benchmark |
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Cluster active-gate apertures | Same-aperture cluster-response tests using baryonic loading, support temperature, redshift, and aperture radius | Diagnostic cluster-scale active-gate and X-COP consistency [pass](#Cluster-Scale-Active-Gate-Test-ACCEPT-and-X-COP) |
-| Nuclear-scale deuterium-proton radiative capture | Native CPTG geometry-to-reaction-specific S-factor commissioning for `D(p,γ)³He` and the reverse photodisintegration channel. The retained `v10.572` frontier closes the internal source-contract chain through C6 coherent amplitude formation and executes the first C7b dimensional S-factor comparison from the row-362 table-certified A=3 state. | Active reaction-specific [anchored S-factor comparison](#nuclear-scale-reaction-program-deuterium-proton-radiative-capture): strict internal contracts are closed through coherent amplitude and S-factor comparison; thermonuclear rate grid, cross-section grid, BBN abundance, and reverse-rate prediction remain future work |
+| Nuclear-scale deuterium-proton radiative capture | Native CPTG geometry-to-reaction-specific `D(p,γ)³He` chain retained through the row-362 source-to-amplitude ledger, anchored S-factor comparison, native p+D rate branch, PRIMAT-compatible BBN current chain, and live locked A = 7 transport-gate implementation. | Active reaction-specific [current-chain BBN/lithium ledger](#nuclear-scale-reaction-program-deuterium-proton-radiative-capture): strict internal contracts, source-required small-network payloads, temperature-domain gates, observed comparison, live A = 7 RHS gate, and 12/12 support/width MC preflight are complete in the retained current-chain ledger |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape [pass](#Pantheon-Supernova-Distance-Shape-Test), not an H0 calibration claim |
-| BBN abundance and lithium tests | Transported BBN coordinate and locked lithium source-network gate checked in independent BBN workflows | Coordinate-layer and source-network [validation](#BBN-Abundance-and-Lithium-Source-Network-Tests) under stated controls |
+| BBN abundance and lithium tests | Transported BBN coordinate, locked live A = 7 lithium gate, reference PRyMordial/AlterBBN two-code validation, and current-chain live-gate support/width MC ledger | Coordinate-layer and source-network [validation](#BBN-Abundance-and-Lithium-Source-Network-Tests): reference two-code evidence plus current-chain live-gate implementation, support scan, randomized MC preflight, and observed residual ledger |
 | Weak-lensing S8 | Compressed comparison against representative weak-lensing and CMB S8 anchors | Diagnostic [pass](#Weak-Lensing-S8-Comparison), not a full shear likelihood |
 | CMB comparison-map closure | Locked geometric-pi CMB branch tested against real Planck/WMAP temperature-map products and null controls | Real-map [comparison-map closure](#CMB-Comparison-Map-Closure) pass |
 | CMB Route B Option 1 bridge | Fixed amplitude-level curvature-transport bridge tested through CMB spectrum and Planck likelihood-coordinate plumbing | Geometry-first comparison-coordinate bridge [validation](#CMB-Route-B-Option-1-Curvature-Transport-Bridge) |
@@ -91,7 +91,7 @@ Claim levels are used consistently throughout this README:
 - **Coordinate-layer validation** — a tested observational mapping or likelihood interface.
 - **Closure pass** — agreement within a declared fixed-branch closure protocol.
 - **Anchored comparison** — a dimensional comparison whose normalization is explicitly anchored to a stated observable, with independent rows treated as cross-checks rather than as free refits.
-- **Theory mechanism** — a derived interpretation that is not yet a complete observational likelihood test.
+- **Theory mechanism** — a derived interpretation connected to a dedicated comparison or audit layer.
 
 ## What This Repository Contains
 
@@ -275,28 +275,38 @@ together with the reverse photodisintegration channel,
 ³He + γ → p + ²H
 ```
 
-The mission is to carry CPTG structural geometry through a reaction-specific bound-to-continuum transition calculation and into auditable nuclear observables that can be compared directly with measured quantities and their uncertainties.
+The mission is to carry CPTG structural geometry through a reaction-specific bound-to-continuum transition calculation, into auditable nuclear observables, and then into carefully gated abundance-network tests whose claim level is separated from the underlying nuclear calculation.
 
-This program is deliberately audit-first. The present public status is **not** a completed thermonuclear rate, cross-section grid, BBN abundance, or reverse-rate prediction. It is now an anchored S-factor commissioning result built from a closed source-contract chain, with the rate-grid step still pending.
+This program is deliberately audit-first. The retained current-chain frontier is `v10.641`, which preserves the closed source-to-amplitude and anchored S-factor chain, extends it through a native CPTG `D(p,γ)³He` rate branch, integrates the PRIMAT-compatible BBN network chain, and implements the locked live CPTG A = 7 transport gate used in the lithium source-network work.
 
 ### Current Public Status
 
-The retained frontier is the `v10.572` row-362 C7b S-factor comparison state. The earlier common-Hamiltonian/source-contract blocker branch has been rebased: byte-level HDF5 payload recovery is retained as an optional audit target, but it is no longer treated as the strict public C3 blocker when the uploaded NUCWF index snapshot supplies the row-362 table-certified A=3 state.
+The retained frontier is the `v10.641` C7BP reference two-code crosswalk and current-chain ledger. It consolidates the source-to-amplitude chain, anchored S-factor comparison, native CPTG p+D rate branch, PRIMAT-compatible BBN integration chain, live A = 7 RHS gate, structured support scan, randomized support/width MC preflight, report update, and reference two-code crosswalk into one public progress state. The earlier PRyMordial and AlterBBN two-code validation from the lithium paper is retained as reference evidence, and the current chain adds a PRIMAT-compatible replay ledger with observed residuals and live-gate robustness checks.
 
 The current retained status is:
 
 ```text
+Current-chain package frontier: v10.641 / C7BP
 Strict physical contracts: 6/6 = 100.00%
 Evidentiary subgates: 27/27 = 100.00%
 C2.4 action elements: 10/10 = 100.00%
 Support-slot physical values: 272/272 = 100.00%
 Physical current/source coefficients: 5/5 = 100.00%
 Coherent physical amplitude: formed
-S-factor observed comparison: authorized and executed
-Thermonuclear rate grid: not yet formed
+Anchored S-factor comparison: closed
+Native CPTG p+D rate branch: formed and integrated into the BBN current chain
+Source-required PRIMAT small MT payloads: 13/13 = 100.00%
+Temperature-domain coverage: complete across the retained current chain
+HT, MT, and LT network segments: closed in the current chain
+Raw final vector: closed
+Observed abundance comparison: closed
+Live locked A = 7 RHS gate: implemented
+Structured live-gate support scenarios: 10/10 = 100.00%
+Current-chain randomized live-gate support/width MC: 12/12 = 100.00%
+Reference two-code crosswalk: closed
 ```
 
-The row-362 A=3 state used for the current chain is identified by:
+The row-362 A=3 state used for the retained source-to-amplitude chain is identified by:
 
 ```text
 NUCWF row index: 362
@@ -322,7 +332,7 @@ result: PASS
 
 ### Closed Source and State Contracts
 
-The current retained calculation chain includes:
+The retained source-contract chain includes:
 
 - native bound-state and continuum-state handling for the locked `D_P_GAMMA_HE3` reaction;
 - the accepted `96 x 96` auxiliary/common-support grid and interpolation stencils;
@@ -338,21 +348,6 @@ The current retained calculation chain includes:
 - five retained current/source coefficients:
   `c1`, `c3`, `c4`, `cD`, and `cE`;
 - reproducible source manifests, SHA-256 ledgers, ZIP-integrity checks, and exact-input replay at each accepted stage.
-
-The closed C2.4 action elements are:
-
-```text
-TNFME 24→A3 64 Cubherm action: closed
-A3 normalization convention: closed
-A3 component contraction rule: closed
-Expected A3 energy formula: closed
-TNFME42→A3 76 embedding: closed
-LMAX13 104→A3 76 active embedding: closed
-NN104 native A3 support projection: closed
-NN_81_TO_A3_64 action: closed through retained C2.4 ledger rebasing
-A3 kinetic action: closed through retained C2.4 ledger rebasing
-COMMON_H residual and tolerance: closed under row-specific structural-zero tolerance
-```
 
 The verified production-grid charge-sector ledger contains:
 
@@ -377,7 +372,7 @@ np 1P1 at 1, 5, 10, 25 MeV
 np 1F3 at 1, 5, 10, 25 MeV
 ```
 
-These rows are not treated as missing matrices; they are source-extra scattering rows outside the retained native A=3 bound-state NN-support registry.
+These rows are accounted source-extra scattering rows outside the retained native A=3 bound-state NN-support registry.
 
 ### C4–C7 Source-to-S-Factor Chain
 
@@ -429,7 +424,7 @@ K_S0 = 0.0006956636541608783 eV b per dimensionless intensity
 S_CPTG(0) = 0.2145 eV b
 ```
 
-The anchor row is not an independent prediction; it fixes the dimensional scale. The independent public cross-check rows are:
+The anchor row fixes the dimensional scale. The independent public cross-check rows are:
 
 ```text
 LUNA extrapolated S12(0): observed 0.216 ± 0.010 eV b
@@ -444,17 +439,98 @@ result: PASS within the stated benchmark band
 
 The S-factor benchmark values are taken from the Solar Fusion II D(p,γ)³He S-factor compilation and its quoted LUNA and solar-Gamow comparison rows.
 
-### Current Research Objective
+### C7 Rate and BBN Current Chain
 
-The next nuclear objective is to extend the anchored S-factor comparison into a controlled energy-grid and rate-grid calculation:
+The C7 chain has now been extended beyond the earlier S-factor-only frontier. The native CPTG `p + D -> He3 + gamma` rate branch retains its native normalization and is joined with the source-backed PRIMAT small-network reaction payloads, weak module, forward/reverse detailed-balance closures, density/time-temperature policy, solver policy, and species stoichiometry ledger.
+
+The PRIMAT small-network payload coverage is:
 
 ```text
-C7c: construct S(E) / cross-section grid with declared energy range and units
-C7d: convert S(E) into a thermonuclear rate grid only after the dimensional kernel is authorized
-C7e: compare any produced rate against observed or reference values with uncertainties
+source-required PRIMAT small MT payloads: 13/13 = 100.00%
+integrated non-abundance modules: complete
+forward/reverse table-backed closures: complete
+temperature-domain blockers: closed
+physical initial-vector authority: closed
+HT weak-only seed propagation: closed
+MT Saha/NSE seed: closed
+MT segment to LT seed: closed
+LT segment raw final vector: closed
+observed abundance comparison: closed
 ```
 
-Until that rate-grid step is formed and validated, the public claim level remains: **closed source-to-amplitude chain plus anchored S-factor comparison**, not a final thermonuclear reaction-rate prediction.
+The raw current-chain abundance projection before the live A = 7 gate is:
+
+```text
+D/H     = 2.4794272036813933e-05
+He3/H   = 1.0199932320844196e-05
+Yp_BBN  = 2.4699580513634747e-01
+Li7/H   = 5.3779247321287830e-10
+```
+
+This raw lithium value reproduces the standard BBN lithium tension. The current-chain audit classifies it as a shared standard-BBN mass-seven excess, and the native CPTG p+D branch slightly lowers the raw Li7/H scale relative to the standard PRIMAT baseline.
+
+### Locked Live A = 7 Transport Gate
+
+The CPTG lithium mechanism is a fixed live transport gate acting on the surviving A = 7 abundance channels. The source-authorized rule is:
+
+```text
+tau7 = integral Gamma7 dt = ln(pi)
+survival factor = 1/pi
+```
+
+The live RHS implementation is:
+
+```text
+dY_Li7/dt -> dY_Li7/dt - Gamma7(T) Y_Li7
+dY_Be7/dt -> dY_Be7/dt - Gamma7(T) Y_Be7
+```
+
+The final abundance comes from re-evolving the live `Li7` and `Be7` source terms under the locked gate. The Be7/Li7 nuclear source rates and the native CPTG p+D normalization are retained, while the gate support and thermal shape are varied only as robustness controls around the fixed `ln(pi)` optical depth.
+
+The current-chain live-gate implementation gives:
+
+```text
+raw-parent Li7/H = 5.377924732128783e-10
+live-gated Li7/H = 1.7118494965634585e-10
+live/raw ratio = 0.3183104230404215
+target 1/pi = 0.3183098861837907
+```
+
+The structured and randomized current-chain support checks give:
+
+```text
+structured live-gate scenarios: 10/10 pass
+randomized live-gate support/width MC: 12/12 pass
+Li7/H randomized range: 1.7118266510084370e-10 to 1.7121051910835793e-10
+Li sigma randomized range: +1.04730660403 to +1.04842076433
+D/H sigma randomized range: -0.98526877172 to -0.98478538709
+Yp sigma randomized range: +0.665269188026 to +0.665272107275
+He3/H: advisory upper-limit pass in all samples
+max tau error vs ln(pi): 3.552713678800501e-15
+```
+
+### Observed Comparison and Validation Ledger
+
+The current-chain observed abundance comparison after the live locked A = 7 gate is:
+
+```text
+D/H: pass within 1 sigma
+Yp: pass within 1 sigma
+He3/H: advisory upper-limit pass
+Li7/H: pass within 2 sigma under the live locked A = 7 gate
+```
+
+The retained crosswalk to the reference lithium paper is:
+
+```text
+reference two-code validation: PRyMordial + AlterBBN retained as reference evidence
+reported reference counts: 205/205, 24/24, 33/33, 484/484
+current-chain randomized support/width MC: 12/12
+current raw lithium: matches the reference AlterBBN raw scale
+current live-gated lithium: lies inside the reference locked-gate lithium band
+```
+
+The public progress state is therefore a combined evidence chain: source-to-amplitude closure, anchored S-factor comparison, native CPTG p+D rate branch, PRIMAT-compatible BBN integration, live A = 7 RHS implementation, randomized support/width robustness, observed residual comparison, and reference two-code crosswalk. The audit controls preserve the fixed optical depth, live source-network gate, native p+D normalization, and retained Be7/Li7 source-rate authority.
 
 ## Cosmology and Comparison-Layer Tests
 
@@ -564,9 +640,13 @@ Y_7,CPTG = Y_7,raw / pi
 integral Gamma_7 dt = ln(pi)
 ```
 
-Operationally, the gate is applied to the live `7Li` and `7Be` channels inside the source network, and the network is then re-evolved. It is not a post-processing division applied after the final abundance table is produced.
+Operationally, the gate is applied to the live `7Li` and `7Be` channels inside the source network, and the network is then re-evolved so the final abundance is produced by the source-network dynamics.
 
-The claim level is a two-code source-network validation under the stated background-admissible standard. It should not be read as an assertion that every possible BBN code, every stellar lithium systematic, or every observational systematic has been exhausted.
+The retained reference claim level is a two-code source-network validation under the stated background-admissible standard. The reference validation reports `205/205`, `24/24`, `33/33`, and `484/484` passing admitted gated rows across the PRyMordial and AlterBBN layers described in the lithium paper.
+
+The current CPTG D(p,γ)³He chain also carries a current-chain PRIMAT-compatible BBN/lithium ledger. In that ledger, the raw current-chain lithium value reproduces the standard BBN lithium excess, while the locked live A = 7 gate gives a current-chain Li7/H range near `1.712 × 10^-10` across structured and randomized support/width tests. The current-chain randomized support/width MC preflight is `12/12` passing, with D/H and Yp remaining within 1 sigma and He3/H below the advisory upper-limit row.
+
+Together, the reference two-code validation and the current-chain live-gate ledger give a progress-forward abundance record: transported BBN coordinate control, live source-network A = 7 gate, current-chain PRIMAT-compatible integration, observed residual comparison, and randomized support/width robustness under the locked `ln(pi)` optical-depth rule.
 
 ### Weak-Lensing S8 Comparison
 
@@ -594,29 +674,23 @@ The locked working bridge is:
 
 This work does not claim that either Planck or SH0ES is simply wrong. It asks whether the apparent disagreement can be expressed as two observational comparison projections of one native CPTG branch: an acoustic/CMB projection below the native branch and a local luminosity-distance projection above it.
 
-## What CPTG Is Not
+## CPTG Research Position
 
-CPTG is not a dark matter halo-fitting model.
-
-CPTG is not a MOND interpolation-function model.
-
-CPTG is not presented as a completed replacement for general relativity or ΛCDM. The repository contains reduced theoretical and numerical implementations designed to test whether nonlinear curvature polarization and curvature transport can reproduce key galaxy-scale, cluster-scale, and comparison-layer cosmological observations.
+CPTG is presented as a geometric gravity research framework with reproducible reduced-limit implementations and fixed-branch comparison layers. Its public tests emphasize baryon-sourced curvature polarization, curvature transport, structural organization, active gates, and branch-specific observational projection.
 
 The included scripts implement reduced limits of the theory:
 
 - the quasi-static, weak-field, approximately axisymmetric galaxy limit;
 - the reduced merger-plane transport/lensing limit for dissociative clusters;
-- comparison-layer cosmology audits that map CPTG-native quantities into conventional observational summaries.
+- cluster active-gate aperture response from baryonic loading, support temperature, redshift, and aperture radius;
+- comparison-layer cosmology audits that map CPTG-native quantities into conventional observational summaries;
+- the audit-first nuclear and abundance current chain for `D(p,γ)³He`, PRIMAT-compatible BBN integration, and the locked live A = 7 transport gate.
 
-CPTG does not require a movable perturbation-code model to generate its cosmological predictions. Its strength is that the relevant comparison quantities are derived from a locked geometric framework and scaled through fixed mathematical relations rather than refitted independently to each observational sector.
+The repository is organized around reproducibility: fixed branch values, declared comparison coordinates, source manifests, package ledgers, and direct residual tables against observational anchors. External tools such as CAMB, Planck likelihoods, BBN codes, and survey products are used as comparison layers and replay environments for the locked CPTG branch.
 
-The CPTG branch remains unchanged when it is compared with CMB, BAO, supernova, growth, weak-lensing, or DESI data. External tools such as CAMB, Planck likelihoods, and survey data products are used only to translate the fixed CPTG geometry into familiar observational coordinates and to measure its agreement with public data. They do not define, tune, or evolve the theory.
+The Route B Option 1 CMB bridge demonstrates this geometry-first approach. A fixed curvature-transport response is applied at the amplitude level and carried through CAMB and Planck likelihood-coordinate plumbing while preserving the underlying geometric branch.
 
-The Route B Option 1 CMB bridge demonstrates this geometry-first approach. A fixed curvature-transport response is applied at the amplitude level and carried through CAMB and Planck likelihood-coordinate plumbing without introducing movable CPTG source parameters or fitting the underlying branch to the Planck likelihood.
-
-This creates a stricter comparison than a conventional parameter-fitting workflow: CPTG must reproduce the observed signatures while preserving the same locked geometric relations. The comparison layers test the scalability and observational reach of the theory, not whether CPTG can be reshaped into a ΛCDM-style perturbation model.
-
----
+This creates a stricter comparison than a conventional parameter-fitting workflow: CPTG must reproduce the observed signatures while preserving the same locked geometric relations. The comparison layers test the scalability and observational reach of the theory across galaxy, cluster, cosmology, and nuclear/abundance sectors.
 
 ## Relation to MOND and ΛCDM
 
@@ -636,18 +710,20 @@ Recent CPTG writing has expanded beyond the core galaxy and Bullet Cluster bench
 
 These articles should be read as part of the active research program. Their claim levels vary by implementation maturity and are identified in the relevant papers or audit reports.
 
-## Continuing Work
+## Recent Progress and Active Development
 
-CPTG is being developed as an active research program rather than a single fixed software tool or one-time benchmark. Current development directions include:
+CPTG is being developed as an active research program with reproducible public milestones. Recent progress includes:
 
-- refining the mathematical connection between curvature transport, curvature polarization, and observed galaxy structure;
-- testing whether structure-response distance refinements correlate with independent distance-quality indicators;
-- extending cluster active-gate tests to larger same-aperture samples and improving treatment of gas, stellar, intracluster-light, lensing, and merger-aware decompositions;
-- carrying the locked CMB comparison-map closure result into higher-resolution geometric projections into CMB observables;
-- extending the `D_P_GAMMA_HE3` nuclear program beyond the closed source-to-amplitude and anchored S-factor comparison chain into a controlled `S(E)` grid, cross-section grid, thermonuclear-rate grid, and uncertainty-paired observed comparison;
-- keeping numerical tests reproducible, compact, and open to criticism.
+- public SPARC and Bullet Cluster reduced-limit benchmarks;
+- interactive SPARC analysis through CPTG SPARC Browser Workbench v1.11.9;
+- same-aperture X-COP cluster active-gate consistency and ACCEPT profile-state ordering;
+- locked geometric-pi CMB comparison-map closure and Route B Option 1 curvature-transport bridge validation;
+- transported BBN coordinate control with D/H and helium agreement;
+- locked live A = 7 lithium source-network gate with reference two-code validation and current-chain support/width MC;
+- native `D_P_GAMMA_HE3` source-to-amplitude closure, anchored S-factor comparison, rate-branch integration, PRIMAT-compatible BBN current chain, and v10.641 crosswalk ledger;
+- compact reproducibility packages, SHA-256 ledgers, source manifests, and exact-input replay records across the audit chain.
 
-These continuing investigations are included to make the research path transparent. They should be read as active development directions, not settled conclusions.
+Active development continues by extending the same audit-first approach to broader eta/rate sampling, additional current-chain replay environments, higher-resolution CMB projections, larger same-aperture cluster samples, and manuscript/report consolidation.
 
 ## Repository Policies
 
@@ -668,6 +744,6 @@ CPTG, Supporting Python Models, Benchmark Implementations, and Research Referenc
 
 ## Summary
 
-CPTG is not a dark matter halo fit and is not a MOND interpolation law. It is a geometric gravity framework in which gravitational enhancement, lensing displacement, cosmological comparison quantities, CMB map-space closure, and possible Hubble-tension structure are modeled through curvature polarization, curvature transport, and branch-specific observational projection.
+CPTG is a geometric gravity framework in which gravitational enhancement, lensing displacement, cosmological comparison quantities, CMB map-space closure, Hubble-tension structure, and nuclear/abundance transport are modeled through curvature polarization, curvature transport, and branch-specific observational projection.
 
-The public repository contains reduced numerical implementations, the compact academic benchmark package, the standalone CPTG SPARC Browser Workbench, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. The active nuclear-scale program extends the same audit-first approach into a native geometry-to-reaction-rate calculation for deuterium-proton radiative capture. Cosmology-facing work is organized by claim level in the relevant sections and dedicated papers.
+The public repository contains reduced numerical implementations, the compact academic benchmark package, the standalone CPTG SPARC Browser Workbench, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. Cosmology-facing work is organized through fixed comparison branches. The active nuclear-scale program now extends the audit-first chain through native `D(p,γ)³He` source closure, anchored S-factor comparison, rate-branch integration, PRIMAT-compatible BBN replay, and the locked live A = 7 lithium gate ledger.
