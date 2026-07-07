@@ -1,5 +1,8 @@
 # CPTG
+
 ## Curvature Polarization Transport Gravity
+
+---
 
 ## Contents
 
@@ -18,6 +21,8 @@
 - [Cosmology and Comparison-Layer Tests](#cosmology-and-comparison-layer-tests)
 - [CPTG Research Position](#cptg-research-position)
 - [Citation](#citation)
+
+---
 
 ## Start Here: Core CPTG Papers
 
@@ -39,6 +44,8 @@ The repository provides two complementary public access paths:
 - **CPTG academic package** — the compact reproducibility archive for the core SPARC galaxy and Bullet Cluster reduced-limit benchmarks.
 - **CPTG SPARC Browser Workbench v1.11.9** — a larger standalone application for users focused on interactive SPARC rotation-curve analysis.
 
+---
+
 ### CPTG SPARC Browser Workbench
 
 The **CPTG SPARC Browser Workbench v1.11.9** is a local browser application available as a Windows release package and as a Python application for supported Windows and Linux environments.
@@ -46,6 +53,8 @@ The **CPTG SPARC Browser Workbench v1.11.9** is a local browser application avai
 It analyzes the included SPARC galaxy rotation-curve files with CPTG and MOND and supports single-galaxy and batch analysis, SPARC metadata filtering, plots, tables, summaries, and downloadable result bundles.
 
 [View the interface](images/CPTG_SPARC_Browser_Workbench.png) · [Download v1.11.9](https://github.com/CLG2025/CPTG/releases/tag/v1.11.9)
+
+---
 
 ### CPTG Pi-Bridge
 
@@ -65,6 +74,8 @@ CPTG is built around two linked mechanisms:
 * **Curvature transport**, which allows organized curvature to be redistributed directionally in dynamic systems.
 
 The framework is tested across galaxy rotation curves, cluster-merger lensing, relaxed galaxy clusters, cosmology-facing comparison layers, and a completed nuclear-scale radiative-capture extension to the CPTG lithium solution. The repository provides the current theory papers, CPTG SPARC Browser Workbench, included data, public figures, and reproducible validation materials for inspection, testing, and criticism.
+
+---
 
 ## Current Research Status
 
@@ -93,6 +104,8 @@ Claim levels are used consistently throughout this README:
 - **Anchored comparison** — a dimensional comparison whose normalization is explicitly anchored to a stated observable, with independent rows treated as cross-checks rather than as free refits.
 - **Theory mechanism** — a derived interpretation connected to a dedicated comparison or audit layer.
 
+---
+
 ## What This Repository Contains
 
 This repository contains the public academic package for CPTG, including:
@@ -108,6 +121,8 @@ This repository contains the public academic package for CPTG, including:
 The recommended compact reproducibility download is **`CPTG_academic_package.zip`**, located in the **`/archive/`** folder. It preserves the public core benchmark environment for the SPARC galaxy and Bullet Cluster reduced-limit tests.
 
 The larger **CPTG SPARC Browser Workbench v1.11.9** is distributed separately for interactive rotation-curve analysis. Additional Python files in the repository should be treated as version upgrades, development variants, or replacement implementations unless a specific package README states otherwise.
+
+---
 
 ## Reproducing the Public Benchmarks
 
@@ -261,6 +276,8 @@ This work provides a same-aperture test of both the accuracy and structural resp
 
 This result should be read as a diagnostic cluster-scale active-gate pass and an X-COP same-aperture consistency pass. It is not a claim that one single-aperture formula describes strong cluster mergers without decomposition. Strong mergers are best treated separately unless gas, stellar, temperature, and mass components can be assigned consistently to the same dynamical aperture.
 
+---
+
 ## Nuclear-Scale Reaction Program: Deuterium-Proton Radiative Capture
 
 CPTG now includes a native nuclear-scale extension of the [lithium solution](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Cosmological_Lithium_Problem.pdf) built around deuterium-proton radiative capture,
@@ -308,7 +325,10 @@ This gives
 ```text
 K_S0 = 0.0006956649414530029 eV b
 S12,CPTG(0) = K_S0 I_CPTG = 0.2145003969219307 eV b
+S12,CPTG(0) / 0.2145 = 1.0000018504518913
 ```
+
+The rounded `0.2145 eV b` value is therefore only a display-level shorthand. The operative CPTG default for the reaction theory is the closed-form normalization above, and dependent reaction-rate and abundance comparisons use the corresponding `1.0000018504518913` scale.
 
 The observed comparison row is
 
@@ -323,7 +343,7 @@ The solar-Gamow comparison row is
 
 ```text
 E0 = 6.64 keV
-S12,CPTG(E0) = 0.25163174176576003 eV b
+S12,CPTG(E0) = 0.2516322073981925 eV b
 result: PASS within the stated benchmark band
 ```
 
@@ -440,6 +460,8 @@ result: PASS
 ```
 
 The finished nuclear-scale result is therefore a coupled reaction-and-abundance extension: native D(p,γ)³He source geometry, coherent amplitude, S-factor normalization, p+D rate propagation, live A = 7 lithium transport, and two-code BBN validation under the same locked `1/π` survival rule.
+
+---
 
 ## Cosmology and Comparison-Layer Tests
 
@@ -563,7 +585,7 @@ result: PASS
 ```
 
 ```text
-AlterBBN:
+AlterBBN source-network validation:
 D/H pull = -0.27586206896551463 sigma
 Yp pull = +0.699999999999997 sigma
 gated Li7/H = 1.6841776077984365e-10
@@ -571,7 +593,35 @@ Li7 pull after gate = +0.9367104311937463 sigma
 result: PASS
 ```
 
-This establishes the public abundance claim as a source-network result: a transported BBN coordinate, a native D(p,γ)³He reaction-rate extension, and a locked live A = 7 curvature-transport gate that resolves the mass-seven excess while preserving the light-element comparison rows.
+The closed-form D(p,γ)³He normalization also propagates through a high-precision AlterBBN reaction-rate comparison. Relative to the rounded anchor, the rate scale is
+
+```text
+closed-form/default display scale = 1.0000018504518913
+```
+
+The corresponding high-precision abundance response is
+
+```text
+Yp:    0.24728924324539345
+D/H:   2.4348223639496304e-05
+He3/H: 1.0311437909300730e-05
+Li7/H: 5.4661777402483630e-10
+Li6/H: 1.0726676158966467e-14
+Be7/H: 5.1798681429209550e-10
+```
+
+The ppm-level shifts relative to the rounded-anchor rate are
+
+```text
+Yp:    +0.000501503673 ppm
+D/H:   -0.666644711631 ppm
+He3/H: +0.730801208411 ppm
+Li7/H: +1.142530974942 ppm
+Li6/H: -0.655629287414 ppm
+Be7/H: +1.217913134845 ppm
+```
+
+This establishes the public abundance claim as a source-network result: a transported BBN coordinate, a native D(p,γ)³He reaction-rate extension using the closed-form CPTG normalization, and a locked live A = 7 curvature-transport gate that resolves the mass-seven excess while preserving the light-element comparison rows.
 
 ### Weak-Lensing S8 Comparison
 
@@ -599,6 +649,8 @@ The locked working bridge is:
 
 This work does not claim that either Planck or SH0ES is simply wrong. It asks whether the apparent disagreement can be expressed as two observational comparison projections of one native CPTG branch: an acoustic/CMB projection below the native branch and a local luminosity-distance projection above it.
 
+---
+
 ## CPTG Research Position
 
 CPTG is presented as a geometric gravity research framework with reproducible reduced-limit implementations and fixed-branch comparison layers. Its public tests emphasize baryon-sourced curvature polarization, curvature transport, structural organization, active gates, and branch-specific observational projection.
@@ -617,6 +669,8 @@ The Route B Option 1 CMB bridge demonstrates this geometry-first approach. A fix
 
 This creates a stricter comparison than a conventional parameter-fitting workflow: CPTG must reproduce the observed signatures while preserving the same locked geometric relations. The comparison layers test the scalability and observational reach of the theory across galaxy, cluster, cosmology, and nuclear/abundance sectors.
 
+---
+
 ## Relation to MOND and ΛCDM
 
 The repository compares CPTG to MOND-style galaxy predictions and to the broader dark-matter-halo interpretation associated with ΛCDM, but these comparisons are not identical in type.
@@ -629,11 +683,15 @@ The CPTG SPARC tools evaluate CPTG directly against observed galaxy rotation dat
 
 Compared with ΛCDM halo fitting, CPTG makes a different kind of test: it asks whether galaxy rotation behavior and dissociative cluster-lensing offsets can be reproduced geometrically through baryon-sourced curvature response rather than by fitting non-baryonic halo components.
 
+---
+
 ## Recent CPTG Articles and Research Notes
 
 Recent CPTG writing has expanded beyond the core galaxy and Bullet Cluster benchmarks into focused theory and validation articles, including CMB comparison-map closure, Route B Option 1 CMB comparison-coordinate bridge validation, Pantheon+ distance-shape tests, BBN and lithium source-network validation, weak-lensing S8 diagnostics, DESI compressed-coordinate tests, Hubble-tension bridge work, cosmological horizon-mechanism work, compact high-redshift galaxy stress tests, cluster active-gate extensions, and the completed nuclear geometry-to-reaction-rate extension for deuterium-proton radiative capture.
 
 These articles should be read as part of the active research program. Their claim levels vary by implementation maturity and are identified in the relevant papers and reproducibility notes.
+
+---
 
 ## Recent Progress and Active Development
 
@@ -650,10 +708,14 @@ CPTG is being developed as an active research program with reproducible public m
 
 Active development continues by extending the same reproducibility-first approach to broader eta/rate sampling, higher-resolution CMB projections, larger same-aperture cluster samples, and manuscript/report consolidation.
 
+---
+
 ## Repository Policies
 
 - [Security policy](SECURITY.md)
 - [Citation information](#citation)
+
+---
 
 ## Citation
 
