@@ -35,6 +35,9 @@
 - **[The Science Behind CPTG: A Geometric Alternative to Dark Matter, Dark Energy, and MOND](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/The_Science_Behind_CPTG.pdf)**  
   A public-facing introduction to Curvature Polarization Transport Gravity. This paper explains what makes CPTG different from dark matter, dark energy, and MOND-style approaches: baryon-sourced curvature polarization, curvature transport, structural modes, active gates, and scalable comparison coordinates derived from one geometric framework rather than sector-by-sector tuning.
   
+- **[CPTG Geometric Nuclear Reaction Theory: Deuterium-Proton Radiative Capture](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Geometric_Nuclear_Reaction_Theory.pdf)**  
+  Reaction-specific nuclear extension of the CPTG lithium solution. This paper carries the native `D(p,γ)³He` source state through coherent amplitude closure, S-factor normalization, p+D rate propagation, BBN-network coupling, and the locked live A = 7 lithium transport gate.
+  
 ---
 
 ## Available Tools
@@ -86,9 +89,9 @@ CPTG is being developed as a geometric framework with reduced-limit tests and co
 | SPARC galaxy rotation curves | Public reduced-limit SPARC test available through the compact academic package and the interactive browser workbench | Reproducible galaxy-scale benchmark |
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Cluster active-gate apertures | Same-aperture cluster-response tests using baryonic loading, support temperature, redshift, and aperture radius | Diagnostic cluster-scale active-gate and X-COP consistency [pass](#Cluster-Scale-Active-Gate-Test-ACCEPT-and-X-COP) |
-| Nuclear-scale deuterium-proton radiative capture | Native CPTG `D(p,γ)³He` reaction theory carries source geometry through a coherent amplitude, S-factor normalization, p+D rate branch, BBN-network propagation, and the locked A = 7 lithium transport gate. | Finished reaction-specific [extension to the lithium solution](#nuclear-scale-reaction-program-deuterium-proton-radiative-capture): source-to-amplitude closure, S-factor comparison, network-coupled rate propagation, PRyMordial/AlterBBN validation, and observed D/H, Yp, He3/H, and Li7/H residual ledger |
+| Nuclear-scale deuterium-proton radiative capture | Native CPTG `D(p,γ)³He` reaction theory carries source geometry through a coherent amplitude, S-factor normalization, p+D rate branch, BBN-network propagation, and the locked A = 7 lithium transport gate. | Finished reaction-specific [extension to the lithium solution](#nuclear-scale-reaction-program-deuterium-proton-radiative-capture): source-to-amplitude closure, S-factor comparison, PRyMordial admitted abundance row, AlterBBN high-precision rate-response marker, and observed light-element residual ledger |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape [pass](#Pantheon-Supernova-Distance-Shape-Test), not an H0 calibration claim |
-| BBN abundance and lithium tests | Transported BBN coordinate, locked live A = 7 lithium gate, PRyMordial/AlterBBN source-network validation, and the native D(p,γ)³He reaction-rate extension | Coordinate-layer and source-network [validation](#bbn-abundance-and-lithium-source-network-tests): deuterium and helium remain within their comparison bands while the A = 7 gate maps the raw standard-BBN lithium excess into the observed primordial lithium range |
+| BBN abundance and lithium tests | Transported BBN coordinate, locked live A = 7 lithium gate, PRyMordial admitted abundance row, AlterBBN rate-response marker, and the native D(p,γ)³He reaction-rate extension | Coordinate-layer and source-network [validation](#bbn-abundance-and-lithium-source-network-tests): deuterium and helium remain within their comparison bands while the A = 7 gate maps the raw standard-BBN lithium excess into the observed primordial lithium range |
 | Weak-lensing S8 | Compressed comparison against representative weak-lensing and CMB S8 anchors | Diagnostic [pass](#Weak-Lensing-S8-Comparison), not a full shear likelihood |
 | CMB comparison-map closure | Locked geometric-pi CMB branch tested against real Planck/WMAP temperature-map products and null controls | Real-map [comparison-map closure](#CMB-Comparison-Map-Closure) pass |
 | CMB Route B Option 1 bridge | Fixed amplitude-level curvature-transport bridge tested through CMB spectrum and Planck likelihood-coordinate plumbing | Geometry-first comparison-coordinate bridge [validation](#CMB-Route-B-Option-1-Curvature-Transport-Bridge) |
@@ -286,182 +289,83 @@ CPTG now includes a native nuclear-scale extension of the [lithium solution](htt
 ²H + p → ³He + γ
 ```
 
-together with the reverse photodisintegration channel,
+and the reverse photodisintegration channel,
 
 ```text
 ³He + γ → p + ²H
 ```
 
-The purpose of the extension is to show that the same curvature-polarization and transport framework used in the cosmological lithium solution can also be carried through a reaction-specific nuclear channel. The calculation links a CPTG source-state construction to a coherent transition amplitude, an astrophysical S-factor normalization, a native p+D rate branch, and BBN-network propagation.
+The extension links a CPTG source-state construction to a coherent reaction amplitude, a closed-form astrophysical S-factor normalization, a native p+D thermonuclear rate branch, BBN-network propagation, and the locked live A = 7 lithium transport gate. It should be read as a reaction-specific geometric nuclear theory for this commissioned channel, not as a claim that all nuclear reactions are solved without separate source construction.
 
-In this reading, the nuclear reaction theory is not a separate phenomenological fit. It supplies the D(p,γ)³He reaction-rate ingredient that sits underneath the abundance calculation and connects the lithium gate to a concrete radiative-capture channel.
+### Closed Reaction Values
 
-### Reaction Formula and S-Factor Normalization
-
-The source-to-S-factor layer begins with the closed CPTG reaction intensity,
+The source-state layer uses 68 NP3 support indices. The companion support ledger contains four scalar records per support index, giving 272 scalar support records and 340 coherent amplitude terms after the five current/source coefficients are applied.
 
 ```text
-A_CPTG = 17.5595746398194
-I_CPTG = |A_CPTG|² = 308.3386615313886
+NP3 support indices = 68
+support scalar records = 68 × 4 = 272
+coherent amplitude terms = 68 × 5 = 340
+A_C6 = 17.5595746398194
+I_C7 = |A_C6|² = 308.3386615313886
 ```
 
-The completed zero-energy normalization is
+The completed dimensional bridge is
 
 ```text
-K_S0 = α π / (33 - 1/(7π)) eV b per dimensionless source intensity
-```
-
-or, in the support-split form used by the reaction ledger,
-
-```text
-K_S0 = α π / [3(NP3B - 1) - 1/((NP3A/8)π)] eV b
-NP3A = 56
-NP3B = 12
-NP3 = NP3A + NP3B = 68
-```
-
-This gives
-
-```text
+alpha^-1 = 137.035999177
+K_S0 = α π / (33 - 1/(7π)) eV b
 K_S0 = 0.0006956649414530029 eV b
-S12,CPTG(0) = K_S0 I_CPTG = 0.2145003969219307 eV b
+S12,CPTG(0) = 0.2145003969219307 eV b
 S12,CPTG(0) / 0.2145 = 1.0000018504518913
+S12,CPTG(6.64 keV) = 0.2516322073981925 eV b
 ```
 
-The rounded `0.2145 eV b` value is therefore only a display-level shorthand. The operative CPTG default for the reaction theory is the closed-form normalization above, and dependent reaction-rate and abundance comparisons use the corresponding `1.0000018504518913` scale.
-
-The observed comparison row is
+The zero-energy external comparison is the LUNA-extrapolated value reported by Solar Fusion II,
 
 ```text
 S12,obs(0) = 0.216 ± 0.010 eV b
-CPTG residual = -0.0014996030780693 eV b
-CPTG pull = -0.1499603078069277 sigma
+CPTG pull = -0.149960 sigma
 result: PASS
 ```
 
-The solar-Gamow comparison row is
+### BBN Coupling and Lithium Gate
+
+The reaction branch is propagated through the transported BBN abundance coordinate,
 
 ```text
-E0 = 6.64 keV
-S12,CPTG(E0) = 0.2516322073981925 eV b
-result: PASS within the stated benchmark band
-```
-
-### Source-State Structure
-
-The native reaction source uses a resolved A = 3 state with 68 NP3 support indices. The support ledger contains four scalar components per support index, giving 272 support-slot scalar records and 340 coherent amplitude terms once the five current/source coefficients are applied.
-
-```text
-NP3 support indices: 68
-support-slot scalar records: 68 × 4 = 272
-amplitude terms: 68 × 5 = 340
-```
-
-The support-slot scalar components are
-
-```text
-T_A3 = 27.0897 MeV
-V_NN = -34.8757 MeV
-V_3NF = 0.0465074 MeV
-E_table = -7.73945407385108 MeV
-```
-
-with the energy-balance check
-
-```text
-T_A3 + V_NN + V_3NF = -7.739492600000001 MeV
-absolute residual = 0.000038526148920858816 MeV
-structural-zero floor = 0.00010005000000500001 MeV
-result: PASS
-```
-
-The current/source coefficient set is
-
-```text
-c1 = -1.23     GeV^-1
-c3 = -4.65     GeV^-1
-c4 =  3.28     GeV^-1
-cD =  0.8918
-cE = -0.38595
-```
-
-### Rate Branch and BBN Network Coupling
-
-The S-factor layer is carried into a native CPTG p+D radiative-capture rate branch. That branch is then propagated through the BBN abundance calculation rather than being left as a standalone nuclear observable.
-
-Before applying the lithium transport gate, the raw abundance projection is
-
-```text
-D/H     = 2.4794272036813933e-05
-He3/H   = 1.0199932320844196e-05
-Yp_BBN  = 2.4699580513634747e-01
-Li7/H   = 5.3779247321287830e-10
-```
-
-The raw lithium value reproduces the standard mass-seven excess. The CPTG lithium solution then applies the locked A = 7 curvature-transport gate to the live 7Li and 7Be abundance channels,
-
-```text
-τ7 = ∫ Γ7 dt = ln(π)
-survival factor = exp(-τ7) = 1/π
-```
-
-implemented as
-
-```text
-dY_Li7/dt → dY_Li7/dt - Γ7(T) Y_Li7
-dY_Be7/dt → dY_Be7/dt - Γ7(T) Y_Be7
-```
-
-The gated current projection is
-
-```text
-raw-parent Li7/H = 5.377924732128783e-10
-live-gated Li7/H = 1.7118494965634585e-10
-live/raw ratio = 0.3183104230404215
-target 1/π = 0.3183098861837907
-```
-
-Across support and width variations of the live gate, the abundance band remains stable:
-
-```text
-Li7/H range = 1.7118266510084370e-10 to 1.7121051910835793e-10
-Li7 pull range = +1.04730660403 to +1.04842076433 sigma
-D/H pull range = -0.98526877172 to -0.98478538709 sigma
-Yp pull range = +0.665269188026 to +0.665272107275 sigma
-He3/H: advisory upper-limit pass
-```
-
-### PRyMordial and AlterBBN Validation
-
-The nuclear reaction extension is propagated through independent BBN-network environments. Both PRyMordial and AlterBBN preserve the same physical interpretation: the raw mass-seven abundance sits at the standard-BBN excess scale, and the locked CPTG A = 7 gate maps it into the observed primordial lithium band while preserving deuterium and helium consistency.
-
-```text
-PRyMordial propagation:
 eta10_BBN = 5.998071834744
-D/H pull = -0.019 sigma
-Yp pull = +0.231 sigma
-raw Li7/H = 5.266820229187348e-10
-gated Li7/H = 1.6764809477031113e-10
-Li7 pull after gate = +0.9059237908124455 sigma
-result: PASS
+Omega_b h²_BBN = 0.021898765370
+```
+
+and then through the locked live A = 7 CPTG transport gate,
+
+```text
+tau7 = ln(pi)
+survival factor = exp(-tau7) = 1/pi
+```
+
+The admitted PRyMordial abundance row and the AlterBBN high-precision rate-response marker are distinct checks, not competing abundance fits:
+
+```text
+PRyMordial admitted transported row:
+raw Li7/H = 5.2668261732457650e-10
+gated Li7/H = 1.6764828397556692e-10
+Li7 pull after gate = +0.90593 sigma
+D/H and Yp controls: PASS
 ```
 
 ```text
-AlterBBN propagation:
-eta10_BBN = 5.998071834744
-D/H = 2.500e-05
-D/H pull = -0.27586206896551463 sigma
-Yp = 0.2471
-Yp pull = +0.699999999999997 sigma
-raw Li7/H = 5.291e-10
-gated Li7/H = 1.6841776077984365e-10
-Li7 pull after gate = +0.9367104311937463 sigma
-result: PASS
+AlterBBN high-precision rate-response marker:
+raw Li7/H = 5.4661777402483630e-10
+fixed-gate Li7/H = 1.7399384143588267e-10
+Li7 diagnostic pull after gate = +1.15975 sigma
+role: rate-response marker, not an independent full abundance-admission row
 ```
 
-The finished nuclear-scale result is therefore a coupled reaction-and-abundance extension: native D(p,γ)³He source geometry, coherent amplitude, S-factor normalization, p+D rate propagation, live A = 7 lithium transport, and two-code BBN validation under the same locked `1/π` survival rule.
+The public nuclear-scale claim is therefore compact: native `D(p,γ)³He` source geometry closes to a coherent amplitude and S-factor normalization, the p+D rate branch propagates into BBN, deuterium and helium controls remain protected in the admitted abundance row, and the locked live A = 7 gate maps the raw mass-seven excess into the observed lithium comparison band without fitting a new lithium-depletion parameter.
 
 ---
+
 
 ## Cosmology and Comparison-Layer Tests
 
@@ -555,73 +459,42 @@ CPTG has been tested against Pantheon+ supernova distance-shape data using a ful
 
 ### BBN Abundance and Lithium Source-Network Tests
 
-CPTG abundance work is organized around the transported BBN coordinate and the locked lithium source-network gate. The transported abundance coordinate is
+CPTG abundance work is organized around the transported BBN coordinate and the locked live A = 7 source-network gate. The transported abundance coordinate is
 
 ```text
 eta10_BBN = 5.998071834744
 Omega_b h²_BBN = 0.021898765370
 ```
 
-The [lithium problem](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Cosmological_Lithium_Problem.pdf) is treated as a surviving mass-seven abundance problem because most final primordial lithium is carried through `7Be` during BBN and later appears as `7Li`. The CPTG gate is
+The [lithium problem](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Cosmological_Lithium_Problem.pdf) is treated as a surviving mass-seven abundance problem because most final primordial lithium is carried through `7Be` during BBN and later appears as `7Li`. The locked CPTG gate is
 
 ```text
-Y7,CPTG = Y7,raw / π
-∫ Γ7 dt = ln(π)
+Y7,CPTG = Y7,raw / pi
+∫ Gamma7 dt = ln(pi)
 ```
 
 Operationally, the gate is applied to the live `7Li` and `7Be` channels inside the source network. The network is then re-evolved so the final abundance is produced dynamically rather than by a post-processing label.
 
-The deuterium-proton radiative-capture extension supplies the native D(p,γ)³He reaction branch that connects the source geometry to the BBN abundance calculation. In the combined abundance result, deuterium and helium remain inside their comparison bands, He3/H stays below the advisory upper-limit row, and the locked A = 7 gate moves the raw standard-BBN lithium excess into the observed primordial lithium range.
-
-Representative coupled-network rows are
+The deuterium-proton radiative-capture extension supplies the native `D(p,γ)³He` reaction branch underneath the abundance calculation. The admitted PRyMordial row gives
 
 ```text
-PRyMordial:
-D/H pull = -0.019 sigma
-Yp pull = +0.231 sigma
-gated Li7/H = 1.6764809477031113e-10
-Li7 pull after gate = +0.9059237908124455 sigma
-result: PASS
+raw Li7/H = 5.2668261732457650e-10
+gated Li7/H = 1.6764828397556692e-10
+Li7 pull after gate = +0.90593 sigma
+D/H and Yp controls: PASS
 ```
+
+The AlterBBN result is kept as a high-precision rate-response marker for the same closed-form reaction branch:
 
 ```text
-AlterBBN source-network validation:
-D/H pull = -0.27586206896551463 sigma
-Yp pull = +0.699999999999997 sigma
-gated Li7/H = 1.6841776077984365e-10
-Li7 pull after gate = +0.9367104311937463 sigma
-result: PASS
+raw Li7/H = 5.4661777402483630e-10
+fixed-gate Li7/H = 1.7399384143588267e-10
+Li7 diagnostic pull after gate = +1.15975 sigma
+role: rate-response marker, not an independent full abundance-admission row
 ```
 
-The closed-form D(p,γ)³He normalization also propagates through a high-precision AlterBBN reaction-rate comparison. Relative to the rounded anchor, the rate scale is
+This establishes the public abundance claim as a source-network result: a transported BBN coordinate, a native `D(p,γ)³He` reaction-rate extension using the closed-form CPTG normalization, and a locked live A = 7 curvature-transport gate that resolves the mass-seven excess while preserving the light-element comparison controls in the admitted abundance row.
 
-```text
-closed-form/default display scale = 1.0000018504518913
-```
-
-The corresponding high-precision abundance response is
-
-```text
-Yp:    0.24728924324539345
-D/H:   2.4348223639496304e-05
-He3/H: 1.0311437909300730e-05
-Li7/H: 5.4661777402483630e-10
-Li6/H: 1.0726676158966467e-14
-Be7/H: 5.1798681429209550e-10
-```
-
-The ppm-level shifts relative to the rounded-anchor rate are
-
-```text
-Yp:    +0.000501503673 ppm
-D/H:   -0.666644711631 ppm
-He3/H: +0.730801208411 ppm
-Li7/H: +1.142530974942 ppm
-Li6/H: -0.655629287414 ppm
-Be7/H: +1.217913134845 ppm
-```
-
-This establishes the public abundance claim as a source-network result: a transported BBN coordinate, a native D(p,γ)³He reaction-rate extension using the closed-form CPTG normalization, and a locked live A = 7 curvature-transport gate that resolves the mass-seven excess while preserving the light-element comparison rows.
 
 ### Weak-Lensing S8 Comparison
 
@@ -661,7 +534,7 @@ The included scripts implement reduced limits of the theory:
 - the reduced merger-plane transport/lensing limit for dissociative clusters;
 - cluster active-gate aperture response from baryonic loading, support temperature, redshift, and aperture radius;
 - comparison-layer cosmology audits that map CPTG-native quantities into conventional observational summaries;
-- the completed nuclear and abundance extension for `D(p,γ)³He`, BBN-network integration, the locked live A = 7 transport gate, and PRyMordial/AlterBBN source-network validation.
+- the completed nuclear and abundance extension for `D(p,γ)³He`, BBN-network integration, the locked live A = 7 transport gate, and PRyMordial admitted row and AlterBBN rate-response marker.
 
 The repository is organized around reproducibility: fixed branch values, declared comparison coordinates, source manifests, and direct residual tables against observational anchors. External tools such as CAMB, Planck likelihoods, BBN codes, and survey products are used as comparison layers for the locked CPTG branch.
 
@@ -702,8 +575,8 @@ CPTG is being developed as an active research program with reproducible public m
 - same-aperture X-COP cluster active-gate consistency and ACCEPT profile-state ordering;
 - locked geometric-pi CMB comparison-map closure and Route B Option 1 curvature-transport bridge validation;
 - transported BBN coordinate control with D/H and helium agreement;
-- locked live A = 7 lithium source-network gate with PRyMordial and AlterBBN validation;
-- native `D(p,γ)³He` source-to-amplitude closure, S-factor normalization, p+D rate-branch integration, BBN-network coupling, and observed light-element residual comparison;
+- locked live A = 7 lithium source-network gate with a PRyMordial admitted row and an AlterBBN rate-response marker;
+- native `D(p,γ)³He` source-to-amplitude closure, S-factor normalization, p+D rate-branch integration, PRyMordial admitted abundance validation, AlterBBN high-precision rate-response marking, and observed light-element residual comparison;
 - compact reproducibility packages, source manifests, and exact-input records across the public materials.
 
 Active development continues by extending the same reproducibility-first approach to broader eta/rate sampling, higher-resolution CMB projections, larger same-aperture cluster samples, and manuscript/report consolidation.
@@ -733,4 +606,4 @@ CPTG, Supporting Python Models, Benchmark Implementations, and Research Referenc
 
 CPTG is a geometric gravity framework in which gravitational enhancement, lensing displacement, cosmological comparison quantities, CMB map-space closure, Hubble-tension structure, and nuclear/abundance transport are modeled through curvature polarization, curvature transport, and branch-specific observational projection.
 
-The public repository contains reduced numerical implementations, the compact academic benchmark package, the standalone CPTG SPARC Browser Workbench, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. Cosmology-facing work is organized through fixed comparison branches. The nuclear-scale extension completes the lithium-solution chain through native `D(p,γ)³He` source closure, S-factor normalization, p+D rate-branch integration, BBN-network propagation, the locked live A = 7 lithium gate, and PRyMordial/AlterBBN abundance validation.
+The public repository contains reduced numerical implementations, the compact academic benchmark package, the standalone CPTG SPARC Browser Workbench, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. Cosmology-facing work is organized through fixed comparison branches. The nuclear-scale extension completes the lithium-solution chain through native `D(p,γ)³He` source closure, S-factor normalization, p+D rate-branch integration, BBN-network propagation, the locked live A = 7 lithium gate, and PRyMordial admitted abundance validation and AlterBBN rate-response marking.
