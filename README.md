@@ -263,7 +263,7 @@ This result should be read as a diagnostic cluster-scale active-gate pass and an
 
 ## Nuclear-Scale Reaction Program: Deuterium-Proton Radiative Capture
 
-CPTG now includes a native nuclear-scale extension of the lithium solution built around deuterium-proton radiative capture,
+CPTG now includes a native nuclear-scale extension of the [lithium solution](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Cosmological_Lithium_Problem.pdf) built around deuterium-proton radiative capture,
 
 ```text
 ²H + p → ³He + γ
@@ -540,7 +540,7 @@ eta10_BBN = 5.998071834744
 Omega_b h²_BBN = 0.021898765370
 ```
 
-The lithium problem is treated as a surviving mass-seven abundance problem because most final primordial lithium is carried through `7Be` during BBN and later appears as `7Li`. The CPTG gate is
+The [lithium problem](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Cosmological_Lithium_Problem.pdf) is treated as a surviving mass-seven abundance problem because most final primordial lithium is carried through `7Be` during BBN and later appears as `7Li`. The CPTG gate is
 
 ```text
 Y7,CPTG = Y7,raw / π
