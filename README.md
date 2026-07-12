@@ -45,17 +45,17 @@
 The repository provides two complementary public access paths:
 
 - **CPTG academic package** — the compact reproducibility archive for the core SPARC galaxy and Bullet Cluster reduced-limit benchmarks.
-- **CPTG SPARC Browser Workbench v1.11.9** — a larger standalone application for users focused on interactive SPARC rotation-curve analysis.
+- **CPTG SPARC Browser Workbench v1.12.0** — a larger standalone application for users focused on interactive SPARC rotation-curve analysis.
 
 ---
 
 ### CPTG SPARC Browser Workbench
 
-The **CPTG SPARC Browser Workbench v1.11.9** is a local browser application available as a Windows release package and as a Python application for supported Windows and Linux environments.
+The **CPTG SPARC Browser Workbench v1.12.0** is a local browser application distributed as a Windows release package and as Python source for supported Windows and Linux environments.
 
-It analyzes the included SPARC galaxy rotation-curve files with CPTG and MOND and supports single-galaxy and batch analysis, SPARC metadata filtering, plots, tables, summaries, and downloadable result bundles.
+It analyzes the included SPARC galaxy rotation-curve files with CPTG and MOND. The workbench supports single-galaxy and batch analysis, primary/excluded/unmatched metadata views, rotation-curve and RAR plots, compact comparison tables, and optional saved result packages. Results are processed locally and are not retained unless the user explicitly enables file saving.
 
-[View the interface](images/CPTG_SPARC_Browser_Workbench.png) · [Download v1.11.9](https://github.com/CLG2025/CPTG/releases/tag/v1.11.9)
+[View the interface](images/CPTG_SPARC_Browser_Workbench.png) · [Download v1.12.0](https://github.com/CLG2025/CPTG/releases/tag/v1.12.0)
 
 ---
 
@@ -123,7 +123,7 @@ This repository contains the public academic package for CPTG, including:
 
 The recommended compact reproducibility download is **`CPTG_academic_package.zip`**, located in the **`/archive/`** folder. It preserves the public core benchmark environment for the SPARC galaxy and Bullet Cluster reduced-limit tests.
 
-The larger **CPTG SPARC Browser Workbench v1.11.9** is distributed separately for interactive rotation-curve analysis. Additional Python files in the repository should be treated as version upgrades, development variants, or replacement implementations unless a specific package README states otherwise.
+The larger **CPTG SPARC Browser Workbench v1.12.0** is distributed separately for interactive rotation-curve analysis. The release contains the prebuilt Windows application, local build and Python launch options, included SPARC data and metadata, and the current cross-platform Python source. Additional Python files in the repository should be treated as development variants or replacement implementations unless a specific package README states otherwise.
 
 ---
 
@@ -154,29 +154,32 @@ The main public benchmark scripts are:
 
 ## Galaxy-Scale Test: CPTG SPARC Browser Workbench
 
-The **CPTG SPARC Browser Workbench v1.11.9** provides a local browser interface for testing CPTG and MOND against SPARC galaxy rotation-curve data.
+The **CPTG SPARC Browser Workbench v1.12.0** provides a local browser interface for testing CPTG and MOND against SPARC galaxy rotation-curve data.
 
-The standalone workbench [package](https://github.com/CLG2025/CPTG/releases/tag/v1.11.9) includes the SPARC galaxy data needed to begin running analyses immediately. It supports:
+The standalone [release package](https://github.com/CLG2025/CPTG/releases/tag/v1.12.0) includes the SPARC galaxy files and metadata needed to begin running analyses immediately. It supports:
 
-- single-galaxy analysis,
-- multi-galaxy analysis,
-- full SPARC directory scans,
-- SPARC metadata files,
-- primary-sample filtering,
-- CPTG and MOND fit comparisons,
+- searchable single- and multi-galaxy selection,
+- individual-galaxy and batch analysis,
+- metadata views for all, primary, excluded, and unmatched galaxies,
+- primary-sample filtering when a metadata file is active,
+- CPTG and MOND rotation-curve comparisons,
 - averaged normalized rotation curves,
-- averaged RAR scatter vs radius,
-- galaxy-level fit and structural-mode summaries.
+- averaged RAR scatter versus radius,
+- compact result tables reporting total points, total chi-square, chi-square per point, RMS residuals, and mean observed/model velocities,
+- galaxy-level fit and Curvature-Weighted Structural Mode Index summaries,
+- optional CSV, JSON, PNG, and ZIP output saving.
 
-All calculations are performed locally. Each galaxy is solved independently before aggregate results and plots are generated.
+All calculations are performed locally. Each galaxy is solved independently before aggregate statistics and plots are generated. By default, completed analyses are displayed in the browser without retaining a run folder. Output files are written under `/runs/` only when the user explicitly selects **Save result files**.
+
+When metadata is enabled, the galaxy list defaults to the primary sample while preserving the user's previous metadata-view selection during the browser session. Primary, excluded, and unmatched galaxies remain separately identifiable, and checked galaxies from any active view can be processed.
 
 For aggregate plots, each galaxy is normalized independently and interpolated onto a shared normalized radial grid. Each galaxy receives equal weight at each grid location, and the outer endpoint at `r / r_max = 1` is retained.
 
 SPARC data source: Lelli, McGaugh, and Schombert, *The Astronomical Journal* 152, 157 (2016), “SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves.”
 
-The figure below summarizes the averaged SPARC results produced by the workbench.
+The figure below summarizes averaged SPARC results produced by the workbench.
 
-![CPTG SPARC Browser Workbench summary showing the average normalized RAR scatter vs radius and the average normalized SPARC rotation curve.](images/combined_workbench_plots_side_by_side.png)
+![CPTG SPARC Browser Workbench summary showing the average normalized SPARC rotation curve on the left and the average normalized RAR scatter versus radius on the right.](images/combined_workbench_plots_side_by_side.png)
 
 <sup>Figure: CPTG SPARC Browser Workbench averaged results for the full 175-galaxy SPARC run. Primary-sample metadata filtering was not applied to this figure.</sup>
 
@@ -571,7 +574,7 @@ These articles should be read as part of the active research program. Their clai
 CPTG is being developed as an active research program with reproducible public milestones. Recent progress includes:
 
 - public SPARC and Bullet Cluster reduced-limit benchmarks;
-- interactive SPARC analysis through CPTG SPARC Browser Workbench v1.11.9;
+- interactive SPARC analysis through CPTG SPARC Browser Workbench v1.12.0, including primary/excluded/unmatched metadata views, compact comparison tables, and opt-in result saving;
 - same-aperture X-COP cluster active-gate consistency and ACCEPT profile-state ordering;
 - locked geometric-pi CMB comparison-map closure and Route B Option 1 curvature-transport bridge validation;
 - transported BBN coordinate control with D/H and helium agreement;
