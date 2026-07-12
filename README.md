@@ -158,7 +158,7 @@ The **CPTG SPARC Browser Workbench v1.12.0** provides a local browser interface 
 
 The standalone [release package](https://github.com/CLG2025/CPTG/releases/tag/v1.12.0) includes the SPARC galaxy files and metadata needed to begin running analyses immediately. It supports:
 
-- searchable single- and multi-galaxy selection,
+- searchable single and multi-galaxy selection,
 - individual-galaxy and batch analysis,
 - metadata views for all, primary, excluded, and unmatched galaxies,
 - primary-sample filtering when a metadata file is active,
