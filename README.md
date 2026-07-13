@@ -61,7 +61,7 @@ The earlier deuterium-proton capture result remains valid, but it is now underst
 
 The theory structure is closed. Current long-duration work is focused on full-resolution native-network qualification, adversarial numerical stress testing, independent replication, and publication—not on retuning the governing geometry.
 
-No universal equations, constants, source matrices, or normalization identities are reproduced here. They will be released in the final research article with the complete derivation and evidence chain.
+No universal equations, constants, source matrices, or normalization identities are reproduced here. They will be released in the final research article with the complete derivation and evidence chain. Complete disclosure is expected on or before August 15, 2026.
 
 Supporting materials are being organized in **[`/nuclear-reactions/`](nuclear-reactions/)**.
 
