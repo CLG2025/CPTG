@@ -248,7 +248,9 @@ The goal is not merely to report a result, but to preserve the complete chain ne
 
 ## Repository Structure
 
-The directory is organized around source authority and reproducibility.
+The directory is organized around **immutable, versioned evidence packages** rather than attempting to separate every script, protocol, dataset, manifest, and report into independent folders.
+
+Many CPTG packages are designed as complete audit objects. A single package may contain its executable source, validation protocol, raw or derived evidence, logs, manifests, reports, checksums, and upload markers. When those components are bound together by package-level hashes, the package must remain intact. Splitting or reorganizing its contents would break the preserved evidence chain.
 
 ```text
 /nuclear-reactions/
@@ -256,27 +258,25 @@ The directory is organized around source authority and reproducibility.
 ├── papers/
 │   ├── universal-theory/
 │   └── commissioning-paper/
-├── source/
-│   ├── native-network/
-│   ├── transport-polarization/
-│   └── stress-testing/
-├── protocols/
-│   ├── execution/
-│   ├── validation/
-│   └── fail-closed-safety/
-├── evidence/
-│   ├── discovery/
-│   ├── held-out/
-│   ├── audits/
-│   └── manifests/
-├── data/
-│   ├── endpoint-rows/
-│   ├── reaction-currents/
-│   └── derived-coordinates/
+├── packages/
+│   ├── theory-development/
+│   ├── native-validation/
+│   ├── stress-testing/
+│   ├── protocol-frameworks/
+│   └── audits-and-handoffs/
+├── package-index/
+│   ├── PACKAGE_LEDGER.md
+│   ├── EVIDENCE_LEDGER.md
+│   ├── SHA256SUMS.txt
+│   └── RELEASE_NOTES.md
 └── releases/
 ```
 
-Individual packages may retain their original versioned directory names so that hashes and evidence references remain stable.
+Each item under `packages/` should retain its original versioned filename and internal directory structure. Packages may be stored as ZIP archives, extracted directories, or both, but the hash-authoritative archive must not be altered.
+
+Where a package contains source code, protocols, data, evidence, logs, manifests, and reports together, that package is the authoritative unit of publication. Separate copies may be published for readability, but they must be labeled as convenience copies and must not replace the original hashed package.
+
+The `package-index/` directory records what each package contains, its scientific role, version, status, SHA-256 digest, and relationship to earlier or later packages. This provides repository navigation without dismantling the evidence objects themselves.
 
 ---
 
@@ -357,18 +357,6 @@ The remaining work in this directory is implementation, publication, replication
 ---
 
 ## Citation
-
-When citing this extension, use the accompanying universal-theory research article stored under:
-
-```text
-/nuclear-reactions/papers/universal-theory/
-```
-
-The earlier commissioning paper should be cited separately when discussing the original deuterium–proton capture and primordial mass-seven transport result.
-
----
-
-## Project
 
 **Curvature Polarization Transport Gravity**
 
