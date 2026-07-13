@@ -360,6 +360,6 @@ The remaining work in this directory is implementation, publication, replication
 
 **Curvature Polarization Transport Gravity**
 
-Repository: [CLG2025/CPTG](https://github.com/CLG2025/CPTG)
+Repository: https://github.com/CLG2025/CPTG
 
 Author: **Carter L. Glass Jr.**
