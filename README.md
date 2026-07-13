@@ -7,6 +7,7 @@
 ## Contents
 
 - [Core CPTG Papers](#start-here-core-cptg-papers)
+- [Latest Milestone](#latest-milestone-universal-geometric-nuclear-reaction-breakthrough)
 - [Available Tools](#available-tools)
 - [Overview](#overview)
 - [Current Research Status](#current-research-status)
@@ -17,7 +18,7 @@
 - [Outer-Slope Convergence Test](#outer-slope-convergence-test)
 - [Bullet Cluster Benchmark](#cluster-merger-test-bullet-cluster-benchmark)
 - [Cluster Active-Gate Test](#cluster-scale-active-gate-test-accept-and-x-cop)
-- [Nuclear-Scale Reaction Program](#nuclear-scale-reaction-program-deuterium-proton-radiative-capture)
+- [Universal Geometric Nuclear Reaction Theory](#universal-geometric-nuclear-reaction-theory)
 - [Cosmology and Comparison-Layer Tests](#cosmology-and-comparison-layer-tests)
 - [CPTG Research Position](#cptg-research-position)
 - [Citation](#citation)
@@ -36,8 +37,35 @@
   A public-facing introduction to Curvature Polarization Transport Gravity. This paper explains what makes CPTG different from dark matter, dark energy, and MOND-style approaches: baryon-sourced curvature polarization, curvature transport, structural modes, active gates, and scalable comparison coordinates derived from one geometric framework rather than sector-by-sector tuning.
   
 - **[CPTG Geometric Nuclear Reaction Theory: Deuterium-Proton Radiative Capture](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Geometric_Nuclear_Reaction_Theory.pdf)**  
-  Reaction-specific nuclear extension of the CPTG lithium solution. This paper carries the native `D(p,γ)³He` source state through coherent amplitude closure, S-factor normalization, p+D rate propagation, BBN-network coupling, and the locked live A = 7 lithium transport gate.
+  Commissioning-stage nuclear-reaction paper. It established the first complete CPTG source-to-network chain for deuterium-proton capture and the primordial mass-seven transport result.
+
+- **Universal Geometric Nuclear Reaction Theory: Hydrogen, Deuterium, Helium-3, and Helium-4**  
+  Final research article in preparation. The closed universal theory, validation packages, protocol framework, and evidence-chain records are being organized under **[`/nuclear-reactions/`](nuclear-reactions/)**. The governing equations are intentionally withheld from this README and will be disclosed in the final paper.
   
+---
+
+## Latest Milestone: Universal Geometric Nuclear Reaction Breakthrough
+
+CPTG has reached theoretical closure of a universal geometric nuclear-reaction framework for **hydrogen, deuterium, helium-3, and helium-4**.
+
+The breakthrough replaces the earlier single-channel view with one ordered light-element architecture:
+
+- hydrogen provides the free-nucleon vertex;
+- deuterium forms the first bound bridge;
+- the mass-three sector supplies geometric closure;
+- helium-4 forms the saturated endpoint.
+
+The completed framework combines ordered reaction transport with one charge-constrained internal polarization degree of freedom. It preserves baryon number and electric charge, distinguishes direct microscopic source current from network redistribution, and places the light-element reaction channels inside one common geometric source space.
+
+The earlier deuterium-proton capture result remains valid, but it is now understood as the commissioning projection of the larger universal theory.
+
+The theory structure is closed. Current long-duration work is focused on full-resolution native-network qualification, adversarial numerical stress testing, independent replication, and publication—not on retuning the governing geometry.
+
+No universal equations, constants, source matrices, or normalization identities are reproduced here. They will be released in the final research article with the complete derivation and evidence chain.
+
+Supporting materials are being organized in **[`/nuclear-reactions/`](nuclear-reactions/)**.
+
+
 ---
 
 ## Available Tools
@@ -76,7 +104,7 @@ CPTG is built around two linked mechanisms:
 * **Curvature polarization**, which modifies the effective gravitational response according to the strength and structure of the field.
 * **Curvature transport**, which allows organized curvature to be redistributed directionally in dynamic systems.
 
-The framework is tested across galaxy rotation curves, cluster-merger lensing, relaxed galaxy clusters, cosmology-facing comparison layers, and a completed nuclear-scale radiative-capture extension to the CPTG lithium solution. The repository provides the current theory papers, CPTG SPARC Browser Workbench, included data, public figures, and reproducible validation materials for inspection, testing, and criticism.
+The framework is tested across galaxy rotation curves, cluster-merger lensing, relaxed galaxy clusters, cosmology-facing comparison layers, and a closed universal nuclear-reaction extension spanning hydrogen, deuterium, helium-3, and helium-4. The repository provides the current theory papers, CPTG SPARC Browser Workbench, included data, public figures, and reproducible validation materials for inspection, testing, and criticism.
 
 ---
 
@@ -89,7 +117,7 @@ CPTG is being developed as a geometric framework with reduced-limit tests and co
 | SPARC galaxy rotation curves | Public reduced-limit SPARC test available through the compact academic package and the interactive browser workbench | Reproducible galaxy-scale benchmark |
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Cluster active-gate apertures | Same-aperture cluster-response tests using baryonic loading, support temperature, redshift, and aperture radius | Diagnostic cluster-scale active-gate and X-COP consistency [pass](#Cluster-Scale-Active-Gate-Test-ACCEPT-and-X-COP) |
-| Nuclear-scale deuterium-proton radiative capture | Native CPTG `D(p,γ)³He` reaction theory carries source geometry through a coherent amplitude, S-factor normalization, p+D rate branch, BBN-network propagation, and the locked A = 7 lithium transport gate. | Finished reaction-specific [extension to the lithium solution](#nuclear-scale-reaction-program-deuterium-proton-radiative-capture): source-to-amplitude closure, S-factor comparison, PRyMordial admitted abundance row, AlterBBN high-precision rate-response marker, and observed light-element residual ledger |
+| Universal light-element nuclear-reaction theory | Closed CPTG reaction architecture for hydrogen, deuterium, helium-3, and helium-4, including the free-nucleon vertex, ordered transport, mass-three closure, helium-4 saturation, exact conservation structure, and the complete transport-polarization source space | Universal [theory closure](#universal-geometric-nuclear-reaction-theory); full-resolution native qualification, adversarial stress testing, replication, and final-paper preparation continue under a frozen theoretical structure |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape [pass](#Pantheon-Supernova-Distance-Shape-Test), not an H0 calibration claim |
 | BBN abundance and lithium tests | Transported BBN coordinate, locked live A = 7 lithium gate, PRyMordial admitted abundance row, AlterBBN rate-response marker, and the native D(p,γ)³He reaction-rate extension | Coordinate-layer and source-network [validation](#bbn-abundance-and-lithium-source-network-tests): deuterium and helium remain within their comparison bands while the A = 7 gate maps the raw standard-BBN lithium excess into the observed primordial lithium range |
 | Weak-lensing S8 | Compressed comparison against representative weak-lensing and CMB S8 anchors | Diagnostic [pass](#Weak-Lensing-S8-Comparison), not a full shear likelihood |
@@ -105,6 +133,7 @@ Claim levels are used consistently throughout this README:
 - **Coordinate-layer validation** — a tested observational mapping or likelihood interface.
 - **Closure pass** — agreement within a declared fixed-branch closure protocol.
 - **Anchored comparison** — a dimensional comparison whose normalization is explicitly anchored to a stated observable, with independent rows treated as cross-checks rather than as free refits.
+- **Theory closure** — the governing state structure, conservation laws, source space, and response architecture are fixed; remaining work concerns qualification, replication, implementation, and publication rather than structural retuning.
 - **Theory mechanism** — a derived interpretation connected to a dedicated comparison or audit layer.
 
 ---
@@ -117,13 +146,15 @@ This repository contains the public academic package for CPTG, including:
 - reduced benchmark scripts for galaxy and cluster tests,
 - supporting public data packages and metadata when included,
 - comparison-layer scripts and audit outputs when publicly included,
-- nuclear reaction-rate theory material, source-network validation records, and reproducibility material when publicly included,
+- universal nuclear-reaction theory material, immutable validation packages, protocol documents, source-network records, and reproducibility evidence when publicly included,
 - CMB source/data availability notes and strict rerun file lists,
 - figures, summaries, and reproducibility material.
 
 The recommended compact reproducibility download is **`CPTG_academic_package.zip`**, located in the **`/archive/`** folder. It preserves the public core benchmark environment for the SPARC galaxy and Bullet Cluster reduced-limit tests.
 
 The larger **CPTG SPARC Browser Workbench v1.12.0** is distributed separately for interactive rotation-curve analysis. The release contains the prebuilt Windows application, local build and Python launch options, included SPARC data and metadata, and the current cross-platform Python source. Additional Python files in the repository should be treated as development variants or replacement implementations unless a specific package README states otherwise.
+
+The **[`/nuclear-reactions/`](nuclear-reactions/)** directory is the publication and evidence home for the universal light-element reaction extension. Its package-centered structure preserves complete hashed audit objects. Source code, protocols, raw evidence, logs, manifests, reports, and replay material may remain together inside one immutable package when separating them would break the evidence chain.
 
 ---
 
@@ -284,91 +315,85 @@ This result should be read as a diagnostic cluster-scale active-gate pass and an
 
 ---
 
-## Nuclear-Scale Reaction Program: Deuterium-Proton Radiative Capture
+## Universal Geometric Nuclear Reaction Theory
 
-CPTG now includes a native nuclear-scale extension of the [lithium solution](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Cosmological_Lithium_Problem.pdf) built around deuterium-proton radiative capture,
+CPTG has completed the theoretical transition from a commissioned deuterium-proton capture model to a universal geometric reaction theory for the four light-element states that dominate the primordial reaction ladder:
 
-```text
-²H + p → ³He + γ
-```
+- **Hydrogen — vertex**
+- **Deuterium — bridge**
+- **Helium-3 — closure**
+- **Helium-4 — saturation**
 
-and the reverse photodisintegration channel,
+### The breakthrough
 
-```text
-³He + γ → p + ²H
-```
+The completed theory shows that these light elements are not separate reaction problems requiring unrelated geometric constructions. They form one ordered state system governed by a common transport architecture.
 
-The extension links a CPTG source-state construction to a coherent reaction amplitude, a closed-form astrophysical S-factor normalization, a native p+D thermonuclear rate branch, BBN-network propagation, and the locked live A = 7 lithium transport gate. It should be read as a reaction-specific geometric nuclear theory for this commissioned channel, not as a claim that all nuclear reactions are solved without separate source construction.
+The dynamic vertex includes both free neutrons and free protons. Deuterium provides the first bound transition. Tritium and helium-3 occupy the mass-three closure sector as two internal charge orientations. Helium-4 supplies the saturated endpoint.
 
-### Closed Reaction Values
+The theory separates two physical functions:
 
-The source-state layer uses 68 NP3 support indices. The companion support ledger contains four scalar records per support index, giving 272 scalar support records and 340 coherent amplitude terms after the five current/source coefficients are applied.
+- **ordered transport**, which moves baryonic content through the vertex, bridge, closure, and saturation sequence;
+- **internal polarization**, which preserves the neutron-proton and tritium-helium-3 orientation required by electric-charge conservation.
 
-```text
-NP3 support indices = 68
-support scalar records = 68 × 4 = 272
-coherent amplitude terms = 68 × 5 = 340
-A_C6 = 17.5595746398194
-I_C7 = |A_C6|² = 308.3386615313886
-```
+Together, these functions form the complete reaction-source space for the universal light-element system.
 
-The completed dimensional bridge is
+### What is closed
 
-```text
-alpha^-1 = 137.035999177
-K_S0 = α π / (33 - 1/(7π)) eV b
-K_S0 = 0.0006956649414530029 eV b
-S12,CPTG(0) = 0.2145003969219307 eV b
-S12,CPTG(0) / 0.2145 = 1.0000018504518913
-S12,CPTG(6.64 keV) = 0.2516322073981925 eV b
-```
+The final theory fixes:
 
-The zero-energy external comparison is the LUNA-extrapolated value reported by Solar Fusion II,
+- the four-state physical coordinate;
+- the dynamic free-nucleon vertex;
+- the bridge, closure, and saturation roles;
+- the ordered reaction topology;
+- the exact baryon and charge constraints;
+- the independent transport and polarization directions;
+- the complete reaction-source basis;
+- the curvature-response hierarchy;
+- the separation between direct source current and final network response;
+- the frozen discovery and held-out validation architecture;
+- the fail-closed evidence and replay requirements.
 
-```text
-S12,obs(0) = 0.216 ± 0.010 eV b
-CPTG pull = -0.149960 sigma
-result: PASS
-```
+The governing structure is no longer being developed channel by channel. New reaction channels are interpreted as different projections through the same universal geometry.
 
-### BBN Coupling and Lithium Gate
+### Relationship to the commissioning paper
 
-The reaction branch is propagated through the transported BBN abundance coordinate,
+The earlier paper, *Geometric Nuclear Reaction Theory in CPTG: Deuterium-Proton Capture and Primordial Mass-Seven Transport*, remains the valid commissioning-stage result.
 
-```text
-eta10_BBN = 5.998071834744
-Omega_b h²_BBN = 0.021898765370
-```
+It established that CPTG could carry a native geometric source state through reaction closure, rate propagation, primordial-network coupling, and the locked mass-seven transport result.
 
-and then through the locked live A = 7 CPTG transport gate,
+The universal theory now explains why that first channel worked. Deuterium-proton capture is one projection of the larger transport-polarization architecture rather than the final scope of CPTG nuclear-reaction theory.
 
-```text
-tau7 = ln(pi)
-survival factor = exp(-tau7) = 1/pi
-```
+### Validation status
 
-The admitted PRyMordial abundance row and the AlterBBN high-precision rate-response marker are distinct checks, not competing abundance fits:
+The scalar curvature-response theorem, four-state baryon geometry, and transport-polarization source space have passed their declared closure gates. The current evidence program uses independent discovery and held-out reaction sets, native AlterBBN execution, full-resolution baryon-density and rate sampling, exact reaction-current instrumentation, durable checkpointing, and a separate industrial-scale numerical-rigidity test.
 
-```text
-PRyMordial admitted transported row:
-raw Li7/H = 5.2668261732457650e-10
-gated Li7/H = 1.6764828397556692e-10
-Li7 pull after gate = +0.90593 sigma
-D/H and Yp controls: PASS
-```
+These long-running programs are qualification layers for the closed theory. Their purpose is to measure portability, precision, numerical rigidity, and implementation safety without changing the frozen geometry after held-out exposure.
 
-```text
-AlterBBN high-precision rate-response marker:
-raw Li7/H = 5.4661777402483630e-10
-fixed-gate Li7/H = 1.7399384143588267e-10
-Li7 diagnostic pull after gate = +1.15975 sigma
-role: rate-response marker, not an independent full abundance-admission row
-```
+### Why this matters
 
-The public nuclear-scale claim is therefore compact: native `D(p,γ)³He` source geometry closes to a coherent amplitude and S-factor normalization, the p+D rate branch propagates into BBN, deuterium and helium controls remain protected in the admitted abundance row, and the locked live A = 7 gate maps the raw mass-seven excess into the observed lithium comparison band without fitting a new lithium-depletion parameter.
+The result gives CPTG a universal nuclear-reaction language rather than a collection of reaction-specific fits.
+
+It provides a common framework for:
+
+- primordial light-element networks;
+- nuclear reaction-rate comparison;
+- plasma-state evaluation;
+- high-speed sensitivity calculations;
+- external scientific-model integration;
+- deterministic evidence and replay;
+- future laboratory and reactor-facing translation layers.
+
+The theory also preserves a strict authority boundary: CPTG supplies scientific reaction quantities and comparison coordinates, while external institutions retain ownership of facility integration, controllers, actuators, and safety certification.
+
+### Public disclosure boundary
+
+The universal formulas are intentionally not listed in this README.
+
+The final paper will disclose the governing equations, derivation, constants, source construction, validation protocol, and complete evidence chain together so that the theory is not separated from the conditions under which it was established.
+
+Current public materials, immutable packages, protocol documents, and future manuscript releases are organized under **[`/nuclear-reactions/`](nuclear-reactions/)**.
 
 ---
-
 
 ## Cosmology and Comparison-Layer Tests
 
@@ -496,7 +521,7 @@ Li7 diagnostic pull after gate = +1.15975 sigma
 role: rate-response marker, not an independent full abundance-admission row
 ```
 
-This establishes the public abundance claim as a source-network result: a transported BBN coordinate, a native `D(p,γ)³He` reaction-rate extension using the closed-form CPTG normalization, and a locked live A = 7 curvature-transport gate that resolves the mass-seven excess while preserving the light-element comparison controls in the admitted abundance row.
+This establishes the public abundance claim as a source-network result. Within the completed universal theory, the earlier deuterium-proton branch is retained as the commissioning projection that first connected CPTG source geometry to a live primordial network. The broader hydrogen-deuterium-helium-3-helium-4 architecture now supplies the governing reaction context, while the established mass-seven transport result and light-element controls remain unchanged.
 
 
 ### Weak-Lensing S8 Comparison
@@ -537,7 +562,7 @@ The included scripts implement reduced limits of the theory:
 - the reduced merger-plane transport/lensing limit for dissociative clusters;
 - cluster active-gate aperture response from baryonic loading, support temperature, redshift, and aperture radius;
 - comparison-layer cosmology audits that map CPTG-native quantities into conventional observational summaries;
-- the completed nuclear and abundance extension for `D(p,γ)³He`, BBN-network integration, the locked live A = 7 transport gate, and PRyMordial admitted row and AlterBBN rate-response marker.
+- the closed universal nuclear-reaction architecture for hydrogen, deuterium, helium-3, and helium-4, including its commissioning deuterium-proton projection, primordial-network integration, locked live A = 7 transport gate, and independent qualification layers.
 
 The repository is organized around reproducibility: fixed branch values, declared comparison coordinates, source manifests, and direct residual tables against observational anchors. External tools such as CAMB, Planck likelihoods, BBN codes, and survey products are used as comparison layers for the locked CPTG branch.
 
@@ -563,7 +588,7 @@ Compared with ΛCDM halo fitting, CPTG makes a different kind of test: it asks w
 
 ## Recent CPTG Articles and Research Notes
 
-Recent CPTG writing has expanded beyond the core galaxy and Bullet Cluster benchmarks into focused theory and validation articles, including CMB comparison-map closure, Route B Option 1 CMB comparison-coordinate bridge validation, Pantheon+ distance-shape tests, BBN and lithium source-network validation, weak-lensing S8 diagnostics, DESI compressed-coordinate tests, Hubble-tension bridge work, cosmological horizon-mechanism work, compact high-redshift galaxy stress tests, cluster active-gate extensions, and the completed nuclear geometry-to-reaction-rate extension for deuterium-proton radiative capture.
+Recent CPTG writing has expanded beyond the core galaxy and Bullet Cluster benchmarks into focused theory and validation articles, including CMB comparison-map closure, Route B Option 1 CMB comparison-coordinate bridge validation, Pantheon+ distance-shape tests, BBN and lithium source-network validation, weak-lensing S8 diagnostics, DESI compressed-coordinate tests, Hubble-tension bridge work, cosmological horizon-mechanism work, compact high-redshift galaxy stress tests, cluster active-gate extensions, the commissioning deuterium-proton reaction paper, and the forthcoming universal geometric nuclear-reaction article for hydrogen, deuterium, helium-3, and helium-4.
 
 These articles should be read as part of the active research program. Their claim levels vary by implementation maturity and are identified in the relevant papers and reproducibility notes.
 
@@ -579,10 +604,12 @@ CPTG is being developed as an active research program with reproducible public m
 - locked geometric-pi CMB comparison-map closure and Route B Option 1 curvature-transport bridge validation;
 - transported BBN coordinate control with D/H and helium agreement;
 - locked live A = 7 lithium source-network gate with a PRyMordial admitted row and an AlterBBN rate-response marker;
-- native `D(p,γ)³He` source-to-amplitude closure, S-factor normalization, p+D rate-branch integration, PRyMordial admitted abundance validation, AlterBBN high-precision rate-response marking, and observed light-element residual comparison;
+- completion of the universal hydrogen-deuterium-helium-3-helium-4 reaction architecture, with the four-state geometry, ordered transport, charge-constrained polarization, conservation structure, and complete reaction-source space frozen;
+- preservation of the earlier `D(p,γ)³He` result as the commissioning projection of the universal theory, including its source-to-network and primordial abundance evidence;
+- launch of full-resolution native-network qualification and independent million-trial numerical-rigidity testing under fail-closed, resumable, hash-audited execution;
 - compact reproducibility packages, source manifests, and exact-input records across the public materials.
 
-Active development continues by extending the same reproducibility-first approach to broader eta/rate sampling, higher-resolution CMB projections, larger same-aperture cluster samples, and manuscript/report consolidation.
+Current nuclear work is now focused on qualification, independent replication, publication, protocol implementation, and long-duration stress testing of the frozen theory. Broader CPTG development continues through higher-resolution CMB projections, larger same-aperture cluster samples, and manuscript/report consolidation.
 
 ---
 
@@ -609,4 +636,4 @@ CPTG, Supporting Python Models, Benchmark Implementations, and Research Referenc
 
 CPTG is a geometric gravity framework in which gravitational enhancement, lensing displacement, cosmological comparison quantities, CMB map-space closure, Hubble-tension structure, and nuclear/abundance transport are modeled through curvature polarization, curvature transport, and branch-specific observational projection.
 
-The public repository contains reduced numerical implementations, the compact academic benchmark package, the standalone CPTG SPARC Browser Workbench, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. Cosmology-facing work is organized through fixed comparison branches. The nuclear-scale extension completes the lithium-solution chain through native `D(p,γ)³He` source closure, S-factor normalization, p+D rate-branch integration, BBN-network propagation, the locked live A = 7 lithium gate, and PRyMordial admitted abundance validation and AlterBBN rate-response marking.
+The public repository contains reduced numerical implementations, the compact academic benchmark package, the standalone CPTG SPARC Browser Workbench, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. Cosmology-facing work is organized through fixed comparison branches. At nuclear scale, CPTG has advanced from a commissioned deuterium-proton capture result to a closed universal geometric reaction theory for hydrogen, deuterium, helium-3, and helium-4. The earlier source-to-network and mass-seven results are retained inside that larger framework, while the complete governing formulas are reserved for the final research paper.
