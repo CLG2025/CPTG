@@ -175,7 +175,7 @@ CPTG closes these three layers within one geometric framework.
 
 The earlier article,
 
-> *Geometric Nuclear Reaction Theory in CPTG: Deuterium-Proton Capture and Primordial Mass-Seven Transport*
+> *[Geometric Nuclear Reaction Theory in CPTG: Deuterium-Proton Capture and Primordial Mass-Seven Transport](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Geometric_Nuclear_Reaction_Theory.pdf)*
 
 should be understood as the commissioning-stage demonstration of the nuclear-reaction program.
 
