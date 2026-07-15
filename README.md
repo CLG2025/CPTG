@@ -370,7 +370,7 @@ The governing structure is no longer being developed channel by channel. New rea
 
 ### Relationship to the commissioning paper
 
-The earlier paper, *Geometric Nuclear Reaction Theory in CPTG: Deuterium-Proton Capture and Primordial Mass-Seven Transport*, remains the valid commissioning-stage result.
+The earlier paper, *[Geometric Nuclear Reaction Theory in CPTG: Deuterium-Proton Capture and Primordial Mass-Seven Transport](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Geometric_Nuclear_Reaction_Theory.pdf)*, remains the valid commissioning-stage result.
 
 It established that CPTG could carry a native geometric source state through reaction closure, rate propagation, primordial-network coupling, and the locked mass-seven transport result.
 
