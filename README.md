@@ -48,18 +48,18 @@ CPTG has reached theoretical closure of a universal geometric nuclear-reaction f
 
 The breakthrough replaces the earlier single-channel view with one ordered light-element architecture:
 
-- hydrogen provides the free-nucleon vertex;
+- the free-neutron/proton sector provides the dynamic vertex;
 - deuterium forms the first bound bridge;
-- the mass-three sector supplies geometric closure;
+- the tritium/helium-3 mass-three sector supplies geometric closure;
 - helium-4 forms the saturated endpoint.
 
 The completed framework combines ordered reaction transport with one charge-constrained internal polarization degree of freedom. It preserves baryon number and electric charge, distinguishes direct microscopic source current from network redistribution, and places the light-element reaction channels inside one common geometric source space.
 
-The earlier deuterium-proton capture result remains valid, but it is now understood as the commissioning projection of the larger universal theory.
+The earlier deuterium-proton capture result is retained within its commissioning-stage scope and is now interpreted as a projection of the larger universal theory.
 
-The theory structure is closed. Current long-duration work is focused on full-resolution native-network qualification, adversarial numerical stress testing, independent replication, publication, and implementation of the nuclear-reaction interface—not on retuning the governing geometry.
+The theory structure is closed. The independent million-trial numerical-rigidity campaign has completed and passed, with 900,000 valid mathematical cases, 100,000 injected fault cases intercepted fail-closed, and zero unexpected acceptances, false rejections, or infrastructure errors. Current long-duration work is focused on completing the separate 695-row full-resolution native AlterBBN qualification program, independent replication, publication, and implementation of the nuclear-reaction interface—not on retuning the governing geometry.
 
-No universal equations, constants, source matrices, or normalization identities are reproduced here. They are expected to be released in the final research article, together with the complete derivation and evidence chain, in the fall of 2026.
+No governing universal nuclear-reaction equations, nuclear source matrices, susceptibility coefficients, or normalization identities are reproduced here. They are expected to be released in the final research article, together with the complete derivation and evidence chain, in the fall of 2026.
 
 Supporting materials are being prepared for the planned **`/nuclear-reactions/`** directory.
 
@@ -115,7 +115,7 @@ CPTG is being developed as a geometric framework with reduced-limit tests and co
 | SPARC galaxy rotation curves | Public reduced-limit SPARC test available through the compact academic package and the interactive browser workbench | Reproducible galaxy-scale benchmark |
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Cluster active-gate apertures | Same-aperture cluster-response tests using baryonic loading, support temperature, redshift, and aperture radius | Diagnostic cluster-scale active-gate and X-COP consistency [pass](#cluster-scale-active-gate-test-accept-and-x-cop) |
-| Universal light-element nuclear-reaction theory | Closed CPTG reaction architecture for hydrogen, deuterium, helium-3, and helium-4, including the free-nucleon vertex, ordered transport, mass-three closure, helium-4 saturation, exact conservation structure, and the complete transport-polarization source space | Universal [theory closure](#universal-geometric-nuclear-reaction-theory); full-resolution native qualification, adversarial stress testing, replication, and final-paper preparation continue under a frozen theoretical structure |
+| Universal light-element nuclear-reaction theory | Closed CPTG reaction architecture for hydrogen, deuterium, helium-3, and helium-4, including the free-neutron/proton vertex, ordered transport, tritium/helium-3 mass-three closure, helium-4 saturation, exact conservation structure, and the complete transport-polarization source space | Universal [theory closure](#universal-geometric-nuclear-reaction-theory); the independent million-trial numerical-rigidity campaign has passed, while the 695-row full-resolution native qualification program, replication, and final-paper preparation continue under a frozen theoretical structure |
 | Nuclear-reaction interface and exchange layer | PC-first CPTG Reaction Workbench, deterministic evidence/replay architecture, formula-package authority, compiled-runtime boundary, and external scientific-model interface under active engineering development | Active engineering implementation and qualification |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape [pass](#pantheon-supernova-distance-shape-test), not an H0 calibration claim |
 | BBN abundance and lithium tests | Transported BBN coordinate, locked live A = 7 lithium gate, PRyMordial admitted abundance row, AlterBBN rate-response marker, and the native D(p,γ)³He reaction-rate extension | Coordinate-layer and source-network [validation](#bbn-abundance-and-lithium-source-network-tests): deuterium and helium remain within their comparison bands while the A = 7 gate maps the raw standard-BBN lithium excess into the observed primordial lithium range |
@@ -325,7 +325,7 @@ CPTG has completed the theoretical transition from a commissioned deuterium-prot
 
 ### The breakthrough
 
-The completed theory shows that these light elements are not separate reaction problems requiring unrelated geometric constructions. They form one ordered state system governed by a common transport architecture.
+The closed theoretical architecture establishes that these light elements are not separate reaction problems requiring unrelated geometric constructions. They form one ordered state system governed by a common transport architecture.
 
 The dynamic vertex includes both free neutrons and free protons. Deuterium provides the first bound transition. Tritium and helium-3 occupy the mass-three closure sector as two internal charge orientations. Helium-4 supplies the saturated endpoint.
 
@@ -364,9 +364,9 @@ The universal theory now explains why that first channel worked. Deuterium-proto
 
 ### Validation status
 
-The scalar curvature-response theorem, four-state baryon geometry, and transport-polarization source space have passed their declared closure gates. The current evidence program uses independent discovery and held-out reaction sets, native AlterBBN execution, full-resolution baryon-density and rate sampling, exact reaction-current instrumentation, durable checkpointing, and a separate industrial-scale numerical-rigidity test.
+The scalar curvature-response theorem, four-state baryon geometry, and transport-polarization source space have passed their declared closure gates. The independent million-trial numerical-rigidity campaign has also completed and passed, with 900,000 valid mathematical cases, 100,000 injected fault cases intercepted fail-closed, and zero unexpected acceptances, false rejections, or infrastructure errors. The remaining active evidence program uses independent discovery and held-out reaction sets, native AlterBBN execution, full-resolution baryon-density and rate sampling, exact reaction-current instrumentation, and durable checkpointing across the frozen 695-row qualification design.
 
-These long-running programs are qualification layers for the closed theory. Their purpose is to measure portability, precision, numerical rigidity, and implementation safety without changing the frozen geometry after held-out exposure.
+These qualification layers measure portability, precision, numerical rigidity, and implementation safety without changing the frozen geometry after held-out exposure.
 
 ### Why this matters
 
@@ -392,7 +392,7 @@ Nuclear-reaction computation is not one uniform workload. Evaluated-rate lookup 
 
 CPTG separates the expensive **qualification phase** from the **deployment phase**. Full native-network qualification, held-out validation, and adversarial stress campaigns remain resource-intensive because they establish the scientific authority of the formula and coefficient packages. Once an approved package is frozen, the deployed CPTG solution evaluates a low-dimensional geometric state, reaction-source vector, response operator, and observable projection directly. It does not reconstruct many-body wave functions or rerun the full native qualification network for every query.
 
-**This makes the deployed CPTG nuclear-reaction solution much faster than conventional live microscopic calculation or repeated full-network recalculation.** Current Reaction Workbench formula and state evaluations return effectively immediately on an ordinary PC at human interaction timescales. The intended compiled runtime extends that same direct-evaluation path to vector, batch, trajectory, and external-model calls with modest memory use. Formal latency and throughput claims will remain tied to recorded Workbench qualification benchmarks rather than unsupported estimates.
+**For repeated state-dependent evaluation after qualification, this architecture is designed to make deployed CPTG calculations substantially faster than rerunning microscopic solvers or full native-network calculations.** Current Reaction Workbench formula and state evaluations return effectively immediately on an ordinary PC at human interaction timescales. The intended compiled runtime extends that same direct-evaluation path to vector, batch, trajectory, and external-model calls with modest memory use. Formal latency and throughput claims will remain tied to recorded Workbench qualification benchmarks rather than unsupported estimates.
 
 | Resource layer | Conventional live reaction-computation path | CPTG interface deployment path |
 |---|---|---|
@@ -632,11 +632,11 @@ CPTG is being developed as an active research program with reproducible public m
 - locked live A = 7 lithium source-network gate with a PRyMordial admitted row and an AlterBBN rate-response marker;
 - completion of the universal hydrogen-deuterium-helium-3-helium-4 reaction architecture, with the four-state geometry, ordered transport, charge-constrained polarization, conservation structure, and complete reaction-source space frozen;
 - preservation of the earlier `D(p,γ)³He` result as the commissioning projection of the universal theory, including its source-to-network and primordial abundance evidence;
-- launch of full-resolution native-network qualification and independent million-trial numerical-rigidity testing under fail-closed, resumable, hash-audited execution;
+- completion of the independent million-trial numerical-rigidity campaign under fail-closed, resumable, hash-audited execution, alongside the continuing 695-row full-resolution native-network qualification program;
 - development of the CPTG Reaction Workbench and reaction-exchange layer for deterministic evaluation, evidence capture, replay, and external-model integration;
 - compact reproducibility packages, source manifests, and exact-input records across the public materials.
 
-Current nuclear work is now focused on qualification, independent replication, publication, protocol and interface implementation, and long-duration stress testing of the frozen theory. Broader CPTG development continues through higher-resolution CMB projections, larger same-aperture cluster samples, and manuscript/report consolidation.
+Current nuclear work is now focused on completing the 695-row native qualification program, independent replication, publication, protocol and interface implementation, and continued qualification of the frozen theory. Broader CPTG development continues through higher-resolution CMB projections, larger same-aperture cluster samples, and manuscript/report consolidation.
 
 ---
 
