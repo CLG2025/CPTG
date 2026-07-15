@@ -2,14 +2,14 @@
 
 This directory contains the research papers, source code, validation tools, execution protocols, and evidence packages for the **universal nuclear-reaction extension of Curvature Polarization Transport Gravity (CPTG)**.
 
-The work collected here generalizes the original deuterium–proton capture result into a closed geometric theory for the four light-element states:
+The work collected here generalizes the original deuterium–proton capture result into a **closed four-state geometric theory** for the light-element states:
 
 - **Hydrogen** — vertex
 - **Deuterium** — bridge
 - **Helium-3** — closure
 - **Helium-4** — saturation
 
-The final theory treats these states as one ordered geometric reaction system rather than as unrelated reaction channels.
+The completed theory treats these states as one ordered geometric reaction system rather than as unrelated reaction channels.
 
 ---
 
@@ -25,7 +25,7 @@ That single-channel result established that a nuclear-reaction calculation could
 
 The extension documented in this directory completes that construction.
 
-The final theory identifies a universal reaction architecture in which:
+The universal architecture identifies a reaction system in which:
 
 1. free nucleons define the initial geometric vertex;
 2. deuterium forms the first bound bridge;
@@ -36,11 +36,11 @@ The final theory identifies a universal reaction architecture in which:
 7. baryon number and charge remain exact constraints of the full reaction operator;
 8. the reaction network is represented by a universal transport-polarization response rather than a collection of unrelated empirical fits.
 
-The theory is therefore closed at the level of state definition, reaction topology, conservation structure, source decomposition, curvature response, and network transport.
+The theory is closed at the level of state definition, reaction topology, conservation structure, source decomposition, curvature response, and universal network transport within the tested light-element domain.
 
 ---
 
-## Final Theory
+## Final Theory Architecture
 
 The universal CPTG nuclear-reaction theory is built from four physical roles.
 
@@ -74,7 +74,7 @@ It is the maximally closed light-element state in the four-state system and serv
 
 ## Universal Reaction Architecture
 
-The completed theory separates the nuclear network into two coupled structures.
+The completed architecture separates the nuclear network into two coupled structures.
 
 ### Ordered transport
 
@@ -119,7 +119,7 @@ The theory preserves:
 - the internal polarization constraint;
 - the distinction between source current and final network response.
 
-The reaction-source basis spans the complete transport-polarization space. Independent reaction sets can therefore be used for theory construction and held-out validation without changing the underlying geometry.
+The reaction-source basis spans the complete transport-polarization space. Independent reaction sets were used for construction and held-out validation without changing the underlying geometry or introducing reaction-specific corrections.
 
 ---
 
@@ -133,13 +133,13 @@ The completed curvature structure determines:
 
 - the first-order reaction response;
 - the second-order curvature response;
-- the scale dependence across the primordial baryon-density domain;
+- the scale dependence across the tested primordial baryon-density domain;
 - the relation between direct reaction current and final abundance displacement;
-- the universal network susceptibility connecting source reactions to observable outcomes.
+- the universal network susceptibility connecting the complete reaction-source basis to the full light-element state vector.
 
-The scalar commissioning result is retained as a projection of this larger transport-polarization operator.
+The original scalar commissioning result is retained as one projection of the larger transport-polarization operator.
 
-The universal theory therefore explains why the original deuterium–proton channel succeeded while also showing that the single-channel result was only one observable projection of a broader geometric law.
+The completed universal theory explains why the original deuterium–proton channel succeeded while showing that the single-channel result was one observable projection of a broader geometric law.
 
 ---
 
@@ -189,47 +189,53 @@ It established:
 
 The work in this directory generalizes that result from one principal capture channel to the complete hydrogen–deuterium–helium-3–helium-4 reaction architecture.
 
-The original paper remains valid within its stated scope. The universal theory presented here contains it as a special projection.
+The original paper remains valid within its stated scope. The universal theory presented here contains it as a special scalar projection.
 
 ---
 
 ## Validation Program
 
-The theory is supported by several independent validation layers.
+The formula set has been subjected to multiple independent validation layers before being declared closed.
 
 ### Native reaction-network validation
 
-The native network program tests the universal transport-polarization response across:
+The formulas were evaluated through extensive native reaction-network calculations spanning:
 
 - multiple reaction channels;
-- independent discovery and held-out reaction bases;
+- independent construction and held-out reaction bases;
 - the full light-element state vector;
 - multiple baryon-density rows;
 - symmetric high-precision perturbation scales;
 - first- and second-order response extraction;
 - exact integrated reaction-current measurements;
-- fail-closed candidate freezing before held-out exposure.
+- candidate freezing before held-out exposure;
+- full-resolution transport-polarization reconstruction.
+
+More than **80 hours of native AlterBBN testing** had already been completed before the final full-resolution universal validation. Those earlier calculations encountered no unresolved numerical, conservation, or physical-consistency failures. The final validation then extended the evidence base through **695 additional full-resolution native AlterBBN rows**, requiring roughly **700 hours of computation** across the complete reaction and baryon-density program. It likewise completed without unresolved numerical, conservation, or physical-consistency failures and without requiring refitting, reaction-specific corrections, or changes to the frozen geometric structure.
 
 ### Numerical rigidity and stress testing
 
-The external stress-test suite evaluates the mathematical and software implementation under extreme conditions, including:
+The mathematical and software implementation was also tested under extreme numerical and adversarial conditions, including:
 
 - large randomized state ensembles;
 - matrix-exponential propagation;
+- long-horizon repeated evolution;
+- independent high-precision numerical oracles;
+- boundary and near-singular inputs;
 - underflow and subnormal inputs;
 - nonfinite values;
 - malformed data;
-- simulated memory corruption;
+- simulated corruption;
 - conservation-preserving adversarial perturbations;
 - deterministic replay;
 - invariant monitoring;
 - fail-closed shutdown behavior.
 
-The stress suite tests whether the implementation remains rigid, conservative, and safe under numerical and adversarial pressure.
+These tests found no unresolved violation of the frozen formula contracts, conservation laws, or numerical invariants.
 
-### Evidence-chain audit
+### Independent reconstruction and evidence audit
 
-Every major package is designed to preserve:
+The validation program preserved and independently checked:
 
 - exact source hashes;
 - exact commands;
@@ -242,7 +248,35 @@ Every major package is designed to preserve:
 - independent reconstruction scripts;
 - clean-extraction replay.
 
-The goal is not merely to report a result, but to preserve the complete chain needed to reproduce and audit it.
+The final response structure and held-out predictions were reconstructed from the preserved native evidence without introducing new fitted parameters.
+
+The goal is not merely to report a result, but to preserve the complete chain needed to reproduce, challenge, and independently audit it.
+
+---
+
+## Scope of Closure
+
+The universal CPTG nuclear-reaction formulas are closed for the tested hydrogen–deuterium–helium-3–helium-4 architecture, reaction basis, baryon-density domain, perturbation domain, and native network environment.
+
+Within that scope:
+
+- the four-state geometry is fixed;
+- the source vectors are fixed;
+- the transport and polarization structure is fixed;
+- the first- and second-order curvature response is fixed;
+- the universal network susceptibility is fixed;
+- no reaction-specific fitting is required;
+- no held-out result was used to modify the frozen candidate.
+
+Formula closure does not by itself claim:
+
+- completed absolute-rate derivations for every nuclear reaction;
+- validation for nuclei beyond the stated light-element architecture;
+- laboratory confirmation in every plasma regime;
+- certification for safety-critical reactor control;
+- replacement of independent experimental or network replication.
+
+Those are downstream validation and application domains, not open terms in the closed formula structure.
 
 ---
 
@@ -299,6 +333,8 @@ Long-running native calculations must preserve completed rows and resume only fr
 
 Held-out results must never be used to alter a frozen candidate.
 
+Any future extension must begin as a new validation domain. It must not silently refit or rewrite the consumed evidence supporting the closed light-element theory.
+
 ---
 
 ## Security and Safety Policy
@@ -327,17 +363,17 @@ This repository does not claim that research software alone satisfies the certif
 
 The public README intentionally does not reproduce the closed-form equations.
 
-Formal derivations, normalization conventions, curvature structure, source-current definitions, and validation details are maintained in the versioned research papers and controlled technical packages stored in this directory.
+Formal derivations, normalization conventions, curvature structure, source-current definitions, and validation details are preserved in controlled research papers and hash-bound technical packages.
 
-This keeps the repository overview readable while preserving the complete scientific record in its proper context.
+Public release of the complete formulas and final paper is intentionally sequenced after appropriate intellectual-property protection. This preserves the scientific record while allowing the formulas to be disclosed in full once that protection is secured.
 
 ---
 
 ## Status
 
-The universal CPTG nuclear-reaction framework is presented as complete.
+The universal CPTG nuclear-reaction framework is **formula-closed within its tested scope**.
 
-The final theory includes:
+The completed theory includes:
 
 - the four-state light-element geometry;
 - the dynamic free-nucleon vertex;
@@ -347,12 +383,23 @@ The final theory includes:
 - the ordered transport operator;
 - the charge-constrained polarization mode;
 - the complete reaction-source basis;
-- the curvature response;
-- the network susceptibility;
-- the native held-out validation architecture;
+- the first- and second-order curvature response;
+- the universal network susceptibility;
+- the native construction and held-out validation architecture;
+- independent evidence reconstruction;
 - the numerical rigidity and fail-closed safety framework.
 
-The remaining work in this directory is implementation, publication, replication, and continued independent testing—not alteration of the final theoretical structure.
+The formula-development phase is complete for this domain. Subsequent work consists of:
+
+- independent replication;
+- broader-domain falsification;
+- absolute-rate development for additional channels;
+- experimental comparison;
+- software implementation and performance qualification;
+- intellectual-property protection;
+- formal publication.
+
+New evidence may test or falsify the closed theory, but the consumed validation data must not be reused to refit the formula set after the fact.
 
 ---
 
