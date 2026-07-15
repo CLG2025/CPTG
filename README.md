@@ -290,6 +290,20 @@ The model is scored against observed Bullet Cluster gas, galaxy, and lensing sep
 - main-subclump separation,
 - cluster-scale lensing separation.
 
+### Primary JWST and lensing benchmark reference
+
+The primary high-resolution observational reference used for the Bullet Cluster mass-map interpretation and offset benchmarks in this reduced model is:
+
+> Cha, S., Cho, B. Y., Joo, H., Lee, W., HyeongHan, K., Scofield, Z. P., Finner, K., & Jee, M. J. (2025), “[A High-Caliber View of the Bullet Cluster through JWST Strong and Weak Lensing Analyses](https://arxiv.org/abs/2503.21870),” *The Astrophysical Journal Letters*, **987**, L15.
+
+The CPTG benchmark uses this study for:
+
+- the high-resolution JWST mass-map interpretation;
+- the Bullet subcluster mass-galaxy offset benchmark of **17.78 ± 0.66 kpc**;
+- the Bullet mass-ICM offset target of approximately **150 kpc**;
+- the main-cluster north and south mass-ICM offset targets of approximately **200 kpc** and **400 kpc**;
+- the interpretation that the main cluster contains resolved north/south substructure and that the merger geometry is more complex than a simple binary-merger picture.
+
 The public significance of this test is that CPTG attempts to address not only galaxy rotation curves, but also dissociative cluster mergers, which are often considered strong evidence for collisionless dark matter.
 
 ---
