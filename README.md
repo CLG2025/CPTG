@@ -378,9 +378,13 @@ The universal theory now explains why that first channel worked. Deuterium-proto
 
 ### Validation status
 
-The scalar curvature-response theorem, four-state baryon geometry, and transport-polarization source space have passed their declared closure gates. The independent million-trial numerical-rigidity campaign has also completed and passed, with 900,000 valid mathematical cases, 100,000 injected fault cases intercepted fail-closed, and zero unexpected acceptances, false rejections, or infrastructure errors. The remaining active evidence program uses independent discovery and held-out reaction sets, native AlterBBN execution, full-resolution baryon-density and rate sampling, exact reaction-current instrumentation, and durable checkpointing across the frozen 695-row qualification design.
+The scalar curvature-response theorem, four-state baryon geometry, and transport-polarization source space have passed their declared closure gates. Independent numerical-rigidity testing has also completed successfully, including large-scale valid-case coverage, injected fault interception, and fail-closed verification with no unexpected acceptances or infrastructure failures.
 
-These qualification layers measure portability, precision, numerical rigidity, and implementation safety without changing the frozen geometry after held-out exposure.
+The commissioned reaction branch has now passed native network execution, no-refit observational comparison, and independent second-network replication of the predicted abundance-response direction. The two network implementations agree on the qualitative response while retaining expected quantitative implementation differences.
+
+The remaining active evidence program uses independent discovery and held-out reaction sets, full-resolution baryon-density and rate sampling, exact reaction-current instrumentation, native network execution, and durable checkpointing across the frozen qualification design.
+
+These layers test portability, precision, numerical rigidity, and implementation safety without changing the frozen geometry after held-out exposure.
 
 ### Why this matters
 
