@@ -195,62 +195,82 @@ The original paper remains valid within its stated scope. The universal theory p
 
 ## Validation Program
 
-The formula set has been subjected to multiple independent validation layers before being declared closed.
+The CPTG nuclear-reaction framework is evaluated through several independent validation layers designed to separate mathematical closure, native execution, observational comparison, cross-network portability, and held-out testing.
 
 ### Native reaction-network validation
 
-The formulas were evaluated through extensive native reaction-network calculations spanning:
+The frozen reaction construction has been propagated through native reaction-network calculations spanning:
 
-- multiple reaction channels;
-- independent construction and held-out reaction bases;
-- the full light-element state vector;
-- multiple baryon-density rows;
-- symmetric high-precision perturbation scales;
+- multiple light-element reaction channels;
+- independent construction and held-out reaction sets;
+- multiple primordial baryon-density coordinates;
+- symmetric rate perturbations;
+- exact reaction-current instrumentation;
 - first- and second-order response extraction;
-- exact integrated reaction-current measurements;
-- candidate freezing before held-out exposure;
-- full-resolution transport-polarization reconstruction.
+- full abundance-vector comparison;
+- durable checkpointing and recovery;
+- candidate freezing before held-out exposure.
 
-More than **80 hours of native AlterBBN testing** had already been completed before the final full-resolution universal validation. Those earlier calculations encountered no unresolved numerical, conservation, or physical-consistency failures. The final validation then extended the evidence base through **695 additional full-resolution native AlterBBN rows**, requiring roughly **700 hours of computation** across the complete reaction and baryon-density program. It likewise completed without unresolved numerical, conservation, or physical-consistency failures and without requiring refitting, reaction-specific corrections, or changes to the frozen geometric structure.
+The commissioned deuterium–proton capture branch has completed native network execution and a no-refit observational comparison. The corrected frozen candidate improves the tested abundance vector primarily through its deuterium response while leaving helium effectively unchanged.
+
+### Independent network replication
+
+The commissioned reaction response has also been tested in an independent BBN network implementation.
+
+The second network reproduces the same qualitative abundance-response structure:
+
+- deuterium increases;
+- helium-3 decreases;
+- lithium-7 decreases;
+- helium-4 remains minimally affected.
+
+The response magnitude differs between network implementations, but the shared direction demonstrates that the result is not specific to a single native network code.
 
 ### Numerical rigidity and stress testing
 
-The mathematical and software implementation was also tested under extreme numerical and adversarial conditions, including:
+The mathematical and software implementation has been tested under large-scale numerical and adversarial conditions, including:
 
-- large randomized state ensembles;
-- matrix-exponential propagation;
-- long-horizon repeated evolution;
-- independent high-precision numerical oracles;
-- boundary and near-singular inputs;
-- underflow and subnormal inputs;
-- nonfinite values;
-- malformed data;
-- simulated corruption;
-- conservation-preserving adversarial perturbations;
+- randomized valid-state ensembles;
+- injected malformed and nonphysical inputs;
+- conservation-preserving perturbations;
+- boundary and near-singular cases;
+- nonfinite and underflow conditions;
 - deterministic replay;
 - invariant monitoring;
-- fail-closed shutdown behavior.
+- simulated evidence corruption;
+- fail-closed interruption and recovery.
 
-These tests found no unresolved violation of the frozen formula contracts, conservation laws, or numerical invariants.
+These tests found no unresolved violation of the frozen mathematical contracts, conservation laws, or numerical invariants.
+
+### Full-resolution qualification
+
+The broader universal qualification campaign remains organized around independent discovery, held-out, mirror, and mixed-direction reaction sets.
+
+This program evaluates whether the frozen transport-polarization susceptibility remains valid across the complete tested reaction basis without:
+
+- post-result fitting;
+- reaction-specific correction factors;
+- held-out exclusions;
+- changes to the frozen four-state geometry.
+
+Long-running native calculations preserve committed rows through durable checkpoint and recovery records so that completed evidence is not lost or silently regenerated.
 
 ### Independent reconstruction and evidence audit
 
-The validation program preserved and independently checked:
+The validation program preserves:
 
-- exact source hashes;
-- exact commands;
-- runtime logs;
-- execution ledgers;
-- checkpoint state;
+- exact source and candidate hashes;
+- command records;
+- native execution logs;
+- row-level audits;
+- checkpoint and recovery state;
 - candidate-freeze records;
 - output manifests;
-- raw endpoint data;
+- raw abundance and current data;
 - independent reconstruction scripts;
-- clean-extraction replay.
+- clean-extraction replay evidence.
 
-The final response structure and held-out predictions were reconstructed from the preserved native evidence without introducing new fitted parameters.
-
-The goal is not merely to report a result, but to preserve the complete chain needed to reproduce, challenge, and independently audit it.
+The purpose of this structure is not only to report favorable results, but to preserve the evidence required to reproduce, challenge, or falsify them.
 
 ---
 
@@ -371,9 +391,9 @@ Public release of the complete formulas and final paper is intentionally sequenc
 
 ## Status
 
-The universal CPTG nuclear-reaction framework is **formula-closed within its tested scope**.
+The CPTG nuclear-reaction framework is **formula-closed within its tested light-element scope**.
 
-The completed theory includes:
+The completed theoretical structure includes:
 
 - the four-state light-element geometry;
 - the dynamic free-nucleon vertex;
@@ -384,22 +404,31 @@ The completed theory includes:
 - the charge-constrained polarization mode;
 - the complete reaction-source basis;
 - the first- and second-order curvature response;
-- the universal network susceptibility;
+- the universal network-susceptibility construction;
 - the native construction and held-out validation architecture;
-- independent evidence reconstruction;
-- the numerical rigidity and fail-closed safety framework.
+- the numerical-rigidity and fail-closed evidence framework.
 
-The formula-development phase is complete for this domain. Subsequent work consists of:
+The commissioned deuterium–proton capture branch has additionally passed:
 
-- independent replication;
+- native reaction-network execution;
+- frozen baseline-versus-candidate comparison;
+- no-refit observational abundance comparison;
+- independent second-network directional replication;
+- exact rate-transfer and evidence-chain auditing.
+
+The active qualification program continues to test the frozen universal response across independent discovery and held-out reaction sets at full numerical resolution.
+
+Subsequent work consists of:
+
+- completing the active held-out qualification campaign;
+- independent experimental comparison;
 - broader-domain falsification;
-- absolute-rate development for additional channels;
-- experimental comparison;
+- additional reaction-channel development;
 - software implementation and performance qualification;
 - intellectual-property protection;
 - formal publication.
 
-New evidence may test or falsify the closed theory, but the consumed validation data must not be reused to refit the formula set after the fact.
+New evidence may confirm, constrain, or falsify the frozen theory, but consumed validation data must not be reused to refit the formula set after the fact.
 
 ---
 
