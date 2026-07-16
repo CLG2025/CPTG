@@ -57,9 +57,11 @@ The completed framework combines ordered reaction transport with one charge-cons
 
 The earlier deuterium-proton capture result is retained within its commissioning-stage scope and is now interpreted as a projection of the larger universal theory.
 
-The theory structure is closed. The independent million-trial numerical-rigidity campaign has completed and passed, with 900,000 valid mathematical cases, 100,000 injected fault cases intercepted fail-closed, and zero unexpected acceptances, false rejections, or infrastructure errors. Current long-duration work is focused on completing the separate 695-row full-resolution native AlterBBN qualification program, independent replication, publication, and implementation of the nuclear-reaction interface—not on retuning the governing geometry.
+The theory structure is closed. Independent numerical-rigidity testing, native-network execution, no-refit observational comparison, and independent second-network replication have all passed within their declared scopes. The long-duration full-resolution qualification campaign continues under the frozen geometry while the clean evidence chain is consolidated for the universal research paper.
 
-No governing universal nuclear-reaction equations, nuclear source matrices, susceptibility coefficients, or normalization identities are reproduced here. They are expected to be released in the final research article, together with the complete derivation and evidence chain, in the fall of 2026.
+Accepted scientific evidence is limited to successful, hash-verifiable audits. Malformed, superseded, incomplete, or corrupted runs are quarantined and are not used to support public claims.
+
+No governing universal nuclear-reaction equations, nuclear source matrices, susceptibility coefficients, or normalization identities are reproduced here. They are reserved for the final research article, where the derivation, validation protocol, and accepted evidence chain will be presented together.
 
 Supporting materials are being prepared for the planned **`/nuclear-reactions/`** directory.
 
@@ -115,7 +117,7 @@ CPTG is being developed as a geometric framework with reduced-limit tests and co
 | SPARC galaxy rotation curves | Public reduced-limit SPARC test available through the compact academic package and the interactive browser workbench | Reproducible galaxy-scale benchmark |
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Cluster active-gate apertures | Same-aperture cluster-response tests using baryonic loading, support temperature, redshift, and aperture radius | Diagnostic cluster-scale active-gate and X-COP consistency [pass](#cluster-scale-active-gate-test-accept-and-x-cop) |
-| Universal light-element nuclear-reaction theory | Closed CPTG reaction architecture for hydrogen, deuterium, helium-3, and helium-4, including the free-neutron/proton vertex, ordered transport, tritium/helium-3 mass-three closure, helium-4 saturation, exact conservation structure, and the complete transport-polarization source space | Universal [theory closure](#universal-geometric-nuclear-reaction-theory); the independent million-trial numerical-rigidity campaign has passed, while the 695-row full-resolution native qualification program, replication, and final-paper preparation continue under a frozen theoretical structure |
+| Universal light-element nuclear-reaction theory | Closed CPTG reaction architecture for hydrogen, deuterium, helium-3, and helium-4, including the free-neutron/proton vertex, ordered transport, mass-three closure, helium-4 saturation, exact conservation structure, and the complete transport-polarization source space | Universal [theory closure](#universal-geometric-nuclear-reaction-theory); numerical-rigidity, native-network, no-refit observational, and independent second-network validation layers have passed, while full-resolution qualification and final-paper development continue under the frozen structure |
 | Nuclear-reaction interface and exchange layer | PC-first CPTG Reaction Workbench, deterministic evidence/replay architecture, formula-package authority, compiled-runtime boundary, and external scientific-model interface under active engineering development | Active engineering implementation and qualification |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape [pass](#pantheon-supernova-distance-shape-test), not an H0 calibration claim |
 | BBN abundance and lithium tests | Transported BBN coordinate, locked live A = 7 lithium gate, PRyMordial admitted abundance row, AlterBBN rate-response marker, and the native D(p,γ)³He reaction-rate extension | Coordinate-layer and source-network [validation](#bbn-abundance-and-lithium-source-network-tests): deuterium and helium remain within their comparison bands while the A = 7 gate maps the raw standard-BBN lithium excess into the observed primordial lithium range |
@@ -378,11 +380,11 @@ The universal theory now explains why that first channel worked. Deuterium-proto
 
 ### Validation status
 
-The scalar curvature-response theorem, four-state baryon geometry, and transport-polarization source space have passed their declared closure gates. Independent numerical-rigidity testing has also completed successfully, including large-scale valid-case coverage, injected fault interception, and fail-closed verification with no unexpected acceptances or infrastructure failures.
+The scalar curvature-response theorem, four-state baryon geometry, and transport-polarization source space have passed their declared closure gates. Independent numerical-rigidity and fail-closed stress testing have also completed successfully.
 
-The commissioned reaction branch has now passed native network execution, no-refit observational comparison, and independent second-network replication of the predicted abundance-response direction. The two network implementations agree on the qualitative response while retaining expected quantitative implementation differences.
+The commissioned reaction branch has passed native network execution, no-refit observational comparison, and independent second-network replication of the predicted abundance-response direction. The two network implementations agree on the qualitative response while retaining quantitative implementation differences.
 
-The remaining active evidence program uses independent discovery and held-out reaction sets, full-resolution baryon-density and rate sampling, exact reaction-current instrumentation, native network execution, and durable checkpointing across the frozen qualification design.
+The remaining active evidence program uses independent discovery and held-out reaction sets, full-resolution sampling, exact reaction-current instrumentation, native network execution, and durable checkpointing across the frozen qualification design.
 
 These layers test portability, precision, numerical rigidity, and implementation safety without changing the frozen geometry after held-out exposure.
 
@@ -650,11 +652,13 @@ CPTG is being developed as an active research program with reproducible public m
 - locked live A = 7 lithium source-network gate with a PRyMordial admitted row and an AlterBBN rate-response marker;
 - completion of the universal hydrogen-deuterium-helium-3-helium-4 reaction architecture, with the four-state geometry, ordered transport, charge-constrained polarization, conservation structure, and complete reaction-source space frozen;
 - preservation of the earlier `D(p,γ)³He` result as the commissioning projection of the universal theory, including its source-to-network and primordial abundance evidence;
-- completion of the independent million-trial numerical-rigidity campaign under fail-closed, resumable, hash-audited execution, alongside the continuing 695-row full-resolution native-network qualification program;
+- completion of independent numerical-rigidity, native-network, no-refit abundance, and second-network replication audits under fail-closed, hash-audited execution;
+- assembly of a clean accepted-evidence chain that excludes malformed, superseded, incomplete, or corrupted runs;
+- transition to development of the universal nuclear-reaction research paper in TeX while the long-duration full-resolution qualification campaign continues;
 - development of the CPTG Reaction Workbench and reaction-exchange layer for deterministic evaluation, evidence capture, replay, and external-model integration;
 - compact reproducibility packages, source manifests, and exact-input records across the public materials.
 
-Current nuclear work is now focused on completing the 695-row native qualification program, independent replication, publication, protocol and interface implementation, and continued qualification of the frozen theory. Broader CPTG development continues through higher-resolution CMB projections, larger same-aperture cluster samples, and manuscript/report consolidation.
+Current nuclear work is focused on completing the long-duration native qualification campaign and developing the universal research paper from the clean accepted evidence chain. The frozen geometry will not be retuned from held-out or quarantined results. Broader CPTG development continues through higher-resolution CMB projections, larger same-aperture cluster samples, and manuscript/report consolidation.
 
 ---
 
@@ -681,4 +685,6 @@ CPTG, Supporting Python Models, Benchmark Implementations, and Research Referenc
 
 CPTG is a geometric gravity framework in which gravitational enhancement, lensing displacement, cosmological comparison quantities, CMB map-space closure, Hubble-tension structure, and nuclear/abundance transport are modeled through curvature polarization, curvature transport, and branch-specific observational projection.
 
-The public repository contains reduced numerical implementations, the compact academic benchmark package, the standalone CPTG SPARC Browser Workbench, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. Cosmology-facing work is organized through fixed comparison branches. At nuclear scale, CPTG has advanced from a commissioned deuterium-proton capture result to a closed universal geometric reaction theory for hydrogen, deuterium, helium-3, and helium-4. The earlier source-to-network and mass-seven results are retained inside that larger framework, while the complete governing formulas are reserved for the final research paper. A dedicated CPTG nuclear-reaction interface and exchange layer is also under development.
+The public repository contains reduced numerical implementations, the compact academic benchmark package, the standalone CPTG SPARC Browser Workbench, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. Cosmology-facing work is organized through fixed comparison branches.
+
+At nuclear scale, CPTG has advanced from a commissioned deuterium-proton capture result to a closed universal geometric reaction theory for hydrogen, deuterium, helium-3, and helium-4. The reaction branch has passed native-network, no-refit observational, and independent second-network validation layers. The earlier source-to-network and mass-seven results remain inside the larger framework, while the complete governing formulas are reserved for the final research paper. A dedicated CPTG nuclear-reaction interface and exchange layer is also under development.
