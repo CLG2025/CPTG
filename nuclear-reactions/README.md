@@ -300,6 +300,16 @@ Those are downstream validation and application domains, not open terms in the c
 
 ---
 
+## Experimental Nuclear Reaction Chain Extension Through (A=119)
+
+### A Post hoc Exploratory Probe of the CPTG Universal Nuclear Reaction Program
+
+This experimental extension is an exploratory probe of the CPTG universal nuclear reaction program. The primary research effort will remain focused on the core criteria established in the original paper: the fixed geometric source construction, coherent reaction amplitude, reaction-rate behavior, network transport, and abundance closure. The higher-mass study tests how far that same geometric framework can be continued without replacing it with independently fitted formulas for successive reaction stages. Current testing shows that the reaction chain can be propagated continuously through every mass number from (A=1) to (A=119).
+
+The [resulting register](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/Complete-Processed-Nuclear-Chain.pdf) contains three levels of computational support. Masses (A=1) through (A=30) belong to the native reaction-network inventory, extending from the light-element foundation through oxygen and the post-oxygen network to silicon-30. Masses (A=31) and (A=32) form a strong prescribed-trajectory diagnostic continuation beyond the native inventory. Masses (A=33) through (A=119) belong to the larger exploratory prescribed-trajectory neutron-capture and beta-decay graph. Together, these categories provide a gap-free higher-mass test of the fixed CPTG geometric framework while the central program remains directed toward completing and validating the original universal-reaction criteria.
+
+---
+
 ## Repository Structure
 
 The directory is organized around **immutable, versioned evidence packages** rather than attempting to separate every script, protocol, dataset, manifest, and report into independent folders.
