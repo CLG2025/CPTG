@@ -298,11 +298,9 @@ Formula closure does not by itself claim:
 
 Those are downstream validation and application domains, not open terms in the closed formula structure.
 
----
+### Experimental Nuclear Reaction Chain Extension Through (A=119)
 
-## Experimental Nuclear Reaction Chain Extension Through (A=119)
-
-### A Post hoc Exploratory Probe of the CPTG Universal Nuclear Reaction Program
+#### A Post hoc Exploratory Probe of the CPTG Universal Nuclear Reaction Program
 
 This experimental extension is an exploratory probe of the CPTG universal nuclear reaction program. The primary research effort will remain focused on the core criteria established in the original paper: the fixed geometric source construction, coherent reaction amplitude, reaction-rate behavior, network transport, and abundance closure. The higher-mass study tests how far that same geometric framework can be continued without replacing it with independently fitted formulas for successive reaction stages. Current testing shows that the reaction chain can be propagated continuously through every mass number from (A=1) to (A=119).
 
