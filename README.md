@@ -7,7 +7,7 @@
 ## Contents
 
 - [Core CPTG Papers](#start-here-core-cptg-papers)
-- [Latest Milestone](#latest-milestone-universal-geometric-nuclear-reaction-breakthrough)
+- [Latest Milestone](#latest-milestone-four-sector-foundation-of-universal-geometric-nuclear-reaction-theory)
 - [Available Tools](#available-tools)
 - [Overview](#overview)
 - [Current Research Status](#current-research-status)
@@ -18,8 +18,8 @@
 - [Outer-Slope Convergence Test](#outer-slope-convergence-test)
 - [Bullet Cluster Benchmark](#cluster-merger-test-bullet-cluster-benchmark)
 - [Cluster Active-Gate Test](#cluster-scale-active-gate-test-accept-and-x-cop)
-- [Universal Geometric Nuclear Reaction Theory](#universal-geometric-nuclear-reaction-theory)
-- [Nuclear-Reaction Interface, Computational Resources, and Patent Consideration](#nuclear-reaction-interface-computational-resources-and-patent-consideration)
+- [Universal Geometric Nuclear-Reaction Theory](#universal-geometric-nuclear-reaction-theory)
+- [Reaction Workbench and Exchange Interface](#reaction-workbench-and-exchange-interface)
 - [Cosmology and Comparison-Layer Tests](#cosmology-and-comparison-layer-tests)
 - [CPTG Research Position](#cptg-research-position)
 - [Citation](#citation)
@@ -31,8 +31,8 @@
 - **[Curvature Polarization Transport Gravity: A Unified Geometric Framework for Cosmic Structure and Expansion](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Unified_Geometric_Framework_Cosmic_Structure_Expansion.pdf)**  
   Primary CPTG theory paper. This manuscript lays out the unified geometric framework: baryon-sourced curvature polarization, curvature transport, the cosmic/structure expansion connection, galaxy and cluster limits, and the broader comparison-layer program.
 
-- **[CPTG Geometric Pi Branch Comparison Coordinates](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Geometric_Pi_Branch_Comparison_Coordinates.pdf)**  
-  Comparison-coordinate guide for the locked geometric pi branch. This paper explains how CPTG-native quantities are mapped into observational coordinates for CMB, BAO, BBN, supernova, growth, and DESI-style comparison layers without treating those observational coordinates as the theory itself.
+- **[CPTG Geometric π Branch Comparison Coordinates](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Geometric_Pi_Branch_Comparison_Coordinates.pdf)**  
+  Comparison-coordinate guide for the locked geometric π branch. This paper explains how CPTG-native quantities are mapped into observational coordinates for CMB, BAO, BBN, supernova, growth, and DESI-style comparison layers without treating those observational coordinates as the theory itself.
 
 - **[The Science Behind CPTG: A Geometric Alternative to Dark Matter, Dark Energy, and MOND](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/The_Science_Behind_CPTG.pdf)**  
   A public-facing introduction to Curvature Polarization Transport Gravity. This paper explains what makes CPTG different from dark matter, dark energy, and MOND-style approaches: baryon-sourced curvature polarization, curvature transport, structural modes, active gates, and scalable comparison coordinates derived from one geometric framework rather than sector-by-sector tuning.
@@ -42,18 +42,18 @@
   
 ---
 
-## Latest Milestone: Universal Geometric Nuclear Reaction Breakthrough
+## Latest Milestone: Four-Sector Foundation of Universal Geometric Nuclear-Reaction Theory
 
-CPTG has reached theoretical closure of a universal geometric nuclear-reaction framework for **hydrogen, deuterium, helium-3, and helium-4**.
+CPTG has reached theoretical closure of a universal geometric nuclear-reaction framework built on a validated four-sector foundation:
 
-The breakthrough replaces the earlier single-channel view with one ordered light-element architecture:
+- **free nucleons (`n`, `p`) — vertex**;
+- **deuterium — bridge**;
+- **mass three (`³H`, `³He`) — closure**;
+- **helium-4 (`⁴He`) — saturation**.
 
-- the free-neutron/proton sector provides the dynamic vertex;
-- deuterium forms the first bound bridge;
-- the tritium/helium-3 mass-three sector supplies geometric closure;
-- helium-4 forms the saturated endpoint.
+These sectors form one ordered transport-polarization architecture rather than four unrelated reaction constructions. The framework preserves baryon number and electric charge, distinguishes direct microscopic source current from network redistribution, and places the four-sector reaction channels inside one common geometric source space.
 
-The completed framework combines ordered reaction transport with one charge-constrained internal polarization degree of freedom. It preserves baryon number and electric charge, distinguishes direct microscopic source current from network redistribution, and places the light-element reaction channels inside one common geometric source space.
+The four validated sectors are the demonstrated foundation of the nuclear-reaction program, not an asserted upper mass limit. Extension beyond helium-4 remains continuing research under the same geometric framework.
 
 The earlier deuterium-proton capture result is retained within its commissioning-stage scope and is now interpreted as a projection of the larger universal theory.
 
@@ -104,7 +104,7 @@ CPTG is built around two linked mechanisms:
 * **Curvature polarization**, which modifies the effective gravitational response according to the strength and structure of the field.
 * **Curvature transport**, which allows organized curvature to be redistributed directionally in dynamic systems.
 
-The framework is tested across galaxy rotation curves, cluster-merger lensing, relaxed galaxy clusters, cosmology-facing comparison layers, and a closed universal nuclear-reaction extension spanning hydrogen, deuterium, helium-3, and helium-4. The repository provides the current theory papers, CPTG SPARC Browser Workbench, included data, public figures, and reproducible validation materials for inspection, testing, and criticism.
+The framework is tested across galaxy rotation curves, cluster-merger lensing, relaxed galaxy clusters, cosmology-facing comparison layers, and a universal nuclear-reaction extension with a closed four-sector foundation spanning free nucleons, deuterium, mass three, and helium-4. The repository provides the current theory papers, CPTG SPARC Browser Workbench, included data, public figures, and reproducible validation materials for inspection, testing, and criticism.
 
 ---
 
@@ -117,12 +117,12 @@ CPTG is being developed as a geometric framework with reduced-limit tests and co
 | SPARC galaxy rotation curves | Public reduced-limit SPARC test available through the compact academic package and the interactive browser workbench | Reproducible galaxy-scale benchmark |
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Cluster active-gate apertures | Same-aperture cluster-response tests using baryonic loading, support temperature, redshift, and aperture radius | Diagnostic cluster-scale active-gate and X-COP consistency [pass](#cluster-scale-active-gate-test-accept-and-x-cop) |
-| Universal light-element nuclear-reaction theory | Closed CPTG reaction architecture for hydrogen, deuterium, helium-3, and helium-4, including the free-neutron/proton vertex, ordered transport, mass-three closure, helium-4 saturation, exact conservation structure, and the complete transport-polarization source space | Universal [theory closure](#universal-geometric-nuclear-reaction-theory); numerical-rigidity, native-network, no-refit observational, and independent second-network validation layers have passed, while full-resolution qualification and final-paper development continue under the frozen structure |
+| Universal geometric nuclear-reaction theory | Closed four-sector foundation spanning free nucleons, deuterium, the mass-three pair, and helium-4, including ordered transport, exact conservation structure, and the complete transport-polarization source space | Universal [theory closure](#universal-geometric-nuclear-reaction-theory); numerical-rigidity, native-network, no-refit observational, and independent second-network validation layers have passed, while full-resolution qualification and final-paper development continue under the frozen structure |
 | Nuclear-reaction interface and exchange layer | PC-first CPTG Reaction Workbench, deterministic evidence/replay architecture, formula-package authority, compiled-runtime boundary, and external scientific-model interface under active engineering development | Active engineering implementation and qualification |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape [pass](#pantheon-supernova-distance-shape-test), not an H0 calibration claim |
 | BBN abundance and lithium tests | Transported BBN coordinate, locked live A = 7 lithium gate, PRyMordial admitted abundance row, AlterBBN rate-response marker, and the native D(p,γ)³He reaction-rate extension | Coordinate-layer and source-network [validation](#bbn-abundance-and-lithium-source-network-tests): deuterium and helium remain within their comparison bands while the A = 7 gate maps the raw standard-BBN lithium excess into the observed primordial lithium range |
 | Weak-lensing S8 | Compressed comparison against representative weak-lensing and CMB S8 anchors | Diagnostic [pass](#weak-lensing-s8-comparison), not a full shear likelihood |
-| CMB comparison-map closure | Locked geometric-pi CMB branch tested against real Planck/WMAP temperature-map products and null controls | Real-map [comparison-map closure](#cmb-comparison-map-closure) pass |
+| CMB comparison-map closure | Locked geometric-π CMB branch tested against real Planck/WMAP temperature-map products and null controls | Real-map [comparison-map closure](#cmb-comparison-map-closure) pass |
 | CMB Route B Option 1 bridge | Fixed amplitude-level curvature-transport bridge tested through CMB spectrum and Planck likelihood-coordinate plumbing | Geometry-first comparison-coordinate bridge [validation](#cmb-route-b-option-1-curvature-transport-bridge) |
 | DESI compressed ShapeFit and BAO | Compressed-coordinate and ruler-wrapper diagnostics | Coordinate-level [support](#desi-dr1-compressed-shapefit-and-bao-quarter-ruler), not full raw DESI validation |
 | Horizon and Hubble-tension mechanisms | Structural articles mapping CPTG-native branches into observational comparison layers | Theory [mechanism](#hubble-tension-bridge) and derivation-stage interpretation |
@@ -135,6 +135,8 @@ Claim levels are used consistently throughout this README:
 - **Closure pass** — agreement within a declared fixed-branch closure protocol.
 - **Anchored comparison** — a dimensional comparison whose normalization is explicitly anchored to a stated observable, with independent rows treated as cross-checks rather than as free refits.
 - **Theory closure** — the governing state structure, conservation laws, source space, and response architecture are fixed; remaining work concerns qualification, replication, implementation, and publication rather than structural retuning.
+- **Pending qualification** — the governing structure and validation design are frozen, but the declared execution or held-out decision has not yet completed.
+- **Exploratory continuation** — a result used to investigate extension beyond the validated domain; it does not establish universal physical validity in the extended sector.
 - **Theory mechanism** — a derived interpretation connected to a dedicated comparison or audit layer.
 
 ---
@@ -155,7 +157,7 @@ The recommended compact reproducibility download is **`CPTG_academic_package.zip
 
 The larger **CPTG SPARC Browser Workbench v1.12.0** is distributed separately for interactive rotation-curve analysis. The release contains the prebuilt Windows application, local build and Python launch options, included SPARC data and metadata, and the current cross-platform Python source. Additional Python files in the repository should be treated as development variants or replacement implementations unless a specific package README states otherwise.
 
-The planned **`/nuclear-reactions/`** directory will be the publication and evidence home for the universal light-element reaction extension. Its package-centered structure preserves complete hashed audit objects. Source code, protocols, raw evidence, logs, manifests, reports, and replay material may remain together inside one immutable package when separating them would break the evidence chain.
+The planned **`/nuclear-reactions/`** directory will be the publication and evidence home for the universal nuclear-reaction program and its validated four-sector foundation. Its package-centered structure preserves complete hashed audit objects. Source code, protocols, raw evidence, logs, manifests, reports, and replay material may remain together inside one immutable package when separating them would break the evidence chain.
 
 ---
 
@@ -197,7 +199,7 @@ The standalone [release package](https://github.com/CLG2025/CPTG/releases/tag/v1
 - CPTG and MOND rotation-curve comparisons,
 - averaged normalized rotation curves,
 - averaged RAR scatter versus radius,
-- compact result tables reporting total points, total chi-square, chi-square per point, RMS residuals, and mean observed/model velocities,
+- compact result tables reporting total points, total χ², χ² per point, RMS residuals, and mean observed/model velocities,
 - galaxy-level fit and Curvature-Weighted Structural Mode Index summaries,
 - optional CSV, JSON, PNG, and ZIP output saving.
 
@@ -330,18 +332,20 @@ This result should be read as a diagnostic cluster-scale active-gate pass and an
 
 ---
 
-## Universal Geometric Nuclear Reaction Theory
+## Universal Geometric Nuclear-Reaction Theory
 
-CPTG has completed the theoretical transition from a commissioned deuterium-proton capture model to a universal geometric reaction theory for the four light-element states that dominate the primordial reaction ladder:
+CPTG has completed the theoretical transition from a commissioned deuterium-proton capture model to a universal geometric nuclear-reaction theory with a validated four-sector foundation:
 
-- **Hydrogen — vertex**
+- **Free nucleons (`n`, `p`) — vertex**
 - **Deuterium — bridge**
-- **Helium-3 — closure**
-- **Helium-4 — saturation**
+- **Mass three (`³H`, `³He`) — closure**
+- **Helium-4 (`⁴He`) — saturation**
+
+These sectors define the demonstrated foundation of the theory rather than an asserted upper mass limit.
 
 ### The breakthrough
 
-The closed theoretical architecture establishes that these light elements are not separate reaction problems requiring unrelated geometric constructions. They form one ordered state system governed by a common transport architecture.
+The closed theoretical architecture establishes that these four sectors are not separate reaction problems requiring unrelated geometric constructions. They form one ordered state system governed by a common transport architecture.
 
 The dynamic vertex includes both free neutrons and free protons. Deuterium provides the first bound transition. Tritium and helium-3 occupy the mass-three closure sector as two internal charge orientations. Helium-4 supplies the saturated endpoint.
 
@@ -350,7 +354,7 @@ The theory separates two physical functions:
 - **ordered transport**, which moves baryonic content through the vertex, bridge, closure, and saturation sequence;
 - **internal polarization**, which preserves the neutron-proton and tritium-helium-3 orientation required by electric-charge conservation.
 
-Together, these functions form the complete reaction-source space for the universal light-element system.
+Together, these functions form the complete reaction-source space for the defined four-sector system.
 
 ### What is closed
 
@@ -404,30 +408,9 @@ It provides a common framework for:
 
 The theory also preserves a strict authority boundary: CPTG supplies scientific reaction quantities and comparison coordinates, while external institutions retain ownership of facility integration, controllers, actuators, and safety certification.
 
-### Nuclear-reaction interface, computational resources, and patent consideration
+### Reaction Workbench and Exchange Interface
 
-The CPTG Reaction Workbench and exchange layer are being developed as the technical interface between the closed reaction theory and external scientific software. The system is intended to provide fast deterministic evaluation, controlled formula-package authority, native and comparison-coordinate outputs, uncertainty handling, persistent projects, compiled execution, and hash-bound evidence and replay.
-
-Nuclear-reaction computation is not one uniform workload. Evaluated-rate lookup and compact reaction-network propagation may be comparatively light, while microscopic continuum, coupled-channel, and ab initio calculations can require large basis and interaction spaces, repeated matrix construction or solution, high-precision integration, substantial memory, and extended workstation or cluster execution. Repeating those calculations across many energies, temperatures, uncertainty samples, and reaction channels multiplies the computational burden.
-
-CPTG separates the expensive **qualification phase** from the **deployment phase**. Full native-network qualification, held-out validation, and adversarial stress campaigns remain resource-intensive because they establish the scientific authority of the formula and coefficient packages. Once an approved package is frozen, the deployed CPTG solution evaluates a low-dimensional geometric state, reaction-source vector, response operator, and observable projection directly. It does not reconstruct many-body wave functions or rerun the full native qualification network for every query.
-
-**For repeated state-dependent evaluation after qualification, this architecture is designed to make deployed CPTG calculations substantially faster than rerunning microscopic solvers or full native-network calculations.** Current Reaction Workbench formula and state evaluations return effectively immediately on an ordinary PC at human interaction timescales. The intended compiled runtime extends that same direct-evaluation path to vector, batch, trajectory, and external-model calls with modest memory use. Formal latency and throughput claims will remain tied to recorded Workbench qualification benchmarks rather than unsupported estimates.
-
-| Resource layer | Conventional live reaction-computation path | CPTG interface deployment path |
-|---|---|---|
-| Primary calculation | Reaction-specific wave functions, channel solutions, numerical integrations, evaluated/fitted rate construction, or full network propagation | Frozen universal geometric formulas, source vectors, approved coefficient package, and direct observable projection |
-| Repeated-query work | May repeat numerical solution across energy, temperature, reaction channel, state, and uncertainty grids | Reuses the same approved formula authority for direct deterministic scalar, vector, batch, and trajectory calls |
-| Runtime speed | Governed by the selected solver, basis size, precision, grid, convergence requirements, and network scope | Direct low-dimensional evaluation; current interactive calls complete effectively immediately on an ordinary PC |
-| Typical deployment hardware | Ranges from a workstation for compact tasks to HPC resources for high-resolution microscopic calculations | Ordinary PC first, followed by a compiled runtime and later compact-device targets |
-| Memory profile | Can include large interaction, basis, matrix, integration, and network state objects | Small formula, coefficient, state, request, and evidence objects during deployed evaluation |
-| Evidence burden | Provenance, solver settings, interactions, grids, convergence, and numerical outputs accompany the authoritative calculation | Formula-package identity, coefficient authority, input record, result, hash, and replay record remain bound to each calculation |
-
-The speed comparison is specifically between a live CPTG model evaluation and conventional microscopic or repeated native-network computation. A conventional lookup into an already prepared rate table can also be fast, but it is not the same operation as computing a live state-dependent model response. CPTG's central resource advantage is that expensive derivation and qualification are performed once for an authority package and removed from the per-query execution path.
-
-Patent protection is being considered for specific technical aspects of this interface, including the resource-efficient deployment architecture, system organization, execution and exchange workflows, evidence-bound calculation processes, and implementation methods. This statement describes an intellectual-property review in progress. It does **not** state or imply that a patent application has been filed, that any application is patent pending, or that any patent has been granted.
-
-The patent review concerns the technical interface and its implementation. It does not alter the scientific validation requirements, the frozen status of the governing reaction geometry, or the requirement that scientific claims remain reproducible and auditable.
+The CPTG Reaction Workbench is being developed as a deterministic interface for applying approved nuclear-reaction formula and coefficient packages without repeating the resource-intensive qualification campaign for every query. Technical architecture, evidence-bound execution, external-model integration, computational-resource comparisons, deployment boundaries, and intellectual-property considerations are documented separately in the [`nuclear-reactions`](https://github.com/CLG2025/CPTG/tree/main/nuclear-reactions) directory.
 
 ### Public disclosure boundary
 
@@ -445,7 +428,7 @@ Current public materials, immutable packages, protocol documents, and future man
 
 CPTG cosmology-facing work is organized around the distinction between CPTG-native geometric quantities and conventional observational summaries. The goal is not to force CPTG into standard parameter language, but to make controlled comparisons with quantities commonly reported from supernova, CMB, abundance, growth, and large-scale-structure analyses.
 
-### Current Locked Geometric Pi Branch
+### Current Locked Geometric π Branch
 
 The current locked CPTG comparison branch uses:
 
@@ -472,11 +455,11 @@ tau = 0.058930875934
 A_lens = 1
 ```
 
-These values define the fixed geometric-pi CMB branch used in the current comparison-map closure audits. The branch is locked before the map tests and is not refit to the individual CMB maps.
+These values define the fixed geometric-π CMB branch used in the current comparison-map closure audits. The branch is locked before the map tests and is not refit to the individual CMB maps.
 
 ### CMB Comparison-Map Closure
 
-CPTG CMB map work is organized as a [real-map comparison test](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_CMB_Comparison_Map_Closure.pdf) between the locked geometric-pi CMB branch and public CMB map products. The current paper uses real Planck component maps, Planck split maps, and WMAP low-ell support products.
+CPTG CMB map work is organized as a [real-map comparison test](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_CMB_Comparison_Map_Closure.pdf) between the locked geometric-π CMB branch and public CMB map products. The current paper uses real Planck component maps, Planck split maps, and WMAP low-ell support products.
 
 ![Observed Planck SMICA vs fitted CPTG comparison map](images/fig_visual_fitted.png)
 
@@ -488,7 +471,7 @@ The map-space procedure uses the same comparison coordinate for CPTG, the Planck
 T_fit(nhat) = A T_template(nhat) + B
 ```
 
-The central public result is that the locked CPTG geometric-pi branch reaches near-degenerate CMB comparison-map closure with the Planck comparison envelope across the tested real-map products and controls, while generic null envelopes fail much more strongly under the same map-space procedure. The detailed RMS tables, control ladders, and null-envelope audits are contained in the dedicated CMB comparison-map closure material.
+The central public result is that the locked CPTG geometric-π branch reaches near-degenerate CMB comparison-map closure with the Planck comparison envelope across the tested real-map products and controls, while generic null envelopes fail much more strongly under the same map-space procedure. The detailed RMS tables, control ladders, and null-envelope audits are contained in the dedicated CMB comparison-map closure material.
 
 #### Original Planck and WMAP FITS Inputs
 
@@ -634,7 +617,7 @@ Compared with ΛCDM halo fitting, CPTG makes a different kind of test: it asks w
 
 ## Recent CPTG Articles and Research Notes
 
-Recent CPTG writing has expanded beyond the core galaxy and Bullet Cluster benchmarks into focused theory and validation articles, including CMB comparison-map closure, Route B Option 1 CMB comparison-coordinate bridge validation, Pantheon+ distance-shape tests, BBN and lithium source-network validation, weak-lensing S8 diagnostics, DESI compressed-coordinate tests, Hubble-tension bridge work, cosmological horizon-mechanism work, compact high-redshift galaxy stress tests, cluster active-gate extensions, the commissioning deuterium-proton reaction paper, and the forthcoming universal geometric nuclear-reaction article for hydrogen, deuterium, helium-3, and helium-4.
+Recent CPTG writing has expanded beyond the core galaxy and Bullet Cluster benchmarks into focused theory and validation articles, including CMB comparison-map closure, Route B Option 1 CMB comparison-coordinate bridge validation, Pantheon+ distance-shape tests, BBN and lithium source-network validation, weak-lensing S8 diagnostics, DESI compressed-coordinate tests, Hubble-tension bridge work, cosmological horizon-mechanism work, compact high-redshift galaxy stress tests, cluster active-gate extensions, the commissioning deuterium-proton reaction paper, and the forthcoming universal geometric nuclear-reaction article built on the free-nucleon, deuterium, mass-three, and helium-4 foundation.
 
 These articles should be read as part of the active research program. Their claim levels vary by implementation maturity and are identified in the relevant papers and reproducibility notes.
 
@@ -647,14 +630,11 @@ CPTG is being developed as an active research program with reproducible public m
 - public SPARC and Bullet Cluster reduced-limit benchmarks;
 - interactive SPARC analysis through CPTG SPARC Browser Workbench v1.12.0, including primary/excluded/unmatched metadata views, compact comparison tables, and opt-in result saving;
 - same-aperture X-COP cluster active-gate consistency and ACCEPT profile-state ordering;
-- locked geometric-pi CMB comparison-map closure and Route B Option 1 curvature-transport bridge validation;
+- locked geometric-π CMB comparison-map closure and Route B Option 1 curvature-transport bridge validation;
 - transported BBN coordinate control with D/H and helium agreement;
 - locked live A = 7 lithium source-network gate with a PRyMordial admitted row and an AlterBBN rate-response marker;
-- completion of the universal hydrogen-deuterium-helium-3-helium-4 reaction architecture, with the four-state geometry, ordered transport, charge-constrained polarization, conservation structure, and complete reaction-source space frozen;
-- preservation of the earlier `D(p,γ)³He` result as the commissioning projection of the universal theory, including its source-to-network and primordial abundance evidence;
-- completion of independent numerical-rigidity, native-network, no-refit abundance, and second-network replication audits under fail-closed, hash-audited execution;
-- assembly of a clean accepted-evidence chain that excludes malformed, superseded, incomplete, or corrupted runs;
-- transition to development of the universal nuclear-reaction research paper in TeX while the long-duration full-resolution qualification campaign continues;
+- completion of the universal geometric nuclear-reaction architecture built on the free-nucleon, deuterium, mass-three, and helium-4 foundation, together with its commissioning-channel, numerical-rigidity, native-network, no-refit abundance, second-network replication, and fail-closed evidence layers;
+- transition to the universal nuclear-reaction research paper while the long-duration full-resolution qualification campaign continues under the frozen geometry;
 - development of the CPTG Reaction Workbench and reaction-exchange layer for deterministic evaluation, evidence capture, replay, and external-model integration;
 - compact reproducibility packages, source manifests, and exact-input records across the public materials.
 
@@ -687,4 +667,4 @@ CPTG is a geometric gravity framework in which gravitational enhancement, lensin
 
 The public repository contains reduced numerical implementations, the compact academic benchmark package, the standalone CPTG SPARC Browser Workbench, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. Cosmology-facing work is organized through fixed comparison branches.
 
-At nuclear scale, CPTG has advanced from a commissioned deuterium-proton capture result to a closed universal geometric reaction theory for hydrogen, deuterium, helium-3, and helium-4. The reaction branch has passed native-network, no-refit observational, and independent second-network validation layers. The earlier source-to-network and mass-seven results remain inside the larger framework, while the complete governing formulas are reserved for the final research paper. A dedicated CPTG nuclear-reaction interface and exchange layer is also under development.
+At nuclear scale, CPTG has advanced from a commissioned deuterium-proton capture result to a universal geometric reaction theory with a closed four-sector foundation spanning free nucleons, deuterium, mass three, and helium-4; the governing formulas remain reserved for the final research paper, and a dedicated reaction interface is under development.
