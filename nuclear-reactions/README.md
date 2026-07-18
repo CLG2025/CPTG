@@ -1,15 +1,39 @@
-# CPTG Nuclear Reactions
+# CPTG Geometric Nuclear-Reaction Theory
 
-This directory contains the research papers, source code, validation tools, execution protocols, and evidence packages for the **universal nuclear-reaction extension of Curvature Polarization Transport Gravity (CPTG)**.
+This directory contains the research papers, source code, validation tools, execution protocols, and evidence packages for the universal nuclear-reaction extension of **Curvature Polarization Transport Gravity (CPTG)**.
 
-The work collected here generalizes the original deuterium–proton capture result into a **closed four-state geometric theory** for the light-element states:
+The validated foundation consists of four coupled nuclear sectors:
 
-- **Hydrogen** — vertex
-- **Deuterium** — bridge
-- **Helium-3** — closure
-- **Helium-4** — saturation
+- **Free nucleons (`n`, `p`) — vertex**
+- **Deuterium — bridge**
+- **Mass three (`³H`, `³He`) — closure**
+- **Helium-4 (`⁴He`) — saturation**
 
-The completed theory treats these states as one ordered geometric reaction system rather than as unrelated reaction channels.
+Together, these sectors form one closed transport-polarization architecture rather than a collection of unrelated reaction models. They establish the validated foundation of the universal theory without imposing helium-4 as its absolute upper mass limit.
+
+> **Formula-protection notice**
+>
+> The public README intentionally omits the governing equations, source matrices, susceptibility coefficients, normalization identities, and implementation details that would disclose the protected calculation structure. These materials must not be added to the public repository until the author explicitly authorizes disclosure following the intellectual-property decision.
+
+---
+
+## Validation Summary
+
+| Component | Status |
+|---|---|
+| Four-sector nuclear geometry | Closed |
+| Baryon and electric-charge constraints | Exact |
+| Reaction-source space | Rank four and complete |
+| Scalar curvature-response law | Passed |
+| Universal network susceptibility | Frozen and full-resolution qualified |
+| Independent held-out basis | Passed without refitting |
+| Mirror-polarization and mixed-direction diagnostics | Passed |
+| Commissioning `D(p,γ)³He` projection | Passed within its declared scope |
+| Independent network transfer | Directionally replicated |
+| Numerical-rigidity and fail-closed testing | Passed |
+| Continuation through `A = 119` | Exploratory computational support |
+
+The completed full-resolution native campaign used independent discovery, held-out, mirror-polarization, and mixed-direction reaction sets under a frozen geometry. The candidate susceptibility was constructed from the discovery basis, frozen before held-out exposure, and retained without post-result fitting or reaction-specific correction.
 
 ---
 
@@ -23,161 +47,117 @@ and its primordial abundance consequences.
 
 That single-channel result established that a nuclear-reaction calculation could be organized from a geometric source state, through a coherent reaction response, into a network-level abundance prediction.
 
-The extension documented in this directory completes that construction.
+The universal extension completes that construction. It identifies a reaction system in which:
 
-The universal architecture identifies a reaction system in which:
-
-1. free nucleons define the initial geometric vertex;
+1. free neutrons and protons define the dynamic vertex;
 2. deuterium forms the first bound bridge;
-3. the mass-three system supplies the closure state;
-4. helium-4 forms the saturated endpoint;
-5. transport between these states is governed by an ordered geometric current;
-6. internal proton–neutron and tritium–helium-3 orientation is retained through a polarization degree of freedom;
-7. baryon number and charge remain exact constraints of the full reaction operator;
-8. the reaction network is represented by a universal transport-polarization response rather than a collection of unrelated empirical fits.
+3. tritium and helium-3 form the internally resolved mass-three closure sector;
+4. helium-4 forms the saturation sector of the validated coordinate;
+5. transport between these sectors is governed by an ordered geometric current;
+6. internal neutron-proton and tritium-helium-3 orientation is retained through one polarization degree of freedom;
+7. baryon number and electric charge remain exact constraints of the full reaction operator;
+8. the complete reaction basis is represented by one transport-polarization susceptibility rather than unrelated empirical fits.
 
-The theory is closed at the level of state definition, reaction topology, conservation structure, source decomposition, curvature response, and universal network transport within the tested light-element domain.
+The theory is closed and full-resolution qualified at the level of sector definition, reaction topology, conservation structure, source decomposition, curvature response, and universal network transport within the declared four-sector domain.
 
 ---
 
-## Final Theory Architecture
-
-The universal CPTG nuclear-reaction theory is built from four physical roles.
+## Validated Four-Sector Architecture
 
 ### 1. Vertex
 
-The vertex is the unbound nucleon state.
+The vertex is the unbound nucleon sector.
 
-At the dynamic level, the vertex contains both free neutrons and free protons. At late endpoints, the free-neutron contribution becomes negligible and the vertex reduces to ordinary hydrogen.
+At the dynamic level it contains both free neutrons and free protons. At late network endpoints, the free-neutron contribution becomes negligible and the surviving vertex content is dominated by ordinary hydrogen.
 
-The vertex is the initial topological degree of freedom from which the light-element reaction ladder develops.
+The vertex is the initial topological degree of freedom from which the reaction ladder develops.
 
 ### 2. Bridge
 
 Deuterium is the first stable bound bridge.
 
-It connects the free-nucleon state to the mass-three closure sector and carries the most direct reaction sensitivity in the light-element network. Its role is transitional rather than terminal.
+It connects the free-nucleon vertex to the mass-three closure sector and carries the most direct transition sensitivity in the primordial network. Its role is transitional rather than terminal.
 
 ### 3. Closure
 
-The mass-three system is the closure state.
+The mass-three system is the closure sector.
 
-Tritium and helium-3 form two internal orientations of the same mass-three sector. Their distinction is preserved through the polarization coordinate, while their common baryonic role is represented by the closure state.
+Tritium and helium-3 form two internal charge orientations of the same baryonic sector. Their distinction is preserved through the polarization coordinate while their shared transport role is represented by the closure state.
 
 ### 4. Saturation
 
-Helium-4 is the saturated endpoint.
+Helium-4 is the saturation sector of the validated four-sector coordinate.
 
-It is the maximally closed light-element state in the four-state system and serves as the terminal reservoir for the dominant reaction flow.
+It is the maximally closed state within that coordinate and serves as the principal terminal reservoir for the dominant primordial reaction flow. This role does not assert that nuclear organization universally ends at `A = 4`.
 
 ---
 
-## Universal Reaction Architecture
-
-The completed architecture separates the nuclear network into two coupled structures.
+## Transport, Polarization, and Susceptibility
 
 ### Ordered transport
 
 Reaction flow moves through three geometric transitions:
 
-- vertex → bridge
-- bridge → closure
-- closure → saturation
+- vertex → bridge;
+- bridge → closure;
+- closure → saturation.
 
-These transitions define the universal transport backbone of the light-element network.
-
-The transport operator is fixed by the topology of the reaction chain. It is not fitted separately for each reaction.
+These transitions define the universal transport backbone of the validated network. The transport operator is fixed by the topology of the reaction chain rather than fitted separately for each reaction.
 
 ### Internal polarization
 
-The transport states alone do not distinguish:
+The four transport sectors alone do not distinguish:
 
 - neutron from proton inside the vertex sector;
 - tritium from helium-3 inside the closure sector.
 
-CPTG therefore includes one independent polarization direction that preserves the internal charge orientation of the system while remaining consistent with exact baryon and charge conservation.
+CPTG therefore includes one independent polarization direction that preserves the internal charge orientation of the system while remaining consistent with exact baryon and electric-charge conservation.
 
-The full reaction source space contains:
+The complete reaction-source space contains:
 
 - three transport directions;
 - one polarization direction.
 
-This four-dimensional source structure is the universal input space of the theory.
+This rank-four source structure is the universal input space of the four-sector theory.
+
+### Source current, network susceptibility, and observable response
+
+The theory distinguishes three levels:
+
+- the **reaction source current**, which describes the direct microscopic drive;
+- the **network susceptibility**, which describes how the full system redistributes that drive;
+- the **observable abundance response**, which is the final projected network result.
+
+The full-resolution native qualification established that one frozen source-current-normalized susceptibility maps the complete reaction-source basis into the four-sector abundance response without reaction-specific refitting.
+
+The original scalar commissioning result is retained as one projection of this larger transport-polarization operator.
 
 ---
 
 ## Conservation and Closure
 
-The final operator is constructed so that the light-element system remains inside a closed baryonic state space.
+The final operator is constructed so that the validated reaction system remains inside a closed baryonic state space.
 
 The theory preserves:
 
 - total baryon number;
 - total electric charge;
-- the ordered four-state topology;
+- the ordered four-sector topology;
 - nonnegative physical abundances;
 - the internal polarization constraint;
 - the distinction between source current and final network response.
 
-The reaction-source basis spans the complete transport-polarization space. Independent reaction sets were used for construction and held-out validation without changing the underlying geometry or introducing reaction-specific corrections.
+The complete reaction-source basis spans the rank-four transport-polarization space. Independent discovery and held-out reaction sets were used to construct and test the universal susceptibility without changing the underlying geometry or introducing reaction-specific corrections.
 
 ---
 
-## Curvature Response
-
-CPTG does not model nuclear reactions as isolated rate adjustments.
-
-The theory assigns a geometric response to the reaction current and carries that response through the full network.
-
-The completed curvature structure determines:
-
-- the first-order reaction response;
-- the second-order curvature response;
-- the scale dependence across the tested primordial baryon-density domain;
-- the relation between direct reaction current and final abundance displacement;
-- the universal network susceptibility connecting the complete reaction-source basis to the full light-element state vector.
-
-The original scalar commissioning result is retained as one projection of the larger transport-polarization operator.
-
-The completed universal theory explains why the original deuterium–proton channel succeeded while showing that the single-channel result was one observable projection of a broader geometric law.
-
----
-
-## Physical Interpretation
-
-The four light elements form a complete geometric sequence:
-
-> unbound vertex → first bound bridge → mass-three closure → helium-4 saturation
-
-This sequence is not imposed as a descriptive analogy. It is the organizing structure of the reaction operator itself.
-
-Each reaction contributes a specific combination of:
-
-- forward transport;
-- reverse transport;
-- closure transfer;
-- saturation transfer;
-- polarization rotation.
-
-The final abundance response is produced by the network acting on that source geometry.
-
-This distinction is essential:
-
-- the **reaction source current** describes the direct microscopic drive;
-- the **network susceptibility** describes how the full system redistributes that drive;
-- the **observable abundance response** is the final projected result.
-
-CPTG closes these three layers within one geometric framework.
-
----
-
-## Relationship to the Original Paper
+## Relationship to the Commissioning Paper
 
 The earlier article,
 
 > *[Geometric Nuclear Reaction Theory in CPTG: Deuterium-Proton Capture and Primordial Mass-Seven Transport](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Geometric_Nuclear_Reaction_Theory.pdf)*
 
-should be understood as the commissioning-stage demonstration of the nuclear-reaction program.
+is the commissioning-stage demonstration of the nuclear-reaction program.
 
 It established:
 
@@ -187,22 +167,22 @@ It established:
 - a primordial abundance propagation layer;
 - the mass-seven transport gate.
 
-The work in this directory generalizes that result from one principal capture channel to the complete hydrogen–deuterium–helium-3–helium-4 reaction architecture.
+The universal theory generalizes that result from one principal capture channel to the complete free-nucleon–deuterium–mass-three–helium-4 architecture.
 
-The original paper remains valid within its stated scope. The universal theory presented here contains it as a special scalar projection.
+The original paper remains valid within its stated scope and is contained in the universal theory as a special scalar projection.
 
 ---
 
 ## Validation Program
 
-The CPTG nuclear-reaction framework is evaluated through several independent validation layers designed to separate mathematical closure, native execution, observational comparison, cross-network portability, and held-out testing.
+The CPTG nuclear-reaction framework has been evaluated through independent validation layers separating mathematical closure, native execution, observational comparison, cross-network portability, held-out testing, numerical rigidity, and evidence integrity.
 
 ### Native reaction-network validation
 
 The frozen reaction construction has been propagated through native reaction-network calculations spanning:
 
-- multiple light-element reaction channels;
-- independent construction and held-out reaction sets;
+- multiple reaction channels;
+- independent discovery and held-out reaction bases;
 - multiple primordial baryon-density coordinates;
 - symmetric rate perturbations;
 - exact reaction-current instrumentation;
@@ -211,24 +191,26 @@ The frozen reaction construction has been propagated through native reaction-net
 - durable checkpointing and recovery;
 - candidate freezing before held-out exposure.
 
-The commissioned deuterium–proton capture branch has completed native network execution and a no-refit observational comparison. The corrected frozen candidate improves the tested abundance vector primarily through its deuterium response while leaving helium effectively unchanged.
+The complete native qualification design passed under the frozen geometry. No held-out or diagnostic result was used to refit the susceptibility or alter the reaction-source construction.
+
+The commissioned deuterium-proton capture branch also completed native network execution and a no-refit observational comparison. The corrected frozen candidate improves the tested abundance vector primarily through its deuterium response while leaving helium effectively unchanged.
 
 ### Independent network replication
 
-The commissioned reaction response has also been tested in an independent BBN network implementation.
+The commissioned reaction response was tested in an independent BBN network implementation.
 
-The second network reproduces the same qualitative abundance-response structure:
+The second network reproduced the same qualitative abundance-response structure:
 
 - deuterium increases;
 - helium-3 decreases;
 - lithium-7 decreases;
 - helium-4 remains minimally affected.
 
-The response magnitude differs between network implementations, but the shared direction demonstrates that the result is not specific to a single native network code.
+The response magnitude differs between network implementations, but the shared direction demonstrates that the result is not specific to one native network code.
 
 ### Numerical rigidity and stress testing
 
-The mathematical and software implementation has been tested under large-scale numerical and adversarial conditions, including:
+The mathematical and software implementation was tested under large-scale numerical and adversarial conditions, including:
 
 - randomized valid-state ensembles;
 - injected malformed and nonphysical inputs;
@@ -242,18 +224,20 @@ The mathematical and software implementation has been tested under large-scale n
 
 These tests found no unresolved violation of the frozen mathematical contracts, conservation laws, or numerical invariants.
 
-### Full-resolution qualification
+### Full-resolution native qualification
 
-The broader universal qualification campaign remains organized around independent discovery, held-out, mirror, and mixed-direction reaction sets.
+The universal transport-polarization susceptibility passed the frozen full-resolution native qualification campaign.
 
-This program evaluates whether the frozen transport-polarization susceptibility remains valid across the complete tested reaction basis without:
+The campaign used independent discovery, held-out, mirror-polarization, and mixed-direction reaction sets across the declared baryon-density and perturbation grids. The susceptibility candidate was constructed from the discovery basis, frozen before held-out evaluation, and tested without:
 
 - post-result fitting;
 - reaction-specific correction factors;
 - held-out exclusions;
-- changes to the frozen four-state geometry.
+- changes to the frozen four-sector geometry.
 
-Long-running native calculations preserve committed rows through durable checkpoint and recovery records so that completed evidence is not lost or silently regenerated.
+The held-out and diagnostic stages preserved the frozen construction and confirmed that the common susceptibility maps the complete reaction-source basis into the four-sector abundance response at native numerical resolution.
+
+Long-duration execution used durable row commits, checkpointing, recovery archives, source hashes, candidate-freeze records, and fail-closed reconstruction controls. Hundreds of hours of native execution completed without an unresolved scientific, numerical, conservation, or evidence-integrity failure.
 
 ### Independent reconstruction and evidence audit
 
@@ -276,43 +260,55 @@ The purpose of this structure is not only to report favorable results, but to pr
 
 ## Scope of Closure
 
-The universal CPTG nuclear-reaction formulas are closed for the tested hydrogen–deuterium–helium-3–helium-4 architecture, reaction basis, baryon-density domain, perturbation domain, and native network environment.
+The universal CPTG nuclear-reaction theory is closed and full-resolution qualified for the free-nucleon–deuterium–mass-three–helium-4 architecture, declared reaction basis, baryon-density domain, perturbation domain, and native network environment.
 
 Within that scope:
 
-- the four-state geometry is fixed;
-- the source vectors are fixed;
+- the four-sector geometry is fixed;
+- the reaction-source vectors are fixed;
 - the transport and polarization structure is fixed;
-- the first- and second-order curvature response is fixed;
-- the universal network susceptibility is fixed;
-- no reaction-specific fitting is required;
-- no held-out result was used to modify the frozen candidate.
+- the first- and second-order curvature responses are fixed;
+- the full-precision universal network susceptibility is fixed;
+- the discovery candidate was frozen before held-out exposure;
+- the independent held-out basis passed without refitting;
+- the mirror-polarization and mixed-direction diagnostics passed under the frozen candidate;
+- no reaction-specific fitting or postdecision correction is required.
 
 Formula closure does not by itself claim:
 
 - completed absolute-rate derivations for every nuclear reaction;
-- validation for nuclei beyond the stated light-element architecture;
+- full validation for every nucleus beyond the declared four-sector domain;
 - laboratory confirmation in every plasma regime;
 - certification for safety-critical reactor control;
 - replacement of independent experimental or network replication.
 
 Those are downstream validation and application domains, not open terms in the closed formula structure.
 
-### Experimental Nuclear Reaction Chain Extension Through (A=119)
+### Exploratory Computational Nuclear-Chain Continuation Through `A = 119`
 
-#### A Post hoc Exploratory Probe of the CPTG Universal Nuclear Reaction Program
+#### Prescribed-Trajectory Test Beyond the Validated Four-Sector Domain
 
-This experimental extension is an exploratory probe of the CPTG universal nuclear reaction program. The primary research effort will remain focused on the core criteria established in the original paper: the fixed geometric source construction, coherent reaction amplitude, reaction-rate behavior, network transport, and abundance closure. The higher-mass study tests how far that same geometric framework can be continued without replacing it with independently fitted formulas for successive reaction stages. Current testing shows that the reaction chain can be propagated continuously through every mass number from (A=1) to (A=119).
+The validated four-sector theory has also been continued computationally beyond helium-4 as an exploratory test of geometric reach.
 
-The [resulting register](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/commissioning-paper/Complete-Processed-Nuclear-Chain.pdf) contains three levels of computational support. Masses (A=1) through (A=30) belong to the native reaction-network inventory, extending from the light-element foundation through oxygen and the post-oxygen network to silicon-30. Masses (A=31) and (A=32) form a strong prescribed-trajectory diagnostic continuation beyond the native inventory. Masses (A=33) through (A=119) belong to the larger exploratory prescribed-trajectory neutron-capture and beta-decay graph. Together, these categories provide a gap-free higher-mass test of the fixed CPTG geometric framework while the central program remains directed toward completing and validating the original universal-reaction criteria.
+Current testing produces nonzero mass-sector support at every mass number from `A = 1` through `A = 119` under the declared native-inventory and prescribed-trajectory calculations. This is a gap-free computational continuation of the fixed geometric framework. It is not presented as full experimental validation, a universal full-resolution susceptibility for every heavier nucleus, or a precision absolute-abundance prediction across the entire mass range.
+
+The [resulting register](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/papers/commissioning-paper/Complete-Processed-Nuclear-Chain.pdf) contains three levels of computational support:
+
+- `A = 1–30`: native reaction-network inventory, extending through oxygen and the post-oxygen network to silicon-30;
+- `A = 31–32`: strong prescribed-trajectory diagnostic continuation beyond the native inventory;
+- `A = 33–119`: exploratory prescribed-trajectory neutron-capture and beta-decay graph.
+
+Together, these categories provide a gap-free higher-mass test of the fixed CPTG geometric framework while preserving a strict distinction between validated four-sector authority and exploratory continuation.
 
 ---
 
-## Repository Structure
+## Planned Repository Structure
 
-The directory is organized around **immutable, versioned evidence packages** rather than attempting to separate every script, protocol, dataset, manifest, and report into independent folders.
+The directory will be populated only after the remaining testing, publication packaging, and intellectual-property decision permit public release. Until then, the structure below is a planning map rather than a statement that every directory or package is publicly present.
 
-Many CPTG packages are designed as complete audit objects. A single package may contain its executable source, validation protocol, raw or derived evidence, logs, manifests, reports, checksums, and upload markers. When those components are bound together by package-level hashes, the package must remain intact. Splitting or reorganizing its contents would break the preserved evidence chain.
+The repository is organized around **immutable, versioned evidence packages** rather than separating every script, protocol, dataset, manifest, and report into independent files.
+
+Many CPTG packages are complete audit objects. A single package may contain executable source, validation protocol, raw or derived evidence, logs, manifests, reports, checksums, and upload markers. When those components are bound together by package-level hashes, the package must remain intact. Splitting or reorganizing its contents would break the preserved evidence chain.
 
 ```text
 /nuclear-reactions/
@@ -334,11 +330,13 @@ Many CPTG packages are designed as complete audit objects. A single package may 
 └── releases/
 ```
 
-Each item under `packages/` should retain its original versioned filename and internal directory structure. Packages may be stored as ZIP archives, extracted directories, or both, but the hash-authoritative archive must not be altered.
+Each item published under `packages/` should retain its original versioned filename and internal directory structure. Packages may be stored as ZIP archives, extracted directories, or both, but the hash-authoritative archive must not be altered.
 
 Where a package contains source code, protocols, data, evidence, logs, manifests, and reports together, that package is the authoritative unit of publication. Separate copies may be published for readability, but they must be labeled as convenience copies and must not replace the original hashed package.
 
-The `package-index/` directory records what each package contains, its scientific role, version, status, SHA-256 digest, and relationship to earlier or later packages. This provides repository navigation without dismantling the evidence objects themselves.
+A package marked **accepted** in the package ledger is controlling scientific evidence unless a later accepted package explicitly supersedes it.
+
+The planned `package-index/` directory will record what each package contains, its scientific role, version, status, SHA-256 digest, and relationship to earlier or later packages. This will provide repository navigation without dismantling the evidence objects themselves.
 
 ---
 
@@ -361,7 +359,7 @@ Long-running native calculations must preserve completed rows and resume only fr
 
 Held-out results must never be used to alter a frozen candidate.
 
-Any future extension must begin as a new validation domain. It must not silently refit or rewrite the consumed evidence supporting the closed light-element theory.
+Any future extension must begin as a new validation domain. It must not silently refit or rewrite the consumed evidence supporting the closed four-sector theory.
 
 ---
 
@@ -391,32 +389,34 @@ This repository does not claim that research software alone satisfies the certif
 
 The public README intentionally does not reproduce the closed-form equations.
 
-Formal derivations, normalization conventions, curvature structure, source-current definitions, and validation details are preserved in controlled research papers and hash-bound technical packages.
+Formal derivations, normalization conventions, curvature structure, source-current definitions, source matrices, susceptibility coefficients, and validation details remain protected in controlled research papers and hash-bound technical packages.
 
-Public release of the complete formulas and final paper is intentionally sequenced after appropriate intellectual-property protection. This preserves the scientific record while allowing the formulas to be disclosed in full once that protection is secured.
+Public release of the complete formulas and final paper is intentionally sequenced after the author completes the intellectual-property decision and explicitly authorizes disclosure. Until that authorization, no protected formula, coefficient, matrix, normalization identity, or reconstructive implementation detail should be added to this public directory.
 
 ---
 
 ## Status
 
-The CPTG nuclear-reaction framework is **formula-closed within its tested light-element scope**.
+The CPTG geometric nuclear-reaction theory is **formula-closed and full-resolution qualified within its declared four-sector domain**.
 
-The completed theoretical structure includes:
+The completed and validated structure includes:
 
-- the four-state light-element geometry;
-- the dynamic free-nucleon vertex;
+- the free-neutron/proton vertex;
 - the deuterium bridge;
-- the mass-three closure sector;
-- the helium-4 saturation state;
-- the ordered transport operator;
+- the tritium/helium-3 mass-three closure sector;
+- the helium-4 saturation sector;
+- the exact ordered transport operator;
 - the charge-constrained polarization mode;
-- the complete reaction-source basis;
-- the first- and second-order curvature response;
-- the universal network-susceptibility construction;
-- the native construction and held-out validation architecture;
-- the numerical-rigidity and fail-closed evidence framework.
+- the complete rank-four reaction-source basis;
+- the first- and second-order curvature-response hierarchy;
+- the full-precision universal network susceptibility;
+- independent discovery and held-out reaction bases;
+- candidate freezing before held-out exposure;
+- no-refit full-resolution native validation;
+- mirror-polarization and mixed-direction diagnostics;
+- numerical-rigidity, recovery, and fail-closed evidence controls.
 
-The commissioned deuterium–proton capture branch has additionally passed:
+The commissioned `D(p,γ)³He` projection has additionally passed:
 
 - native reaction-network execution;
 - frozen baseline-versus-candidate comparison;
@@ -424,19 +424,9 @@ The commissioned deuterium–proton capture branch has additionally passed:
 - independent second-network directional replication;
 - exact rate-transfer and evidence-chain auditing.
 
-The active qualification program continues to test the frozen universal response across independent discovery and held-out reaction sets at full numerical resolution.
+The central four-sector theory is no longer awaiting structural or native qualification. Subsequent work concerns publication, external replication, experimental comparison, broader-domain falsification, higher-mass extension, software deployment, performance qualification, and the intellectual-property decision governing public disclosure.
 
-Subsequent work consists of:
-
-- completing the active held-out qualification campaign;
-- independent experimental comparison;
-- broader-domain falsification;
-- additional reaction-channel development;
-- software implementation and performance qualification;
-- intellectual-property protection;
-- formal publication.
-
-New evidence may confirm, constrain, or falsify the frozen theory, but consumed validation data must not be reused to refit the formula set after the fact.
+New evidence may confirm, constrain, or falsify the theory, but consumed discovery or held-out evidence must not be reused to refit the frozen formula and susceptibility package after the fact.
 
 ---
 
