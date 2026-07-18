@@ -57,9 +57,7 @@ The four validated sectors are the demonstrated foundation of the nuclear-reacti
 
 The earlier deuterium-proton capture result is retained within its commissioning-stage scope and is now interpreted as a projection of the larger universal theory.
 
-The theory structure is closed. Independent numerical-rigidity testing, native-network execution, no-refit observational comparison, and independent second-network replication have all passed within their declared scopes. The long-duration full-resolution qualification campaign continues under the frozen geometry while the clean evidence chain is consolidated for the universal research paper.
-
-Accepted scientific evidence is limited to successful, hash-verifiable audits. Malformed, superseded, incomplete, or corrupted runs are quarantined and are not used to support public claims.
+The theory structure is closed. Independent numerical-rigidity testing, native-network execution, no-refit observational comparison, and independent second-network replication have all passed within their declared scopes. The long-duration full-resolution qualification campaign continues under the frozen geometry while the clean evidence chain is consolidated for the universal research paper. Accepted scientific evidence is limited to successful, hash-verifiable audits
 
 No governing universal nuclear-reaction equations, nuclear source matrices, susceptibility coefficients, or normalization identities are reproduced here. They are reserved for the final research article, where the derivation, validation protocol, and accepted evidence chain will be presented together.
 
