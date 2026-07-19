@@ -292,7 +292,7 @@ The validated four-sector theory has also been continued computationally beyond 
 
 Current testing produces nonzero mass-sector support at every mass number from `A = 1` through `A = 119` under the declared native-inventory and prescribed-trajectory calculations. This is a gap-free computational continuation of the fixed geometric framework. It is not presented as full experimental validation, a universal full-resolution susceptibility for every heavier nucleus, or a precision absolute-abundance prediction across the entire mass range.
 
-The [resulting register](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/papers/commissioning-paper/Complete-Processed-Nuclear-Chain.pdf) contains three levels of computational support:
+The [resulting register](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/commissioning-paper/Complete-Processed-Nuclear-Chain.pdf) contains three levels of computational support:
 
 - `A = 1–30`: native reaction-network inventory, extending through oxygen and the post-oxygen network to silicon-30;
 - `A = 31–32`: strong prescribed-trajectory diagnostic continuation beyond the native inventory;
