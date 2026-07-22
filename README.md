@@ -413,11 +413,11 @@ The archived result contains a continuous mass-sector register from A=1 through 
 
 This establishes reproducible reduced-graph reachability beyond silicon-30. It is not presented as native-network coverage beyond silicon-30, a precision prediction of primordial heavy-element abundances, or a finite physical endpoint.
 
-The [computational companion](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/Complete-Processed-Nuclear-Chain.pdf) and its hash-verifiable evidence package are to be maintained in the [`nuclear-reactions`](https://github.com/CLG2025/CPTG/tree/main/nuclear-reactions) directory.
+The [computational companion](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/Complete-Processed-Nuclear-Chain.pdf) and its hash-verifiable evidence package are maintained together as the public authority for this result.
 
 ### Reaction Workbench and Exchange Interface
 
-The CPTG Reaction Workbench is being developed as a deterministic interface for applying approved nuclear-reaction formula and coefficient packages without repeating the resource-intensive qualification campaign for every query. Technical architecture, evidence-bound execution, external-model integration, computational-resource comparisons, deployment boundaries, and intellectual-property considerations are documented separately in the [`nuclear-reactions`](https://github.com/CLG2025/CPTG/tree/main/nuclear-reactions) directory.
+The CPTG Reaction Workbench is being developed as a deterministic interface for applying approved nuclear-reaction formula and coefficient packages without repeating the resource-intensive qualification campaign for every query. Technical architecture, evidence-bound execution, external-model integration, computational-resource comparisons, deployment boundaries, and intellectual-property considerations are documented separately with the public reaction-interface materials.
 
 ### Public disclosure boundary
 
