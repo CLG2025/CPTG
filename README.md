@@ -61,7 +61,7 @@ The theory structure is closed. Independent numerical-rigidity testing, native-n
 
 No governing universal nuclear-reaction equations, nuclear source matrices, susceptibility coefficients, or normalization identities are reproduced here. They are reserved for the final research article, where the derivation, validation protocol, and accepted evidence chain will be presented together.
 
-Supporting materials are being prepared for the planned **`/nuclear-reactions/`** directory.
+Supporting materials, immutable evidence packages, protocol documents, and computational companions are maintained in the **[`/nuclear-reactions/`](https://github.com/CLG2025/CPTG/tree/main/nuclear-reactions)** directory.
 
 ---
 
@@ -116,6 +116,7 @@ CPTG is being developed as a geometric framework with reduced-limit tests and co
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Cluster active-gate apertures | Same-aperture cluster-response tests using baryonic loading, support temperature, redshift, and aperture radius | Diagnostic cluster-scale active-gate and X-COP consistency [pass](#cluster-scale-active-gate-test-accept-and-x-cop) |
 | Universal geometric nuclear-reaction theory | Closed four-sector foundation spanning free nucleons, deuterium, the mass-three pair, and helium-4, including ordered transport, exact conservation structure, and the complete transport-polarization source space | Universal [theory closure](#universal-geometric-nuclear-reaction-theory); numerical-rigidity, native-network, no-refit observational, and independent second-network validation layers have passed, while full-resolution qualification and final-paper development continue under the frozen structure |
+| Post-silicon nuclear continuation | Computational companion containing a gap-free archived mass-sector register from A=1 through A=119, with outward-boundary, temporal-convergence, source-isolation, and source-cutoff qualification | Reproducible exploratory continuation: robust reduced-graph reachability, not a precision-qualified primordial heavy-element prediction or finite physical endpoint |
 | Nuclear-reaction interface and exchange layer | PC-first CPTG Reaction Workbench, deterministic evidence/replay architecture, formula-package authority, compiled-runtime boundary, and external scientific-model interface under active engineering development | Active engineering implementation and qualification |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape [pass](#pantheon-supernova-distance-shape-test), not an H0 calibration claim |
 | BBN abundance and lithium tests | Transported BBN coordinate, locked live A = 7 lithium gate, PRyMordial admitted abundance row, AlterBBN rate-response marker, and the native D(p,γ)³He reaction-rate extension | Coordinate-layer and source-network [validation](#bbn-abundance-and-lithium-source-network-tests): deuterium and helium remain within their comparison bands while the A = 7 gate maps the raw standard-BBN lithium excess into the observed primordial lithium range |
@@ -154,8 +155,6 @@ This repository contains the public academic package for CPTG, including:
 The recommended compact reproducibility download is **`CPTG_academic_package.zip`**, located in the **`/archive/`** folder. It preserves the public core benchmark environment for the SPARC galaxy and Bullet Cluster reduced-limit tests.
 
 The larger **CPTG SPARC Browser Workbench v1.12.0** is distributed separately for interactive rotation-curve analysis. The release contains the prebuilt Windows application, local build and Python launch options, included SPARC data and metadata, and the current cross-platform Python source. Additional Python files in the repository should be treated as development variants or replacement implementations unless a specific package README states otherwise.
-
-The planned **`/nuclear-reactions/`** directory will be the publication and evidence home for the universal nuclear-reaction program and its validated four-sector foundation. Its package-centered structure preserves complete hashed audit objects. Source code, protocols, raw evidence, logs, manifests, reports, and replay material may remain together inside one immutable package when separating them would break the evidence chain.
 
 ---
 
@@ -406,6 +405,16 @@ It provides a common framework for:
 
 The theory also preserves a strict authority boundary: CPTG supplies scientific reaction quantities and comparison coordinates, while external institutions retain ownership of facility integration, controllers, actuators, and safety certification.
 
+### Continuing post-silicon research
+
+A separate computational companion extends the represented calculation beyond the native silicon-30 frontier through a prescribed-trajectory graph containing forward neutron-capture and beta-minus edges.
+
+The archived result contains a continuous mass-sector register from A=1 through A=119. Moving the absorbing graph boundary from A=120 to A=140 and A=160 produces identical stored mass-sector sums through A=119. Temporal refinement through 64 substeps preserves positive support throughout the enlarged graph, while source-cutoff tests show that the deepest tail magnitudes remain sensitive to the earliest and smallest values in the native silicon-30 source trajectory.
+
+This establishes reproducible reduced-graph reachability beyond silicon-30. It is not presented as native-network coverage beyond silicon-30, a precision prediction of primordial heavy-element abundances, or a finite physical endpoint.
+
+The [computational companion](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/Complete-Processed-Nuclear-Chain.pdf) and its hash-verifiable evidence package are to be maintained in the [`nuclear-reactions`](https://github.com/CLG2025/CPTG/tree/main/nuclear-reactions) directory.
+
 ### Reaction Workbench and Exchange Interface
 
 The CPTG Reaction Workbench is being developed as a deterministic interface for applying approved nuclear-reaction formula and coefficient packages without repeating the resource-intensive qualification campaign for every query. Technical architecture, evidence-bound execution, external-model integration, computational-resource comparisons, deployment boundaries, and intellectual-property considerations are documented separately in the [`nuclear-reactions`](https://github.com/CLG2025/CPTG/tree/main/nuclear-reactions) directory.
@@ -418,7 +427,7 @@ The final paper will disclose the governing equations, derivation, constants, so
 
 Scientific disclosure and interface disclosure are being managed separately. Interface-specific implementation details may be released on a separate schedule without withholding the evidence needed to identify the scientific authority, reproduce declared public benchmarks, or audit published results.
 
-Current public materials, immutable packages, protocol documents, and future manuscript releases are being prepared for the planned **`/nuclear-reactions/`** directory.
+Current public materials, immutable packages, protocol documents, computational companions, and future manuscript releases are maintained in the **[`/nuclear-reactions/`](https://github.com/CLG2025/CPTG/tree/main/nuclear-reactions)** directory.
 
 ---
 
@@ -632,6 +641,7 @@ CPTG is being developed as an active research program with reproducible public m
 - transported BBN coordinate control with D/H and helium agreement;
 - locked live A = 7 lithium source-network gate with a PRyMordial admitted row and an AlterBBN rate-response marker;
 - completion of the universal geometric nuclear-reaction architecture built on the free-nucleon, deuterium, mass-three, and helium-4 foundation, together with its commissioning-channel, numerical-rigidity, native-network, no-refit abundance, second-network replication, and fail-closed evidence layers;
+- completion of the computational companion documenting the continuous A=1–119 mass-sector register, identical stored boundary results through A=119, whole-register temporal-convergence statistics, source controls, and a hash-verifiable evidence package;
 - transition to the universal nuclear-reaction research paper while the long-duration full-resolution qualification campaign continues under the frozen geometry;
 - development of the CPTG Reaction Workbench and reaction-exchange layer for deterministic evaluation, evidence capture, replay, and external-model integration;
 - compact reproducibility packages, source manifests, and exact-input records across the public materials.
