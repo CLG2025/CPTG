@@ -13,7 +13,7 @@ Together, these sectors form one closed transport-polarization architecture rath
 
 > **Formula-protection notice**
 >
-> The public README intentionally omits the governing equations, source matrices, susceptibility coefficients, normalization identities, and implementation details that would disclose the protected calculation structure. These materials must not be added to the public repository until the author explicitly authorizes disclosure following the intellectual-property decision.
+> This public README intentionally omits the protected universal nuclear-reaction equations, source matrices, susceptibility coefficients, normalization identities, and reconstructive formula-package details. Public computational companions and evidence packages may disclose reduced-graph methods, numerical recurrences, verification scripts, and archived outputs when those materials do not reconstruct the protected universal formula authority.
 
 ---
 
@@ -31,7 +31,7 @@ Together, these sectors form one closed transport-polarization architecture rath
 | Commissioning `D(p,γ)³He` projection | Passed within its declared scope |
 | Independent network transfer | Directionally replicated |
 | Numerical-rigidity and fail-closed testing | Passed |
-| Continuation through `A = 119` | Exploratory computational support |
+| Post-silicon continuation through `A = 119` | Published computational companion; boundary-, convergence-, and source-control-qualified reduced-graph reachability |
 
 The completed full-resolution native campaign used independent discovery, held-out, mirror-polarization, and mixed-direction reaction sets under a frozen geometry. The candidate susceptibility was constructed from the discovery basis, frozen before held-out exposure, and retained without post-result fitting or reaction-specific correction.
 
@@ -58,7 +58,7 @@ The universal extension completes that construction. It identifies a reaction sy
 7. baryon number and electric charge remain exact constraints of the full reaction operator;
 8. the complete reaction basis is represented by one transport-polarization susceptibility rather than unrelated empirical fits.
 
-The theory is closed and full-resolution qualified at the level of sector definition, reaction topology, conservation structure, source decomposition, curvature response, and universal network transport within the declared four-sector domain.
+Within the declared four-sector domain, the completed qualification fixes the sector definition, reaction topology, conservation structure, source decomposition, curvature response, and universal network transport.
 
 ---
 
@@ -288,23 +288,25 @@ Those are downstream validation and application domains, not open terms in the c
 
 #### Prescribed-Trajectory Test Beyond the Validated Four-Sector Domain
 
-The validated four-sector theory has also been continued computationally beyond helium-4 as an exploratory test of geometric reach.
+The broader CPTG nuclear-reaction program has also been extended beyond the native silicon-30 frontier through a prescribed-trajectory neutron-capture and beta-minus graph. This exploratory calculation tests post-silicon reachability while remaining separate from the validated authority of the four-sector universal susceptibility.
 
-Current testing produces nonzero mass-sector support at every mass number from `A = 1` through `A = 119` under the declared native-inventory and prescribed-trajectory calculations. This is a gap-free computational continuation of the fixed geometric framework. It is not presented as full experimental validation, a universal full-resolution susceptibility for every heavier nucleus, or a precision absolute-abundance prediction across the entire mass range.
+The published computational companion contains a gap-free register for every integer mass number from `A = 1` through `A = 119`. The `A = 5` row records the unbound helium-5 and lithium-5 resonance states and has no abundance coordinate. Every published post-silicon mass-sector sum from `A = 31` through `A = 119` is positive in the archived prescribed-trajectory result.
 
-The [resulting register](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/commissioning-paper/Complete-Processed-Nuclear-Chain.pdf) contains three levels of computational support:
+The companion paper, *[A Universal Geometric Theory of Nuclear Reactions in CPTG: Post-Silicon Reachability, Convergence, and the Continuous A=1–119 Mass-Sector Register](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/Complete-Processed-Nuclear-Chain.pdf)*, and **`Complete-Processed-Nuclear-Chain_A1-A119_ComputationalCompanion_20260721_r02_PACKAGE.zip`** preserve three levels of computational support:
 
 - `A = 1–30`: native reaction-network inventory, extending through oxygen and the post-oxygen network to silicon-30;
 - `A = 31–32`: strong prescribed-trajectory diagnostic continuation beyond the native inventory;
-- `A = 33–119`: exploratory prescribed-trajectory neutron-capture and beta-decay graph.
+- `A = 33–119`: exploratory prescribed-trajectory neutron-capture and beta-minus graph.
 
-Together, these categories provide a gap-free higher-mass test of the fixed CPTG geometric framework while preserving a strict distinction between validated four-sector authority and exploratory continuation.
+The computational qualification establishes that moving the absorbing boundary from `A = 120` to `A = 140` and `A = 160` produces identical stored mass-sector sums through `A = 119`. Whole-register temporal refinement through 64 substeps preserves positive support, while source-isolation and source-cutoff controls distinguish stable graph reachability from the source-sensitive magnitude of the deepest tail.
+
+The result is therefore a reproducible reduced-graph reachability qualification. It is not native-network coverage beyond silicon-30, a precision-qualified prediction of primordial heavy-element abundances, or a finite physical endpoint.
 
 ---
 
-## Planned Repository Structure
+## Repository Structure and Evidence Policy
 
-The directory will be populated only after the remaining testing, publication packaging, and intellectual-property decision permit public release. Until then, the structure below is a planning map rather than a statement that every directory or package is publicly present.
+This directory is the publication and evidence home for the CPTG nuclear-reaction program. Public contents are released incrementally as manuscripts, interfaces, and immutable evidence packages complete their respective disclosure and validation requirements. Not every reserved subdirectory or package class is necessarily populated at the same time.
 
 The repository is organized around **immutable, versioned evidence packages** rather than separating every script, protocol, dataset, manifest, and report into independent files.
 
@@ -315,6 +317,7 @@ Many CPTG packages are complete audit objects. A single package may contain exec
 ├── README.md
 ├── papers/
 │   ├── universal-theory/
+│   ├── computational-companion/
 │   └── commissioning-paper/
 ├── packages/
 │   ├── theory-development/
@@ -322,11 +325,7 @@ Many CPTG packages are complete audit objects. A single package may contain exec
 │   ├── stress-testing/
 │   ├── protocol-frameworks/
 │   └── audits-and-handoffs/
-├── package-index/
-│   ├── PACKAGE_LEDGER.md
-│   ├── EVIDENCE_LEDGER.md
-│   ├── SHA256SUMS.txt
-│   └── RELEASE_NOTES.md
+├── package-index/          # populated as public ledgers are released
 └── releases/
 ```
 
@@ -336,7 +335,7 @@ Where a package contains source code, protocols, data, evidence, logs, manifests
 
 A package marked **accepted** in the package ledger is controlling scientific evidence unless a later accepted package explicitly supersedes it.
 
-The planned `package-index/` directory will record what each package contains, its scientific role, version, status, SHA-256 digest, and relationship to earlier or later packages. This will provide repository navigation without dismantling the evidence objects themselves.
+The reserved `package-index/` directory will record what each package contains, its scientific role, version, status, SHA-256 digest, and relationship to earlier or later packages as the public ledgers are released. This provides repository navigation without dismantling the evidence objects themselves.
 
 ---
 
@@ -389,9 +388,9 @@ This repository does not claim that research software alone satisfies the certif
 
 The public README intentionally does not reproduce the closed-form equations.
 
-Formal derivations, normalization conventions, curvature structure, source-current definitions, source matrices, susceptibility coefficients, and validation details remain protected in controlled research papers and hash-bound technical packages.
+Formal derivations, normalization conventions, curvature structure, source-current definitions, source matrices, susceptibility coefficients, and reconstructive formula-package details remain protected in controlled research papers and hash-bound technical packages.
 
-Public release of the complete formulas and final paper is intentionally sequenced after the author completes the intellectual-property decision and explicitly authorizes disclosure. Until that authorization, no protected formula, coefficient, matrix, normalization identity, or reconstructive implementation detail should be added to this public directory.
+Public computational companions may disclose reduced-graph equations, numerical recurrences, verification scripts, and archived outputs when those materials do not reconstruct the protected universal formula authority. Public release of the complete universal formulas and final theory paper remains sequenced after the author completes the intellectual-property decision and explicitly authorizes disclosure.
 
 ---
 
@@ -437,3 +436,7 @@ New evidence may confirm, constrain, or falsify the theory, but consumed discove
 Repository: https://github.com/CLG2025/CPTG
 
 Author: **Carter L. Glass Jr.**
+
+For the post-silicon computational continuation, cite:
+
+Carter L. Glass Jr., *[A Universal Geometric Theory of Nuclear Reactions in CPTG: Post-Silicon Reachability, Convergence, and the Continuous A=1–119 Mass-Sector Register](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/Complete-Processed-Nuclear-Chain.pdf)*, computational companion, 2026.
