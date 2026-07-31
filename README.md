@@ -57,7 +57,7 @@ The four validated sectors are the demonstrated foundation of the nuclear-reacti
 
 The earlier deuterium-proton capture result is retained within its commissioning-stage scope and is now interpreted as a projection of the larger universal theory.
 
-The theory structure is closed. Independent numerical-rigidity testing, native-network execution, no-refit observational comparison, and independent second-network replication have all passed within their declared scopes. The long-duration full-resolution qualification campaign continues under the frozen geometry while the clean evidence chain is consolidated for the universal research paper. Accepted scientific evidence is limited to successful, hash-verifiable audits.
+The theory structure is closed. Cross-network transfer has now been demonstrated in AlterBBN, PRyMordial, and PArthENoPE without network-specific refitting. AlterBBN and PRyMordial validate the shared-endpoint directional response, while PArthENoPE independently confirms the locked first-order Reaction-20 law, all primary response signs, and the same third-network directional geometry within its solver-qualified observable scope. A separate reserve-channel test also confirms continuation of the frozen source geometry beyond the commissioning reaction. Additional higher-order PArthENoPE solver qualification continues separately and does not alter the locked geometry. The long-duration full-resolution qualification campaign continues while the clean evidence chain is consolidated for the universal research paper. Accepted scientific evidence is limited to successful, hash-verifiable audits.
 
 No governing universal nuclear-reaction equations, nuclear source matrices, susceptibility coefficients, or normalization identities are reproduced here. They are reserved for the final research article, where the derivation, validation protocol, and accepted evidence chain will be presented together.
 
@@ -115,7 +115,7 @@ CPTG is being developed as a geometric framework with reduced-limit tests and co
 | SPARC galaxy rotation curves | Public reduced-limit SPARC test available through the compact academic package and the interactive browser workbench | Reproducible galaxy-scale benchmark |
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Cluster active-gate apertures | Same-aperture cluster-response tests using baryonic loading, support temperature, redshift, and aperture radius | Diagnostic cluster-scale active-gate and X-COP consistency [pass](#cluster-scale-active-gate-test-accept-and-x-cop) |
-| Universal geometric nuclear-reaction theory | Closed four-sector foundation spanning free nucleons, deuterium, the mass-three pair, and helium-4, including ordered transport, exact conservation structure, and the complete transport-polarization source space | Universal [theory closure](#universal-geometric-nuclear-reaction-theory); numerical-rigidity, native-network, no-refit observational, and independent second-network validation layers have passed, while full-resolution qualification and final-paper development continue under the frozen structure |
+| Universal geometric nuclear-reaction theory | Closed four-sector foundation spanning free nucleons, deuterium, the mass-three pair, and helium-4, including ordered transport, exact conservation structure, and the complete transport-polarization source space | Universal [theory closure](#universal-geometric-nuclear-reaction-theory) with three-network transfer evidence: AlterBBN and PRyMordial validate the shared-endpoint directional mode, while PArthENoPE independently validates the locked first-order law, all primary response signs, and the third-network directional mode within its solver-qualified observable scope. Full-resolution qualification continues under the frozen structure |
 | Post-silicon nuclear continuation | Computational companion containing a gap-free archived mass-sector register from A=1 through A=119, with outward-boundary, temporal-convergence, source-isolation, and source-cutoff qualification | Reproducible exploratory continuation: robust reduced-graph reachability, not a precision-qualified primordial heavy-element prediction or finite physical endpoint |
 | Nuclear-reaction interface and exchange layer | PC-first CPTG Reaction Workbench, deterministic evidence/replay architecture, formula-package authority, compiled-runtime boundary, and external scientific-model interface under active engineering development | Active engineering implementation and qualification |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape [pass](#pantheon-supernova-distance-shape-test), not an H0 calibration claim |
@@ -134,6 +134,7 @@ Claim levels are used consistently throughout this README:
 - **Closure pass** — agreement within a declared fixed-branch closure protocol.
 - **Anchored comparison** — a dimensional comparison whose normalization is explicitly anchored to a stated observable, with independent rows treated as cross-checks rather than as free refits.
 - **Theory closure** — the governing state structure, conservation laws, source space, and response architecture are fixed; remaining work concerns qualification, replication, implementation, and publication rather than structural retuning.
+- **Cross-network transfer** — a locked physical or geometric law reproduces its declared observable response in independently implemented scientific networks without network-specific refitting. This does not require equal code-local currents, normalizations, solvers, or secondary numerical residuals.
 - **Pending qualification** — the governing structure and validation design are frozen, but the declared execution or held-out decision has not yet completed.
 - **Exploratory continuation** — a result used to investigate extension beyond the validated domain; it does not establish universal physical validity in the extended sector.
 - **Theory mechanism** — a derived interpretation connected to a dedicated comparison or audit layer.
@@ -340,6 +341,8 @@ CPTG has completed the theoretical transition from a commissioned deuterium-prot
 
 These sectors define the demonstrated foundation of the theory rather than an asserted upper mass limit.
 
+Structural closure means that the state coordinate, conservation laws, source basis, and response architecture are fixed. It does not mean that every reaction projection or every network susceptibility has completed full-resolution empirical qualification.
+
 ### The breakthrough
 
 The closed theoretical architecture establishes that these four sectors are not separate reaction problems requiring unrelated geometric constructions. They form one ordered state system governed by a common transport architecture.
@@ -383,11 +386,21 @@ The universal theory now explains why that first channel worked. Deuterium-proto
 
 The scalar curvature-response theorem, four-state baryon geometry, and transport-polarization source space have passed their declared closure gates. Independent numerical-rigidity and fail-closed stress testing have also completed successfully.
 
-The commissioned reaction branch has passed native network execution, no-refit observational comparison, and independent second-network replication of the predicted abundance-response direction. The two network implementations agree on the qualitative response while retaining quantitative implementation differences.
+#### Cross-network validation
 
-The remaining active evidence program uses independent discovery and held-out reaction sets, full-resolution sampling, exact reaction-current instrumentation, native network execution, and durable checkpointing across the frozen qualification design.
+The commissioned Reaction-20 law now has no-refit transfer evidence in three independently developed BBN implementations:
 
-These layers test portability, precision, numerical rigidity, and implementation safety without changing the frozen geometry after held-out exposure.
+| Network | Established result | Current authority boundary |
+|---|---|---|
+| AlterBBN | Native Reaction-20 response surface, endpoint propagation, code-local current instrumentation, and the active full-resolution qualification authority | The complete full-resolution campaign continues under the frozen candidate |
+| PRyMordial | Independent shared-endpoint replication and held-out validation of the fixed directional species mode | Internal-current normalization remains code-local and is not equated with AlterBBN |
+| PArthENoPE | Independent confirmation of the locked first-order Reaction-20 law, all 18 primary response signs, and the third-network directional mode | Higher-order mass-seven solver qualification continues; a complete five-coordinate susceptibility reconstruction is not yet claimed |
+
+These are independently developed numerical implementations, but they share portions of the underlying BBN physics and nuclear-rate literature. The result is therefore described as cross-network transfer without network-specific refitting, not as three Bernoulli trials or as evidence that the codes possess identical internal-current normalizations.
+
+A separate six-anchor reserve-channel test confirms that the frozen source geometry transfers beyond the commissioning reaction. The Reaction-21 response maintained a stable direction and coefficient across three original and three previously unexposed baryon-density anchors without changing the frozen operator. This strengthens the current-weighted multimode interpretation while leaving the main full-resolution candidate unchanged.
+
+The remaining active evidence program uses independent discovery and held-out reaction sets, full-resolution sampling, exact reaction-current instrumentation, native network execution, and durable checkpointing across the frozen qualification design. These layers test portability, precision, numerical rigidity, and implementation safety without changing the frozen geometry after held-out exposure.
 
 ### Why this matters
 
@@ -640,7 +653,7 @@ CPTG is being developed as an active research program with reproducible public m
 - locked geometric-π CMB comparison-map closure and Route B Option 1 curvature-transport bridge validation;
 - transported BBN coordinate control with D/H and helium agreement;
 - locked live A = 7 lithium source-network gate with a PRyMordial admitted row and an AlterBBN rate-response marker;
-- completion of the universal geometric nuclear-reaction architecture built on the free-nucleon, deuterium, mass-three, and helium-4 foundation, together with its commissioning-channel, numerical-rigidity, native-network, no-refit abundance, second-network replication, and fail-closed evidence layers;
+- completion of the universal geometric nuclear-reaction architecture, together with numerical-rigidity testing, native AlterBBN qualification, independent PRyMordial held-out replication, third-network PArthENoPE transfer of the locked first-order law and directional mode, reserve-channel continuation, and fail-closed evidence controls;
 - completion of the computational companion documenting the continuous A=1–119 mass-sector register, identical stored boundary results through A=119, whole-register temporal-convergence statistics, source controls, and a hash-verifiable evidence package;
 - transition to the universal nuclear-reaction research paper while the long-duration full-resolution qualification campaign continues under the frozen geometry;
 - development of the CPTG Reaction Workbench and reaction-exchange layer for deterministic evaluation, evidence capture, replay, and external-model integration;
@@ -675,4 +688,4 @@ CPTG is a geometric gravity framework in which gravitational enhancement, lensin
 
 The public repository contains reduced numerical implementations, the compact academic benchmark package, the standalone CPTG SPARC Browser Workbench, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. Cosmology-facing work is organized through fixed comparison branches.
 
-At nuclear scale, CPTG has advanced from a commissioned deuterium-proton capture result to a universal geometric reaction theory with a closed four-sector foundation spanning free nucleons, deuterium, mass three, and helium-4; the governing formulas remain reserved for the final research paper, and a dedicated reaction interface is under development.
+At nuclear scale, CPTG now has a closed four-sector reaction architecture and no-refit transfer evidence across AlterBBN, PRyMordial, and PArthENoPE. The detailed theory, validation boundaries, and continuing qualification program are described in the [Universal Geometric Nuclear-Reaction Theory](#universal-geometric-nuclear-reaction-theory) section; the governing formulas remain reserved for the final research paper.
