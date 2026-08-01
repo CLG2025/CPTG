@@ -364,10 +364,11 @@ For the post-silicon computational continuation, cite:
 
 Carter L. Glass Jr., *[A Universal Geometric Theory of Nuclear Reactions in CPTG: Post-Silicon Reachability, Convergence, and the Continuous A=1–119 Mass-Sector Register](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/Complete-Processed-Nuclear-Chain.pdf)*, computational companion, 2026.
 
-### BBN software citations
+---
+
+## BBN software citations
 
 - A. Arbey, J. Auffinger, K. P. Hickerson, and E. S. Jenssen, “AlterBBN v2: A public code for calculating Big-Bang nucleosynthesis constraints in alternative cosmologies,” *Computer Physics Communications* **248**, 106982 (2020), [doi:10.1016/j.cpc.2019.106982](https://doi.org/10.1016/j.cpc.2019.106982).
 - A.-K. Burns, T. M. P. Tait, and M. Valli, “PRyMordial: the first three minutes, within and beyond the standard model,” *The European Physical Journal C* **84**, 86 (2024), [doi:10.1140/epjc/s10052-024-12442-0](https://doi.org/10.1140/epjc/s10052-024-12442-0).
 - S. Gariazzo, P. F. de Salas, O. Pisanti, and R. Consiglio, “PArthENoPE revolutions,” *Computer Physics Communications* **271**, 108205 (2022), [doi:10.1016/j.cpc.2021.108205](https://doi.org/10.1016/j.cpc.2021.108205).
-
-Official PArthENoPE 3.0 program distribution: Mendeley Data, version 2, [doi:10.17632/wvgr7d8yt9.2](https://doi.org/10.17632/wvgr7d8yt9.2).
+- Official PArthENoPE 3.0 program distribution: Mendeley Data, version 2, [doi:10.17632/wvgr7d8yt9.2](https://doi.org/10.17632/wvgr7d8yt9.2).
