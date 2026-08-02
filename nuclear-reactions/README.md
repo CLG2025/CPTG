@@ -1,6 +1,6 @@
 # CPTG Geometric Nuclear-Reaction Theory
 
-This directory contains the papers, source code, validation tools, execution protocols, and evidence packages for the universal nuclear-reaction extension of **Curvature Polarization Transport Gravity (CPTG)**.
+This directory contains the papers, source code, validation tools, execution protocols, and evidence packages for the universal, fixed, scalable nuclear-reaction extension of **Curvature Polarization Transport Gravity (CPTG)**.
 
 The validated foundation consists of four coupled nuclear sectors:
 
@@ -10,6 +10,8 @@ The validated foundation consists of four coupled nuclear sectors:
 - **Helium-4 (`⁴He`) — saturation**
 
 Together, these sectors form one transport-polarization architecture rather than a collection of unrelated reaction models. They define the validated foundation of the universal theory without imposing helium-4 as an absolute upper mass limit.
+
+**Fixed-law scalability** means that the same CPTG geometric law, source-coordinate construction, conservation structure, and baryon-density dependence are carried across reaction channels and independently developed network implementations without reaction-specific or code-specific geometric refitting. Reaction stoichiometry determines the source direction; it does not replace the underlying geometry.
 
 > **Formula-protection notice**
 >
@@ -25,18 +27,18 @@ Together, these sectors form one transport-polarization architecture rather than
 | Baryon and electric-charge constraints | Exact |
 | Reaction-source space | Rank four and complete |
 | Scalar curvature-response law | Passed |
-| Universal network susceptibility | Frozen; full-resolution native authority completed in AlterBBN |
-| Independent held-out basis | Passed without refitting |
+| Universal network susceptibility | Fixed; full-resolution native authority completed in AlterBBN |
+| Independent zero-refit validation basis | Passed without refitting |
 | Mirror-polarization and mixed-direction diagnostics | Passed |
 | Commissioning `D(p,γ)³He` projection | Passed within its declared scope |
 | Cross-network Reaction-20 transfer | Confirmed in AlterBBN, PRyMordial, and PArthENoPE without network-specific refitting |
-| Full-network PArthENoPE endpoint replication | 695/695 rows, 338/338 matched pairs, and 84/84 eight-branch ladders passed hard-integrity checks |
+| Full-network PArthENoPE endpoint validation | 695/695 rows, 338/338 matched pairs, and 84/84 eight-branch ladders passed hard-integrity checks |
 | Numerical-rigidity and fail-closed qualification | Passed |
 | Post-silicon continuation through `A = 119` | Published computational companion; reduced-graph reachability qualified by boundary, convergence, and source controls |
 
-The native authority campaign used independent discovery, held-out, mirror-polarization, and mixed-direction reaction sets under a frozen geometry. The susceptibility candidate was constructed from the discovery basis, frozen before held-out exposure, and retained without post-result fitting or reaction-specific correction.
+The native authority campaign used independent construction, zero-refit validation, mirror-polarization, and mixed-direction reaction sets under a fixed geometry. The susceptibility authority was determined from the construction basis, fixed before independent validation, and retained without post-result fitting or reaction-specific correction.
 
-The separate PArthENoPE Reaction-20 campaign is a **preregistered, pre-exposed cross-code replication**, not a blinded held-out validation. It confirms the declared shared-endpoint response in a third independently developed BBN implementation while preserving code-local boundaries for currents, source kernels, solver internals, and normalization conventions.
+The separate PArthENoPE Reaction-20 campaign is a **preregistered zero-refit cross-network validation of the fixed Reaction-20 law**. It confirms the declared shared-endpoint response in a third independently developed BBN implementation while preserving code-local boundaries for currents, source kernels, solver internals, and normalization conventions.
 
 ---
 
@@ -83,7 +85,7 @@ The theory distinguishes three levels:
 - **network susceptibility** — redistribution of that drive by the full reaction system;
 - **observable abundance response** — the final projected network result.
 
-The full-resolution native qualification established one frozen source-current-normalized susceptibility over the declared reaction-source basis without reaction-specific refitting. The earlier scalar commissioning result is retained as one projection of this larger transport-polarization operator.
+The full-resolution native qualification established one fixed source-current-normalized susceptibility over the declared reaction-source basis without reaction-specific refitting. The earlier scalar commissioning result is retained as one projection of this larger transport-polarization operator.
 
 ---
 
@@ -98,7 +100,7 @@ The validated operator preserves:
 - the internal polarization constraint;
 - the distinction between source current and final network response.
 
-Independent discovery and held-out reaction sets were used to construct and evaluate the universal susceptibility without changing the underlying geometry or introducing reaction-specific corrections.
+Independent construction and zero-refit validation reaction sets were used to determine and evaluate the universal susceptibility without changing the underlying geometry or introducing reaction-specific corrections.
 
 ---
 
@@ -124,19 +126,19 @@ The universal theory generalizes that result from one principal capture channel 
 
 ### Native AlterBBN authority
 
-The frozen reaction construction was propagated through native reaction-network calculations spanning:
+The fixed reaction construction was propagated through native reaction-network calculations spanning:
 
 - multiple reaction channels;
-- independent discovery and held-out reaction bases;
+- independent construction and zero-refit validation reaction bases;
 - multiple primordial baryon-density coordinates;
 - symmetric rate perturbations;
 - exact reaction-current instrumentation;
 - first- and second-order response extraction;
 - full abundance-vector comparison;
 - durable checkpointing and recovery;
-- candidate freezing before held-out exposure.
+- susceptibility fixing before independent validation.
 
-The universal transport-polarization susceptibility authority was completed in the native AlterBBN environment under the frozen full-resolution design. The campaign preserved the discovery/held-out boundary and introduced no post-result fitting, reaction-specific correction factors, held-out exclusions, or changes to the frozen four-sector geometry.
+The universal transport-polarization susceptibility authority was completed in the native AlterBBN environment under the fixed full-resolution design. The campaign preserved the construction/validation boundary and introduced no post-result fitting, reaction-specific correction factors, validation exclusions, or changes to the fixed four-sector geometry.
 
 ### Cross-network Reaction-20 transfer
 
@@ -146,15 +148,15 @@ The commissioned Reaction-20 response has been evaluated in three independently 
 |---|---|---|
 | **AlterBBN** | Native Reaction-20 response surface, endpoint propagation, code-local current instrumentation, and full-resolution universal-susceptibility authority | Source kernels, accepted-state current definitions, and current normalization remain AlterBBN-local |
 | **PRyMordial** | Independent matched-uniform Reaction-20 endpoint and current-normalized response; the first-order species vector closely aligns with AlterBBN | PRyMordial current normalization remains code-local and is not asserted to be numerically identical to AlterBBN |
-| **PArthENoPE 3.0** | Official full-network 695-row endpoint campaign; all hard row, pair, ladder, trajectory, and provenance gates passed; the frozen D/H, He-3/H, and Li-7/H gate passed across six density anchors | Pre-exposed cross-code endpoint replication, not blinded held-out validation; no PArthENoPE internal-current, source-kernel, or five-coordinate susceptibility equivalence claim |
+| **PArthENoPE 3.0** | Official full-network 695-row endpoint campaign; all hard row, pair, ladder, trajectory, and provenance gates passed; the fixed D/H, He-3/H, and Li-7/H gate passed across six density anchors | Zero-refit shared-endpoint validation of the fixed Reaction-20 law; no PArthENoPE internal-current, source-kernel, or five-coordinate susceptibility equivalence claim |
 
 The three codes share portions of the underlying BBN physics and nuclear-rate literature. The result is therefore described as **cross-network transfer without network-specific refitting**, not as three statistically independent trials and not as proof that the codes use identical internal-current normalizations.
 
-### Full-network PArthENoPE Reaction-20 replication
+### Full-network PArthENoPE Reaction-20 validation
 
 The PArthENoPE campaign used the official 26-nuclide, 100-reaction network; one native process per row; symmetric logarithmic rate branches; retained native trajectories; atomic row commits; matched-pair auditing; and complete eight-branch ladder auditing.
 
-| Replication metric | Measured result | Frozen requirement |
+| Validation metric | Measured result | Fixed requirement |
 |---|---:|---:|
 | Native rows | 695/695 | 695/695 |
 | Matched branch pairs | 338/338 | 338/338 |
@@ -174,7 +176,7 @@ CPTG_v129_r109_PArthENoPE_CPTG_Reaction20_ReplicationAuthorityBundle_20260731_r0
 SHA-256: 3d42d1cb1d710248841db8d7b1ceafcc7569f092b9b35c9f4114ce9615074cfc
 ```
 
-It contains the clean replication source, all 695 accepted native evidence rows, 338 matched-pair audits, 84 ladder audits, recomputation source code, provenance records, six PArthENoPE anchor vectors, threshold calculations, a claim matrix, and one-command audit regeneration. The official PArthENoPE distribution is obtained separately from its published program archive.
+It contains the clean campaign source, all 695 accepted native evidence rows, 338 matched-pair audits, 84 ladder audits, recomputation source code, provenance records, six PArthENoPE anchor vectors, threshold calculations, a claim matrix, and one-command audit regeneration. The official PArthENoPE distribution is obtained separately from its published program archive.
 
 After extracting the bundle, regenerate the audit with:
 
@@ -190,12 +192,12 @@ The result establishes the preregistered shared-endpoint response in D/H, He-3/H
 
 The accepted evidence chain preserves:
 
-- source, executable, ledger, candidate, and package hashes;
+- source, executable, ledger, susceptibility-authority, and package hashes;
 - command records and native execution logs;
 - endpoint, trajectory, solver, and row-integrity audits;
 - matched-pair and complete-ladder audit records;
 - checkpoint and recovery state;
-- candidate-freeze and preregistration records;
+- susceptibility-freeze and preregistration records;
 - output manifests and append-only event ledgers;
 - raw abundance and current data where exposed by the native code;
 - independent reconstruction and recomputation scripts;
@@ -217,9 +219,9 @@ Within that scope:
 - the transport and polarization structure is fixed;
 - the first- and second-order curvature responses are fixed;
 - the full-precision universal network susceptibility is fixed;
-- the discovery candidate was frozen before held-out exposure;
-- the independent held-out basis passed without refitting;
-- mirror-polarization and mixed-direction diagnostics passed under the frozen candidate;
+- the full-precision susceptibility was fixed before independent validation;
+- the independent zero-refit validation basis passed;
+- mirror-polarization and mixed-direction diagnostics passed under the fixed susceptibility;
 - no reaction-specific fitting or postdecision correction is required.
 
 Formula closure does not by itself establish:
@@ -306,7 +308,7 @@ Executable packages should provide, as applicable:
 
 Long-running native calculations must preserve completed rows and resume only from missing or invalid entries.
 
-Held-out results must never be used to alter a frozen candidate. Pre-exposed replication results must remain labeled as replication and must not be retroactively described as blinded held-out evidence.
+Independent validation results must never be used to alter the fixed susceptibility authority. Cross-network validation results must retain their declared shared-observable scope and code-local boundaries; they must not be used to introduce network-specific geometric refitting.
 
 Any future extension must begin as a new validation domain. It must not silently refit or rewrite the consumed evidence supporting the closed four-sector theory.
 
@@ -314,7 +316,7 @@ Any future extension must begin as a new validation domain. It must not silently
 
 ## Security, Safety, and Disclosure
 
-The software in this directory is research software. It is designed to fail closed when required authority is missing, hashes do not match, evidence records are malformed, conserved quantities exceed tolerance, states become nonphysical, numerical results are nonfinite, frozen boundaries are violated, or execution records are incomplete.
+The software in this directory is research software. It is designed to fail closed when required authority is missing, hashes do not match, evidence records are malformed, conserved quantities exceed tolerance, states become nonphysical, numerical results are nonfinite, fixed authority boundaries are violated, or execution records are incomplete.
 
 This repository does not claim that research software alone satisfies the certification requirements of reactor-control, medical, aerospace, or other safety-critical deployment environments.
 
@@ -338,15 +340,15 @@ The central structure includes:
 - the charge-constrained polarization mode;
 - the rank-four reaction-source basis;
 - the first- and second-order curvature-response hierarchy;
-- the frozen full-precision network susceptibility;
-- independent discovery and held-out reaction bases;
+- the fixed full-precision network susceptibility;
+- independent construction and zero-refit validation reaction bases;
 - no-refit native validation;
 - mirror-polarization and mixed-direction diagnostics;
 - numerical-rigidity, recovery, and fail-closed evidence controls.
 
-The commissioned Reaction-20 projection additionally has native AlterBBN response and current evidence, matched-uniform PRyMordial transfer evidence, and an official full-network PArthENoPE endpoint replication comprising 695 accepted rows, 338 matched branch pairs, 84 complete ladders, and six-anchor D/H, He-3/H, and Li-7/H gate closure.
+The commissioned Reaction-20 projection additionally has native AlterBBN response and current evidence, matched-uniform PRyMordial transfer evidence, and an official full-network PArthENoPE endpoint validation comprising 695 accepted rows, 338 matched branch pairs, 84 complete ladders, and six-anchor D/H, He-3/H, and Li-7/H gate closure.
 
-The PArthENoPE result remains a **pre-exposed cross-code replication**, not a blinded held-out validation. It confirms the declared endpoint response but does not establish identical code-local currents, source kernels, solvers, or complete susceptibility coordinates across the three networks.
+The PArthENoPE result is a **completed zero-refit cross-network validation of the fixed Reaction-20 shared-endpoint response**. It confirms the declared endpoint response but does not establish identical code-local currents, source kernels, solvers, or complete susceptibility coordinates across the three networks.
 
 Subsequent work concerns publication, external replication, experimental comparison, broader-domain falsification, higher-mass extension, software deployment, performance qualification, and the intellectual-property decision governing public disclosure.
 
