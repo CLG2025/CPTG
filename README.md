@@ -91,7 +91,7 @@ CPTG is being developed as a geometric framework with reduced-limit tests and co
 | SPARC galaxy rotation curves | Public reduced-limit SPARC test available through the compact academic package and the interactive browser workbench | Reproducible galaxy-scale benchmark |
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Cluster active-gate apertures | Same-aperture cluster-response tests using baryonic loading, support temperature, redshift, and aperture radius | Diagnostic cluster-scale active-gate and X-COP consistency [pass](#cluster-scale-active-gate-test-accept-and-x-cop) |
-| Universal geometric nuclear-reaction theory | Closed four-sector foundation spanning free nucleons, deuterium, the mass-three pair, and helium-4, including ordered transport, exact conservation structure, and the complete transport-polarization source space | Universal [theory closure](#universal-geometric-nuclear-reaction-theory) with no-refit transfer evidence in AlterBBN, PRyMordial, and PArthENoPE. The official PArthENoPE 3.0 campaign completed 695/695 full-network rows and passed the preregistered Reaction-20 D/H, He-3/H, and Li-7/H shared-endpoint gate across six density anchors. This is a pre-exposed cross-code replication, not blinded held-out validation, and it does not claim code-local current or source-kernel equivalence |
+| Universal geometric nuclear-reaction theory | Closed four-sector foundation spanning free nucleons, deuterium, the mass-three pair, and helium-4, including ordered transport, exact conservation structure, and the complete transport-polarization source space | Universal [theory closure](#universal-geometric-nuclear-reaction-theory) with fixed-law, zero-refit transfer evidence in AlterBBN, PRyMordial, and PArthENoPE. The official PArthENoPE 3.0 campaign completed 695/695 full-network rows and passed the declared Reaction-20 D/H, He-3/H, and Li-7/H shared-endpoint gates across six density anchors. This establishes cross-network scalability of the same fixed Reaction-20 geometry within the tested endpoint domain; it does not claim code-local current, source-kernel, or complete susceptibility equivalence. The separate full-rank AlterBBN susceptibility qualification remains pending |
 | Post-silicon nuclear continuation | Computational companion containing a gap-free archived mass-sector register from A=1 through A=119, with outward-boundary, temporal-convergence, source-isolation, and source-cutoff qualification | Reproducible exploratory continuation: robust reduced-graph reachability, not a precision-qualified primordial heavy-element prediction or finite physical endpoint |
 | Nuclear-reaction interface and exchange layer | PC-first CPTG Reaction Workbench, deterministic evidence/replay architecture, formula-package authority, compiled-runtime boundary, and external scientific-model interface under active engineering development | Active engineering implementation and qualification |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape [pass](#pantheon-supernova-distance-shape-test), not an H0 calibration claim |
@@ -110,9 +110,9 @@ Claim levels are used consistently throughout this README:
 - **Closure pass** — agreement within a declared fixed-branch closure protocol.
 - **Anchored comparison** — a dimensional comparison whose normalization is explicitly anchored to a stated observable, with independent rows treated as cross-checks rather than as free refits.
 - **Theory closure** — the governing state structure, conservation laws, source space, and response architecture are fixed; remaining work concerns qualification, replication, implementation, and publication rather than structural retuning.
-- **Cross-network transfer** — a locked physical or geometric law reproduces its declared observable response in independently implemented scientific networks without network-specific refitting. This does not require equal code-local currents, normalizations, solvers, or secondary numerical residuals.
-- **Pre-exposed cross-code replication** — a frozen response is reproduced in another scientific code after the reaction or observable has already appeared in the development record. It is valid replication evidence but is not described as blinded held-out validation.
-- **Pending qualification** — the governing structure and validation design are frozen, but the declared execution or held-out decision has not yet completed.
+- **Fixed-law scalability** — the same geometric law, source-coordinate construction, conservation structure, and baryon-density dependence are carried across reaction channels and independently implemented scientific networks without reaction-specific or network-specific geometric refitting. Reaction stoichiometry selects the source direction; it does not replace the underlying CPTG law.
+- **Cross-network transfer** — a fixed physical or geometric law reproduces its declared observable response in independently implemented scientific networks without network-specific refitting. This does not require equal code-local currents, normalizations, solvers, or secondary numerical residuals.
+- **Pending qualification** — the governing structure and validation design are fixed, but the declared full-resolution execution or independent no-refit decision has not yet completed.
 - **Exploratory continuation** — a result used to investigate extension beyond the validated domain; it does not establish universal physical validity in the extended sector.
 - **Theory mechanism** — a derived interpretation connected to a dedicated comparison or audit layer.
 
@@ -325,7 +325,11 @@ The dynamic vertex contains free neutrons and protons; deuterium supplies the fi
 - **ordered transport**, which moves baryonic content through vertex, bridge, closure, and saturation;
 - **internal polarization**, which preserves the neutron-proton and tritium-helium-3 orientation required by charge conservation.
 
-Structural closure fixes the physical coordinate, baryon and charge constraints, transport and polarization directions, reaction-source basis, curvature-response hierarchy, separation of direct source current from final network response, and the fail-closed discovery, validation, evidence, and replay architecture. New reaction channels are treated as projections through this common geometry rather than as independent fitted constructions.
+Structural closure fixes the physical coordinate, baryon and charge constraints, transport and polarization directions, reaction-source basis, curvature-response hierarchy, separation of direct source current from final network response, and the fail-closed construction, validation, evidence, and replay architecture. New reaction channels are treated as projections through this common geometry rather than as independent fitted constructions.
+
+### Fixed-law scalability
+
+CPTG scalability does not require different network codes to produce numerically identical internal currents, source kernels, integration measures, or solver trajectories. It means that the same geometric law, source-coordinate construction, conservation structure, and baryon-density dependence are carried across reaction channels and independent implementations without introducing a separately fitted geometric rule for each reaction or code. Reaction stoichiometry changes the source direction inside the common transport-polarization space; it does not change the underlying CPTG geometry.
 
 ### Relationship to the commissioning paper
 
@@ -339,20 +343,20 @@ The commissioned Reaction-20 response now has no-refit transfer evidence in thre
 |---|---|---|
 | [AlterBBN v2](https://doi.org/10.1016/j.cpc.2019.106982) | Native Reaction-20 response surface, endpoint propagation, code-local current instrumentation, and the active long-duration full-resolution qualification authority | Source-kernel and current quantities remain code-local; the continuing full-resolution campaign is a separate authority layer |
 | [PRyMordial](https://doi.org/10.1140/epjc/s10052-024-12442-0) | Independent matched-uniform Reaction-20 endpoint and current-normalized response, with a first-order species vector closely aligned with AlterBBN | Its current normalization remains code-local and is not asserted to be numerically identical to AlterBBN |
-| [PArthENoPE 3.0](https://doi.org/10.1016/j.cpc.2021.108205) | Official full-network 695-row endpoint campaign; 338/338 matched pairs and 84/84 ladders passed hard integrity checks; the frozen D/H, He-3/H, and Li-7/H gate passed at all six density anchors | Pre-exposed cross-code replication, not blinded held-out validation; endpoint authority only, with no source-kernel, internal-current, or five-coordinate susceptibility equivalence claim |
+| [PArthENoPE 3.0](https://doi.org/10.1016/j.cpc.2021.108205) | Official full-network 695-row endpoint campaign; 338/338 matched pairs and 84/84 ladders passed hard integrity checks; the fixed D/H, He-3/H, and Li-7/H Reaction-20 gates passed at all six density anchors | Completed zero-refit shared-endpoint validation of the fixed Reaction-20 law; endpoint authority only, with no source-kernel, internal-current, or five-coordinate susceptibility equivalence claim |
 
 These codes share portions of the underlying BBN physics and nuclear-rate literature. The result is therefore described as cross-network transfer without network-specific refitting, not as three independent Bernoulli trials or evidence of identical internal-current normalization.
 
-#### Full-network PArthENoPE Reaction-20 replication
+#### Full-network PArthENoPE Reaction-20 validation
 
 The official PArthENoPE 3.0 campaign used the complete 26-nuclide/100-reaction network, one native process per row, symmetric logarithmic rate branches, full trajectory retention, atomic progress commits, matched-pair auditing, and complete-ladder auditing.
 
-| Replication metric | Measured result | Frozen requirement |
+| Validation metric | Measured result | Declared requirement |
 |---|---:|---:|
 | Native rows | 695/695 | 695/695 |
 | Matched branch pairs | 338/338 | 338/338 |
 | Complete eight-branch ladders | 84/84 | 84/84 |
-| Reaction-20 direction cosine | 0.9999794375 | at least 0.995 |
+| Reaction-20 direction cosine | 0.999979437501036 | at least 0.995 |
 | D/H component ratio | 0.998516625 | 0.85 to 1.15 |
 | He-3/H component ratio | 0.993911268 | 0.85 to 1.15 |
 | Li-7/H component ratio | 1.008589280 | 0.85 to 1.15 |
@@ -368,11 +372,11 @@ Verification command: RUN_VERIFY_AND_REGENERATE_WINDOWS.cmd
 
 The bundle combines the campaign source, 695 accepted native rows, recomputation source code, provenance records, six anchor vectors, threshold calculations, claim matrix, and one-command audit regeneration. The official PArthENoPE distribution is obtained separately under [Mendeley Data DOI 10.17632/wvgr7d8yt9.2](https://doi.org/10.17632/wvgr7d8yt9.2).
 
-This is a **pre-exposed cross-code replication**, not a blinded held-out validation. It does not establish equality of code-local currents, an AlterBBN source-kernel identity inside PArthENoPE, a complete five-coordinate susceptibility reconstruction, or one universal low-order endpoint law across every reaction.
+This is a completed **zero-refit cross-network validation** of the fixed Reaction-20 shared-endpoint response in a third independently developed BBN implementation. It establishes transfer of the declared observable response while leaving code-local internals implementation-specific. It does not establish equality of code-local currents, an AlterBBN source-kernel identity inside PArthENoPE, a complete five-coordinate susceptibility reconstruction, or validation across every reaction channel.
 
 ### Continuing validation and extension
 
-A separate six-anchor Reaction-21 reserve-channel result supports transfer beyond the commissioning reaction without changing the frozen operator. The remaining qualification program uses independent discovery and held-out reaction sets, full-resolution native execution, exact current instrumentation, and durable checkpointing under the fixed geometry.
+A separate six-anchor Reaction-21 reserve-channel result supports transfer beyond the commissioning reaction without changing the fixed operator. The remaining qualification program uses distinct construction and independent zero-refit validation reaction sets, full-resolution native execution, exact current instrumentation, and durable checkpointing under the fixed geometry.
 
 A separate computational companion extends the represented reduced graph beyond the native silicon-30 frontier. Its archived mass-sector register is continuous from A=1 through A=119 and stable through the declared boundary and temporal-refinement checks. This is reproducible reduced-graph reachability, not native-network coverage beyond silicon-30, a precision primordial heavy-element prediction, or a finite physical endpoint. The [computational companion](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/Complete-Processed-Nuclear-Chain.pdf) and its evidence package are maintained together.
 
@@ -607,13 +611,13 @@ CPTG is being developed as an active research program with reproducible public m
 - locked geometric-π CMB comparison-map closure and Route B Option 1 curvature-transport bridge validation;
 - transported BBN coordinate control with D/H and helium agreement;
 - locked live A = 7 lithium source-network gate with a PRyMordial admitted row and an AlterBBN rate-response marker;
-- completion of the universal geometric nuclear-reaction architecture, together with numerical-rigidity testing, native AlterBBN qualification, matched-uniform PRyMordial replication, the completed official PArthENoPE 3.0 full-network 695-row Reaction-20 replication, reserve-channel continuation, and fail-closed evidence controls;
+- completion of the universal geometric nuclear-reaction architecture, together with numerical-rigidity testing, native AlterBBN qualification, matched-uniform PRyMordial replication, the completed official PArthENoPE 3.0 full-network 695-row Reaction-20 validation, reserve-channel continuation, and fail-closed evidence controls;
 - completion of the computational companion documenting the continuous A=1–119 mass-sector register, identical stored boundary results through A=119, whole-register temporal-convergence statistics, source controls, and a hash-verifiable evidence package;
-- transition to the universal nuclear-reaction research paper while the long-duration full-resolution qualification campaign continues under the frozen geometry;
+- transition to the universal nuclear-reaction research paper while the long-duration full-resolution qualification campaign continues under the fixed geometry and immutable coefficient package;
 - development of the CPTG Reaction Workbench and reaction-exchange layer for deterministic evaluation, evidence capture, replay, and external-model integration;
 - compact reproducibility packages, source manifests, and exact-input records across the public materials.
 
-Current nuclear work is focused on completing the long-duration AlterBBN full-resolution qualification campaign, preserving the completed PArthENoPE replication authority, and developing the universal research paper from the clean accepted evidence chain. The frozen geometry will not be retuned from held-out, pre-exposed replication, diagnostic, or quarantined results. Broader CPTG development continues through higher-resolution CMB projections, larger same-aperture cluster samples, and manuscript/report consolidation.
+Current nuclear work is focused on completing the long-duration AlterBBN full-resolution qualification campaign, preserving the completed PArthENoPE validation authority, and developing the universal research paper from the clean accepted evidence chain. The fixed geometry and immutable coefficient package remain unchanged across construction, independent zero-refit validation, cross-network transfer, structural diagnostics, and quarantined results. Broader CPTG development continues through higher-resolution CMB projections, larger same-aperture cluster samples, and manuscript/report consolidation.
 
 ---
 
@@ -642,4 +646,4 @@ CPTG is a geometric gravity framework in which gravitational enhancement, lensin
 
 The public repository contains reduced numerical implementations, the compact academic benchmark package, the standalone CPTG SPARC Browser Workbench, figures, manuscripts, and development notes intended for reproduction, criticism, and further theory testing. Galaxy rotation curves, reduced cluster-merger reconstruction, and cluster active-gate aperture tests represent the most direct public-scale benchmarks. Cosmology-facing work is organized through fixed comparison branches.
 
-At nuclear scale, CPTG now has a closed four-sector reaction architecture and no-refit transfer evidence across AlterBBN, PRyMordial, and PArthENoPE. The completed official PArthENoPE 3.0 campaign contributes a 695-row full-network, pre-exposed cross-code replication of the frozen Reaction-20 D/H, He-3/H, and Li-7/H shared-endpoint response across six density anchors. The detailed theory, evidence boundaries, replication authority, and continuing AlterBBN qualification program are described in the [Universal Geometric Nuclear-Reaction Theory](#universal-geometric-nuclear-reaction-theory) section; the governing formulas remain reserved for the final research paper.
+At nuclear scale, CPTG now has a closed four-sector reaction architecture and zero-refit transfer evidence across AlterBBN, PRyMordial, and PArthENoPE. The completed official PArthENoPE 3.0 campaign provides a 695-row full-network validation of the same fixed Reaction-20 D/H, He-3/H, and Li-7/H shared-endpoint response across six density anchors. This supports fixed-law scalability within the tested domain while preserving code-local currents, source kernels, and solver details as implementation-specific. The detailed theory, evidence boundaries, validation authority, and continuing AlterBBN qualification program are described in the [Universal Geometric Nuclear-Reaction Theory](#universal-geometric-nuclear-reaction-theory) section; the governing formulas remain reserved for the final research paper.
