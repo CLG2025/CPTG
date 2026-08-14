@@ -33,12 +33,18 @@ Together, these sectors form one transport-polarization architecture rather than
 | Commissioning `D(p,γ)³He` projection | Passed within its declared scope |
 | Cross-network Reaction-20 transfer | Confirmed in AlterBBN, PRyMordial, and PArthENoPE without network-specific refitting |
 | Full-network PArthENoPE endpoint validation | 695/695 rows, 338/338 matched pairs, and 84/84 eight-branch ladders passed hard-integrity checks |
+| Clean-room PArthENoPE native-physics reconstruction | 6/6 held-out native rows passed across 3 preregistered density anchors under 2 integration profiles; no inherited numerical responses and no refit |
+| Clean-room PRyMordial native-physics reconstruction | 6/6 held-out native rows passed across 3 preregistered density anchors under 2 numerical profiles; zero integrated perturbation rows and no refit |
+| Clean-room AlterBBN native-physics reconstruction | 6/6 held-out native rows passed across 3 preregistered density anchors under 2 native solver profiles; zero integrated perturbation rows and no refit |
+| Three-network clean-room reconstruction status | **Closed PASS** in PArthENoPE, PRyMordial, and AlterBBN |
 | Numerical-rigidity and fail-closed qualification | Passed |
 | Post-silicon continuation through `A = 119` | Published computational companion; reduced-graph reachability qualified by boundary, convergence, and source controls |
 
 The native authority campaign used independent construction, zero-refit validation, mirror-polarization, and mixed-direction reaction sets under a fixed geometry. The susceptibility authority was determined from the construction basis, fixed before independent validation, and retained without post-result fitting or reaction-specific correction.
 
 The separate PArthENoPE Reaction-20 campaign is a **preregistered zero-refit cross-network validation of the fixed Reaction-20 law**. It confirms the declared shared-endpoint response in a third independently developed BBN implementation while preserving code-local boundaries for currents, source kernels, solver internals, and normalization conventions.
+
+A subsequent clean-room program went underneath the earlier endpoint-transfer result. In **PArthENoPE, PRyMordial, and AlterBBN**, the rank-four source-to-observable architecture was independently reconstructed from each code's own native reaction dynamics, frozen before held-out execution, and tested at the same three preregistered baryon-density conditions. Each network passed **6/6 held-out native rows** under dual numerical profiles with **zero network-specific refitting**. These clean-room results are derivational/native-physics qualifications; they do not assert equality of code-local Jacobians, currents, trajectories, normalizations, source kernels, numerical operators, or solver internals.
 
 ---
 
@@ -146,9 +152,9 @@ The commissioned Reaction-20 response has been evaluated in three independently 
 
 | Network | Established result | Authority boundary |
 |---|---|---|
-| **AlterBBN** | Native Reaction-20 response surface, endpoint propagation, code-local current instrumentation, and full-resolution universal-susceptibility authority | Source kernels, accepted-state current definitions, and current normalization remain AlterBBN-local |
-| **PRyMordial** | Independent matched-uniform Reaction-20 endpoint and current-normalized response; the first-order species vector closely aligns with AlterBBN | PRyMordial current normalization remains code-local and is not asserted to be numerically identical to AlterBBN |
-| **PArthENoPE 3.0** | Official full-network 695-row endpoint campaign; all hard row, pair, ladder, trajectory, and provenance gates passed; the fixed D/H, He-3/H, and Li-7/H gate passed across six density anchors | Zero-refit shared-endpoint validation of the fixed Reaction-20 law; no PArthENoPE internal-current, source-kernel, or five-coordinate susceptibility equivalence claim |
+| **AlterBBN** | Native Reaction-20 response surface, endpoint propagation, code-local current instrumentation, full-resolution susceptibility authority, and a clean-room native-physics reconstruction using AlterBBN's native abundance linearization plus direct selected-reaction mass-action source currents; 6/6 held-out rows passed | Currents, Jacobians, trajectories, accepted-state conventions, numerical operator, and normalization remain AlterBBN-local |
+| **PRyMordial** | Independent matched-uniform Reaction-20 endpoint and current-normalized response, followed by a clean-room reconstruction using native analytic Jacobians, cancellation-free local source isolation, and direct variational propagation; 6/6 held-out rows passed | PRyMordial current normalization, native trajectories, Jacobians, numerical operator, and solver-local quantities remain code-local |
+| **PArthENoPE 3.0** | Official full-network 695-row endpoint campaign followed by a separate clean-room source/Jacobian reconstruction; 6/6 held-out rows passed after the rank-four operator was frozen before validation | Completed shared-endpoint validation plus deeper native-physics reconstruction; no claim of cross-code equality of currents, source kernels, Jacobians, numerical operators, or solver-local quantities |
 
 The three codes share portions of the underlying BBN physics and nuclear-rate literature. The result is therefore described as **cross-network transfer without network-specific refitting**, not as three statistically independent trials and not as proof that the codes use identical internal-current normalizations.
 
@@ -188,23 +194,127 @@ This verifies the retained evidence and reconstructs the post-execution audit wi
 
 The result establishes the preregistered shared-endpoint response in D/H, He-3/H, and Li-7/H. It does **not** establish equality of code-local currents, AlterBBN source-kernel identity inside PArthENoPE, a complete five-coordinate susceptibility reconstruction, or one universal low-order endpoint law across every reaction.
 
+### Three-network clean-room native-physics reconstruction
+
+After the earlier cross-network endpoint-transfer work, a separate clean-room program was designed to test whether the fixed rank-four source architecture could be reconstructed from the native reaction dynamics of each network rather than treated only as a successful endpoint pattern.
+
+The clean-room rules were the same in all three implementations:
+
+- construct only from the fixed CPTG geometry, reaction stoichiometry, declared scalar inputs, and network-native dynamics;
+- exclude previous numerical response vectors, previous numerical operator matrices, previous native trajectories, and previous PASS/FAIL decisions from construction;
+- use **zero response-fit parameters**;
+- freeze the construction authority before any held-out validation execution;
+- test the frozen operator at the same three preregistered baryon-density conditions;
+- use two independent numerical profiles at every anchor;
+- preserve code-local currents, Jacobians, source kernels, trajectories, normalizations, and solver behavior rather than forcing cross-code numerical identity.
+
+#### PArthENoPE clean-room result
+
+PArthENoPE reconstructed the source-to-observable response from its native source/Jacobian history after the earlier 695-row endpoint campaign was already complete.
+
+| Metric | Result | Requirement |
+|---|---:|---:|
+| Exact-core source-space rank | **4** | rank 4 |
+| Held-out native validation rows | **6/6 PASS** | 6/6 |
+| Held-out density anchors | **3/3 PASS** | 3/3 |
+| Numerical profiles per anchor | **2/2 PASS** | 2/2 |
+| Worst frozen-operator core-4 relative error | **1.1143%** | ≤ 3% |
+| Worst frozen-operator core-4 direction error | **0.4965°** | ≤ 1° |
+| Worst individual-reaction relative error | **1.7098%** | ≤ 3% |
+| Worst mass-seven polarization relative error | **1.6095%** | ≤ 3% |
+| Mass-seven polarization sign agreement | **100%** | required |
+
+```text
+CPTG_PARTHENOPE_CLEANROOM_FINAL_RESULTS.zip
+SHA-256: 8d503dd80036e6917500ca8367d8830d727930a23e8779fa3497bf9c1cf4d903
+Construction freeze SHA-256: 770139cfb7b98f5c0cf6e5a038ea32aee4fb8c3430ed6fb02f38292221fe63d3
+```
+
+The construction freeze remained byte-identical through held-out validation. The campaign used no inherited PArthENoPE numerical-response vectors and no post-freeze refitting.
+
+#### PRyMordial clean-room result
+
+PRyMordial used unperturbed native trajectories, native analytic Jacobians, cancellation-free local reaction-source isolation, and direct variational propagation. No integrated rate-perturbed response rows were used.
+
+| Metric | Result | Requirement |
+|---|---:|---:|
+| Exact-core source-space rank | **4** | rank 4 |
+| Held-out native validation rows | **6/6 PASS** | 6/6 |
+| Held-out density anchors | **3/3 PASS** | 3/3 |
+| Numerical profiles per anchor | **2/2 PASS** | 2/2 |
+| Worst frozen-operator core-4 relative error | **1.184957%** | ≤ 3% |
+| Worst frozen-operator core-4 direction error | **0.496262°** | ≤ 1° |
+| Worst individual-reaction relative error | **1.801701%** | ≤ 3% |
+| Worst individual-reaction direction error | **0.425239°** | ≤ 1° |
+| Worst mass-seven polarization relative error | **1.831870%** | ≤ 3% |
+| Mass-seven polarization sign agreement | **100%** | required |
+| Worst dual-profile core-4 relative difference | **9.71 × 10⁻⁸** | ≤ 3% |
+| Worst dual-profile core-4 direction difference | **5.33 × 10⁻⁶°** | ≤ 1° |
+| Worst local-source stoichiometric alignment error | **1.48 × 10⁻⁶°** | ≤ 0.01° |
+
+```text
+CPTG_PRYMORDIAL_CLEANROOM_FINAL_RESULTS.zip
+SHA-256: b1810b1332fbb859437e15bbde3583330ec97456341f690b7f64b2948cfd3ba3
+Construction freeze SHA-256: e617fcbad9ff2db1edbc443c16348f67e7f7c197fa64503971c91dce862f72b0
+```
+
+The PRyMordial freeze remained byte-identical through validation. The campaign used **zero inherited PRyMordial numerical-response inputs, zero integrated perturbation rows, and zero response-fit parameters**.
+
+#### AlterBBN clean-room result
+
+AlterBBN reconstructed the same rank-four architecture through its own native numerical machinery. The campaign captured the native abundance linearization and direct forward-minus-reverse mass-action source currents for the selected reactions, then propagated those native histories through the direct variational system.
+
+| Metric | Result | Requirement |
+|---|---:|---:|
+| Exact-core source-space rank | **4** | rank 4 |
+| Held-out native validation rows | **6/6 PASS** | 6/6 |
+| Held-out density anchors | **3/3 PASS** | 3/3 |
+| Numerical profiles per anchor | **2/2 PASS** | 2/2 |
+| Worst frozen-operator core-4 relative error | **1.702710%** | ≤ 3% |
+| Worst frozen-operator core-4 direction error | **0.489773°** | ≤ 1° |
+| Worst individual-reaction relative error | **2.032355%** | ≤ 3% |
+| Worst individual-reaction direction error | **0.532337°** | ≤ 1° |
+| Worst mass-seven polarization relative error | **2.776521%** | ≤ 3% |
+| Mass-seven polarization sign agreement | **100%** | required |
+| Worst dual-profile core-4 relative difference | **0.398748%** | ≤ 3% |
+| Worst dual-profile core-4 direction difference | **0.148025°** | ≤ 1° |
+| Worst local-source stoichiometric alignment error | **1.71 × 10⁻⁶°** | ≤ 0.01° |
+
+```text
+CPTG_ALTERBBN_CLEANROOM_FINAL_RESULTS.zip
+SHA-256: de4777d766792f04fffbd9c415f7e4cd52259f1303f308320fb8b338ef216169
+Construction freeze SHA-256: ca208f05cb061de7883111ba29019333a6b0fc92b03ec7078cb013d9cc5b9dba
+```
+
+The AlterBBN construction freeze in the final evidence is byte-for-byte identical to the authority object audited before held-out validation. Independent reintegration of the held-out direct variational system regenerated the archived five-coordinate responses to approximately **1 × 10⁻¹¹ relative precision**. The tightest declared clean-room margin is the AlterBBN mass-seven polarization response at **2.776521%** against the fixed **3%** gate; it passed with the required sign agreement and is reported explicitly because it is the narrowest margin in the three-network program.
+
+#### Three-network interpretation
+
+PArthENoPE, PRyMordial, and AlterBBN now provide three independently implemented clean-room reconstructions with the same qualitative outcome:
+
+> the fixed rank-four geometric source architecture can be recovered from each network's own native reaction dynamics, frozen before held-out execution, and transferred prospectively across baryon density without network-specific refitting.
+
+This is stronger than endpoint agreement alone, but it is not a claim that the three codes possess identical numerical Jacobians, currents, source kernels, trajectories, normalization conventions, solver internals, or numerical operator matrices. Those remain code-local.
+
 ### Evidence integrity
 
 The accepted evidence chain preserves:
 
-- source, executable, ledger, susceptibility-authority, and package hashes;
+- source, executable, ledger, susceptibility-authority, construction-freeze, and package hashes;
 - command records and native execution logs;
-- endpoint, trajectory, solver, and row-integrity audits;
-- matched-pair and complete-ladder audit records;
+- endpoint, trajectory, solver, row-integrity, source-stoichiometry, and direct-variational audits;
+- matched-pair and complete-ladder audit records where applicable;
 - checkpoint and recovery state;
-- susceptibility-freeze and preregistration records;
+- susceptibility-freeze, clean-room construction-freeze, and preregistration records;
 - output manifests and append-only event ledgers;
-- raw abundance and current data where exposed by the native code;
+- raw abundance, Jacobian, and source/current data where exposed by the native code;
 - independent reconstruction and recomputation scripts;
 - clean-extraction replay evidence;
 - claim matrices separating established, diagnostic, and untested statements.
 
-The r109 authority bundle consolidates the accepted PArthENoPE campaign, native evidence, recomputation source, reference-vector provenance, software citations, and audit-regeneration entry point into one compact research object while excluding the separately distributed PArthENoPE program archive.
+The r109 authority bundle consolidates the accepted 695-row PArthENoPE endpoint campaign, native evidence, recomputation source, reference-vector provenance, software citations, and audit-regeneration entry point into one compact research object while excluding the separately distributed PArthENoPE program archive.
+
+The three clean-room final-result archives are separate accepted authority objects. Each binds its own preregistration, native rows, frozen construction object, held-out results, chronology, and post-execution audit. They are not interchangeable with the earlier endpoint-transfer authority and do not erase or rewrite it.
 
 ---
 
@@ -222,7 +332,9 @@ Within that scope:
 - the full-precision susceptibility was fixed before independent validation;
 - the independent zero-refit validation basis passed;
 - mirror-polarization and mixed-direction diagnostics passed under the fixed susceptibility;
-- no reaction-specific fitting or postdecision correction is required.
+- no reaction-specific fitting or postdecision correction is required;
+- the rank-four source architecture has been reconstructed independently from native reaction dynamics in PArthENoPE, PRyMordial, and AlterBBN;
+- each clean-room construction was frozen before held-out execution and passed all 6/6 held-out native rows across the same three preregistered baryon-density conditions.
 
 Formula closure does not by itself establish:
 
@@ -289,6 +401,8 @@ The `package-index/` directory should record each package's contents, scientific
 
 The r109 PArthENoPE authority bundle intentionally does not redistribute the official PArthENoPE program ZIP. Researchers obtain that distribution separately and use the bundle to verify the official source-file identities before a full native replication.
 
+The clean-room PArthENoPE, PRyMordial, and AlterBBN result archives should likewise be retained under their original filenames with their published SHA-256 digests and construction-freeze hashes. The construction-freeze object is part of the scientific authority because it proves that the operator consumed by held-out validation was fixed before those validation rows were executed.
+
 ---
 
 ## Reproducibility Policy
@@ -309,6 +423,8 @@ Executable packages should provide, as applicable:
 Long-running native calculations must preserve completed rows and resume only from missing or invalid entries.
 
 Independent validation results must never be used to alter the fixed susceptibility authority. Cross-network validation results must retain their declared shared-observable scope and code-local boundaries; they must not be used to introduce network-specific geometric refitting.
+
+Clean-room reconstruction packages must additionally preserve the construction/held-out chronology: construction inputs are declared before execution, the construction object is hash-frozen before held-out rows begin, and held-out results may not be used to regenerate, rotate, rescale, or refit the frozen operator.
 
 Any future extension must begin as a new validation domain. It must not silently refit or rewrite the consumed evidence supporting the closed four-sector theory.
 
@@ -344,13 +460,16 @@ The central structure includes:
 - independent construction and zero-refit validation reaction bases;
 - no-refit native validation;
 - mirror-polarization and mixed-direction diagnostics;
-- numerical-rigidity, recovery, and fail-closed evidence controls.
+- numerical-rigidity, recovery, and fail-closed evidence controls;
+- completed construction-freeze-held-out native-physics reconstructions in PArthENoPE, PRyMordial, and AlterBBN.
 
 The commissioned Reaction-20 projection additionally has native AlterBBN response and current evidence, matched-uniform PRyMordial transfer evidence, and an official full-network PArthENoPE endpoint validation comprising 695 accepted rows, 338 matched branch pairs, 84 complete ladders, and six-anchor D/H, He-3/H, and Li-7/H gate closure.
 
-The PArthENoPE result is a **completed zero-refit cross-network validation of the fixed Reaction-20 shared-endpoint response**. It confirms the declared endpoint response but does not establish identical code-local currents, source kernels, solvers, or complete susceptibility coordinates across the three networks.
+Beyond that endpoint layer, **all three targeted BBN implementations now have completed clean-room native-physics reconstructions**. PArthENoPE, PRyMordial, and AlterBBN each recovered the rank-four source architecture from their own native dynamics, froze the construction before held-out execution, and passed 6/6 held-out native rows across the same three preregistered density anchors under dual numerical profiles without refit.
 
-Subsequent work concerns publication, external replication, experimental comparison, broader-domain falsification, higher-mass extension, software deployment, performance qualification, and the intellectual-property decision governing public disclosure.
+The three-network result does not establish identical code-local currents, source kernels, Jacobians, solvers, normalization conventions, trajectories, or numerical operator matrices. It establishes replicated rank-four source architecture and prospective frozen-operator transfer within the declared clean-room domain.
+
+Subsequent work concerns final-paper evidence consolidation, publication, external replication, experimental comparison, broader-domain falsification, higher-mass extension, software deployment, performance qualification, and the intellectual-property decision governing public disclosure.
 
 ---
 
