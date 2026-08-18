@@ -21,30 +21,39 @@ Together, these sectors form one transport-polarization architecture rather than
 
 ## Validation Status
 
-| Component | Status |
+| Component | Current status |
 |---|---|
-| Four-sector nuclear geometry | Closed |
-| Baryon and electric-charge constraints | Exact |
-| Reaction-source space | Rank four and complete |
-| Scalar curvature-response law | Passed |
-| Universal network susceptibility | Fixed; full-resolution native authority completed in AlterBBN |
-| Independent zero-refit validation basis | Passed without refitting |
-| Mirror-polarization and mixed-direction diagnostics | Passed |
-| Commissioning `D(p,γ)³He` projection | Passed within its declared scope |
-| Cross-network Reaction-20 transfer | Confirmed in AlterBBN, PRyMordial, and PArthENoPE without network-specific refitting |
-| Full-network PArthENoPE endpoint validation | 695/695 rows, 338/338 matched pairs, and 84/84 eight-branch ladders passed hard-integrity checks |
-| Clean-room PArthENoPE native-physics reconstruction | 6/6 held-out native rows passed across 3 preregistered density anchors under 2 integration profiles; no inherited numerical responses and no refit |
-| Clean-room PRyMordial native-physics reconstruction | 6/6 held-out native rows passed across 3 preregistered density anchors under 2 numerical profiles; zero integrated perturbation rows and no refit |
-| Clean-room AlterBBN native-physics reconstruction | 6/6 held-out native rows passed across 3 preregistered density anchors under 2 native solver profiles; zero integrated perturbation rows and no refit |
-| Three-network clean-room reconstruction status | **Closed PASS** in PArthENoPE, PRyMordial, and AlterBBN |
-| Numerical-rigidity and fail-closed qualification | Passed |
-| Post-silicon continuation through `A = 119` | Published computational companion; reduced-graph reachability qualified by boundary, convergence, and source controls |
+| Four-sector nuclear geometry | **Closed** |
+| Baryon and electric-charge constraints | **Exact** |
+| Reaction-source space | **Rank four and complete** |
+| Scalar curvature-response/source-current law | **Closed within the declared theory** |
+| Network realization | **Network-native dynamic observable pushforward; no universal static endpoint matrix is assumed** |
+| Primary numerical authority | **PRIMAT v0.3.2 — completed and closed within the validated primordial/full-network and first-order native source/Jacobian scope** |
+| Second numerical authority | **PArthENoPE 3.0 — completed full-network endpoint authority plus accepted clean-room native-physics reconstruction** |
+| Third numerical authority | **PRyMordial — Candidate C-R production solver qualified; fresh 3030-row full-network authority campaign active** |
+| Commissioning `D(p,γ)³He` projection | **Passed within its declared scope** |
+| Full-network PRIMAT endpoint campaign | **20,550/20,550 rows; 428/428 reactions; 10,272/10,272 matched pairs; 2,568/2,568 eight-branch ladders** |
+| PRIMAT native source/Jacobian mechanism validation | **84/84 predictions frozen; 48/48 primary resolved tests PASS; worst endpoint-vector discrepancy 0.0367629%** |
+| Full-network PArthENoPE endpoint validation | **695/695 rows; 338/338 matched pairs; 84/84 eight-branch ladders** |
+| Clean-room PArthENoPE native-physics reconstruction | **6/6 held-out rows PASS across 3 density anchors under 2 numerical profiles; no inherited numerical responses and no refit** |
+| Clean-room PRyMordial native-physics reconstruction | **6/6 held-out rows PASS across 3 density anchors under 2 numerical profiles; zero integrated perturbation rows and no refit** |
+| PRyMordial Candidate C-R qualification | **30/30 high-risk rows PASS; 29 scaled-coordinate paths + 1 native-coordinate recovery; worst endpoint component-relative difference 5.8799×10⁻⁸** |
+| PRyMordial fresh full-network authority campaign | **Active: 3030 rows, 63 reactions, 6 density anchors, 8 branches; no numerical rows imported from the quarantined earlier campaign** |
+| Post-silicon continuation through `A = 119` | **Archived exploratory companion; authority-aligned from-scratch rerun planned after PRyMordial full-network closure** |
 
-The native authority campaign used independent construction, zero-refit validation, mirror-polarization, and mixed-direction reaction sets under a fixed geometry. The susceptibility authority was determined from the construction basis, fixed before independent validation, and retained without post-result fitting or reaction-specific correction.
+The present authority hierarchy is intentionally capability-based:
 
-The separate PArthENoPE Reaction-20 campaign is a **preregistered zero-refit cross-network validation of the fixed Reaction-20 law**. It confirms the declared shared-endpoint response in a third independently developed BBN implementation while preserving code-local boundaries for currents, source kernels, solver internals, and normalization conventions.
+1. **PRIMAT v0.3.2 — primary authority**
+2. **PArthENoPE 3.0 — second authority**
+3. **PRyMordial — third authority, full-network renewal active**
 
-A subsequent clean-room program went underneath the earlier endpoint-transfer result. In **PArthENoPE, PRyMordial, and AlterBBN**, the rank-four source-to-observable architecture was independently reconstructed from each code's own native reaction dynamics, frozen before held-out execution, and tested at the same three preregistered baryon-density conditions. Each network passed **6/6 held-out native rows** under dual numerical profiles with **zero network-specific refitting**. These clean-room results are derivational/native-physics qualifications; they do not assert equality of code-local Jacobians, currents, trajectories, normalizations, source kernels, numerical operators, or solver internals.
+The networks are not forced into one reduced numerical framework. Their code-local currents, Jacobians, trajectories, source kernels, integration measures, normalization conventions, and solver internals may differ. The common object being tested is the fixed CPTG geometric source architecture and its declared observable consequences through each network's native dynamics.
+
+The current interpretation is therefore:
+
+> **CPTG source geometry → exact reaction-source construction → network-native dynamic propagation → observable endpoint response**
+
+A static endpoint matrix is not treated as universal unless separately derived and validated for that network and observable object.
 
 ---
 
@@ -83,15 +92,15 @@ The complete reaction-source space therefore contains:
 
 This rank-four structure is the universal source space of the four-sector theory.
 
-### Source current, susceptibility, and observable response
+### Source current, native dynamics, and observable response
 
 The theory distinguishes three levels:
 
-- **reaction source current** — the direct microscopic drive;
-- **network susceptibility** — redistribution of that drive by the full reaction system;
+- **reaction source current** — the direct microscopic drive selected by reaction stoichiometry and the fixed CPTG geometric law;
+- **network-native dynamic propagation** — redistribution of that source through the native reaction system and numerical evolution of the selected BBN implementation;
 - **observable abundance response** — the final projected network result.
 
-The full-resolution native qualification established one fixed source-current-normalized susceptibility over the declared reaction-source basis without reaction-specific refitting. The earlier scalar commissioning result is retained as one projection of this larger transport-polarization operator.
+The fixed CPTG source construction is shared. The network-native dynamic pushforward is not required to be numerically identical across independent codes.
 
 ---
 
@@ -106,7 +115,7 @@ The validated operator preserves:
 - the internal polarization constraint;
 - the distinction between source current and final network response.
 
-Independent construction and zero-refit validation reaction sets were used to determine and evaluate the universal susceptibility without changing the underlying geometry or introducing reaction-specific corrections.
+Independent construction, held-out validation, full-network perturbation campaigns, and native source/Jacobian tests are used to evaluate the fixed theory without introducing reaction-specific geometric corrections after results are exposed.
 
 ---
 
@@ -130,50 +139,98 @@ The universal theory generalizes that result from one principal capture channel 
 
 ## Validation Program
 
-### Native AlterBBN authority
+### PRIMAT v0.3.2 — primary authority
 
-The fixed reaction construction was propagated through native reaction-network calculations spanning:
+PRIMAT is the primary numerical authority for the current primordial/light-sector CPTG program.
 
-- multiple reaction channels;
-- independent construction and zero-refit validation reaction bases;
-- multiple primordial baryon-density coordinates;
-- symmetric rate perturbations;
-- exact reaction-current instrumentation;
-- first- and second-order response extraction;
-- full abundance-vector comparison;
-- durable checkpointing and recovery;
-- susceptibility fixing before independent validation.
+The completed full-network campaign used PRIMAT's native reaction inventory and supported numerical architecture across six preregistered baryon-density anchors and symmetric logarithmic rate perturbations.
 
-The universal transport-polarization susceptibility authority was completed in the native AlterBBN environment under the fixed full-resolution design. The campaign preserved the construction/validation boundary and introduced no post-result fitting, reaction-specific correction factors, validation exclusions, or changes to the fixed four-sector geometry.
+| PRIMAT full-network metric | Result |
+|---|---:|
+| Committed native rows | **20,550/20,550** |
+| Native reactions | **428/428** |
+| Matched plus/minus pairs | **10,272/10,272** |
+| Complete eight-branch ladders | **2,568/2,568** |
+| Direct native rate proofs | **428 reaction identities exercised across the campaign** |
+| Final nuclides per committed row | **59 finite positive final nuclides** |
 
-### Cross-network Reaction-20 transfer
+The paper-facing full-network evidence chain is bound in:
 
-The commissioned Reaction-20 response has been evaluated in three independently developed BBN implementations without network-specific refitting:
+```text
+CPTG_PRIMAT_PaperReadyValidationEvidence_20260817_r02.zip
+SHA-256: b41c8ee49477d8330deb56c85a230d8dcc1d4bba80a1405251a4d6ea7f9b3205
+```
 
-| Network | Established result | Authority boundary |
-|---|---|---|
-| **AlterBBN** | Native Reaction-20 response surface, endpoint propagation, code-local current instrumentation, full-resolution susceptibility authority, and a clean-room native-physics reconstruction using AlterBBN's native abundance linearization plus direct selected-reaction mass-action source currents; 6/6 held-out rows passed | Currents, Jacobians, trajectories, accepted-state conventions, numerical operator, and normalization remain AlterBBN-local |
-| **PRyMordial** | Independent matched-uniform Reaction-20 endpoint and current-normalized response, followed by a clean-room reconstruction using native analytic Jacobians, cancellation-free local source isolation, and direct variational propagation; 6/6 held-out rows passed | PRyMordial current normalization, native trajectories, Jacobians, numerical operator, and solver-local quantities remain code-local |
-| **PArthENoPE 3.0** | Official full-network 695-row endpoint campaign followed by a separate clean-room source/Jacobian reconstruction; 6/6 held-out rows passed after the rank-four operator was frozen before validation | Completed shared-endpoint validation plus deeper native-physics reconstruction; no claim of cross-code equality of currents, source kernels, Jacobians, numerical operators, or solver-local quantities |
+#### PRIMAT native source/Jacobian mechanism validation
 
-The three codes share portions of the underlying BBN physics and nuclear-rate literature. The result is therefore described as **cross-network transfer without network-specific refitting**, not as three statistically independent trials and not as proof that the codes use identical internal-current normalizations.
+A separate six-anchor native source/Jacobian campaign tested the source-to-endpoint mechanism without treating the completed endpoint campaign as a fit target.
 
-### Full-network PArthENoPE Reaction-20 validation
+| PRIMAT mechanism metric | Result |
+|---|---:|
+| Frozen predictions | **84/84** |
+| Primary resolved tests | **48/48 PASS** |
+| Primary + secondary resolved tests | **66** at response norm ≥ 10⁻⁴ |
+| Active source-history samples | **6,283** |
+| Maximum source-direction error | **3.17×10⁻¹⁶** |
+| Maximum baryon-conservation residual | **4.44×10⁻¹⁶** |
+| Worst primary endpoint-vector discrepancy | **0.0367629%** |
+| Minimum primary endpoint direction cosine | **0.9999999921** |
+| Maximum BDF/Radau cross-relative difference | **5.8248×10⁻⁷** |
 
-The PArthENoPE campaign used the official 26-nuclide, 100-reaction network; one native process per row; symmetric logarithmic rate branches; retained native trajectories; atomic row commits; matched-pair auditing; and complete eight-branch ladder auditing.
+The frozen prediction object is:
+
+```text
+Prediction freeze SHA-256:
+679e3e6fc7432c0592004b9bf0985b0756323ceb327050f3303ca6c816f31bff
+```
+
+The accepted six-anchor result archive is:
+
+```text
+CPTG_PRIMAT_SIXANCHOR_NATIVE_SOURCE_JACOBIAN_RESULTS_20260817-202839.zip
+SHA-256: 8511f3f79d4298d077a32625859440e01f3b530a3eda6a3e999582e1f938baf8
+```
+
+The controlling paper-ready package above binds the full-network and native-mechanism evidence into one audited authority object.
+
+#### PRIMAT interpretation boundary
+
+The PRIMAT result establishes:
+
+- a completed 20,550-row native endpoint campaign;
+- a fixed CPTG source construction carried through PRIMAT's native reaction dynamics;
+- a separately frozen first-order source/Jacobian prediction layer;
+- high-accuracy endpoint-vector recovery over the tested resolved light-sector domain.
+
+It does **not** establish:
+
+- one code-independent static endpoint susceptibility matrix;
+- universal equality of PRIMAT, PArthENoPE, and PRyMordial internal currents or Jacobians;
+- a universal second-order endpoint gate without a separately derived network-native second-order source kernel;
+- native PRIMAT authority for the exploratory heavy `A = 1–119` continuation.
+
+PRIMAT is **closed** within its completed primordial/full-network and first-order native source/Jacobian scope.
+
+---
+
+### PArthENoPE 3.0 — second authority
+
+PArthENoPE remains the completed second authority.
+
+Its full-network Reaction-20 campaign used the official 26-nuclide, 100-reaction network; one native process per row; symmetric logarithmic rate branches; retained native trajectories; atomic row commits; matched-pair auditing; and complete eight-branch ladder auditing.
 
 | Validation metric | Measured result | Fixed requirement |
 |---|---:|---:|
-| Native rows | 695/695 | 695/695 |
-| Matched branch pairs | 338/338 | 338/338 |
-| Complete eight-branch ladders | 84/84 | 84/84 |
-| Reaction-20 direction cosine | 0.999979437501036 | ≥ 0.995 |
-| D/H component ratio | 0.998516625 | 0.85–1.15 |
-| He-3/H component ratio | 0.993911268 | 0.85–1.15 |
-| Li-7/H component ratio | 1.008589280 | 0.85–1.15 |
-| D/H six-anchor variation | 2.491% | ≤ 10% |
-| He-3/H six-anchor variation | 0.809% | ≤ 10% |
-| Li-7/H six-anchor variation | 1.156% | ≤ 10% |
+| Native rows | **695/695** | 695/695 |
+| Matched branch pairs | **338/338** | 338/338 |
+| Complete eight-branch ladders | **84/84** | 84/84 |
+| Reaction-20 direction cosine | **0.999979437501036** | ≥ 0.995 |
+| D/H component ratio | **0.998516625** | 0.85–1.15 |
+| He-3/H component ratio | **0.993911268** | 0.85–1.15 |
+| Li-7/H component ratio | **1.008589280** | 0.85–1.15 |
+| D/H six-anchor variation | **2.491%** | ≤ 10% |
+| He-3/H six-anchor variation | **0.809%** | ≤ 10% |
+| Li-7/H six-anchor variation | **1.156%** | ≤ 10% |
 
 The accepted compact authority bundle is:
 
@@ -182,7 +239,7 @@ CPTG_v129_r109_PArthENoPE_CPTG_Reaction20_ReplicationAuthorityBundle_20260731_r0
 SHA-256: 3d42d1cb1d710248841db8d7b1ceafcc7569f092b9b35c9f4114ce9615074cfc
 ```
 
-It contains the clean campaign source, all 695 accepted native evidence rows, 338 matched-pair audits, 84 ladder audits, recomputation source code, provenance records, six PArthENoPE anchor vectors, threshold calculations, a claim matrix, and one-command audit regeneration. The official PArthENoPE distribution is obtained separately from its published program archive.
+It contains the clean campaign source, all 695 accepted native evidence rows, 338 matched-pair audits, 84 ladder audits, recomputation source code, provenance records, six PArthENoPE anchor vectors, threshold calculations, a claim matrix, and one-command audit regeneration.
 
 After extracting the bundle, regenerate the audit with:
 
@@ -192,25 +249,9 @@ RUN_VERIFY_AND_REGENERATE_WINDOWS.cmd
 
 This verifies the retained evidence and reconstructs the post-execution audit without rerunning all 695 native rows.
 
-The result establishes the preregistered shared-endpoint response in D/H, He-3/H, and Li-7/H. It does **not** establish equality of code-local currents, AlterBBN source-kernel identity inside PArthENoPE, a complete five-coordinate susceptibility reconstruction, or one universal low-order endpoint law across every reaction.
+#### PArthENoPE clean-room native-physics reconstruction
 
-### Three-network clean-room native-physics reconstruction
-
-After the earlier cross-network endpoint-transfer work, a separate clean-room program was designed to test whether the fixed rank-four source architecture could be reconstructed from the native reaction dynamics of each network rather than treated only as a successful endpoint pattern.
-
-The clean-room rules were the same in all three implementations:
-
-- construct only from the fixed CPTG geometry, reaction stoichiometry, declared scalar inputs, and network-native dynamics;
-- exclude previous numerical response vectors, previous numerical operator matrices, previous native trajectories, and previous PASS/FAIL decisions from construction;
-- use **zero response-fit parameters**;
-- freeze the construction authority before any held-out validation execution;
-- test the frozen operator at the same three preregistered baryon-density conditions;
-- use two independent numerical profiles at every anchor;
-- preserve code-local currents, Jacobians, source kernels, trajectories, normalizations, and solver behavior rather than forcing cross-code numerical identity.
-
-#### PArthENoPE clean-room result
-
-PArthENoPE reconstructed the source-to-observable response from its native source/Jacobian history after the earlier 695-row endpoint campaign was already complete.
+A later clean-room program reconstructed the source-to-observable response from PArthENoPE's own native source/Jacobian history without importing prior numerical response vectors.
 
 | Metric | Result | Requirement |
 |---|---:|---:|
@@ -227,12 +268,19 @@ PArthENoPE reconstructed the source-to-observable response from its native sourc
 ```text
 CPTG_PARTHENOPE_CLEANROOM_FINAL_RESULTS.zip
 SHA-256: 8d503dd80036e6917500ca8367d8830d727930a23e8779fa3497bf9c1cf4d903
-Construction freeze SHA-256: 770139cfb7b98f5c0cf6e5a038ea32aee4fb8c3430ed6fb02f38292221fe63d3
+Construction freeze SHA-256:
+770139cfb7b98f5c0cf6e5a038ea32aee4fb8c3430ed6fb02f38292221fe63d3
 ```
 
 The construction freeze remained byte-identical through held-out validation. The campaign used no inherited PArthENoPE numerical-response vectors and no post-freeze refitting.
 
-#### PRyMordial clean-room result
+---
+
+### PRyMordial — third authority renewal
+
+PRyMordial remains the third authority target. Its earlier clean-room native-physics reconstruction remains supporting evidence, but the controlling full-network authority is now being rebuilt from scratch under the qualified **Candidate C-R** production solver architecture.
+
+#### Earlier clean-room native-physics result
 
 PRyMordial used unperturbed native trajectories, native analytic Jacobians, cancellation-free local reaction-source isolation, and direct variational propagation. No integrated rate-perturbed response rows were used.
 
@@ -248,125 +296,174 @@ PRyMordial used unperturbed native trajectories, native analytic Jacobians, canc
 | Worst individual-reaction direction error | **0.425239°** | ≤ 1° |
 | Worst mass-seven polarization relative error | **1.831870%** | ≤ 3% |
 | Mass-seven polarization sign agreement | **100%** | required |
-| Worst dual-profile core-4 relative difference | **9.71 × 10⁻⁸** | ≤ 3% |
-| Worst dual-profile core-4 direction difference | **5.33 × 10⁻⁶°** | ≤ 1° |
-| Worst local-source stoichiometric alignment error | **1.48 × 10⁻⁶°** | ≤ 0.01° |
+| Worst dual-profile core-4 relative difference | **9.71×10⁻⁸** | ≤ 3% |
+| Worst dual-profile core-4 direction difference | **5.33×10⁻⁶°** | ≤ 1° |
+| Worst local-source stoichiometric alignment error | **1.48×10⁻⁶°** | ≤ 0.01° |
 
 ```text
 CPTG_PRYMORDIAL_CLEANROOM_FINAL_RESULTS.zip
 SHA-256: b1810b1332fbb859437e15bbde3583330ec97456341f690b7f64b2948cfd3ba3
-Construction freeze SHA-256: e617fcbad9ff2db1edbc443c16348f67e7f7c197fa64503971c91dce862f72b0
+Construction freeze SHA-256:
+e617fcbad9ff2db1edbc443c16348f67e7f7c197fa64503971c91dce862f72b0
 ```
 
-The PRyMordial freeze remained byte-identical through validation. The campaign used **zero inherited PRyMordial numerical-response inputs, zero integrated perturbation rows, and zero response-fit parameters**.
+This clean-room result is retained as native-physics support. It is not substituted for the renewed full-network endpoint authority campaign.
 
-#### AlterBBN clean-room result
+#### Candidate C-R production-solver qualification
 
-AlterBBN reconstructed the same rank-four architecture through its own native numerical machinery. The campaign captured the native abundance linearization and direct forward-minus-reverse mass-action source currents for the selected reactions, then propagated those native histories through the direct variational system.
+PRyMordial's native stiff integration exposed a coordinate-conditioning boundary: one difficult row was solvable in scaled/shifted coordinates when the native coordinate realization refused, while another row exhibited the complementary behavior.
 
-| Metric | Result | Requirement |
-|---|---:|---:|
-| Exact-core source-space rank | **4** | rank 4 |
-| Held-out native validation rows | **6/6 PASS** | 6/6 |
-| Held-out density anchors | **3/3 PASS** | 3/3 |
-| Numerical profiles per anchor | **2/2 PASS** | 2/2 |
-| Worst frozen-operator core-4 relative error | **1.702710%** | ≤ 3% |
-| Worst frozen-operator core-4 direction error | **0.489773°** | ≤ 1° |
-| Worst individual-reaction relative error | **2.032355%** | ≤ 3% |
-| Worst individual-reaction direction error | **0.532337°** | ≤ 1° |
-| Worst mass-seven polarization relative error | **2.776521%** | ≤ 3% |
-| Mass-seven polarization sign agreement | **100%** | required |
-| Worst dual-profile core-4 relative difference | **0.398748%** | ≤ 3% |
-| Worst dual-profile core-4 direction difference | **0.148025°** | ≤ 1° |
-| Worst local-source stoichiometric alignment error | **1.71 × 10⁻⁶°** | ≤ 0.01° |
+Candidate C-R therefore preserves **one physical Candidate-C solver contract** with deterministic numerical coordinate redundancy:
+
+- Candidate-C physical equations and tolerances remain unchanged;
+- scaled/shifted low-temperature coordinates are attempted first;
+- native Candidate-C coordinates are permitted only after a strict evidence-valid scaled-coordinate solver refusal;
+- no endpoint result is available to the coordinate selector;
+- no tolerance relaxation is permitted;
+- no alternate production model is introduced.
+
+The high-risk qualification result is:
+
+| Candidate C-R metric | Result |
+|---|---:|
+| Frozen high-risk rows | **30/30 PASS** |
+| Scaled-coordinate accepted paths | **29/30** |
+| Native-coordinate recovery paths | **1/30** |
+| Dual-coordinate failures | **0/30** |
+| Worst endpoint component-relative difference | **5.8799193110136354×10⁻⁸** |
+| Fixed endpoint gate | **1×10⁻⁶** |
+| Repeated `η10 = 6.094` baseline difference | **0.0** |
+| Repeatability gate | **1×10⁻⁹** |
+| Native-fail / scaled-pass boundary | **PASS** |
+| Scaled-fail / native-pass boundary | **PASS** |
+| Reference opened before prediction freeze | **False** |
+
+The final qualification evidence object is:
 
 ```text
-CPTG_ALTERBBN_CLEANROOM_FINAL_RESULTS.zip
-SHA-256: de4777d766792f04fffbd9c415f7e4cd52259f1303f308320fb8b338ef216169
-Construction freeze SHA-256: ca208f05cb061de7883111ba29019333a6b0fc92b03ec7078cb013d9cc5b9dba
+CPTG_PRyMordial_CANDIDATE_CR_FINAL_QUALIFICATION_EVIDENCE_20260817_r01.zip
+SHA-256:
+a5139f710d1438ddac205ac611c86a9a09c25f81f997e25f5b3ae71b7e4af830
+
+Prediction freeze SHA-256:
+5c99f23a998a131c5894da53b35aef55d02a9faf31d54a524af31517e3463bf0
 ```
 
-The AlterBBN construction freeze in the final evidence is byte-for-byte identical to the authority object audited before held-out validation. Independent reintegration of the held-out direct variational system regenerated the archived five-coordinate responses to approximately **1 × 10⁻¹¹ relative precision**. The tightest declared clean-room margin is the AlterBBN mass-seven polarization response at **2.776521%** against the fixed **3%** gate; it passed with the required sign agreement and is reported explicitly because it is the narrowest margin in the three-network program.
+Candidate C-R is therefore **qualified for full-network production use**.
 
-#### Three-network interpretation
+#### Fresh 3030-row PRyMordial full-network authority campaign
 
-PArthENoPE, PRyMordial, and AlterBBN now provide three independently implemented clean-room reconstructions with the same qualitative outcome:
+The current full-network campaign is a fresh authority object:
 
-> the fixed rank-four geometric source architecture can be recovered from each network's own native reaction dynamics, frozen before held-out execution, and transferred prospectively across baryon density without network-specific refitting.
+```text
+CPTG_PRyMordial_Full63Reaction_CandidateCR_AuthorityCampaign_20260817_r10.zip
+SHA-256:
+0a350cde6359d46ef230e390d4bed3f14421e9af9356e6cacd8849cc734e62a7
+```
 
-This is stronger than endpoint agreement alone, but it is not a claim that the three codes possess identical numerical Jacobians, currents, source kernels, trajectories, normalization conventions, solver internals, or numerical operator matrices. Those remain code-local.
+The campaign preserves the same full-network scientific ledger:
 
-### Evidence integrity
+```text
+6 baselines
+63 native PRyMordial reactions
+6 eta10 anchors
+8 branches per reaction/anchor
+3024 perturbed rows
+3030 total authority rows
+1512 matched +/- pairs
+378 complete ladders
+```
 
-The accepted evidence chain preserves:
+The campaign starts from a **zero-row production ledger**. No numerical production rows from the earlier quarantined campaign are imported. Candidate C-R is the single production solver authority object for all 3030 rows.
 
-- source, executable, ledger, susceptibility-authority, construction-freeze, and package hashes;
+The full-network campaign is **active**, not yet closed. PRyMordial is promoted to completed third authority only after the fresh campaign reaches 3030/3030 strict-valid commits and passes final integrity, response-ladder, and locked Reaction-20 decision gates.
+
+---
+
+## Evidence Integrity
+
+The accepted evidence chain preserves, as applicable:
+
+- source, executable, ledger, construction-freeze, prediction-freeze, and package hashes;
 - command records and native execution logs;
 - endpoint, trajectory, solver, row-integrity, source-stoichiometry, and direct-variational audits;
-- matched-pair and complete-ladder audit records where applicable;
+- matched-pair and complete-ladder audit records;
 - checkpoint and recovery state;
-- susceptibility-freeze, clean-room construction-freeze, and preregistration records;
+- preregistration records;
 - output manifests and append-only event ledgers;
 - raw abundance, Jacobian, and source/current data where exposed by the native code;
 - independent reconstruction and recomputation scripts;
 - clean-extraction replay evidence;
-- claim matrices separating established, diagnostic, and untested statements.
+- claim matrices separating established, diagnostic, active, and untested statements.
 
-The r109 authority bundle consolidates the accepted 695-row PArthENoPE endpoint campaign, native evidence, recomputation source, reference-vector provenance, software citations, and audit-regeneration entry point into one compact research object while excluding the separately distributed PArthENoPE program archive.
+The PRIMAT paper-ready evidence archive is the controlling primary authority object for the completed PRIMAT work. The PArthENoPE r109 authority bundle and clean-room final result are separate accepted second-authority objects. PRyMordial's Candidate C-R final qualification package is a completed solver-qualification authority object, while the fresh r10 full-network campaign remains active until its own final evidence package closes.
 
-The three clean-room final-result archives are separate accepted authority objects. Each binds its own preregistration, native rows, frozen construction object, held-out results, chronology, and post-execution audit. They are not interchangeable with the earlier endpoint-transfer authority and do not erase or rewrite it.
+A package marked **accepted** in the package ledger is controlling scientific evidence unless a later accepted package explicitly supersedes it.
 
 ---
 
 ## Scope of Closure
 
-The universal CPTG nuclear-reaction theory is closed and full-resolution qualified for the declared free-nucleon–deuterium–mass-three–helium-4 architecture, reaction basis, baryon-density domain, perturbation domain, and native network environment.
+The universal CPTG nuclear-reaction theory is structurally closed for the declared free-nucleon–deuterium–mass-three–helium-4 architecture.
 
 Within that scope:
 
 - the four-sector geometry is fixed;
 - the reaction-source vectors are fixed;
 - the transport and polarization structure is fixed;
-- the first- and second-order curvature responses are fixed;
-- the full-precision universal network susceptibility is fixed;
-- the full-precision susceptibility was fixed before independent validation;
-- the independent zero-refit validation basis passed;
-- mirror-polarization and mixed-direction diagnostics passed under the fixed susceptibility;
-- no reaction-specific fitting or postdecision correction is required;
-- the rank-four source architecture has been reconstructed independently from native reaction dynamics in PArthENoPE, PRyMordial, and AlterBBN;
-- each clean-room construction was frozen before held-out execution and passed all 6/6 held-out native rows across the same three preregistered baryon-density conditions.
+- baryon and electric-charge constraints are fixed;
+- the CPTG source-current hierarchy is fixed;
+- PRIMAT has completed full-network endpoint authority and a separate native first-order source/Jacobian mechanism validation;
+- PArthENoPE has completed its full-network endpoint authority and clean-room native-physics reconstruction;
+- PRyMordial has completed Candidate C-R solver qualification and is executing a fresh full-network authority campaign;
+- no reaction-specific geometric refitting is introduced after result exposure;
+- network-local currents, Jacobians, source kernels, trajectories, normalization conventions, and numerical solvers remain code-local.
 
-Formula closure does not by itself establish:
+Theory closure does not by itself establish:
 
 - completed absolute-rate derivations for every nuclear reaction;
+- one universal static endpoint susceptibility matrix across independent BBN implementations;
+- a universal second-order endpoint-response gate without a separately derived network-native second-order source kernel;
 - full validation for every nucleus beyond the declared four-sector domain;
+- native heavy-nucleus authority through `A = 119`;
 - laboratory confirmation in every plasma regime;
 - certification for safety-critical reactor control;
 - replacement of independent experimental or network replication.
 
-These are downstream validation and application domains, not open terms in the closed formula structure.
+These are downstream validation and application domains, not open terms in the closed four-sector geometry.
 
 ---
 
 ## Exploratory Nuclear-Chain Continuation Through `A = 119`
 
-The broader program extends beyond the native silicon-30 frontier through a prescribed-trajectory neutron-capture and beta-minus graph. This calculation tests post-silicon reachability while remaining separate from the validated authority of the four-sector universal susceptibility.
+The broader program has explored extension beyond the native light-element reaction networks through a prescribed-trajectory neutron-capture and beta-minus graph.
 
-The computational companion contains a gap-free register for every integer mass number from `A = 1` through `A = 119`. The `A = 5` row records the unbound helium-5 and lithium-5 resonance states and has no abundance coordinate. Every published post-silicon mass-sector sum from `A = 31` through `A = 119` is positive in the archived prescribed-trajectory result.
-
-The companion paper,
+The existing companion,
 
 > *[A Universal Geometric Theory of Nuclear Reactions in CPTG: Post-Silicon Reachability, Convergence, and the Continuous A=1–119 Mass-Sector Register](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/Complete-Processed-Nuclear-Chain.pdf)*
 
-and `Complete-Processed-Nuclear-Chain_A1-A119_ComputationalCompanion_20260721_r02_PACKAGE.zip` preserve three levels of computational support:
+and `Complete-Processed-Nuclear-Chain_A1-A119_ComputationalCompanion_20260721_r02_PACKAGE.zip` are retained as **archived exploratory evidence**.
 
-- `A = 1–30`: native reaction-network inventory through silicon-30;
+The historical companion contains:
+
+- `A = 1–30`: native reaction-network inventory through silicon-30 in the earlier construction;
 - `A = 31–32`: prescribed-trajectory diagnostic continuation beyond the native inventory;
 - `A = 33–119`: exploratory prescribed-trajectory neutron-capture and beta-minus graph.
 
-Moving the absorbing boundary from `A = 120` to `A = 140` and `A = 160` leaves the stored mass-sector sums through `A = 119` unchanged. Temporal refinement through 64 substeps preserves positive support, while source-isolation and source-cutoff controls distinguish stable graph reachability from source-sensitive tail magnitude.
+The archived register is useful for provenance and for defining the next test, but it is **not** treated as current heavy-nucleus authority.
 
-This is a reproducible reduced-graph reachability result. It is not native-network coverage beyond silicon-30, a precision-qualified prediction of primordial heavy-element abundances, or a finite physical endpoint.
+After the renewed PRyMordial full-network campaign closes, the following will be rerun **from scratch**:
+
+1. **Post-Silicon Reduced-Graph Reachability**
+2. **Gap-Free `A = 1–119` Mass-Sector Register**
+
+The renewed hierarchy will use:
+
+- **PRIMAT as the primary authority** where its native domain applies;
+- **PArthENoPE and PRyMordial as additional independent authorities** where technically applicable;
+- explicitly non-native reduced-graph methods only beyond the supported BBN network domains.
+
+The rerun must preserve a clear distinction between native network authority, reduced-graph reachability, and exploratory heavy-sector inference.
 
 ---
 
@@ -395,13 +492,11 @@ Many CPTG packages are complete audit objects containing source code, protocols,
 
 Published packages should retain their original versioned filename and internal directory structure. Extracted or convenience copies may be supplied for readability, but they do not replace the hash-authoritative archive.
 
-A package marked **accepted** in the package ledger is controlling scientific evidence unless a later accepted package explicitly supersedes it.
-
 The `package-index/` directory should record each package's contents, scientific role, status, SHA-256 digest, external software requirements, and relationship to earlier or later packages.
 
 The r109 PArthENoPE authority bundle intentionally does not redistribute the official PArthENoPE program ZIP. Researchers obtain that distribution separately and use the bundle to verify the official source-file identities before a full native replication.
 
-The clean-room PArthENoPE, PRyMordial, and AlterBBN result archives should likewise be retained under their original filenames with their published SHA-256 digests and construction-freeze hashes. The construction-freeze object is part of the scientific authority because it proves that the operator consumed by held-out validation was fixed before those validation rows were executed.
+The PArthENoPE and PRyMordial clean-room archives should retain their original filenames, published SHA-256 digests, and construction-freeze hashes. PRyMordial's Candidate C-R qualification and full-network production evidence should likewise remain separated so solver qualification cannot be mistaken for completed full-network scientific authority.
 
 ---
 
@@ -422,9 +517,11 @@ Executable packages should provide, as applicable:
 
 Long-running native calculations must preserve completed rows and resume only from missing or invalid entries.
 
-Independent validation results must never be used to alter the fixed susceptibility authority. Cross-network validation results must retain their declared shared-observable scope and code-local boundaries; they must not be used to introduce network-specific geometric refitting.
+Independent validation results must never be used to alter the fixed CPTG geometry after exposure. Cross-network validation must retain its declared shared-observable scope and code-local boundaries; it must not be used to introduce network-specific geometric refitting.
 
-Clean-room reconstruction packages must additionally preserve the construction/held-out chronology: construction inputs are declared before execution, the construction object is hash-frozen before held-out rows begin, and held-out results may not be used to regenerate, rotate, rescale, or refit the frozen operator.
+Clean-room reconstruction packages must preserve the construction/held-out chronology: construction inputs are declared before execution, the construction object is hash-frozen before held-out rows begin, and held-out results may not be used to regenerate, rotate, rescale, or refit the frozen operator.
+
+Candidate C-R coordinate selection must remain solver-success-only. Endpoint values, reference vectors, fitted responses, or post-result agreement may not determine which coordinate realization is accepted for a production row.
 
 Any future extension must begin as a new validation domain. It must not silently refit or rewrite the consumed evidence supporting the closed four-sector theory.
 
@@ -444,9 +541,17 @@ Public computational companions may disclose reduced-graph equations, numerical 
 
 ## Current Status
 
-The CPTG geometric nuclear-reaction theory is **formula-closed and full-resolution qualified within its declared four-sector native-authority domain**.
+The CPTG geometric nuclear-reaction theory is **structurally closed in its four-sector foundation and has completed primary PRIMAT validation**.
 
-The central structure includes:
+Current authority state:
+
+```text
+PRIMAT      primary authority    CLOSED/PASS
+PArthENoPE  second authority     CLOSED/PASS
+PRyMordial  third authority      C-R QUALIFIED; fresh 3030-row full-network campaign ACTIVE
+```
+
+The central validated structure includes:
 
 - the free-neutron/proton vertex;
 - the deuterium bridge;
@@ -455,21 +560,19 @@ The central structure includes:
 - the ordered transport operator;
 - the charge-constrained polarization mode;
 - the rank-four reaction-source basis;
-- the first- and second-order curvature-response hierarchy;
-- the fixed full-precision network susceptibility;
-- independent construction and zero-refit validation reaction bases;
+- the fixed CPTG source-current hierarchy;
+- network-native dynamic observable pushforward;
 - no-refit native validation;
-- mirror-polarization and mixed-direction diagnostics;
-- numerical-rigidity, recovery, and fail-closed evidence controls;
-- completed construction-freeze-held-out native-physics reconstructions in PArthENoPE, PRyMordial, and AlterBBN.
+- clean-room native-physics reconstruction where completed;
+- numerical-rigidity, recovery, and fail-closed evidence controls.
 
-The commissioned Reaction-20 projection additionally has native AlterBBN response and current evidence, matched-uniform PRyMordial transfer evidence, and an official full-network PArthENoPE endpoint validation comprising 695 accepted rows, 338 matched branch pairs, 84 complete ladders, and six-anchor D/H, He-3/H, and Li-7/H gate closure.
+PRIMAT now supplies the primary completed 20,550-row full-network authority and the strongest completed first-order native source/Jacobian mechanism validation.
 
-Beyond that endpoint layer, **all three targeted BBN implementations now have completed clean-room native-physics reconstructions**. PArthENoPE, PRyMordial, and AlterBBN each recovered the rank-four source architecture from their own native dynamics, froze the construction before held-out execution, and passed 6/6 held-out native rows across the same three preregistered density anchors under dual numerical profiles without refit.
+PArthENoPE supplies a completed independent 695-row full-network endpoint authority and a separate clean-room native-physics reconstruction.
 
-The three-network result does not establish identical code-local currents, source kernels, Jacobians, solvers, normalization conventions, trajectories, or numerical operator matrices. It establishes replicated rank-four source architecture and prospective frozen-operator transfer within the declared clean-room domain.
+PRyMordial has passed its Candidate C-R high-risk production qualification and is now executing the fresh full-63, 3030-row campaign required to close the third authority. The earlier quarantined full-network run is not resumed and contributes no numerical production commits to the renewed campaign.
 
-Subsequent work concerns final-paper evidence consolidation, publication, external replication, experimental comparison, broader-domain falsification, higher-mass extension, software deployment, performance qualification, and the intellectual-property decision governing public disclosure.
+After PRyMordial closes, the post-silicon reduced-graph reachability and gap-free `A = 1–119` mass-sector tests will be rerun from scratch under the new authority hierarchy.
 
 ---
 
@@ -481,15 +584,19 @@ Repository: https://github.com/CLG2025/CPTG
 
 Author: **Carter L. Glass Jr.**
 
-For the post-silicon computational continuation, cite:
+For the commissioning nuclear-reaction paper, cite:
+
+Carter L. Glass Jr., *[Geometric Nuclear Reaction Theory in CPTG: Deuterium-Proton Capture and Primordial Mass-Seven Transport](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Geometric_Nuclear_Reaction_Theory.pdf)*.
+
+For the archived post-silicon computational continuation, cite:
 
 Carter L. Glass Jr., *[A Universal Geometric Theory of Nuclear Reactions in CPTG: Post-Silicon Reachability, Convergence, and the Continuous A=1–119 Mass-Sector Register](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/Complete-Processed-Nuclear-Chain.pdf)*, computational companion, 2026.
 
 ---
 
-## BBN software citations
+## BBN Software Citations
 
-- A. Arbey, J. Auffinger, K. P. Hickerson, and E. S. Jenssen, “AlterBBN v2: A public code for calculating Big-Bang nucleosynthesis constraints in alternative cosmologies,” *Computer Physics Communications* **248**, 106982 (2020), [doi:10.1016/j.cpc.2019.106982](https://doi.org/10.1016/j.cpc.2019.106982).
-- A.-K. Burns, T. M. P. Tait, and M. Valli, “PRyMordial: the first three minutes, within and beyond the standard model,” *The European Physical Journal C* **84**, 86 (2024), [doi:10.1140/epjc/s10052-024-12442-0](https://doi.org/10.1140/epjc/s10052-024-12442-0).
+- C. Pitrou, A. Coc, J.-P. Uzan, and E. Vangioni, “Precision big bang nucleosynthesis with improved Helium-4 predictions,” *Physics Reports* **754**, 1–66 (2018), [doi:10.1016/j.physrep.2018.04.005](https://doi.org/10.1016/j.physrep.2018.04.005). Primary citation for PRIMAT.
 - S. Gariazzo, P. F. de Salas, O. Pisanti, and R. Consiglio, “PArthENoPE revolutions,” *Computer Physics Communications* **271**, 108205 (2022), [doi:10.1016/j.cpc.2021.108205](https://doi.org/10.1016/j.cpc.2021.108205).
 - Official PArthENoPE 3.0 program distribution: Mendeley Data, version 2, [doi:10.17632/wvgr7d8yt9.2](https://doi.org/10.17632/wvgr7d8yt9.2).
+- A.-K. Burns, T. M. P. Tait, and M. Valli, “PRyMordial: the first three minutes, within and beyond the standard model,” *The European Physical Journal C* **84**, 86 (2024), [doi:10.1140/epjc/s10052-024-12442-0](https://doi.org/10.1140/epjc/s10052-024-12442-0).
