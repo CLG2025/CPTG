@@ -36,11 +36,11 @@
 - **[CPTG Geometric Nuclear Reaction Theory: Deuterium-Proton Radiative Capture](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Geometric_Nuclear_Reaction_Theory.pdf)**  
   Commissioning-stage nuclear-reaction paper. It established the first complete CPTG source-to-reaction-to-rate-to-network chain for deuterium-proton capture, including the published source construction, closed-form S-factor comparison, transported BBN coordinate, and primordial mass-seven transport result.
 
-- **[PRIMAT-Anchored Reduced-Graph Reachability and the Complete A=1–119 Mass-Sector Register](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/Complete-Processed-Nuclear-Chain.pdf)**  
-As the computational companion to the forthcoming, *A Universal Geometric Theory of Nuclear Reactions in CPTG*, this paper carries the universal theory’s fixed geometric reaction architecture into an explicit, reproducible network calculation. It anchors the native calculation to PRIMAT through A=23, extends the declared operator through a seed-free prescribed-bath reduced graph, reports the complete A=1–119 mass-sector register, and separately qualifies the natural A=338 structural frontier and its source-tail robustness. In this role, the companion tests how far the universal geometric construction can be propagated computationally while preserving a strict distinction between native-network authority and reduced-graph continuation. The external populations remain reduced-graph transport coordinates, not native PRIMAT heavy-network abundance predictions.
-
 - **[A Universal Geometric Theory of Nuclear Reactions in CPTG](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/CPTG_Universal_Geometric_Nuclear_Reaction_Theory.pdf)**  
-  The full parent manuscript, *The Four-Sector Foundation of Vertex, Bridge, Closure, and Saturation*, is in final publication preparation and is expected to be released in the very near future. The governing universal formulas remain reserved for that paper rather than being reproduced in this README.
+  The universal parent manuscript, *The Four-Sector Foundation of Vertex, Bridge, Closure, and Saturation*, is in final publication preparation. It presents the full derivation, governing geometric reaction laws, physical interpretation, conservation structure, and accepted native-network validation chain.
+
+- **[PRIMAT-Anchored Reduced-Graph Reachability and the Complete A=1–119 Mass-Sector Register](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/Complete-Processed-Nuclear-Chain.pdf)**  
+  Computational companion to the universal theory. PRIMAT supplies native trajectory and endpoint authority through A=23; the declared seed-free prescribed-bath reduced graph carries the continuation through A=119 and separately qualifies the natural A=338 structural frontier and source-tail robustness. External populations are reduced-graph transport coordinates, not native PRIMAT heavy-network abundance predictions.
   
 ---
 
@@ -82,8 +82,8 @@ CPTG is being developed as a geometric framework with reduced-limit tests and co
 | SPARC galaxy rotation curves | Public reduced-limit SPARC test available through the compact academic package and the interactive browser workbench | Reproducible galaxy-scale benchmark |
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Cluster active-gate apertures | Same-aperture cluster-response tests using baryonic loading, support temperature, redshift, and aperture radius | Diagnostic cluster-scale active-gate and X-COP consistency [pass](#cluster-scale-active-gate-test-accept-and-x-cop) |
-| Universal geometric nuclear-reaction theory | Closed four-sector foundation spanning free nucleons, deuterium, the mass-three pair, and helium-4; parent paper in final publication preparation | **PRIMAT v0.3.2 is the primary validated authority:** 20,550/20,550 native rows across 428 reactions; separate six-anchor native source/Jacobian validation froze 84/84 predictions and passed 48/48 primary resolved tests, with worst endpoint-vector discrepancy 0.0367629%. PArthENoPE 3.0 is second authority; PRyMordial renewed qualification is active. The universal parent paper is expected very soon. |
-| Computational companion / post-silicon continuation | PRIMAT supplies native authority through A=23; the declared seed-free prescribed-bath reduced graph gives the complete A=1–119 register and separately reaches a numerically qualified natural structural frontier at A=338, with A=339 disconnected under the selected topology. | Published reduced-graph computational result with explicit scope limits: not native PRIMAT heavy-network evolution, not a self-consistent coupled heavy-element network, and not a primordial heavy-yield prediction. |
+| Universal geometric nuclear-reaction theory | Closed four-sector foundation spanning free nucleons, deuterium, the mass-three pair, and helium-4; parent manuscript in final publication preparation | [Universal parent paper](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/CPTG_Universal_Geometric_Nuclear_Reaction_Theory.pdf) — PRIMAT v0.3.2 is the primary validated authority; PArthENoPE 3.0 is second authority; PRyMordial renewed qualification is active. |
+| Computational companion / post-silicon continuation | PRIMAT-native authority through A=23, complete seed-free reduced-graph register through A=119, and separately qualified structural continuation through A=338 | [Computational companion](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/Complete-Processed-Nuclear-Chain.pdf) — public reduced-graph computational result with explicit scope limits; not native PRIMAT heavy-network evolution or a primordial heavy-yield prediction. |
 | Nuclear-reaction interface and exchange layer | PC-first CPTG Reaction Workbench, deterministic evidence/replay architecture, formula-package authority, compiled-runtime boundary, and external scientific-model interface under active engineering development | Active engineering implementation and qualification |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape [pass](#pantheon-supernova-distance-shape-test), not an H0 calibration claim |
 | BBN abundance and lithium tests | Transported BBN coordinate, locked live A = 7 transport law, prospective PRIMAT-native mass-seven validation, and the earlier PRyMordial commissioning result | Native/source-network [validation](#bbn-abundance-and-lithium-source-network-tests): all 7/7 PRIMAT paired coordinates pass the locked mass-seven test, with worst survival disagreement 0.018083% and negligible non-mass-seven control shifts; the earlier PRyMordial row remains the commissioning-stage abundance result. |
@@ -92,22 +92,6 @@ CPTG is being developed as a geometric framework with reduced-limit tests and co
 | CMB Route B Option 1 bridge | Fixed amplitude-level curvature-transport bridge tested through CMB spectrum and Planck likelihood-coordinate plumbing | Geometry-first comparison-coordinate bridge [validation](#cmb-route-b-option-1-curvature-transport-bridge) |
 | DESI compressed ShapeFit and BAO | Compressed-coordinate and ruler-wrapper diagnostics | Coordinate-level [support](#desi-dr1-compressed-shapefit-and-bao-quarter-ruler), not full raw DESI validation |
 | Horizon and Hubble-tension mechanisms | Structural articles mapping CPTG-native branches into observational comparison layers | Theory [mechanism](#hubble-tension-bridge) and derivation-stage interpretation |
-
-Claim levels are used consistently throughout this README:
-
-- **Benchmark** — a reproducible reduced-limit calculation compared with data.
-- **Diagnostic pass** — a result compatible with the stated controls.
-- **Coordinate-layer validation** — a tested observational mapping or likelihood interface.
-- **Closure pass** — agreement within a declared fixed-branch closure protocol.
-- **Anchored comparison** — a dimensional comparison whose normalization is explicitly anchored to a stated observable, with independent rows treated as cross-checks rather than as free refits.
-- **Theory closure** — the governing state structure, conservation laws, source space, and response architecture are fixed; remaining work concerns qualification, replication, implementation, and publication rather than structural retuning.
-- **Fixed-law scalability** — the same geometric law, source-coordinate construction, conservation structure, and baryon-density dependence are carried across reaction channels and independently implemented scientific networks without reaction-specific or network-specific geometric refitting. Reaction stoichiometry selects the source direction; it does not replace the underlying CPTG law.
-- **Cross-network transfer** — a fixed physical or geometric law reproduces its declared observable response in independently implemented scientific networks without network-specific refitting. Network results are ranked by native authoritative capability rather than forced into one reduced framework, and equal code-local currents, normalizations, solvers, or secondary numerical residuals are not required.
-- **Native-network authority** — a network-specific validation executed through that code’s own supported reaction inventory, source terms, Jacobians or equivalent dynamics, solver architecture, and numerical controls. Current nuclear authority is ranked **PRIMAT first, PArthENoPE second, PRyMordial third**.
-- **Clean-room reconstruction** — a source-to-observable operator is rebuilt from official network source under a declared prohibition on inherited numerical response data, frozen before held-out execution, and then tested without refitting. This is a derivational and native-physics qualification layer, distinct from the earlier full-network endpoint validation.
-- **Pending qualification** — the governing structure and validation design are fixed, but the declared full-resolution execution or independent no-refit decision has not yet completed.
-- **Exploratory continuation** — a result used to investigate extension beyond the validated domain; it does not establish universal physical validity in the extended sector.
-- **Theory mechanism** — a derived interpretation connected to a dedicated comparison or audit layer.
 
 ---
 
@@ -286,34 +270,96 @@ CPTG has transitioned from a commissioned deuterium-proton capture model to a un
 
 These sectors form one ordered transport-polarization architecture rather than four unrelated reaction constructions. The dynamic vertex contains free neutrons and protons; deuterium supplies the first bound bridge; tritium and helium-3 form the two charge orientations of the mass-three closure sector; and helium-4 is the saturated endpoint.
 
-### Publication status
+### Universal paper and computational companion
 
-The universal parent paper is in final publication preparation and is expected to be released in the very near future. Its role is to present the full four-sector derivation, governing geometric reaction laws, physical interpretation, conservation structure, and accepted native-network validation chain. Those equations are intentionally not duplicated in this README before publication.
+The [universal parent paper](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/CPTG_Universal_Geometric_Nuclear_Reaction_Theory.pdf) is in final publication preparation. It presents the four-sector derivation, governing geometric reaction laws, conservation structure, physical interpretation, and accepted native-network validation chain. The governing universal formulas are reserved for that paper rather than reproduced here.
 
-The [computational companion](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/Complete-Processed-Nuclear-Chain.pdf) has recently been updated. It serves as the paper-facing numerical companion to the universal theory, translating the fixed geometric reaction framework into an explicit, reproducible network calculation. PRIMAT supplies the native trajectory and endpoint authority through \(A=23\). Beyond that native boundary, a declared prescribed-bath reduced graph carries the continuation under explicit reachability, numerical-convergence, and source-robustness controls.
+The updated [computational companion](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/Complete-Processed-Nuclear-Chain.pdf) carries that fixed architecture into an explicit reproducible calculation. PRIMAT supplies the native trajectory and endpoint authority through A=23; beyond the native boundary, a declared seed-free prescribed-bath reduced graph is used for the continuation under frozen reachability, convergence, and source-robustness controls.
 
 ### Architecture and scalability
 
 The theory separates **ordered transport**, which moves baryonic content through vertex, bridge, closure, and saturation, from **internal polarization**, which preserves the neutron-proton and tritium-helium-3 orientation required by charge conservation. Structural closure fixes the physical coordinate, baryon and charge constraints, reaction-source basis, curvature-response hierarchy, and separation between direct source current and final network response.
 
-Fixed-law scalability does not require different network codes to have identical internal currents, source kernels, integration measures, or solver trajectories. It means that the same geometric law, source-coordinate construction, conservation structure, and baryon-density dependence are carried across reaction channels without a separately fitted geometric rule for each reaction or code.
+Fixed-law scalability does not require different network codes to have identical internal currents, source kernels, integration measures, or solver trajectories. It requires the same geometric law, source-coordinate construction, conservation structure, and baryon-density dependence to carry across reaction channels without a separately fitted geometric rule for each reaction or code.
 
 ### Commissioning foundation
 
-The published *[Geometric Nuclear Reaction Theory in CPTG: Deuterium-Proton Capture and Primordial Mass-Seven Transport](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Geometric_Nuclear_Reaction_Theory.pdf)* remains the valid commissioning-stage foundation. It carried `D(p,γ)³He` from a native source-state construction through reaction amplitude, astrophysical S-factor, thermonuclear-rate interface, transported BBN coordinate, and live primordial mass-seven transport.
+The published *[Geometric Nuclear Reaction Theory in CPTG: Deuterium-Proton Capture and Primordial Mass-Seven Transport](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Geometric_Nuclear_Reaction_Theory.pdf)* remains the commissioning-stage foundation. It carried `D(p,γ)³He` from a native source-state construction through reaction amplitude, astrophysical S-factor, thermonuclear-rate interface, transported BBN coordinate, and live primordial mass-seven transport.
 
-That paper reported a zero-energy S-factor comparison at **−0.149960σ**, a solar-Gamow comparison at approximately **−0.02043σ**, and a PRyMordial gated-lithium result at **+0.90593σ** while preserving deuterium and helium controls. Current nuclear-network authority is PRIMAT, followed by PArthENoPE and PRyMordial.
-Its current public result is deliberately split by authority:
+That paper reported a zero-energy S-factor comparison at **−0.149960σ**, a solar-Gamow comparison at approximately **−0.02043σ**, and a PRyMordial gated-lithium result at **+0.90593σ** while preserving deuterium and helium controls.
+
+### Native-network authority
+
+Network results are ranked by native authoritative capability rather than forced into one common reduced framework:
+
+1. **PRIMAT v0.3.2 — primary authority**
+2. **PArthENoPE 3.0 — second authority**
+3. **PRyMordial — third authority, renewed qualification active**
+
+#### PRIMAT primary authority
+
+| PRIMAT headline metric | Result |
+|---|---:|
+| Committed native rows | **20,550/20,550** |
+| Native reactions | **428/428** |
+| Matched plus/minus pairs | **10,272/10,272** |
+| Complete eight-branch ladders | **2,568/2,568** |
+| Frozen native source/Jacobian predictions | **84/84** |
+| Primary resolved reaction-anchor tests | **48/48 PASS** |
+| Worst primary endpoint-vector discrepancy | **0.0367629%** |
+| Minimum primary endpoint direction cosine | **0.9999999921** |
+
+The full campaign also closed its row-integrity and direct native rate-key checks, with 59 finite positive final nuclides on every committed row. The separate source/Jacobian campaign validates the PRIMAT-native first-order source-to-endpoint mechanism over the tested light-sector domain; it does not claim a network-independent static endpoint map, second-order variational closure, or native heavy-nucleus authority.
+
+Primary paper-facing evidence:
+
+```text
+CPTG_PRIMAT_PaperReadyValidationEvidence_20260817_r02.zip
+SHA-256: b41c8ee49477d8330deb56c85a230d8dcc1d4bba80a1405251a4d6ea7f9b3205
+Prediction freeze SHA-256:
+679e3e6fc7432c0592004b9bf0985b0756323ceb327050f3303ca6c816f31bff
+```
+
+#### PArthENoPE second authority
+
+PArthENoPE 3.0 remains the completed second authority. Its full-network campaign closed **695/695 native rows**, **338/338 matched branch pairs**, and **84/84 complete ladders**; the declared Reaction-20 endpoint direction cosine was **0.999979437501036**. A later clean-room native-physics reconstruction independently recovered the rank-4 source architecture and passed **6/6 held-out rows across 3/3 density anchors under two numerical profiles**, without refitting the frozen construction.
+
+Accepted full-network evidence:
+
+```text
+CPTG_v129_r109_PArthENoPE_CPTG_Reaction20_ReplicationAuthorityBundle_20260731_r02.zip
+SHA-256: 3d42d1cb1d710248841db8d7b1ceafcc7569f092b9b35c9f4114ce9615074cfc
+```
+
+Clean-room evidence:
+
+```text
+CPTG_PARTHENOPE_CLEANROOM_FINAL_RESULTS.zip
+SHA-256: 8d503dd80036e6917500ca8367d8830d727930a23e8779fa3497bf9c1cf4d903
+Construction freeze SHA-256:
+770139cfb7b98f5c0cf6e5a038ea32aee4fb8c3430ed6fb02f38292221fe63d3
+```
+
+These results establish an independent PArthENoPE-native implementation check without asserting equality of PRIMAT and PArthENoPE internal currents, Jacobians, source kernels, trajectories, or solvers.
+
+#### PRyMordial renewed qualification
+
+PRyMordial remains the third authority. Earlier response and clean-room results are retained as supporting evidence while the controlling authority is rebuilt through a renewed native full-network campaign. No production-authority promotion is made until the frozen qualification gates close.
+
+### Computational companion results
+
+The [computational companion](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/Complete-Processed-Nuclear-Chain.pdf) separates native authority from reduced-graph continuation:
 
 - **Native PRIMAT domain:** A≤23, using the frozen PRIMAT trajectory and endpoint authority.
-- **External continuation:** A=24–119, using the declared prescribed-PRIMAT-bath reduced graph. Every mass sector in this interval has positive modeled support at all six frozen baryon-density anchors.
-- **Natural structural frontier:** the same selected reduced-graph rule remains gap-free through a reachable maximum at **A=338**. The eligible A=339 sector is disconnected because none of its allowed incoming sources belongs to the reachable component.
-- **Frontier numerical qualification:** the accepted 512/1024/2048 two-scheme campaign passes all six anchors under the unchanged convergence gates. An earlier 128/256/512 frontier run is retained as a fail-closed numerical non-qualification rather than being erased or promoted.
+- **Complete reduced-graph register:** A=24–119, with positive modeled mass-sector support at all six frozen baryon-density anchors and no imported heavy-sector seed.
+- **Natural structural frontier:** the same selected reduced-graph rule remains gap-free through A=338; A=339 is disconnected under the declared topology.
+- **Frontier numerical qualification:** the accepted 512/1024/2048 two-scheme campaign passes all six anchors under unchanged convergence gates. The earlier 128/256/512 run is retained as a fail-closed numerical non-qualification.
 - **Source-tail robustness:** all **18/18** retained-source cases satisfy their applicable preregistered requirements, including all **12/12** hard-gated cases. After restoring unrenormalized source amplitude, the largest absolute departure of the A=338 truncated-to-baseline endpoint ratio from unity is **2.36 × 10⁻¹³**.
+- **Native mass-seven validation:** all **7/7** paired PRIMAT coordinates pass the locked transport test; the worst relative survival disagreement from the locked target is **0.018083%**, with negligible non-mass-seven control shifts.
 
-These are structural, numerical, and source-robustness results for the declared reduced operator. They are **not** native PRIMAT heavy-network evolution, a closed primordial heavy-element network, or a precision primordial heavy-yield prediction.
+These results describe the declared reduced operator and its numerical behavior. The external populations are **not** native PRIMAT heavy-network evolution, a self-consistent coupled primordial heavy-element network, or precision primordial heavy-yield predictions.
 
-The controlling public evidence is organized around the final audited register, native mass-seven validation, finer-frontier qualification, and self-sealed tail archive:
+Controlling public evidence:
 
 ```text
 CPTG_PRIMAT_A1A119_FINAL_EVIDENCE_20260818-071825_AUDITED_SELFCONTAINED_r01.zip
@@ -329,96 +375,13 @@ CPTG_PRIMAT_PostA119_A160A338_SourceTail_FINAL_SELFSEALED_EVIDENCE_20260819_r01.
 SHA-256: d78aae075d3fe579874d3002fdee6b4d47d98712df9dd1ff85d2f9022e4f246a
 ```
 
-### Native-network validation and authority
+### Continuing validation and public materials
 
-Current authority is ranked by native capability rather than by forcing different BBN codes into one reduced numerical framework:
+PRIMAT is closed within its completed first-order campaign scope. Current validation work is focused on renewed PRyMordial third-authority qualification. Additional cross-network post-silicon replication may be added where technically applicable, with each network judged by its native capabilities rather than forced into one common reduced framework.
 
-1. **PRIMAT v0.3.2 — primary authority**
-2. **PArthENoPE 3.0 — second authority**
-3. **PRyMordial — third authority, renewed qualification active**
+The CPTG Reaction Workbench remains under active development as a deterministic interface for approved reaction formula and coefficient packages, comparison projects, evidence capture, replay, and external-model integration.
 
-#### PRIMAT primary authority
-
-The completed PRIMAT campaign is the primary numerical authority for the present primordial/light-sector program.
-
-| PRIMAT headline metric | Result |
-|---|---:|
-| Committed native rows | **20,550/20,550** |
-| Native reactions | **428/428** |
-| Matched plus/minus pairs | **10,272/10,272** |
-| Complete eight-branch ladders | **2,568/2,568** |
-| Frozen native source/Jacobian predictions | **84/84** |
-| Primary resolved reaction-anchor tests | **48/48 PASS** |
-| Worst primary endpoint-vector discrepancy | **0.0367629%** |
-| Minimum primary endpoint direction cosine | **0.9999999921** |
-
-The full campaign also closed its row-integrity and direct native rate-key checks, with 59 finite positive final nuclides on every committed row. The separate source/Jacobian campaign validates the PRIMAT-native first-order source-to-endpoint mechanism over the tested light-sector domain; it does not claim a network-independent static endpoint map, second-order variational closure, or native heavy-nucleus authority.
-
-The paper-facing PRIMAT evidence chain is bound in:
-
-```text
-CPTG_PRIMAT_PaperReadyValidationEvidence_20260817_r02.zip
-SHA-256: b41c8ee49477d8330deb56c85a230d8dcc1d4bba80a1405251a4d6ea7f9b3205
-Prediction freeze SHA-256:
-679e3e6fc7432c0592004b9bf0985b0756323ceb327050f3303ca6c816f31bff
-```
-
-#### PArthENoPE second authority
-
-PArthENoPE 3.0 remains the completed second authority. Its full-network campaign closed **695/695 native rows**, **338/338 matched branch pairs**, and **84/84 complete ladders**; the declared Reaction-20 endpoint direction cosine was **0.999979437501036**. A later clean-room native-physics reconstruction independently recovered the rank-4 source architecture and passed **6/6 held-out rows across 3/3 density anchors under two numerical profiles**, without refitting the frozen construction.
-
-The accepted PArthENoPE full-network evidence chain is bound in:
-
-```text
-CPTG_v129_r109_PArthENoPE_CPTG_Reaction20_ReplicationAuthorityBundle_20260731_r02.zip
-SHA-256: 3d42d1cb1d710248841db8d7b1ceafcc7569f092b9b35c9f4114ce9615074cfc
-```
-
-The clean-room evidence chain is bound in:
-
-```text
-CPTG_PARTHENOPE_CLEANROOM_FINAL_RESULTS.zip
-SHA-256: 8d503dd80036e6917500ca8367d8830d727930a23e8779fa3497bf9c1cf4d903
-Construction freeze SHA-256:
-770139cfb7b98f5c0cf6e5a038ea32aee4fb8c3430ed6fb02f38292221fe63d3
-```
-
-These results establish an independent PArthENoPE-native implementation check without asserting equality of PRIMAT and PArthENoPE internal currents, Jacobians, source kernels, trajectories, or solvers.
-
-#### PRyMordial renewed qualification
-
-PRyMordial remains the third authority. Earlier PRyMordial response and clean-room results are retained as supporting evidence, while the controlling authority is being rebuilt through a renewed native full-network campaign. The active qualification preserves the Candidate-C physical equations and tolerances while qualifying a coordinate-conditioned numerical realization for the stiff low-temperature regime. No production-authority promotion is made until the frozen qualification gates close.
-
-### Continuing validation and extension
-
-PRIMAT is closed within its completed first-order campaign scope, and the updated PRIMAT-primary computational companion is now the current published reduced-graph result. Current work is focused on the renewed PRyMordial third-authority campaign and the imminent publication of the universal parent paper. After renewed PRyMordial closure, additional cross-network replication of post-silicon behavior may be added where technically applicable, with each network ranked by its native authoritative capability rather than forced into one common reduced framework. Such replication would extend the evidence base without changing the present companion's explicit PRIMAT-primary claim boundary.
-
-### Reaction Workbench and public disclosure
-
-The CPTG Reaction Workbench is being developed as a deterministic interface for approved reaction formula and coefficient packages, comparison projects, evidence capture, replay, and external-model integration without repeating the full qualification campaign for every query.
-
-The published commissioning-stage `D(p,γ)³He` and primordial mass-seven formulas and numerical results are public. The governing equations, coefficient payloads, source operators, and closed-form reaction laws of the **current universal geometric nuclear-reaction theory** are intentionally not listed in this README. The universal parent paper is in final publication preparation and will present those equations together with their derivation, physical interpretation, validation protocol, and accepted evidence chain.
-
-The computational companion is now an updated public release. Current nuclear-reaction materials are maintained under **[`/nuclear-reactions/`](https://github.com/CLG2025/CPTG/tree/main/nuclear-reactions)**, with the current working structure:
-
-```text
-/nuclear-reactions/
-├── README.md
-├── papers/
-│   ├── universal-theory/              # parent paper — publication imminent
-│   ├── computational-companion/       # updated release — 2026-08-19
-│   └── commissioning-paper/
-├── packages/
-│   ├── theory-development/
-│   ├── native-validation/
-│   ├── stress-testing/
-│   ├── protocol-frameworks/
-│   └── audits-and-handoffs/
-├── package-index/
-└── releases/
-```
-
-The directory layout may evolve, but immutable package filenames and SHA-256 identities remain the controlling object-level references for released evidence.
+Current nuclear-reaction papers, evidence packages, protocols, and supporting materials are maintained in the **[`/nuclear-reactions/`](https://github.com/CLG2025/CPTG/tree/main/nuclear-reactions)** directory.
 
 ### BBN software citations
 
@@ -586,11 +549,10 @@ Recent public milestones include:
 - the SPARC and Bullet Cluster reduced-limit benchmarks, CPTG SPARC Browser Workbench v1.12.0, and same-aperture X-COP/ACCEPT cluster active-gate results;
 - locked geometric-π CMB comparison-map closure, Route B Option 1 curvature-transport bridge validation, and related cosmology comparison-layer work;
 - completion of **PRIMAT v0.3.2 as primary nuclear authority**, with PArthENoPE preserved as second authority;
-- **August 19, 2026 updated release of the nuclear computational companion**, including the complete PRIMAT-anchored A=1–119 mass-sector register, the natural A=338 reduced-graph structural frontier, finer-frontier continuum qualification, and self-sealed source-tail robustness evidence;
-- the **universal geometric nuclear-reaction parent paper entering final publication preparation**, with release expected in the very near future;
+- release of the updated **[nuclear computational companion](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/Complete-Processed-Nuclear-Chain.pdf)** and final publication preparation of the **[universal nuclear-reaction parent paper](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/CPTG_Universal_Geometric_Nuclear_Reaction_Theory.pdf)**;
 - active renewed **PRyMordial third-authority qualification** and continued development of the CPTG Reaction Workbench, Pi-Bridge, and reproducibility packages.
 
-The fixed CPTG geometry and immutable nuclear coefficient package remain unchanged across the accepted authority hierarchy. The governing universal nuclear-reaction formulas remain reserved for the parent paper rather than being disclosed in this README.
+The fixed CPTG geometry and immutable nuclear coefficient package remain unchanged across the accepted authority hierarchy.
 
 ---
 
