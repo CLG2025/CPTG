@@ -39,8 +39,8 @@
 - **[PRIMAT-Anchored Reduced-Graph Reachability and the Complete A=1–119 Mass-Sector Register](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/Complete-Processed-Nuclear-Chain.pdf)**  
 As the computational companion to the forthcoming A Universal Geometric Theory of Nuclear Reactions in CPTG, this paper carries the universal theory’s fixed geometric reaction architecture into an explicit, reproducible network calculation. It anchors the native calculation to PRIMAT through A=23, extends the declared operator through a seed-free prescribed-bath reduced graph, reports the complete A=1–119 mass-sector register, and separately qualifies the natural A=338 structural frontier and its source-tail robustness. In this role, the companion tests how far the universal geometric construction can be propagated computationally while preserving a strict distinction between native-network authority and reduced-graph continuation. The external populations remain reduced-graph transport coordinates, not native PRIMAT heavy-network abundance predictions.
 
-- **[A Universal Geometric Theory of Nuclear Reactions in CPTG: The Four-Sector Foundation of Vertex, Bridge, Closure, and Saturation](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/CPTG_Universal_Geometric_Nuclear_Reaction_Theory.pdf)**  
-  The full parent manuscript is in final publication preparation and is expected to be released in the very near future. The governing universal formulas remain reserved for that paper rather than being reproduced in this README.
+- **[A Universal Geometric Theory of Nuclear Reactions in CPTG](https://raw.githubusercontent.com/CLG2025/CPTG/main/nuclear-reactions/universal-theory/CPTG_Universal_Geometric_Nuclear_Reaction_Theory.pdf)**  
+  The full parent manuscript, *The Four-Sector Foundation of Vertex, Bridge, Closure, and Saturation*, is in final publication preparation and is expected to be released in the very near future. The governing universal formulas remain reserved for that paper rather than being reproduced in this README.
   
 ---
 
