@@ -413,7 +413,9 @@ The complete fixed CMB comparison row, including baryon, matter, spectral, ampli
 
 CPTG CMB map work is organized as a [real-map comparison test](https://doi.org/10.5281/zenodo.22413491) between the locked geometric-π CMB branch and public CMB map products. The current paper uses real Planck component maps, Planck split maps, and WMAP low-ell support products.
 
-![Observed Planck SMICA vs fitted CPTG comparison map](images/fig_visual_fitted.png)
+<p align="center">
+  <img src="images/fig_visual_fitted.png" alt="Observed Planck SMICA vs fitted CPTG comparison map" width="70%">
+</p>
 
 <sup>Figure: SMICA visual comparison from the CMB comparison-map closure paper. Top: observed Planck SMICA temperature map. Center: fitted CPTG comparison map. Bottom: observed-minus-fitted-CPTG residual.</sup>
 
