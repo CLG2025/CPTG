@@ -2,6 +2,8 @@
 
 ## Curvature Polarization Transport Gravity
 
+> **Publication update:** The CPTG publication set is undergoing a coordinated update to align existing papers with the current unified framework, evidence record, and cross-paper references. Revised papers and newly completed papers are being published with stable Zenodo DOIs as they close.
+
 ---
 
 ## Contents
@@ -51,7 +53,7 @@
 
 The repository combines public theory papers, reduced-limit benchmark code, interactive workbenches, figures, comparison-layer materials, and reproducibility evidence.
 
-- **CPTG academic package** — the compact reproducibility archive for the core SPARC galaxy and Bullet Cluster reduced-limit benchmarks, distributed as `CPTG_academic_package.zip` under `/archive/`.
+- **CPTG academic package** — the compact reproducibility archive for the core SPARC galaxy and Bullet Cluster reduced-limit benchmarks, distributed as `CPTG_academic_package.zip`.
 - **CPTG SPARC Browser Workbench v1.12.0** — standalone local SPARC analysis for Windows, with cross-platform Python source and CPTG/MOND comparison tools. [View the interface](images/CPTG_SPARC_Browser_Workbench.png) · [Download v1.12.0](https://github.com/CLG2025/CPTG/releases/tag/v1.12.0)
 - **CPTG Reaction Workbench** — a PC-first nuclear-reaction interface in active development for deterministic calculation, comparison, project execution, evidence capture, replay, and external-model integration.
 - **CPTG Pi-Bridge** — a local [research workbench](images/CPTG-Pi-Bridge-Local-Workbench.png) in beta development for loading public astronomy/cosmology datasets, applying CPTG comparison branches, auditing results, and exporting reproducible validation packages.
@@ -65,20 +67,20 @@ The compact academic package is the recommended starting point for the public ga
 
 *Curvature Polarization Transport Gravity* (CPTG) is a geometric-gravity framework in which ordinary matter sources curvature polarization and curvature transport across different physical scales.
 
-CPTG is built around two linked mechanisms:
+Its two linked mechanisms are:
 
 * **Curvature polarization**, which modifies the effective gravitational response according to field strength and structural organization.
 * **Curvature transport**, which carries organized curvature through the geometry according to the dynamical state and symmetry of the system.
 
-The framework is organized as a hierarchy of scale-specific reductions. Current public work includes galaxy rotation curves, Structural Mode \(N\), dissociative cluster-merger lensing, finite strong-field compact objects, the native geometric π branch and its observational projections, CMB comparison-map tests, the Hubble and horizon sectors, and a universal geometric nuclear-reaction extension.
+CPTG is organized as a framework of scale-specific reductions rather than a single reduced formula applied everywhere. The published theory spans galaxy dynamics, Structural Mode \(N\), dissociative cluster-merger lensing, finite strong-field compact objects, the native geometric π branch and its observational projections, CMB comparison-map tests, the Hubble and horizon sectors, and a universal geometric nuclear-reaction extension.
 
-Public implementations are scoped to the reduction being tested. Reproducibility is organized around fixed laws, declared comparison coordinates, source manifests, direct residual tables, and native-network or evidence-package validation rather than unrestricted parameter fitting.
+The public record separates **published theory**, **closed validations**, **reproducible benchmarks**, and **continuing software or publication development**. Reproducibility is organized around fixed laws, declared comparison coordinates, source manifests, direct residual tables, and native-network or evidence-package validation rather than unrestricted parameter fitting.
 
 ---
 
 ## Current Research Status
 
-CPTG is developed through theory papers, reduced-limit tests, native-network validations, comparison-coordinate studies, and dedicated evidence packages.
+The current CPTG record is organized by published theory, closed validations, reproducible benchmarks, comparison-coordinate studies, and continuing software development.
 
 | Area | Current CPTG status | Claim level |
 |---|---|---|
@@ -86,7 +88,7 @@ CPTG is developed through theory papers, reduced-limit tests, native-network val
 | Structural Mode \(N\) | Post-solution structural measure derived from the solved CPTG field, with downstream CSMI labels in the galaxy workbench | Reproducible structural diagnostic; see [Structural Mode \(N\)](https://doi.org/10.5281/zenodo.22436682) |
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Finite compact objects / black holes | Curvature-bounded strong-field admissibility framework with finite physical interiors and GR exterior recovery; compact boundary-value closure remains active theory work | See [compact-object paper](https://doi.org/10.5281/zenodo.22424445) |
-| Universal geometric nuclear-reaction theory | Closed four-sector foundation spanning free nucleons, deuterium, the mass-three pair, and helium-4 | [Universal parent paper](https://doi.org/10.5281/zenodo.22439971); PRIMAT v0.3.2 primary authority, PArthENoPE 3.0 second authority, renewed PRyMordial qualification active |
+| Universal geometric nuclear-reaction theory | Closed four-sector foundation spanning free nucleons, deuterium, the mass-three pair, and helium-4 | [Universal parent paper](https://doi.org/10.5281/zenodo.22439971); PRIMAT primary authority — **CLOSED/PASS**; PArthENoPE second authority — **CLOSED/PASS**; PRyMordial third authority — **CLOSED/PASS** |
 | Computational companion / post-silicon continuation | PRIMAT-native authority through A=23, complete prescribed-bath reduced-transport register through A=119, and separately qualified structural continuation through A=338 | [Computational companion](https://doi.org/10.5281/zenodo.22442178); external \(Y_A\) values are reduced-transport populations, not coupled PRIMAT heavy-element yield predictions |
 | Nuclear-reaction interface and exchange layer | PC-first CPTG Reaction Workbench, deterministic evidence/replay architecture, formula-package authority, compiled-runtime boundary, and external scientific-model interface | Active engineering implementation and qualification |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape comparison, not a local \(H_0\) calibration claim |
@@ -103,14 +105,13 @@ CPTG is developed through theory papers, reduced-limit tests, native-network val
 
 The public benchmarks are intended to be inspectable and reproducible.
 
-1. Download or clone the repository.
-2. Open the **`/archive/`** folder.
-3. Use **`CPTG_academic_package.zip`** for the public benchmark package.
-4. Extract the archive into a working folder.
-5. Run the benchmark scripts with Python 3.
-6. Compare generated outputs against the included figures and summary files.
+1. Download or clone the repository, or obtain the relevant published/release package.
+2. Use **`CPTG_academic_package.zip`** for the compact SPARC and Bullet Cluster benchmark set.
+3. Extract the selected package into a working location.
+4. Run the documented benchmark scripts with Python 3.
+5. Compare generated outputs against the included figures, summaries, and evidence records.
 
-The package root directory may be renamed freely. Reproducibility depends on preserving the internal relative layout, or on passing explicit input/output paths when running scripts. Planck and WMAP FITS products are not bundled with CMB map-closure packages; they must be placed in the documented data location or supplied by command-line path.
+Reproducibility depends on retaining the package contents and declared inputs, or on supplying explicit input/output paths when supported by the scripts. Planck and WMAP FITS products are not bundled with CMB map-closure packages; they must be supplied from the documented public sources.
 
 The main public benchmark scripts are:
 
@@ -137,10 +138,10 @@ The standalone [release package](https://github.com/CLG2025/CPTG/releases/tag/v1
 - averaged normalized rotation curves,
 - averaged RAR scatter versus radius,
 - compact result tables reporting total points, total χ², χ² per point, RMS residuals, and mean observed/model velocities,
-- galaxy-level fit and Curvature-Weighted Structural Mode Index summaries,
+- galaxy-level fit, Structural Mode N, and downstream CSMI summaries,
 - optional CSV, JSON, PNG, and ZIP output saving.
 
-All calculations are performed locally. Each galaxy is solved independently before aggregate statistics and plots are generated. By default, completed analyses are displayed in the browser without retaining a run folder. Output files are written under `/runs/` only when the user explicitly selects **Save result files**.
+All calculations are performed locally. Each galaxy is solved independently before aggregate statistics and plots are generated. By default, completed analyses are displayed in the browser without retaining output files. Files are written only when the user explicitly selects **Save result files**.
 
 When metadata is enabled, the galaxy list defaults to the primary sample while preserving the user's previous metadata-view selection during the browser session. Primary, excluded, and unmatched galaxies remain separately identifiable, and checked galaxies from any active view can be processed.
 
@@ -264,9 +265,9 @@ These sectors form one ordered transport-polarization architecture rather than f
 
 ### Universal paper and computational companion
 
-The [universal parent paper](https://doi.org/10.5281/zenodo.22439971) presents the closed four-sector foundation. It presents the four-sector derivation, governing geometric reaction laws, conservation structure, physical interpretation, and accepted native-network validation chain. The governing universal formulas are reserved for that paper rather than reproduced here.
+The [universal parent paper](https://doi.org/10.5281/zenodo.22439971) presents the closed four-sector foundation, governing geometric reaction laws, conservation structure, physical interpretation, and accepted native-network validation chain.
 
-The updated [computational companion](https://doi.org/10.5281/zenodo.22442178) carries that fixed architecture into an explicit reproducible calculation. PRIMAT supplies the native trajectory and endpoint authority through A=23; beyond the native boundary, a declared seed-free prescribed-bath reduced graph is used for the continuation under frozen reachability, convergence, and source-robustness controls.
+The updated [computational companion](https://doi.org/10.5281/zenodo.22442178) carries that fixed architecture into an explicit reproducible calculation. PRIMAT supplies the native trajectory and endpoint authority through A=23; beyond the native boundary, a declared seed-free prescribed-bath reduced graph defines the continuation topology under frozen reachability, convergence, and source-robustness controls. The resulting external `Y_A` values are reduced-transport populations.
 
 ### Architecture and scalability
 
@@ -286,7 +287,7 @@ Network results are ranked by native authoritative capability rather than forced
 
 1. **PRIMAT v0.3.2 — primary authority**
 2. **PArthENoPE 3.0 — second authority**
-3. **PRyMordial — third authority, renewed qualification active**
+3. **PRyMordial — third authority, CLOSED/PASS**
 
 #### PRIMAT primary authority
 
@@ -334,16 +335,16 @@ Construction freeze SHA-256:
 
 These results establish an independent PArthENoPE-native implementation check without asserting equality of PRIMAT and PArthENoPE internal currents, Jacobians, source kernels, trajectories, or solvers.
 
-#### PRyMordial renewed qualification
+#### PRyMordial third authority
 
-PRyMordial remains the third authority. Earlier response and clean-room results are retained as supporting evidence while the controlling authority is rebuilt through a renewed native full-network campaign. No production-authority promotion is made until the frozen qualification gates close.
+PRyMordial is the completed third authority. Candidate C-R production qualification passed, and the fresh **3030/3030-row full-network authority campaign** closed successfully with the final integrity, response-ladder, and locked Reaction-20 decision gates **PASS**. Earlier response and clean-room results remain supporting evidence alongside the completed full-network authority object.
 
 ### Computational companion results
 
-The [computational companion](https://doi.org/10.5281/zenodo.22442178) separates native authority from reduced-graph continuation:
+The [computational companion](https://doi.org/10.5281/zenodo.22442178) separates native authority from the reduced-graph continuation topology and its reduced-transport populations:
 
 - **Native PRIMAT domain:** A≤23, using the frozen PRIMAT trajectory and endpoint authority.
-- **Complete reduced-graph register:** A=24–119, with positive modeled mass-sector support at all six frozen baryon-density anchors and no imported heavy-sector seed.
+- **Complete reduced-graph topology / reduced-transport register:** A=24–119, with positive modeled mass-sector support at all six frozen baryon-density anchors and no imported heavy-sector seed.
 - **Natural structural frontier:** the same selected reduced-graph rule remains gap-free through A=338; A=339 is disconnected under the declared topology.
 - **Frontier numerical qualification:** the accepted 512/1024/2048 two-scheme campaign passes all six anchors under unchanged convergence gates. The earlier 128/256/512 run is retained as a fail-closed numerical non-qualification.
 - **Source-tail robustness:** all **18/18** retained-source cases satisfy their applicable preregistered requirements, including all **12/12** hard-gated cases. After restoring unrenormalized source amplitude, the largest absolute departure of the A=338 truncated-to-baseline endpoint ratio from unity is **2.36 × 10⁻¹³**.
@@ -367,13 +368,18 @@ CPTG_PRIMAT_PostA119_A160A338_SourceTail_FINAL_SELFSEALED_EVIDENCE_20260819_r01.
 SHA-256: d78aae075d3fe579874d3002fdee6b4d47d98712df9dd1ff85d2f9022e4f246a
 ```
 
-### Continuing validation and public materials
+### Completed validation and continuing public development
 
-PRIMAT is closed within its completed first-order campaign scope. Current validation work is focused on renewed PRyMordial third-authority qualification. Additional cross-network post-silicon replication may be added where technically applicable, with each network judged by its native capabilities rather than forced into one common reduced framework.
+The three-network nuclear authority hierarchy is complete within its declared scope:
+
+1. **PRIMAT v0.3.2 — primary authority — CLOSED/PASS**
+2. **PArthENoPE 3.0 — second authority — CLOSED/PASS**
+3. **PRyMordial — third authority — CLOSED/PASS**
+
+Additional future cross-network or post-silicon studies, if undertaken, are new validation domains rather than unfinished work in the closed authority hierarchy.
 
 The CPTG Reaction Workbench remains under active development as a deterministic interface for approved reaction formula and coefficient packages, comparison projects, evidence capture, replay, and external-model integration.
 
-Current nuclear-reaction papers, evidence packages, protocols, and supporting materials are maintained in the **[`/nuclear-reactions/`](https://github.com/CLG2025/CPTG/tree/main/nuclear-reactions)** directory.
 
 ### BBN software citations
 
@@ -508,7 +514,7 @@ A current CPTG horizon-mechanism article treats the [cosmological horizon proble
 
 ### Hubble-Tension Bridge
 
-A current CPTG article develops a geometric interpretation of the [Hubble tension](https://doi.org/10.5281/zenodo.22429502). In this framing, the Planck/CMB value and the local distance-ladder value are treated as different comparison-layer projections of one native CPTG geometric branch rather than as two unrelated expansion histories.
+The CPTG [Hubble-tension bridge](https://doi.org/10.5281/zenodo.22429502) treats the CMB/acoustic and local luminosity determinations as different observational projections of one native CPTG geometric branch, with each projection carrying its own rate history at the same selected native phase.
 
 The locked working bridge is:
 
@@ -516,7 +522,7 @@ The locked working bridge is:
 67.48 <- 69.4163 -> 73.04
 ```
 
-This work does not claim that either Planck or SH0ES is simply wrong. It asks whether the apparent disagreement can be expressed as two observational comparison projections of one native CPTG branch: an acoustic/CMB projection below the native branch and a local luminosity-distance projection above it.
+The acoustic/CMB projection lies below the native branch while the local luminosity-distance projection lies above it; both are comparison-layer coordinates of the same native geometric history.
 
 ---
 
@@ -541,9 +547,11 @@ Recent public milestones include:
 - the SPARC reduced-limit benchmarks, CPTG SPARC Browser Workbench v1.12.0, and the published [galaxy rotation-curve](https://doi.org/10.5281/zenodo.22418189) and [Structural Mode \(N\)](https://doi.org/10.5281/zenodo.22436682) papers;
 - the reduced Bullet Cluster merger-plane benchmark and the published [finite compact-object / black-hole framework](https://doi.org/10.5281/zenodo.22424445);
 - the locked geometric-π [CMB comparison-map closure](https://doi.org/10.5281/zenodo.22413491), the [geometric π comparison-coordinate paper](https://doi.org/10.5281/zenodo.22426857), and the [horizon](https://doi.org/10.5281/zenodo.22430125) and [Hubble-tension](https://doi.org/10.5281/zenodo.22429502) papers;
-- completion of **PRIMAT v0.3.2 as primary nuclear authority**, with PArthENoPE preserved as second authority;
+- completion of the three-network nuclear authority hierarchy: **PRIMAT primary — CLOSED/PASS; PArthENoPE second — CLOSED/PASS; PRyMordial third — CLOSED/PASS**;
 - publication of the [universal nuclear-reaction parent paper](https://doi.org/10.5281/zenodo.22439971) and its [PRIMAT-anchored computational companion](https://doi.org/10.5281/zenodo.22442178);
-- active renewed **PRyMordial third-authority qualification** and continued development of the CPTG Reaction Workbench, Pi-Bridge, and reproducibility packages.
+- continued development of the CPTG Reaction Workbench, Pi-Bridge, reproducibility packages, and coordinated publication updates.
+
+The publication program is also undergoing a coordinated update so revised papers, newly completed papers, evidence links, and cross-references remain consistent across the full CPTG record.
 
 The fixed CPTG geometry and immutable nuclear coefficient package remain unchanged across the accepted authority hierarchy.
 
