@@ -1,0 +1,6 @@
+run,family,status,rows,mean_cptg_residual_fraction,mean_planck_residual_fraction,mean_cptg_minus_planck_residual_fraction,mean_cptg_minus_planck_residual_rms_uK,min_cptg_minus_planck_residual_fraction,max_cptg_minus_planck_residual_fraction,planck_ahead_all_rows,cptg_ahead_all_rows
+Planck full-band non-inpainted,Planck full-band,ok,5,0.18148490371787843,0.18125107585215172,0.00023382786572672,0.02351772126265738,0.0002103725681229,0.0002462267318423,True,False
+Planck full-band inpainted,Planck full-band,ok,5,0.1826648681972939,0.18240339884347306,0.00026146935382078,0.026407515228459,0.000198297680383,0.0003133679211359,True,False
+Planck low-ell bands non-inpainted,Planck low-ell bands,ok,20,0.22074551305478268,0.21983759298094335,0.000907920073839235,0.04468252928222074,0.0005299061808166,0.0012370722205693,True,False
+Planck low-ell bands inpainted,Planck low-ell bands,ok,20,0.2270678989058565,0.22619032814415344,0.00087757076170299,0.044103046028034734,0.0005406389425268,0.0012366828041877,True,False
+WMAP low-ell bands,WMAP low-ell bands,ok,4,0.22392138490337138,0.2231438959949038,0.000777488908467475,0.04141677727667398,0.0006996364236535,0.0008734536518821,True,False

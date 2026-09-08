@@ -1,0 +1,8 @@
+Layer,Status in paper,Proper claim,Not claimed
+Observed-map visual comparison,Primary,Close fitted comparison map against SMICA,Native prediction of exact random CMB phases
+Planck component maps,Primary robustness,Closure stable across component maps,Full Planck likelihood closure
+Smoothing and mask ladders,Attribution,Residual is transfer and sky-selection sensitive,Independent theory validation layer
+Control-scatter audit,Attribution,Remaining edge is smaller than full control span,Proof residual has no physical meaning
+Null-envelope audit,Uniqueness,Phase locking alone is insufficient; generic nulls fail,Full posterior replacement for Planck
+TT/TE/EE spectra,Future separate paper,Continuing spectrum-space work,Primary evidence in this paper
+Calibration stress,Future diagnostic,Separate symmetric diagnostic protocol,After-the-fact rescue term

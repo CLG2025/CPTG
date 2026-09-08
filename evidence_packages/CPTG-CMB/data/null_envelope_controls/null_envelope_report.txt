@@ -1,0 +1,87 @@
+CPTG CMB null-envelope / uniqueness controls
+==================================================
+
+Nside: 256
+Mask threshold: 0.99
+Requested inpainted fields: False
+Mask source map: COM_CMB_IQU-smica_2048_R3.00_full.fits
+Null shuffles: 20
+Perturbation percentages: 0.5, 1.0, 2.0
+
+Top envelopes by mean residual fraction:
+  rank_mean=1.00, model=observed_self_spectrum_control, family=data_control, mean_residual_fraction=0.11436626, mean_RMS=11.502844 uK
+  rank_mean=2.00, model=planck_tilt_plus_2p0pct, family=planck_perturbation, mean_residual_fraction=0.18084221, mean_RMS=18.188582 uK
+  rank_mean=3.00, model=planck_tilt_plus_1p0pct, family=planck_perturbation, mean_residual_fraction=0.18103704, mean_RMS=18.208176 uK
+  rank_mean=4.20, model=cptg_tilt_plus_2p0pct, family=cptg_perturbation, mean_residual_fraction=0.18110771, mean_RMS=18.215285 uK
+  rank_mean=4.80, model=planck_tilt_plus_0p5pct, family=planck_perturbation, mean_residual_fraction=0.18114166, mean_RMS=18.218698 uK
+  rank_mean=6.40, model=planck_ripple_minus_1p0pct, family=planck_perturbation, mean_residual_fraction=0.18119189, mean_RMS=18.223750 uK
+  rank_mean=6.60, model=planck_ripple_minus_2p0pct, family=planck_perturbation, mean_residual_fraction=0.18119312, mean_RMS=18.223874 uK
+  rank_mean=8.00, model=planck_ripple_minus_0p5pct, family=planck_perturbation, mean_residual_fraction=0.18121395, mean_RMS=18.225968 uK
+  rank_mean=9.20, model=planck2018_baseline_lcdm, family=benchmark, mean_residual_fraction=0.18125108, mean_RMS=18.229702 uK
+  rank_mean=10.00, model=cptg_tilt_plus_1p0pct, family=cptg_perturbation, mean_residual_fraction=0.18128671, mean_RMS=18.233287 uK
+  rank_mean=10.80, model=planck_ripple_plus_0p5pct, family=planck_perturbation, mean_residual_fraction=0.18130324, mean_RMS=18.234948 uK
+  rank_mean=12.60, model=planck_tilt_minus_0p5pct, family=planck_perturbation, mean_residual_fraction=0.18136526, mean_RMS=18.241186 uK
+  rank_mean=12.80, model=planck_ripple_plus_1p0pct, family=planck_perturbation, mean_residual_fraction=0.18137042, mean_RMS=18.241704 uK
+  rank_mean=13.60, model=cptg_tilt_plus_0p5pct, family=cptg_perturbation, mean_residual_fraction=0.18138342, mean_RMS=18.243013 uK
+  rank_mean=15.20, model=cptg_ripple_minus_1p0pct, family=cptg_perturbation, mean_residual_fraction=0.18143405, mean_RMS=18.248106 uK
+  rank_mean=16.20, model=cptg_ripple_minus_2p0pct, family=cptg_perturbation, mean_residual_fraction=0.18144353, mean_RMS=18.249060 uK
+  rank_mean=17.00, model=cptg_ripple_minus_0p5pct, family=cptg_perturbation, mean_residual_fraction=0.18145195, mean_RMS=18.249905 uK
+  rank_mean=18.00, model=planck_tilt_minus_1p0pct, family=planck_perturbation, mean_residual_fraction=0.18148419, mean_RMS=18.253147 uK
+  rank_mean=18.80, model=cptg_locked_pi_cmb, family=cptg, mean_residual_fraction=0.18148490, mean_RMS=18.253220 uK
+  rank_mean=19.80, model=cptg_ripple_plus_0p5pct, family=cptg_perturbation, mean_residual_fraction=0.18153289, mean_RMS=18.258045 uK
+
+Component-level top five:
+  COMMANDER:
+    rank=1, model=observed_self_spectrum_control, family=data_control, residual_fraction=0.11530458, RMS=11.625108 uK
+    rank=2, model=planck_tilt_plus_2p0pct, family=planck_perturbation, residual_fraction=0.17907837, RMS=18.054837 uK
+    rank=3, model=planck_tilt_plus_1p0pct, family=planck_perturbation, residual_fraction=0.17926443, RMS=18.073596 uK
+    rank=4, model=cptg_tilt_plus_2p0pct, family=cptg_perturbation, residual_fraction=0.17934045, RMS=18.081259 uK
+    rank=5, model=planck_tilt_plus_0p5pct, family=planck_perturbation, residual_fraction=0.17936485, RMS=18.083720 uK
+  NILC:
+    rank=1, model=observed_self_spectrum_control, family=data_control, residual_fraction=0.11435008, RMS=11.466012 uK
+    rank=2, model=planck_tilt_plus_2p0pct, family=planck_perturbation, residual_fraction=0.18299421, RMS=18.349037 uK
+    rank=3, model=planck_tilt_plus_1p0pct, family=planck_perturbation, residual_fraction=0.18318638, RMS=18.368306 uK
+    rank=4, model=cptg_tilt_plus_2p0pct, family=cptg_perturbation, residual_fraction=0.18327193, RMS=18.376883 uK
+    rank=5, model=planck_tilt_plus_0p5pct, family=planck_perturbation, residual_fraction=0.18328955, RMS=18.378650 uK
+  SEVEM:
+    rank=1, model=observed_self_spectrum_control, family=data_control, residual_fraction=0.11423302, RMS=11.483647 uK
+    rank=2, model=planck_tilt_plus_2p0pct, family=planck_perturbation, residual_fraction=0.18178362, RMS=18.274391 uK
+    rank=3, model=planck_tilt_plus_1p0pct, family=planck_perturbation, residual_fraction=0.18201840, RMS=18.297994 uK
+    rank=4, model=cptg_tilt_plus_2p0pct, family=cptg_perturbation, residual_fraction=0.18202534, RMS=18.298692 uK
+    rank=5, model=planck_tilt_plus_0p5pct, family=planck_perturbation, residual_fraction=0.18214288, RMS=18.310508 uK
+  SMICA:
+    rank=1, model=observed_self_spectrum_control, family=data_control, residual_fraction=0.11369266, RMS=11.427209 uK
+    rank=2, model=planck_tilt_plus_2p0pct, family=planck_perturbation, residual_fraction=0.18058993, RMS=18.151031 uK
+    rank=3, model=planck_tilt_plus_1p0pct, family=planck_perturbation, residual_fraction=0.18078163, RMS=18.170299 uK
+    rank=4, model=cptg_tilt_plus_2p0pct, family=cptg_perturbation, residual_fraction=0.18085917, RMS=18.178092 uK
+    rank=5, model=planck_tilt_plus_0p5pct, family=planck_perturbation, residual_fraction=0.18088469, RMS=18.180658 uK
+  SMICA_noSZ:
+    rank=1, model=observed_self_spectrum_control, family=data_control, residual_fraction=0.11425096, RMS=11.512244 uK
+    rank=2, model=planck_tilt_plus_2p0pct, family=planck_perturbation, residual_fraction=0.17976491, RMS=18.113612 uK
+    rank=3, model=planck_tilt_plus_1p0pct, family=planck_perturbation, residual_fraction=0.17993434, RMS=18.130685 uK
+    rank=4, model=planck_tilt_plus_0p5pct, family=planck_perturbation, residual_fraction=0.18002635, RMS=18.139955 uK
+    rank=5, model=cptg_tilt_plus_2p0pct, family=cptg_perturbation, residual_fraction=0.18004168, RMS=18.141500 uK
+
+Family summary:
+  data_control: mean_rank=14.50, mean_residual_fraction=0.15303816, mean_RMS=15.392630 uK, n_models=2
+  benchmark: mean_rank=9.20, mean_residual_fraction=0.18125108, mean_RMS=18.229702 uK, n_models=1
+  planck_perturbation: mean_rank=10.92, mean_residual_fraction=0.18128574, mean_RMS=18.233188 uK, n_models=12
+  cptg: mean_rank=18.80, mean_residual_fraction=0.18148490, mean_RMS=18.253220 uK, n_models=1
+  cptg_perturbation: mean_rank=18.17, mean_residual_fraction=0.18151954, mean_RMS=18.256703 uK, n_models=12
+  smooth_null: mean_rank=30.00, mean_residual_fraction=0.55923805, mean_RMS=56.246715 uK, n_models=1
+  bad_null: mean_rank=30.00, mean_residual_fraction=0.58420581, mean_RMS=58.758339 uK, n_models=2
+  shuffled_null: mean_rank=41.50, mean_residual_fraction=0.94911688, mean_RMS=95.461131 uK, n_models=20
+
+CPTG versus Planck benchmark:
+  CPTG mean residual fraction=0.18148490, mean RMS=18.253220 uK, mean rank=18.80
+  Planck mean residual fraction=0.18125108, mean RMS=18.229702 uK, mean rank=9.20
+  CPTG-minus-Planck mean RMS difference=+0.023518 uK
+
+Interpretation boundary:
+  The test asks whether CPTG's near-Planck map-space performance is
+  automatic under phase locking. Null envelopes using the same phase
+  scaffold provide the control. If generic nulls and perturbed envelopes
+  perform substantially worse while CPTG remains adjacent to Planck,
+  the near-degeneracy is not a trivial phase-locking artifact.
+  This remains a phase-locked envelope comparison, not a native
+  CPTG pixel-phase prediction.

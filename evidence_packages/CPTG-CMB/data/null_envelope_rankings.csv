@@ -1,0 +1,256 @@
+component,model,family,rank,residual_fraction,residual_rms_uK,masked_corr,description
+COMMANDER,observed_self_spectrum_control,data_control,1,0.11530457877837183,11.625107701235635,0.993330183832517,Observed self-spectrum upper control
+COMMANDER,planck_tilt_plus_2p0pct,planck_perturbation,2,0.1790783688092565,18.054836559185247,0.9838348122650549,Planck endpoint-normalized tilt perturbation plus 2.0 percent
+COMMANDER,planck_tilt_plus_1p0pct,planck_perturbation,3,0.17926443305397619,18.073595717816517,0.9838009265302794,Planck endpoint-normalized tilt perturbation plus 1.0 percent
+COMMANDER,cptg_tilt_plus_2p0pct,cptg_perturbation,4,0.17934044535664628,18.08125934414013,0.9837870728258629,CPTG endpoint-normalized tilt perturbation plus 2.0 percent
+COMMANDER,planck_tilt_plus_0p5pct,planck_perturbation,5,0.17936484747697748,18.083719587089664,0.9837826241043093,Planck endpoint-normalized tilt perturbation plus 0.5 percent
+COMMANDER,planck_ripple_minus_1p0pct,planck_perturbation,6,0.17942180492954019,18.08946208688841,0.9837722378253139,Planck sinusoidal ripple perturbation minus 1.0 percent
+COMMANDER,planck_ripple_minus_2p0pct,planck_perturbation,7,0.1794348288639207,18.09077517125567,0.9837698624122286,Planck sinusoidal ripple perturbation minus 2.0 percent
+COMMANDER,planck_ripple_minus_0p5pct,planck_perturbation,8,0.17943832416401512,18.091127570444637,0.9837692248801088,Planck sinusoidal ripple perturbation minus 0.5 percent
+COMMANDER,planck2018_baseline_lcdm,benchmark,9,0.17947016101040383,18.09433738892763,0.9837634173452984,Planck 2018 baseline LCDM TT envelope
+COMMANDER,cptg_tilt_plus_1p0pct,cptg_perturbation,10,0.17951060660013426,18.098415148385563,0.9837560379067831,CPTG endpoint-normalized tilt perturbation plus 1.0 percent
+COMMANDER,planck_ripple_plus_0p5pct,planck_perturbation,11,0.17951728443908946,18.099088413904486,0.9837548193465763,Planck sinusoidal ripple perturbation plus 0.5 percent
+COMMANDER,planck_ripple_plus_1p0pct,planck_perturbation,12,0.17957966054082722,18.10537722661572,0.9837434348040353,Planck sinusoidal ripple perturbation plus 1.0 percent
+COMMANDER,planck_tilt_minus_0p5pct,planck_perturbation,13,0.17958035660743074,18.10544740465478,0.9837433077387351,Planck endpoint-normalized tilt perturbation minus 0.5 percent
+COMMANDER,cptg_tilt_plus_0p5pct,cptg_perturbation,14,0.179603061588728,18.107736540574024,0.9837391627194455,CPTG endpoint-normalized tilt perturbation plus 0.5 percent
+COMMANDER,cptg_ripple_minus_1p0pct,cptg_perturbation,15,0.17966043005702026,18.11352047933533,0.9837286871245172,CPTG sinusoidal ripple perturbation minus 1.0 percent
+COMMANDER,cptg_ripple_minus_0p5pct,cptg_perturbation,16,0.17967277028666995,18.114764631998266,0.9837264333225539,CPTG sinusoidal ripple perturbation minus 0.5 percent
+COMMANDER,cptg_ripple_minus_2p0pct,cptg_perturbation,17,0.17968175688210097,18.115670668348773,0.9837247919229044,CPTG sinusoidal ripple perturbation minus 2.0 percent
+COMMANDER,planck_tilt_minus_1p0pct,planck_perturbation,18,0.17969541704171263,18.117047897495993,0.9837222967353159,Planck endpoint-normalized tilt perturbation minus 1.0 percent
+COMMANDER,cptg_locked_pi_cmb,cptg,19,0.17970041143789295,18.117551436853354,0.9837213844016262,Locked CPTG geometric-pi CMB comparison envelope
+COMMANDER,cptg_ripple_plus_0p5pct,cptg_perturbation,20,0.17974332375383548,18.121877893788774,0.9837135444660319,CPTG sinusoidal ripple perturbation plus 0.5 percent
+COMMANDER,planck_ripple_plus_2p0pct,planck_perturbation,21,0.1797500209122611,18.122553107113475,0.9837123207432352,Planck sinusoidal ripple perturbation plus 2.0 percent
+COMMANDER,cptg_ripple_plus_1p0pct,cptg_perturbation,22,0.17980147460488355,18.127740713058525,0.9837029174145563,CPTG sinusoidal ripple perturbation plus 1.0 percent
+COMMANDER,cptg_tilt_minus_0p5pct,cptg_perturbation,23,0.17980263987545184,18.127858196648518,0.9837027044253861,CPTG endpoint-normalized tilt perturbation minus 0.5 percent
+COMMANDER,cptg_tilt_minus_1p0pct,cptg_perturbation,24,0.17990973044552838,18.138655160863784,0.9836831242280297,CPTG endpoint-normalized tilt perturbation minus 1.0 percent
+COMMANDER,planck_tilt_minus_2p0pct,planck_perturbation,25,0.17994006263945753,18.141713278979967,0.9836775761687913,Planck endpoint-normalized tilt perturbation minus 2.0 percent
+COMMANDER,cptg_ripple_plus_2p0pct,cptg_perturbation,26,0.17996334720511012,18.14406084909692,0.9836733165348812,CPTG sinusoidal ripple perturbation plus 2.0 percent
+COMMANDER,cptg_tilt_minus_2p0pct,cptg_perturbation,27,0.18013843126021947,18.161712975482356,0.983641268747457,CPTG endpoint-normalized tilt perturbation minus 2.0 percent
+COMMANDER,observed_smoothed_spectrum_control,data_control,28,0.19727257935788625,19.88919265681536,0.9803486774783176,Observed spectrum smoothed with width=31
+COMMANDER,flat_dl_null,bad_null,29,0.38876877440867863,39.196005234668156,0.92133535699265,Flat D_l null matched to mean observed D_l
+COMMANDER,powerlaw_dl_null,smooth_null,30,0.5527622546745825,55.729970239266855,0.8333390005316395,Fitted smooth power-law D_l null
+COMMANDER,flat_cl_null,bad_null,31,0.776635580143811,78.30107320488239,0.6299501374352465,Flat C_l null matched to mean observed C_l
+COMMANDER,shuffled_spectrum_null_seed_271844,shuffled_null,32,0.9290959687230542,93.67226189646615,0.36983872282735536,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271841,shuffled_null,33,0.9407679131551278,94.84903746377904,0.3390512255954044,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271843,shuffled_null,34,0.9416162543780804,94.93456796212273,0.33668802991938124,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271845,shuffled_null,35,0.9428345992776478,95.05740255225592,0.33326103643383964,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271831,shuffled_null,36,0.9443418316005228,95.20936302312225,0.3289658114293487,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271835,shuffled_null,37,0.9464534260248844,95.42225580556513,0.32284038217942734,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271842,shuffled_null,38,0.9482479228714566,95.60317853501743,0.3175309067948626,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271829,shuffled_null,39,0.9493520275191747,95.71449532381406,0.3142144615469378,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271846,shuffled_null,40,0.9520158686496244,95.9830660984403,0.3060486658021903,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271840,shuffled_null,41,0.9521160467851544,95.99316614500553,0.3057368696350008,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271833,shuffled_null,42,0.9521323887395673,95.99481375503204,0.30568597336659953,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271838,shuffled_null,43,0.9525356515395942,96.0354710605084,0.30442705619908444,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271828,shuffled_null,44,0.9557999585068766,96.36458132192735,0.29401775340658015,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271834,shuffled_null,45,0.9563992614801237,96.42500356780415,0.2920624122345665,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271847,shuffled_null,46,0.9590855993941779,96.69584248767757,0.2831162535685832,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271836,shuffled_null,47,0.9593954915381269,96.72708608257503,0.2820643380796582,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271839,shuffled_null,48,0.96201890548081,96.9915809530453,0.2729828300415689,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271832,shuffled_null,49,0.9639013539883096,97.18137104528245,0.26625960974113827,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271837,shuffled_null,50,0.9652982454703959,97.32220685681952,0.2611499517361146,Observed spectrum values shuffled across ell
+COMMANDER,shuffled_spectrum_null_seed_271830,shuffled_null,51,0.9660289211822307,97.39587421621452,0.25843398274897095,Observed spectrum values shuffled across ell
+NILC,observed_self_spectrum_control,data_control,1,0.11435007663045554,11.466011613958248,0.9934405165759089,Observed self-spectrum upper control
+NILC,planck_tilt_plus_2p0pct,planck_perturbation,2,0.18299421478927874,18.349037043865085,0.9831139900101388,Planck endpoint-normalized tilt perturbation plus 2.0 percent
+NILC,planck_tilt_plus_1p0pct,planck_perturbation,3,0.1831863795288022,18.368305619803955,0.9830782015461078,Planck endpoint-normalized tilt perturbation plus 1.0 percent
+NILC,cptg_tilt_plus_2p0pct,cptg_perturbation,4,0.18327192554653046,18.376883415829138,0.9830622570857183,CPTG endpoint-normalized tilt perturbation plus 2.0 percent
+NILC,planck_tilt_plus_0p5pct,planck_perturbation,5,0.18328954748760448,18.3786503878065,0.9830589716704636,Planck endpoint-normalized tilt perturbation plus 0.5 percent
+NILC,planck_ripple_minus_2p0pct,planck_perturbation,6,0.18333227673993757,18.382934898302196,0.9830510039185917,Planck sinusoidal ripple perturbation minus 2.0 percent
+NILC,planck_ripple_minus_1p0pct,planck_perturbation,7,0.1833348435945342,18.383192279717964,0.9830505252143288,Planck sinusoidal ripple perturbation minus 1.0 percent
+NILC,planck_ripple_minus_0p5pct,planck_perturbation,8,0.18335864428409482,18.38557880179966,0.983046086186349,Planck sinusoidal ripple perturbation minus 0.5 percent
+NILC,planck2018_baseline_lcdm,benchmark,9,0.18339741834510825,18.389466720784945,0.9830388532221651,Planck 2018 baseline LCDM TT envelope
+NILC,cptg_tilt_plus_1p0pct,cptg_perturbation,10,0.18344835863416217,18.394574561226523,0.9830293483484771,CPTG endpoint-normalized tilt perturbation plus 1.0 percent
+NILC,planck_ripple_plus_0p5pct,planck_perturbation,11,0.18345113383557224,18.394852833813097,0.9830288304492615,Planck sinusoidal ripple perturbation plus 0.5 percent
+NILC,planck_tilt_minus_0p5pct,planck_perturbation,12,0.18350997628286636,18.400753032605692,0.9830178475514378,Planck endpoint-normalized tilt perturbation minus 0.5 percent
+NILC,planck_ripple_plus_1p0pct,planck_perturbation,13,0.1835197561724141,18.401733673200276,0.9830160217892777,Planck sinusoidal ripple perturbation plus 1.0 percent
+NILC,cptg_tilt_plus_0p5pct,cptg_perturbation,14,0.1835436526314673,18.404129798197392,0.9830115602467243,CPTG endpoint-normalized tilt perturbation plus 0.5 percent
+NILC,cptg_ripple_minus_1p0pct,cptg_perturbation,15,0.18358928631203614,18.408705538999744,0.9830030386277742,CPTG sinusoidal ripple perturbation minus 1.0 percent
+NILC,cptg_ripple_minus_2p0pct,cptg_perturbation,16,0.18359486260770858,18.4092646804785,0.9830019971617844,CPTG sinusoidal ripple perturbation minus 2.0 percent
+NILC,cptg_ripple_minus_0p5pct,cptg_perturbation,17,0.18360898751398236,18.41068100081823,0.9829993589540587,CPTG sinusoidal ripple perturbation minus 0.5 percent
+NILC,planck_tilt_minus_1p0pct,planck_perturbation,18,0.18362720532741608,18.412507721591552,0.9829959559752232,Planck endpoint-normalized tilt perturbation minus 1.0 percent
+NILC,cptg_locked_pi_cmb,cptg,19,0.18364364507695058,18.414156153885152,0.9829928848281918,Locked CPTG geometric-pi CMB comparison envelope
+NILC,cptg_ripple_plus_0p5pct,cptg_perturbation,20,0.1836932282674798,18.41912791652159,0.9829836203562455,CPTG sinusoidal ripple perturbation plus 0.5 percent
+NILC,planck_ripple_plus_2p0pct,planck_perturbation,21,0.18370157002754467,18.419964354245142,0.9829820614687812,Planck sinusoidal ripple perturbation plus 2.0 percent
+NILC,cptg_tilt_minus_0p5pct,cptg_perturbation,22,0.18374832087766327,18.424652114902745,0.9829733234298067,CPTG endpoint-normalized tilt perturbation minus 0.5 percent
+NILC,cptg_ripple_plus_1p0pct,cptg_perturbation,23,0.18375770371754355,18.42559294287776,0.9829715694385343,CPTG sinusoidal ripple perturbation plus 1.0 percent
+NILC,cptg_tilt_minus_1p0pct,cptg_perturbation,24,0.18385766478187937,18.435616151942344,0.9829528773552444,CPTG endpoint-normalized tilt perturbation minus 1.0 percent
+NILC,planck_tilt_minus_2p0pct,planck_perturbation,25,0.18387561208530578,18.437415748371052,0.9829495202095854,Planck endpoint-normalized tilt perturbation minus 2.0 percent
+NILC,cptg_ripple_plus_2p0pct,cptg_perturbation,26,0.18393118492327395,18.442988099735736,0.982939122841654,CPTG sinusoidal ripple perturbation plus 2.0 percent
+NILC,cptg_tilt_minus_2p0pct,cptg_perturbation,27,0.18409029511613917,18.458942258867502,0.9829093362279417,CPTG endpoint-normalized tilt perturbation minus 2.0 percent
+NILC,observed_smoothed_spectrum_control,data_control,28,0.18844403399893944,18.89549658454282,0.9820839302474135,Observed spectrum smoothed with width=31
+NILC,flat_dl_null,bad_null,29,0.39240086712390126,39.346479096032546,0.9197943028092805,Flat D_l null matched to mean observed D_l
+NILC,powerlaw_dl_null,smooth_null,30,0.5638054371388675,56.53340934032488,0.825907639541281,Fitted smooth power-law D_l null
+NILC,flat_cl_null,bad_null,31,0.7801220598308167,78.22372194145805,0.6256273425653035,Flat C_l null matched to mean observed C_l
+NILC,shuffled_spectrum_null_seed_271844,shuffled_null,32,0.9243593794338785,92.68656123696265,0.3815229189087006,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271841,shuffled_null,33,0.9336012527989531,93.61325433994264,0.3583136904616195,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271831,shuffled_null,34,0.9339062565642753,93.64383741271824,0.3575179771005958,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271845,shuffled_null,35,0.9347880812088897,93.73225896795077,0.3552059166593405,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271843,shuffled_null,36,0.9372459602354017,93.97871327995588,0.34866891175213766,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271835,shuffled_null,37,0.9418052852957078,94.43588196434798,0.3361588978282001,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271829,shuffled_null,38,0.9420643959676722,94.46186328470726,0.33543207039587764,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271833,shuffled_null,39,0.944170291304641,94.67302379375964,0.3294578288912092,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271842,shuffled_null,40,0.9441721215946279,94.67320731900828,0.3294525835435191,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271846,shuffled_null,41,0.9466385183031145,94.92051570862596,0.32229724737404164,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271838,shuffled_null,42,0.9477654358605425,95.03351300764133,0.31896814666683604,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271840,shuffled_null,43,0.9480408605724471,95.06113015525091,0.318148592146899,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271834,shuffled_null,44,0.9489075654771874,95.14803563705257,0.3155541667925766,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271828,shuffled_null,45,0.9509482342545333,95.35265580514312,0.3093500537711045,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271836,shuffled_null,46,0.9526591238617426,95.52420864257459,0.30404044751147336,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271847,shuffled_null,47,0.9546569064317492,95.7245285621133,0.2977082313308833,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271839,shuffled_null,48,0.9562139307653809,95.8806531544066,0.2926686156905444,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271832,shuffled_null,49,0.9589392004671551,96.15391903207362,0.28361172367766024,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271830,shuffled_null,50,0.9611325438493539,96.37384805560163,0.2760873650743003,Observed spectrum values shuffled across ell
+NILC,shuffled_spectrum_null_seed_271837,shuffled_null,51,0.961356374020122,96.39629176017277,0.2753069598300834,Observed spectrum values shuffled across ell
+SEVEM,observed_self_spectrum_control,data_control,1,0.11423302049984121,11.483647355149692,0.9934539833467289,Observed self-spectrum upper control
+SEVEM,planck_tilt_plus_2p0pct,planck_perturbation,2,0.18178361577743601,18.274391497290424,0.98333855667053,Planck endpoint-normalized tilt perturbation plus 2.0 percent
+SEVEM,planck_tilt_plus_1p0pct,planck_perturbation,3,0.18201839615308513,18.29799356110758,0.9832951253117543,Planck endpoint-normalized tilt perturbation plus 1.0 percent
+SEVEM,cptg_tilt_plus_2p0pct,cptg_perturbation,4,0.182025342204555,18.298691835610363,0.9832938394983031,CPTG endpoint-normalized tilt perturbation plus 2.0 percent
+SEVEM,planck_tilt_plus_0p5pct,planck_perturbation,5,0.18214288109432522,18.310507816267542,0.9832720736737408,Planck endpoint-normalized tilt perturbation plus 0.5 percent
+SEVEM,planck_ripple_minus_2p0pct,planck_perturbation,6,0.18219002652771862,18.315247264888672,0.9832633392097099,Planck sinusoidal ripple perturbation minus 2.0 percent
+SEVEM,planck_ripple_minus_1p0pct,planck_perturbation,7,0.18220111986806878,18.31636245914699,0.9832612836468348,Planck sinusoidal ripple perturbation minus 1.0 percent
+SEVEM,planck_ripple_minus_0p5pct,planck_perturbation,8,0.18222912850904918,18.319178119229413,0.9832560931531684,Planck sinusoidal ripple perturbation minus 0.5 percent
+SEVEM,cptg_tilt_plus_1p0pct,cptg_perturbation,9,0.18224444971050618,18.32071833302941,0.9832532535159569,CPTG endpoint-normalized tilt perturbation plus 1.0 percent
+SEVEM,planck2018_baseline_lcdm,benchmark,10,0.18227207240797055,18.323495194879783,0.9832481332909326,Planck 2018 baseline LCDM TT envelope
+SEVEM,planck_ripple_plus_0p5pct,planck_perturbation,11,0.18232991868503406,18.329310380748975,0.9832374081331066,Planck sinusoidal ripple perturbation plus 0.5 percent
+SEVEM,cptg_tilt_plus_0p5pct,cptg_perturbation,12,0.18236109480840929,18.332444462340927,0.9832316263730934,CPTG endpoint-normalized tilt perturbation plus 0.5 percent
+SEVEM,planck_ripple_plus_1p0pct,planck_perturbation,13,0.18240263182206845,18.336620106256852,0.9832239215480789,Planck sinusoidal ripple perturbation plus 1.0 percent
+SEVEM,planck_tilt_minus_0p5pct,planck_perturbation,14,0.18240595231511728,18.336953909661954,0.9832233055415313,Planck endpoint-normalized tilt perturbation minus 0.5 percent
+SEVEM,cptg_ripple_minus_2p0pct,cptg_perturbation,15,0.18241679760985272,18.338044168324988,0.9832212934786178,CPTG sinusoidal ripple perturbation minus 2.0 percent
+SEVEM,cptg_ripple_minus_1p0pct,cptg_perturbation,16,0.18241972153752878,18.33833810570121,0.9832207509985591,CPTG sinusoidal ripple perturbation minus 1.0 percent
+SEVEM,cptg_ripple_minus_0p5pct,cptg_perturbation,17,0.18244362248973348,18.3407408269579,0.9832163162869214,CPTG sinusoidal ripple perturbation minus 0.5 percent
+SEVEM,cptg_locked_pi_cmb,cptg,18,0.18248244497609348,18.34464358415418,0.9832091116723578,Locked CPTG geometric-pi CMB comparison envelope
+SEVEM,cptg_ripple_plus_0p5pct,cptg_perturbation,19,0.18253615732246165,18.35004319314299,0.9831991412068815,CPTG sinusoidal ripple perturbation plus 0.5 percent
+SEVEM,planck_tilt_minus_1p0pct,planck_perturbation,20,0.18254450289564975,18.350882159135917,0.9831975917701283,Planck endpoint-normalized tilt perturbation minus 1.0 percent
+SEVEM,planck_ripple_plus_2p0pct,planck_perturbation,21,0.18259250359850018,18.35570758651166,0.9831886785503745,Planck sinusoidal ripple perturbation plus 2.0 percent
+SEVEM,cptg_ripple_plus_1p0pct,cptg_perturbation,22,0.18260472522054724,18.356936204971387,0.9831864087380013,CPTG sinusoidal ripple perturbation plus 1.0 percent
+SEVEM,cptg_tilt_minus_0p5pct,cptg_perturbation,23,0.18260848315601644,18.35731398370404,0.9831857107787209,CPTG endpoint-normalized tilt perturbation minus 0.5 percent
+SEVEM,cptg_tilt_minus_1p0pct,cptg_perturbation,24,0.18273919214445233,18.370453931529795,0.9831614250235782,CPTG endpoint-normalized tilt perturbation minus 1.0 percent
+SEVEM,cptg_ripple_plus_2p0pct,cptg_perturbation,25,0.18278627744703482,18.37518733530483,0.9831526721608682,CPTG sinusoidal ripple perturbation plus 2.0 percent
+SEVEM,planck_tilt_minus_2p0pct,planck_perturbation,26,0.18283554371080593,18.380139987324164,0.9831435113735807,Planck endpoint-normalized tilt perturbation minus 2.0 percent
+SEVEM,cptg_tilt_minus_2p0pct,cptg_perturbation,27,0.18301455302033537,18.3981354826278,0.9831102040884159,CPTG endpoint-normalized tilt perturbation minus 2.0 percent
+SEVEM,observed_smoothed_spectrum_control,data_control,28,0.1913888650229591,19.239990538716963,0.9815142904437117,Observed spectrum smoothed with width=31
+SEVEM,flat_dl_null,bad_null,29,0.392398382757293,39.447128602557335,0.9197953626809939,Flat D_l null matched to mean observed D_l
+SEVEM,powerlaw_dl_null,smooth_null,30,0.5585700077631458,56.152073754577025,0.8294573807179481,Fitted smooth power-law D_l null
+SEVEM,flat_cl_null,bad_null,31,0.776025977657315,78.0125451192483,0.6307009449818579,Flat C_l null matched to mean observed C_l
+SEVEM,shuffled_spectrum_null_seed_271844,shuffled_null,32,0.9258472877498597,93.07382148103115,0.37789786949151827,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271841,shuffled_null,33,0.9366749618065933,94.16230876780655,0.3501999656262364,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271845,shuffled_null,34,0.938647590291845,94.36061368689415,0.344877806243476,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271843,shuffled_null,35,0.9390719134940286,94.4032701622037,0.343720731534575,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271831,shuffled_null,36,0.9401608720421923,94.51274127569408,0.34073088307469906,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271835,shuffled_null,37,0.9429335992428673,94.79147873046205,0.33298082139800766,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271829,shuffled_null,38,0.9450914239031507,95.00840109970794,0.3268060594063628,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271842,shuffled_null,39,0.9454588570486877,95.04533851632773,0.32574153807610895,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271833,shuffled_null,40,0.948154680268652,95.31634494734422,0.3178092230956336,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271846,shuffled_null,41,0.9489723349390838,95.39854235272179,0.3153593307962576,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271838,shuffled_null,42,0.9491664506990068,95.41805647327361,0.31477460009894365,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271840,shuffled_null,43,0.9497535567096149,95.47707722188387,0.3129986925171353,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271834,shuffled_null,44,0.9530319229671711,95.80664569375011,0.30286986282146977,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271828,shuffled_null,45,0.953200463790853,95.82358881033444,0.3023390081165558,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271836,shuffled_null,46,0.956126522843907,96.11774045018942,0.29295404471421777,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271847,shuffled_null,47,0.956231913727879,96.12833521290064,0.2926098548721803,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271839,shuffled_null,48,0.9589626001222119,96.40284637834836,0.2835325934823834,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271832,shuffled_null,49,0.9614291071082872,96.65080004623847,0.2750528531118364,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271837,shuffled_null,50,0.9632290944830039,96.83174965401844,0.26868143132984207,Observed spectrum values shuffled across ell
+SEVEM,shuffled_spectrum_null_seed_271830,shuffled_null,51,0.9632881205253087,96.83768343964043,0.26846973172932975,Observed spectrum values shuffled across ell
+SMICA,observed_self_spectrum_control,data_control,1,0.11369265584155336,11.427209390173674,0.9935159686727205,Observed self-spectrum upper control
+SMICA,planck_tilt_plus_2p0pct,planck_perturbation,2,0.18058992746971658,18.15103094986802,0.9835584772124545,Planck endpoint-normalized tilt perturbation plus 2.0 percent
+SMICA,planck_tilt_plus_1p0pct,planck_perturbation,3,0.18078163115222398,18.170299020480535,0.9835232594290494,Planck endpoint-normalized tilt perturbation plus 1.0 percent
+SMICA,cptg_tilt_plus_2p0pct,cptg_perturbation,4,0.18085916775946953,18.17809219797155,0.9835090042482337,CPTG endpoint-normalized tilt perturbation plus 2.0 percent
+SMICA,planck_tilt_plus_0p5pct,planck_perturbation,5,0.1808846923184887,18.180657662542195,0.9835043101506193,Planck endpoint-normalized tilt perturbation plus 0.5 percent
+SMICA,planck_ripple_minus_1p0pct,planck_perturbation,6,0.1809344069267453,18.18565446056836,0.9834951654126557,Planck sinusoidal ripple perturbation minus 1.0 percent
+SMICA,planck_ripple_minus_2p0pct,planck_perturbation,7,0.18093654329264322,18.185869185963497,0.9834947723812819,Planck sinusoidal ripple perturbation minus 2.0 percent
+SMICA,planck_ripple_minus_0p5pct,planck_perturbation,8,0.1809559531295976,18.187820061941064,0.9834912012961573,Planck sinusoidal ripple perturbation minus 0.5 percent
+SMICA,planck2018_baseline_lcdm,benchmark,9,0.1809925380427071,18.19149719886366,0.9834844692077548,Planck 2018 baseline LCDM TT envelope
+SMICA,cptg_tilt_plus_1p0pct,cptg_perturbation,10,0.18103498570999757,18.195763599174768,0.9834766565348568,CPTG endpoint-normalized tilt perturbation plus 1.0 percent
+SMICA,planck_ripple_plus_0p5pct,planck_perturbation,11,0.1810441300725836,18.19668269588543,0.9834749732282267,Planck sinusoidal ripple perturbation plus 0.5 percent
+SMICA,planck_tilt_minus_0p5pct,planck_perturbation,12,0.18110515186974754,18.202815975545363,0.983463738002696,Planck endpoint-normalized tilt perturbation minus 0.5 percent
+SMICA,planck_ripple_plus_1p0pct,planck_perturbation,13,0.1811106949097087,18.203373104568566,0.9834627172340202,Planck sinusoidal ripple perturbation plus 1.0 percent
+SMICA,cptg_tilt_plus_0p5pct,cptg_perturbation,14,0.1811300963897963,18.20532314060035,0.9834591441345304,CPTG endpoint-normalized tilt perturbation plus 0.5 percent
+SMICA,cptg_ripple_minus_1p0pct,cptg_perturbation,15,0.18118023838527417,18.210362895167833,0.9834499078339756,CPTG sinusoidal ripple perturbation minus 1.0 percent
+SMICA,cptg_ripple_minus_2p0pct,cptg_perturbation,16,0.18119068559120663,18.21141294021119,0.9834479830956939,CPTG sinusoidal ripple perturbation minus 2.0 percent
+SMICA,cptg_ripple_minus_0p5pct,cptg_perturbation,17,0.1811976018859861,18.212108094599696,0.9834467088107863,CPTG sinusoidal ripple perturbation minus 0.5 percent
+SMICA,planck_tilt_minus_1p0pct,planck_perturbation,18,0.1812225171792499,18.214612322080665,0.9834421179038534,Planck endpoint-normalized tilt perturbation minus 1.0 percent
+SMICA,cptg_locked_pi_cmb,cptg,19,0.18122998755420172,18.215363166875044,0.9834407412808887,Locked CPTG geometric-pi CMB comparison envelope
+SMICA,cptg_ripple_plus_0p5pct,cptg_perturbation,20,0.18127736504047195,18.22012506158128,0.9834320093041428,CPTG sinusoidal ripple perturbation plus 0.5 percent
+SMICA,planck_ripple_plus_2p0pct,planck_perturbation,21,0.1812885923691738,18.22125351649351,0.9834299396890475,Planck sinusoidal ripple perturbation plus 2.0 percent
+SMICA,cptg_tilt_minus_0p5pct,cptg_perturbation,22,0.18133464349858094,18.22588209953165,0.9834214493630098,CPTG endpoint-normalized tilt perturbation minus 0.5 percent
+SMICA,cptg_ripple_plus_1p0pct,cptg_perturbation,23,0.18133970128568386,18.226390455958438,0.9834205167361615,CPTG sinusoidal ripple perturbation plus 1.0 percent
+SMICA,cptg_tilt_minus_1p0pct,cptg_perturbation,24,0.18144404834901828,18.236878343088403,0.9834012697361739,CPTG endpoint-normalized tilt perturbation minus 1.0 percent
+SMICA,planck_tilt_minus_2p0pct,planck_perturbation,25,0.18147143495693496,18.239630961547654,0.9833962163312765,Planck endpoint-normalized tilt perturbation minus 2.0 percent
+SMICA,cptg_ripple_plus_2p0pct,cptg_perturbation,26,0.18150910444144283,18.243417108365186,0.9833892642310397,CPTG sinusoidal ripple perturbation plus 2.0 percent
+SMICA,cptg_tilt_minus_2p0pct,cptg_perturbation,27,0.18167704044354652,18.260296297667104,0.9833582526097363,CPTG endpoint-normalized tilt perturbation minus 2.0 percent
+SMICA,observed_smoothed_spectrum_control,data_control,28,0.18979224439307546,19.075952630864823,0.9818242734666113,Observed spectrum smoothed with width=31
+SMICA,flat_dl_null,bad_null,29,0.3904906840077983,39.24808315928498,0.9206068790222686,Flat D_l null matched to mean observed D_l
+SMICA,powerlaw_dl_null,smooth_null,30,0.5619595103687564,56.482355401501856,0.827164740971294,Fitted smooth power-law D_l null
+SMICA,flat_cl_null,bad_null,31,0.7782500574187043,78.22164323817165,0.6279544952683941,Flat C_l null matched to mean observed C_l
+SMICA,shuffled_spectrum_null_seed_271844,shuffled_null,32,0.9262517678039075,93.09724379615797,0.37690537624201714,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271841,shuffled_null,33,0.9379174897191966,94.26976145815479,0.34685844732230575,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271845,shuffled_null,34,0.9385391563227038,94.3322449527708,0.3451727857886066,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271843,shuffled_null,35,0.939280995526617,94.40680695375677,0.3431489639246015,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271831,shuffled_null,36,0.9394896415216227,94.42777789031993,0.3425773102141664,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271835,shuffled_null,37,0.9442504656687528,94.90628667346304,0.32922797281571275,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271829,shuffled_null,38,0.9459549361462157,95.07760240974493,0.32429810172217965,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271842,shuffled_null,39,0.9462109491433882,95.10333418726073,0.32355036659099745,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271833,shuffled_null,40,0.9481084078750367,95.29404710600879,0.31794723920276924,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271846,shuffled_null,41,0.949136205168219,95.397350655327,0.314865787342596,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271840,shuffled_null,42,0.9500931753534568,95.49353539660095,0.3119662772589139,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271838,shuffled_null,43,0.9505347106614176,95.53791395720255,0.3106183571970843,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271834,shuffled_null,44,0.9525617055128119,95.74164650640053,0.3043455227049068,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271828,shuffled_null,45,0.9527239197023889,95.7579505983107,0.30383734600426643,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271836,shuffled_null,46,0.9562834774092884,96.11572050835515,0.2924412946798024,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271847,shuffled_null,47,0.9567180467501728,96.15939892202293,0.29101645833618145,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271839,shuffled_null,48,0.959389506529704,96.427906417535,0.28208469430419525,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271832,shuffled_null,49,0.9611614149296611,96.60600031600752,0.2759868374586225,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271837,shuffled_null,50,0.9632654147432912,96.81747260724104,0.2685511883411342,Observed spectrum values shuffled across ell
+SMICA,shuffled_spectrum_null_seed_271830,shuffled_null,51,0.963756363217963,96.86681766808367,0.2667839432141406,Observed spectrum values shuffled across ell
+SMICA_noSZ,observed_self_spectrum_control,data_control,1,0.11425096022572168,11.51224432777982,0.9934519203703321,Observed self-spectrum upper control
+SMICA_noSZ,planck_tilt_plus_2p0pct,planck_perturbation,2,0.17976491478657572,18.113612493907656,0.9837095991255626,Planck endpoint-normalized tilt perturbation plus 2.0 percent
+SMICA_noSZ,planck_tilt_plus_1p0pct,planck_perturbation,3,0.17993434452831808,18.13068470563767,0.9836786221419903,Planck endpoint-normalized tilt perturbation plus 1.0 percent
+SMICA_noSZ,planck_tilt_plus_0p5pct,planck_perturbation,4,0.18002634790012811,18.13995522111661,0.9836617884525869,Planck endpoint-normalized tilt perturbation plus 0.5 percent
+SMICA_noSZ,cptg_tilt_plus_2p0pct,cptg_perturbation,5,0.1800416818505338,18.141500312582203,0.9836589819629722,CPTG endpoint-normalized tilt perturbation plus 2.0 percent
+SMICA_noSZ,planck_ripple_minus_1p0pct,planck_perturbation,6,0.1800672953007353,18.14408119502043,0.9836542935213965,Planck sinusoidal ripple perturbation minus 1.0 percent
+SMICA_noSZ,planck_ripple_minus_2p0pct,planck_perturbation,7,0.18007190530679548,18.144545712045165,0.9836534496046767,Planck sinusoidal ripple perturbation minus 2.0 percent
+SMICA_noSZ,planck_ripple_minus_0p5pct,planck_perturbation,8,0.18008769333436347,18.1461365575878,0.9836505592483075,Planck sinusoidal ripple perturbation minus 0.5 percent
+SMICA_noSZ,planck2018_baseline_lcdm,benchmark,9,0.18012318945456904,18.149713245325803,0.9836440599224464,Planck 2018 baseline LCDM TT envelope
+SMICA_noSZ,planck_ripple_plus_0p5pct,planck_perturbation,10,0.1801737522186858,18.154808089984,0.9836347996138808,Planck sinusoidal ripple perturbation plus 0.5 percent
+SMICA_noSZ,cptg_tilt_plus_1p0pct,cptg_perturbation,11,0.18019516047773979,18.156965245673327,0.9836308779925533,CPTG endpoint-normalized tilt perturbation plus 1.0 percent
+SMICA_noSZ,planck_tilt_minus_0p5pct,planck_perturbation,12,0.18022485335043847,18.159957182061657,0.9836254379766787,Planck endpoint-normalized tilt perturbation minus 0.5 percent
+SMICA_noSZ,planck_ripple_plus_1p0pct,planck_perturbation,13,0.18023934742330203,18.161417645131554,0.9836227821885899,Planck sinusoidal ripple perturbation plus 1.0 percent
+SMICA_noSZ,cptg_tilt_plus_0p5pct,cptg_perturbation,14,0.1802791786280801,18.16543114804102,0.9836154826725657,CPTG endpoint-normalized tilt perturbation plus 0.5 percent
+SMICA_noSZ,cptg_ripple_minus_1p0pct,cptg_perturbation,15,0.18032056361911572,18.169601214772744,0.983607896641789,CPTG sinusoidal ripple perturbation minus 1.0 percent
+SMICA_noSZ,planck_tilt_minus_1p0pct,planck_perturbation,16,0.18033132356784923,18.170685417115813,0.9836059240062901,Planck endpoint-normalized tilt perturbation minus 1.0 percent
+SMICA_noSZ,cptg_ripple_minus_2p0pct,cptg_perturbation,17,0.1803335273421259,18.170907475537607,0.9836055199704538,CPTG sinusoidal ripple perturbation minus 2.0 percent
+SMICA_noSZ,cptg_ripple_minus_0p5pct,cptg_perturbation,18,0.18033675622734524,18.171232826987417,0.9836049279834862,CPTG sinusoidal ripple perturbation minus 0.5 percent
+SMICA_noSZ,cptg_locked_pi_cmb,cptg,19,0.18036802954425377,18.17438401332738,0.9835991937361087,Locked CPTG geometric-pi CMB comparison envelope
+SMICA_noSZ,cptg_ripple_plus_0p5pct,cptg_perturbation,20,0.18041435338812542,18.17905173259905,0.9835906979488696,CPTG sinusoidal ripple perturbation plus 0.5 percent
+SMICA_noSZ,planck_ripple_plus_2p0pct,planck_perturbation,21,0.1804154847194092,18.179165728683888,0.9835904904346425,Planck sinusoidal ripple perturbation plus 2.0 percent
+SMICA_noSZ,cptg_tilt_minus_0p5pct,cptg_perturbation,22,0.18046169815044022,18.183822322450826,0.9835820125951162,CPTG endpoint-normalized tilt perturbation minus 0.5 percent
+SMICA_noSZ,cptg_ripple_plus_1p0pct,cptg_perturbation,23,0.18047569482351622,18.18523266613554,0.9835794444669779,CPTG sinusoidal ripple perturbation plus 1.0 percent
+SMICA_noSZ,planck_tilt_minus_2p0pct,planck_perturbation,24,0.18055861801244902,18.193588237148223,0.9835642253871552,Planck endpoint-normalized tilt perturbation minus 2.0 percent
+SMICA_noSZ,cptg_tilt_minus_1p0pct,cptg_perturbation,25,0.18056016918854986,18.19374453796384,0.9835639406274521,CPTG endpoint-normalized tilt perturbation minus 1.0 percent
+SMICA_noSZ,cptg_ripple_plus_2p0pct,cptg_perturbation,26,0.18064328513256853,18.20211953151476,0.9835486787833704,CPTG sinusoidal ripple perturbation plus 2.0 percent
+SMICA_noSZ,cptg_tilt_minus_2p0pct,cptg_perturbation,27,0.180771456633558,18.215034448223854,0.9835251295552043,CPTG endpoint-normalized tilt perturbation minus 2.0 percent
+SMICA_noSZ,observed_smoothed_spectrum_control,data_control,28,0.19165261220801805,19.311449929496682,0.9814628246825465,Observed spectrum smoothed with width=31
+SMICA_noSZ,flat_dl_null,bad_null,29,0.38868612591993723,39.16509445144355,0.9213702271711142,Flat D_l null matched to mean observed D_l
+SMICA_noSZ,powerlaw_dl_null,smooth_null,30,0.5590930246170687,56.3357672323533,0.8291049329394548,Fitted smooth power-law D_l null
+SMICA_noSZ,flat_cl_null,bad_null,31,0.7782795788843484,78.42161369792208,0.6279179063313939,Flat C_l null matched to mean observed C_l
+SMICA_noSZ,shuffled_spectrum_null_seed_271844,shuffled_null,32,0.9264785498758001,93.35455395337777,0.37634757421834725,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271841,shuffled_null,33,0.9385774112586425,94.57366885667523,0.3450687512294108,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271845,shuffled_null,34,0.9392065460829249,94.63706223033216,0.3433526813569143,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271843,shuffled_null,35,0.9399459659798145,94.71156823445675,0.34132327936763024,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271831,shuffled_null,36,0.9403591953827437,94.75320637772089,0.3401831619276862,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271835,shuffled_null,37,0.944868604030904,95.20758692759864,0.327449723036515,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271842,shuffled_null,38,0.9465162522549205,95.37360854250355,0.32265613928344755,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271829,shuffled_null,39,0.9465257348209585,95.37456403221556,0.32262832070610953,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271833,shuffled_null,40,0.9487561077419311,95.59930260734501,0.3160092530644966,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271846,shuffled_null,41,0.9492125086905687,95.64529083555567,0.31463568352200105,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271840,shuffled_null,42,0.9504593094092573,95.77092194161584,0.3108490005730717,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271838,shuffled_null,43,0.951013305292199,95.82674410668481,0.3091499525427856,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271828,shuffled_null,44,0.9530693697278351,96.0339188743186,0.3027520049257925,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271834,shuffled_null,45,0.9530808922743715,96.03507991813603,0.30271572932619073,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271836,shuffled_null,46,0.9570216635427632,96.43216298502658,0.29001644006821736,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271847,shuffled_null,47,0.9571048764410696,96.44054774796103,0.28974170478673683,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271839,shuffled_null,48,0.960123235526466,96.74468599932808,0.27957713175828597,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271832,shuffled_null,49,0.9615429711831567,96.88774251043655,0.27465453676986123,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271837,shuffled_null,50,0.9636138046518313,97.09640544689177,0.26729840157476054,Observed spectrum values shuffled across ell
+SMICA_noSZ,shuffled_spectrum_null_seed_271830,shuffled_null,51,0.9643415571036446,97.16973580681926,0.2646608419145492,Observed spectrum values shuffled across ell

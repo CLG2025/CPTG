@@ -1,0 +1,36 @@
+Visual CMB vs CPTG comparison summary
+======================================
+
+CMB map: COM_CMB_IQU-smica_2048_R3.00_full.fits
+Temperature field: I_STOKES
+Temperature unit inference: K_CMB_to_uK
+Mask field: TMASK
+Mask source: COM_CMB_IQU-smica_2048_R3.00_full.fits
+Nside: 256
+Mask threshold: 0.99
+Valid sky fraction: 0.836431
+
+Comparison metrics
+------------------
+Observed RMS: 100.509653 uK
+Raw CPTG RMS: 118.452082 uK
+Raw residual RMS: 26.784740 uK
+Observed vs raw CPTG correlation: 0.983434
+Fitted CPTG RMS: 98.844631 uK
+Fitted residual RMS: 18.218928 uK
+Observed vs fitted CPTG correlation: 0.983434
+Fitted amplitude: 98.844631 uK/template-sigma
+Fitted offset: -0.000000 uK
+
+Outputs
+-------
+observed_cmb_map_uK.png
+cptg_comparison_map_uK.png
+residual_observed_minus_cptg_uK.png
+cmb_vs_cptg_side_by_side.png
+cmb_vs_cptg_side_by_side_fitted.png
+cmb_vs_cptg_scatter.png
+cmb_vs_cptg_fitted_scatter.png
+cmb_vs_cptg_power_compare.png
+cptg_comparison_map_uK.fits
+cptg_comparison_map_fitted_uK.fits

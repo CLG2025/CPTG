@@ -1,0 +1,21 @@
+run,component_or_band,scan_kind,best_range,improvement_abs,improvement_percent,residual_fraction_after_replacement
+Planck full-band non-inpainted,COMMANDER,best_single_ell,2,0.0272639269720874,15.171877879372744,0.1524364844658054
+Planck full-band non-inpainted,NILC,best_single_ell,2,0.0262256828445295,14.28074618838046,0.157417962232421
+Planck full-band non-inpainted,SEVEM,best_single_ell,2,0.0294677925748197,16.148288992226217,0.1530146524012737
+Planck full-band non-inpainted,SMICA,best_single_ell,2,0.0260369766591809,14.366814791836749,0.1551930108950207
+Planck full-band non-inpainted,SMICA_noSZ,best_single_ell,2,0.0251904876217717,13.966160014844066,0.155177541922482
+Planck full-band non-inpainted,COMMANDER,best_cumulative_low_ell,2-6,0.0282903932662094,15.743087642282322,0.1514100181716835
+Planck full-band non-inpainted,NILC,best_cumulative_low_ell,2-3,0.0277904298956978,15.132802381510713,0.1558532151812527
+Planck full-band non-inpainted,SEVEM,best_cumulative_low_ell,2-6,0.030104464690767,16.497183986498527,0.1523779802853264
+Planck full-band non-inpainted,SMICA,best_cumulative_low_ell,2-6,0.0278155365779437,15.348197587678344,0.1534144509762579
+Planck full-band non-inpainted,SMICA_noSZ,best_cumulative_low_ell,2-6,0.027054707724476,14.999724614631928,0.1533133218197777
+Planck full-band inpainted,COMMANDER,best_single_ell,2,0.0272903763360041,15.236908334131703,0.1518166691193515
+Planck full-band inpainted,NILC,best_single_ell,2,0.0262462646300201,14.315192300089471,0.1570992614364099
+Planck full-band inpainted,SEVEM,best_single_ell,2,0.0357274025774464,19.73416558877433,0.1453159884730968
+Planck full-band inpainted,SMICA,best_single_ell,2,0.0293933048770408,16.00412287503242,0.1542675249388596
+Planck full-band inpainted,SMICA_noSZ,best_single_ell,2,0.0316204043971735,16.984917422644962,0.1545471442010665
+Planck full-band inpainted,COMMANDER,best_cumulative_low_ell,2-6,0.0282455829219949,15.770224365090892,0.1508614625333607
+Planck full-band inpainted,NILC,best_cumulative_low_ell,2-3,0.0277994380055845,15.162321438654716,0.1555460880608455
+Planck full-band inpainted,SEVEM,best_cumulative_low_ell,2-22,0.0398018750709358,21.984715840758906,0.1412415159796074
+Planck full-band inpainted,SMICA,best_cumulative_low_ell,2-29,0.035921612887188,19.55866851042512,0.1477392169287125
+Planck full-band inpainted,SMICA_noSZ,best_cumulative_low_ell,2-11,0.0387683275715161,20.82442824403318,0.1473992210267239

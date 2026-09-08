@@ -1,0 +1,8 @@
+Evidence layer,Status,Main result,Interpretation
+Visual SMICA map closure,Primary map-space evidence,fitted residual RMS 18.218928 uK; correlation 0.983434,Residual field is the meaningful visual diagnostic.
+Planck component maps,Primary robustness evidence,mean full-band RMS gap 0.023508 uK,Closure stable across Planck component products.
+Planck split maps,Primary robustness evidence,mean RMS gap 0.023891 uK; split span 0.000690 uK,Very stable under split-map replacement.
+Smoothing ladder,Attribution control,minimum gap near 20-40 arcmin; growth at 120 arcmin,Residual is beam-scale and transfer sensitive.
+Mask sky-fraction ladder,Attribution control,no-cut gap 0.02379 uK; |b|>40 deg gap 0.00146 uK,Gap shrinks strongly at high Galactic latitude.
+Control-scatter audit,Attribution control,mean gap 0.034265 uK; span 0.056006 uK,Mean gap is smaller than full control span.
+Null-envelope uniqueness,Uniqueness control,Planck 18.230 uK; CPTG 18.253 uK; shuffled nulls 95.461 uK,Near-degeneracy is not a trivial phase-locking artifact.
