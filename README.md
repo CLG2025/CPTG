@@ -2,8 +2,6 @@
 
 ## Curvature Polarization Transport Gravity
 
-> **Publication update:** The CPTG publication set is undergoing a coordinated update to align existing papers with the current unified framework, evidence record, and cross-paper references. Revised papers and newly completed papers are being published with stable Zenodo DOIs as they close.
-
 ---
 
 ## Contents
@@ -120,7 +118,6 @@ The main public benchmark scripts are:
 | `SPARC_CPTG_MOND_Benchmark.py` | Original galaxy rotation-curve benchmark against SPARC data. |
 | `CPTG_Bullet_Cluster_Merger.py` | Reduced merger-plane curvature-transport/lensing benchmark. |
 | `CPTG_MOND_Upsilon_SPARC_Benchmark.py` | MOND/CPTG comparison with stellar mass-to-light freedom. |
-| `CPTG-CMB.zip` | CMB comparison-map closure scripts for Planck/WMAP component maps, split maps, smoothing/mask controls, visual comparisons, summary reports, and null-envelope controls. |
 
 ---
 
