@@ -6,58 +6,21 @@
 
 ## Contents
 
-- [Core CPTG Papers](#start-here-core-cptg-papers)
 - [Overview](#overview)
+- [Core CPTG Papers](#start-here-core-cptg-papers)
 - [Current Research Status](#current-research-status)
 - [Repository and Tools](#repository-and-tools)
 - [Reproducing the Public Benchmarks](#reproducing-the-public-benchmarks)
 - [Galaxy-Scale Tests](#galaxy-scale-test-cptg-sparc-browser-workbench)
 - [Structural Mode N](#structural-mode-n)
+- [Outer-Slope Convergence Test](#outer-slope-convergence-test)
 - [Bullet Cluster Benchmark](#cluster-merger-test-bullet-cluster-benchmark)
 - [Universal Geometric Nuclear-Reaction Theory](#universal-geometric-nuclear-reaction-theory)
 - [Cosmology and Comparison-Layer Tests](#cosmology-and-comparison-layer-tests)
 - [Relation to MOND and ΛCDM](#relation-to-mond-and-λcdm)
 - [Recent Progress](#recent-progress-and-active-development)
+- [Repository Policies](#repository-policies)
 - [Citation](#citation)
-
----
-
-## Start Here: Core CPTG Papers
-
-- **[Curvature Polarization Transport Gravity: A Unified Geometric Framework for Structure, Cosmology, and Nuclear Reactions](https://doi.org/10.5281/zenodo.22441039)**  
-  Primary CPTG theory paper. It establishes the variational framework, curvature-polarization and curvature-transport laws, scale-dependent reductions, the native geometric branch and its observational projections, and the cross-scale structure connecting gravitational, cosmological, and nuclear applications.
-
-- **[CPTG Geometric Pi Branch: Cosmological Comparison Coordinates](https://doi.org/10.5281/zenodo.22426857)**  
-  Comparison-coordinate guide for the locked native geometric π branch and its acoustic and luminosity projections.
-
-- **[The Science Behind CPTG: A Framework of Scales for Gravity, Structure, Cosmology, and Nuclear Reactions](https://doi.org/10.5281/zenodo.22421593)**  
-  Public-facing introduction to CPTG as a framework of scales spanning gravitational, structural, cosmological, and nuclear sectors.
-
-- **[Structural Mode N in CPTG: Galaxy Structural Classification from the Solved CPTG Field](https://doi.org/10.5281/zenodo.22436682)**  
-  Dedicated Structural Mode \(N\) paper. \(N\) is derived from the solved CPTG field as a post-solution measure of polarization/transport organization and provides the basis for downstream CSMI structural labels.
-
-- **[Geometric Nuclear Reaction Theory in CPTG: Deuterium-Proton Capture and Primordial Mass-Seven Transport](https://doi.org/10.5281/zenodo.22425309)**  
-  Commissioning-stage nuclear-reaction paper establishing the first complete CPTG source-to-reaction-to-rate-to-network chain.
-
-- **[A Universal Geometric Theory of Nuclear Reactions in CPTG: The Four-Sector Foundation of Vertex, Bridge, Closure, and Saturation](https://doi.org/10.5281/zenodo.22439971)**  
-  Universal nuclear-reaction parent paper presenting the four-sector architecture, governing reaction laws, conservation structure, and validation hierarchy.
-
-- **[PRIMAT-Anchored Reduced-Graph Reachability and the Complete A=1–119 Mass-Sector Register](https://doi.org/10.5281/zenodo.22442178)**  
-  Computational companion to the universal theory. PRIMAT supplies native trajectory and endpoint authority through A=23; the prescribed-bath reduced-transport continuation carries the register through A=119 and separately qualifies the natural A=338 structural frontier. The external \(Y_A\) values are prescribed-bath reduced-transport populations, not self-consistent final abundances of a coupled PRIMAT heavy-element network and not asserted primordial heavy-element yield predictions.
-
----
-
-## Repository and Tools
-
-The repository combines public theory papers, reduced-limit benchmark code, interactive workbenches, figures, comparison-layer materials, and reproducibility evidence.
-
-- **CPTG academic package** — the compact reproducibility archive for the core SPARC galaxy and Bullet Cluster reduced-limit benchmarks, distributed as `CPTG_academic_package.zip`.
-- **CPTG SPARC Browser Workbench v1.12.0** — standalone local SPARC analysis for Windows, with cross-platform Python source and CPTG/MOND comparison tools. [View the interface](images/CPTG_SPARC_Browser_Workbench.png) · [Download v1.12.0](https://github.com/CLG2025/CPTG/releases/tag/v1.12.0)
-- **CPTG Reaction Workbench** — a PC-first nuclear-reaction interface in active development for deterministic calculation, comparison, project execution, evidence capture, replay, and external-model integration.
-- **CPTG Pi-Bridge** — a local [research workbench](images/CPTG-Pi-Bridge-Local-Workbench.png) in beta development for loading public astronomy/cosmology datasets, applying CPTG comparison branches, auditing results, and exporting reproducible validation packages.
-- **Research and evidence archive** — current manuscripts, protocol documents, validation packages, source-network records, comparison-layer scripts, CMB source/data notes, figures, and supporting reproducibility materials.
-
-The compact academic package is the recommended starting point for the public galaxy and Bullet Cluster benchmarks. The larger workbenches are distributed separately because they serve interactive research workflows rather than the compact benchmark environment.
 
 ---
 
@@ -76,6 +39,33 @@ The public record separates **published theory**, **closed validations**, **repr
 
 ---
 
+## Start Here: Core CPTG Papers
+
+- **[Curvature Polarization Transport Gravity: A Unified Geometric Framework for Structure, Cosmology, and Nuclear Reactions](https://doi.org/10.5281/zenodo.22441039)**  
+  Primary CPTG theory paper. It establishes the variational framework, curvature-polarization and curvature-transport laws, scale-dependent reductions, the native geometric branch and its observational projections, and the cross-scale structure connecting gravitational, cosmological, and nuclear applications.
+
+- **[CPTG Geometric Pi Branch: Cosmological Comparison Coordinates](https://doi.org/10.5281/zenodo.22907311)**  
+  Comparison-coordinate guide for the locked native geometric π branch and its acoustic and luminosity projections.
+
+- **[The Science Behind CPTG: A Framework of Scales for Gravity, Structure, Cosmology, and Nuclear Reactions](https://doi.org/10.5281/zenodo.22421593)**  
+  Public-facing introduction to CPTG as a framework of scales spanning gravitational, structural, cosmological, and nuclear sectors.
+
+### Specialized theory papers
+
+- **[Structural Mode N in CPTG: Galaxy Structural Classification from the Solved CPTG Field](https://doi.org/10.5281/zenodo.22436682)**  
+  Dedicated Structural Mode \(N\) paper. \(N\) is derived from the solved CPTG field as a post-solution measure of polarization/transport organization and provides the basis for downstream CSMI structural labels.
+
+- **[Geometric Nuclear Reaction Theory in CPTG: Deuterium-Proton Capture and Primordial Mass-Seven Transport](https://doi.org/10.5281/zenodo.22425309)**  
+  Commissioning-stage nuclear-reaction paper establishing the first complete CPTG source-to-reaction-to-rate-to-network chain.
+
+- **[A Universal Geometric Theory of Nuclear Reactions in CPTG: The Four-Sector Foundation of Vertex, Bridge, Closure, and Saturation](https://doi.org/10.5281/zenodo.22439971)**  
+  Universal nuclear-reaction parent paper presenting the four-sector architecture, governing reaction laws, conservation structure, and validation hierarchy.
+
+- **[PRIMAT-Anchored Reduced-Graph Reachability and the Complete A=1–119 Mass-Sector Register](https://doi.org/10.5281/zenodo.22442178)**  
+  Computational companion to the universal theory. PRIMAT supplies native trajectory and endpoint authority through A=23; the prescribed-bath reduced-transport continuation carries the register through A=119 and separately qualifies the natural A=338 structural frontier. The external \(Y_A\) values are prescribed-bath reduced-transport populations, not self-consistent final abundances of a coupled PRIMAT heavy-element network and not asserted primordial heavy-element yield predictions.
+
+---
+
 ## Current Research Status
 
 The current CPTG record is organized by published theory, closed validations, reproducible benchmarks, comparison-coordinate studies, and continuing software development.
@@ -87,15 +77,32 @@ The current CPTG record is organized by published theory, closed validations, re
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
 | Finite compact objects / black holes | Curvature-bounded strong-field admissibility framework with finite physical interiors and GR exterior recovery; compact boundary-value closure remains active theory work | See [compact-object paper](https://doi.org/10.5281/zenodo.22424445) |
 | Universal geometric nuclear-reaction theory | Closed four-sector foundation spanning free nucleons, deuterium, the mass-three pair, and helium-4 | [Universal parent paper](https://doi.org/10.5281/zenodo.22439971); PRIMAT primary authority — **CLOSED/PASS**; PArthENoPE second authority — **CLOSED/PASS**; PRyMordial third authority — **CLOSED/PASS** |
-| Computational companion / post-silicon continuation | PRIMAT-native authority through A=23, complete prescribed-bath reduced-transport register through A=119, and separately qualified structural continuation through A=338 | [Computational companion](https://doi.org/10.5281/zenodo.22442178); external \(Y_A\) values are reduced-transport populations, not coupled PRIMAT heavy-element yield predictions |
+| Heavy-sector reduced-graph continuation | PRIMAT-native authority through A=23, complete prescribed-bath reduced-transport register through A=119, and separately qualified structural continuation through A=338 | [Computational companion](https://doi.org/10.5281/zenodo.22442178); external \(Y_A\) values are reduced-transport populations, not coupled PRIMAT heavy-element yield predictions |
 | Nuclear-reaction interface and exchange layer | PC-first CPTG Reaction Workbench, deterministic evidence/replay architecture, formula-package authority, compiled-runtime boundary, and external scientific-model interface | Active engineering implementation and qualification |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape comparison, not a local \(H_0\) calibration claim |
 | BBN abundance and lithium tests | Transported BBN coordinate, locked live A=7 transport law, PRIMAT-native mass-seven validation, and the earlier PRyMordial commissioning result | See [cosmological lithium paper](https://doi.org/10.5281/zenodo.22420032) and [geometric nuclear-reaction paper](https://doi.org/10.5281/zenodo.22425309) |
 | Weak-lensing \(S_8\) | Compressed comparison against representative weak-lensing and CMB \(S_8\) anchors | Diagnostic comparison, not a full shear likelihood |
 | CMB comparison-map closure | Locked geometric-π comparison construction tested against real Planck/WMAP temperature-map products and null controls | [Real-map comparison-map closure](https://doi.org/10.5281/zenodo.22413491) |
-| CMB Route B Option 1 | Fixed amplitude-level curvature-transport bridge studied at spectrum and likelihood-coordinate level | Development-stage comparison-coordinate bridge; see [Route B report](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Route_B_Option1_Curvature_Transport_Geometry_Bridge_Report_v1.pdf) |
+| CMB Route B Option 1 | Fixed amplitude-level curvature-transport bridge studied at spectrum and likelihood-coordinate level | Development-stage comparison-coordinate bridge; current paper materials are maintained in [`research_papers/`](https://github.com/CLG2025/CPTG/tree/main/research_papers) |
 | DESI compressed ShapeFit and BAO | Compressed-coordinate and ruler-wrapper diagnostics | Coordinate-level support, not full raw DESI validation |
 | Horizon and Hubble-tension mechanisms | Native-branch and projection papers relating CPTG geometric time/rate structure to observational comparison layers | [Horizon paper](https://doi.org/10.5281/zenodo.22430125) and [Hubble-tension bridge](https://doi.org/10.5281/zenodo.22429502) |
+
+---
+
+## Repository and Tools
+
+The repository combines public theory papers, reduced-limit benchmark code, interactive workbenches, figures, comparison-layer materials, and reproducibility evidence.
+
+- **[Research papers](research_papers/)** — current CPTG manuscripts and published-paper source/reference materials.
+- **[Archive](archive/)** — retained historical, protocol, validation, and supporting research materials.
+- **[Benchmark results](benchmark_results/)** — public benchmark outputs and comparison results where distributed in repository form.
+- **[Nuclear-reaction materials](nuclear-reactions/)** — nuclear-reaction software, interface, validation, and supporting materials.
+- **CPTG academic package** — the compact reproducibility archive for the core SPARC galaxy and Bullet Cluster reduced-limit benchmarks, distributed as `CPTG_academic_package.zip`.
+- **CPTG SPARC Browser Workbench v1.12.0** — standalone local SPARC analysis for Windows, with cross-platform Python source and CPTG/MOND comparison tools. [View the interface](images/CPTG_SPARC_Browser_Workbench.png) · [Download v1.12.0](https://github.com/CLG2025/CPTG/releases/tag/v1.12.0)
+- **CPTG Reaction Workbench** — a PC-first nuclear-reaction interface in active development for deterministic calculation, comparison, project execution, evidence capture, replay, and external-model integration.
+- **CPTG Pi-Bridge** — a local [research workbench](images/CPTG-Pi-Bridge-Local-Workbench.png) in beta development for loading public astronomy/cosmology datasets, applying CPTG comparison branches, auditing results, and exporting reproducible validation packages.
+
+The compact academic package is the recommended starting point for the public galaxy and Bullet Cluster benchmarks. The larger workbenches are distributed separately because they serve interactive research workflows rather than the compact benchmark environment.
 
 ---
 
@@ -200,7 +207,7 @@ The continuous mode \(N\) is the theory-derived structural quantity. The CSMI Ty
 
 The CPTG outer-slope convergence test evaluates a theory-defined prediction of the reduced galaxy equation: once the solved field is extended beyond the outermost measured SPARC radius, the rotation-curve response should approach a stable CPTG outer-regime trend rather than drift arbitrarily.
 
-This is an important strength of CPTG because the far-outer behavior follows from the solved curvature-polarization and transport structure. It is not independently fitted to artificial outer data points.
+This test probes a theory-defined far-outer prediction of the reduced CPTG galaxy equation. The far-outer behavior follows from the solved curvature-polarization and transport structure and is not independently fitted to artificial outer data points.
 
 The purpose of the test is not to claim that current observations already measure the entire extended regime. It checks whether the reduced CPTG galaxy equation develops the stable long-range behavior predicted by the theory when continued beyond the observed rotation-curve domain.
 
@@ -399,10 +406,21 @@ p_C = pi
 p_ac = 3 - pi/100 = 2.968584073464
 G_T = p_ac / p_C = 0.944929658551
 sqrt(G_T) = 0.972074924351
+
+Omega_m,ac = p_ac / (3 pi)
+R_3 = Omega_m,ac / G_T = 1/3
+
+G_L^aff = 1 + R_3^2 = 10/9
+sqrt(G_L^aff) = 1.054092553389
+
 H0^(pi) = 69.4162507897 km s^-1 Mpc^-1
-H0_CMB^CPTG = 67.4777967351 km s^-1 Mpc^-1
+H0_ac^CPTG = 67.4777967351 km s^-1 Mpc^-1
+H0_L^aff = 73.1711530416 km s^-1 Mpc^-1
+
 A_lens = 1
 ```
+
+The acoustic and luminosity coordinates are projections of the single native π branch. The luminosity normalization \(10/9\) is derived internally through the matched polarization response, the structural coefficient ratio, and the acoustic rank quotient \(R_3=1/3\). SH0ES is applied afterward as an independent external observational validation of the derived luminosity endpoint rather than as an input used to define it.
 
 The complete fixed CMB comparison row, including baryon, matter, spectral, amplitude, optical-depth, and effective-radiation coordinates, is maintained in the geometric-π paper and the strict CMB rerun package. Those values are locked before map tests and are not refit to individual CMB maps.
 
@@ -445,7 +463,7 @@ The Planck rows use the temperature fields and embedded mask fields declared by 
 
 ### CMB Route B Option 1 Curvature-Transport Bridge
 
-A separate CMB comparison-coordinate report studies the [Route B Option 1](https://raw.githubusercontent.com/CLG2025/CPTG/main/research/CPTG_Route_B_Option1_Curvature_Transport_Geometry_Bridge_Report_v1.pdf) curvature-transport bridge at the `C_l` and Planck likelihood-coordinate level. This work is distinct from the real-map comparison-map closure paper above.
+A separate CMB comparison-coordinate report studies the Route B Option 1 curvature-transport bridge at the `C_l` and Planck likelihood-coordinate level. Current Route B paper materials are maintained in the repository [`research_papers/`](https://github.com/CLG2025/CPTG/tree/main/research_papers) directory. This work is distinct from the real-map comparison-map closure paper above.
 
 The current bridge prescription applies the CPTG curvature-transport response at amplitude/potential level:
 
@@ -515,13 +533,14 @@ A current CPTG horizon-mechanism article treats the [cosmological horizon proble
 
 The CPTG [Hubble-tension bridge](https://doi.org/10.5281/zenodo.22429502) treats the CMB/acoustic and local luminosity determinations as different observational projections of one native CPTG geometric branch, with each projection carrying its own rate history at the same selected native phase.
 
-The locked working bridge is:
+The current theory-side branch endpoints are:
 
 ```text
-67.48 <- 69.4163 -> 73.04
+67.4778 <- 69.4163 -> 73.1712
+ acoustic     native     luminosity
 ```
 
-The acoustic/CMB projection lies below the native branch while the local luminosity-distance projection lies above it; both are comparison-layer coordinates of the same native geometric history.
+The acoustic/CMB projection lies below the native branch while the affine luminosity projection lies above it. The luminosity endpoint is derived from \(\mathcal G_L^{\mathrm{aff}}=10/9\); SH0ES supplies an external observational validation of that derived endpoint. Both projected coordinates belong to the same native geometric history rather than to independent cosmologies.
 
 ---
 
@@ -541,16 +560,12 @@ Compared with ΛCDM halo fitting, CPTG makes a different kind of test: it asks w
 
 ## Recent Progress and Active Development
 
-Recent public milestones include:
+The Current Research Status table above is the authoritative summary of CPTG claim levels. Recent changes to the public record include:
 
-- the SPARC reduced-limit benchmarks, CPTG SPARC Browser Workbench v1.12.0, and the published [galaxy rotation-curve](https://doi.org/10.5281/zenodo.22418189) and [Structural Mode \(N\)](https://doi.org/10.5281/zenodo.22436682) papers;
-- the reduced Bullet Cluster merger-plane benchmark and the published [finite compact-object / black-hole framework](https://doi.org/10.5281/zenodo.22424445);
-- the locked geometric-π [CMB comparison-map closure](https://doi.org/10.5281/zenodo.22413491), the [geometric π comparison-coordinate paper](https://doi.org/10.5281/zenodo.22426857), and the [horizon](https://doi.org/10.5281/zenodo.22430125) and [Hubble-tension](https://doi.org/10.5281/zenodo.22429502) papers;
+- publication and consolidation of the unified framework, the Structural Mode \(N\) paper, the geometric-π comparison-coordinate paper, and the universal nuclear-reaction parent/companion papers;
 - completion of the three-network nuclear authority hierarchy: **PRIMAT primary — CLOSED/PASS; PArthENoPE second — CLOSED/PASS; PRyMordial third — CLOSED/PASS**;
-- publication of the [universal nuclear-reaction parent paper](https://doi.org/10.5281/zenodo.22439971) and its [PRIMAT-anchored computational companion](https://doi.org/10.5281/zenodo.22442178);
-- continued development of the CPTG Reaction Workbench, Pi-Bridge, reproducibility packages, and coordinated publication updates.
-
-The publication program is also undergoing a coordinated update so revised papers, newly completed papers, evidence links, and cross-references remain consistent across the full CPTG record.
+- release of the CPTG SPARC Browser Workbench v1.12.0 and continued development of the Reaction Workbench and Pi-Bridge;
+- continued synchronization of papers, evidence links, comparison-coordinate definitions, and repository references across the public CPTG record.
 
 The fixed CPTG geometry and immutable nuclear coefficient package remain unchanged across the accepted authority hierarchy.
 
