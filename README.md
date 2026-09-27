@@ -74,7 +74,7 @@ The table below is a compact guide to the present state of the main CPTG researc
 
 | Area | Current CPTG status | Claim level |
 |---|---|---|
-| SPARC galaxy rotation curves | Current v1.13.0 support-conditioned CPTG calculation across the primary 153-galaxy sample, with retained earlier reduced-limit benchmarks | Reproducible conditioned galaxy-scale closure; see [rotation-curve paper](https://doi.org/10.5281/zenodo.22418189) and current cross-regime paper in [`research_papers/`](research_papers/) |
+| SPARC galaxy rotation curves | Current v1.13.0 support-conditioned CPTG calculation across the primary 153-galaxy sample, with retained earlier reduced-limit benchmarks | Reproducible conditioned galaxy-scale closure; see [rotation-curve paper](https://doi.org/10.5281/zenodo.22418189) and current cross-regime paper in [gravitational law paper](https://doi.org/10.5281/zenodo.23001481) |
 | Pressure-supported galaxy clusters | Seven-cluster spherical support-conditioned closure using X-COP, with an independent ACCEPT reconstruction of the pressure-supported field on the retained baryonic source grid | Resolved cross-regime validation of the same registered galaxy/cluster CPTG field law |
 | Structural Mode \(N\) | Post-solution structural fingerprint of the solved CPTG field, with geometry-appropriate galaxy, spherical-cluster, and rotating compact realizations; downstream CSMI labels remain a galaxy catalog layer | Reproducible post-solution structural diagnostic; see [Structural Mode \(N\)](https://doi.org/10.5281/zenodo.22436682) |
 | Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible dynamical cluster-merger benchmark |
