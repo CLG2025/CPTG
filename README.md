@@ -51,7 +51,7 @@ The public record distinguishes published theory, closed validations, reproducib
 
 ### Specialized theory papers
 
-- **[A New CPTG Gravitational Law — From Galaxies and Galaxy Clusters to Black Holes](research_papers/)**  
+- **[A New CPTG Gravitational Law — From Galaxies and Galaxy Clusters to Black Holes](https://doi.org/10.5281/zenodo.23001481)**  
   Current cross-regime gravitational-law paper. It carries one baryon-sourced source--structural-state--polarization--transport architecture across resolved SPARC galaxies, pressure-supported galaxy clusters, and finite compact black-hole states while preserving the geometry and observational coordinates appropriate to each regime.
 
 - **[Structural Mode N in CPTG: Galaxy Structural Classification from the Solved CPTG Field](https://doi.org/10.5281/zenodo.22436682)**  
