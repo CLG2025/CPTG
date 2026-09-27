@@ -10,18 +10,17 @@
 - [Core CPTG Papers](#start-here-core-cptg-papers)
 - [Current Research Status](#current-research-status)
 - [Repository and Tools](#repository-and-tools)
-- [Reproducing the Public Benchmarks](#reproducing-the-public-benchmarks)
-- [Galaxy-Scale Tests](#galaxy-scale-test-cptg-sparc-browser-workbench)
+- [Reproducing Results](#reproducing-the-public-benchmarks)
+- [Galaxy and Cluster Program](#galaxy-scale-test-cptg-sparc-browser-workbench)
 - [Structural Mode N](#structural-mode-n)
 - [Outer-Slope Convergence Test](#outer-slope-convergence-test)
 - [Bullet Cluster Benchmark](#cluster-merger-test-bullet-cluster-benchmark)
-- [Universal Geometric Nuclear-Reaction Theory](#universal-geometric-nuclear-reaction-theory)
-- [Cosmology and Comparison-Layer Tests](#cosmology-and-comparison-layer-tests)
+- [Nuclear-Reaction Program](#universal-geometric-nuclear-reaction-theory)
+- [Cosmology and Comparison Layers](#cosmology-and-comparison-layer-tests)
 - [Relation to MOND and ΛCDM](#relation-to-mond-and-λcdm)
 - [Recent Progress](#recent-progress-and-active-development)
 - [Repository Policies](#repository-policies)
 - [Citation](#citation)
-
 ---
 
 ## Overview
@@ -35,7 +34,7 @@ Its two linked mechanisms are:
 
 CPTG is organized as a framework of scale-specific reductions rather than a single reduced formula applied everywhere. The published theory spans galaxy dynamics, Structural Mode \(N\), dissociative cluster-merger lensing, finite strong-field compact objects, the native geometric π branch and its observational projections, CMB comparison-map tests, the Hubble and horizon sectors, and a universal geometric nuclear-reaction extension.
 
-The public record separates **published theory**, **closed validations**, **reproducible benchmarks**, and **continuing software or publication development**. Reproducibility is organized around fixed laws, declared comparison coordinates, source manifests, direct residual tables, and native-network or evidence-package validation rather than unrestricted parameter fitting.
+The public record distinguishes published theory, closed validations, reproducible benchmarks, and continuing software or publication development. Reproducibility is organized around fixed laws, declared comparison coordinates, source manifests, direct residual tables, and native-network or evidence-package validation rather than unrestricted parameter fitting.
 
 ---
 
@@ -51,6 +50,9 @@ The public record separates **published theory**, **closed validations**, **repr
   Public-facing introduction to CPTG as a framework of scales spanning gravitational, structural, cosmological, and nuclear sectors.
 
 ### Specialized theory papers
+
+- **[A New CPTG Gravitational Law — From Galaxies and Galaxy Clusters to Black Holes](research_papers/)**  
+  Current cross-regime gravitational-law paper. It carries one baryon-sourced source--structural-state--polarization--transport architecture across resolved SPARC galaxies, pressure-supported galaxy clusters, and finite compact black-hole states while preserving the geometry and observational coordinates appropriate to each regime.
 
 - **[Structural Mode N in CPTG: Galaxy Structural Classification from the Solved CPTG Field](https://doi.org/10.5281/zenodo.22436682)**  
   Dedicated Structural Mode \(N\) paper. \(N\) is derived from the solved CPTG field as a post-solution measure of polarization/transport organization and provides the basis for downstream CSMI structural labels.
@@ -68,15 +70,16 @@ The public record separates **published theory**, **closed validations**, **repr
 
 ## Current Research Status
 
-The current CPTG record is organized by published theory, closed validations, reproducible benchmarks, comparison-coordinate studies, and continuing software development.
+The table below is a compact guide to the present state of the main CPTG research areas. It is intended as an orientation aid rather than a substitute for the individual papers or evidence packages.
 
 | Area | Current CPTG status | Claim level |
 |---|---|---|
-| SPARC galaxy rotation curves | Public reduced-limit SPARC tests and the interactive browser workbench | Reproducible galaxy-scale benchmark; see [rotation-curve paper](https://doi.org/10.5281/zenodo.22418189) |
-| Structural Mode \(N\) | Post-solution structural measure derived from the solved CPTG field, with downstream CSMI labels in the galaxy workbench | Reproducible structural diagnostic; see [Structural Mode \(N\)](https://doi.org/10.5281/zenodo.22436682) |
-| Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible cluster-merger benchmark |
-| Finite compact objects / black holes | Curvature-bounded strong-field admissibility framework with finite physical interiors and GR exterior recovery; compact boundary-value closure remains active theory work | See [compact-object paper](https://doi.org/10.5281/zenodo.22424445) |
-| Universal geometric nuclear-reaction theory | Closed four-sector foundation spanning free nucleons, deuterium, the mass-three pair, and helium-4 | [Universal parent paper](https://doi.org/10.5281/zenodo.22439971); PRIMAT primary authority — **CLOSED/PASS**; PArthENoPE second authority — **CLOSED/PASS**; PRyMordial third authority — **CLOSED/PASS** |
+| SPARC galaxy rotation curves | Current v1.13.0 support-conditioned CPTG calculation across the primary 153-galaxy sample, with retained earlier reduced-limit benchmarks | Reproducible conditioned galaxy-scale closure; see [rotation-curve paper](https://doi.org/10.5281/zenodo.22418189) and current cross-regime paper in [`research_papers/`](research_papers/) |
+| Pressure-supported galaxy clusters | Seven-cluster spherical support-conditioned closure using X-COP, with an independent ACCEPT reconstruction of the pressure-supported field on the retained baryonic source grid | Resolved cross-regime validation of the same registered galaxy/cluster CPTG field law |
+| Structural Mode \(N\) | Post-solution structural fingerprint of the solved CPTG field, with geometry-appropriate galaxy, spherical-cluster, and rotating compact realizations; downstream CSMI labels remain a galaxy catalog layer | Reproducible post-solution structural diagnostic; see [Structural Mode \(N\)](https://doi.org/10.5281/zenodo.22436682) |
+| Bullet Cluster merger plane | Public reduced merger-plane curvature-transport/lensing reconstruction | Reproducible dynamical cluster-merger benchmark |
+| Finite compact objects / black holes | Closed finite spherical compact continuation with GR exterior matching; conditional mass--spin handoff and post-solution rotating Structural Mode | Closed within the declared spherical compact geometry; rotating handoff remains explicitly conditional; see [compact-object paper](https://doi.org/10.5281/zenodo.22424445) |
+| Universal geometric nuclear-reaction theory | Closed four-sector foundation spanning free nucleons, deuterium, the mass-three pair, and helium-4 | [Universal parent paper](https://doi.org/10.5281/zenodo.22439971); PRIMAT primary authority — closed/pass; PArthENoPE second authority — closed/pass; PRyMordial third authority — closed/pass |
 | Heavy-sector reduced-graph continuation | PRIMAT-native authority through A=23, complete prescribed-bath reduced-transport register through A=119, and separately qualified structural continuation through A=338 | [Computational companion](https://doi.org/10.5281/zenodo.22442178); external \(Y_A\) values are reduced-transport populations, not coupled PRIMAT heavy-element yield predictions |
 | Nuclear-reaction interface and exchange layer | PC-first CPTG Reaction Workbench, deterministic evidence/replay architecture, formula-package authority, compiled-runtime boundary, and external scientific-model interface | Active engineering implementation and qualification |
 | Pantheon+ supernova distances | Full-covariance relative distance-shape comparison with marginalized intercept | Distance-shape comparison, not a local \(H_0\) calibration claim |
@@ -86,7 +89,6 @@ The current CPTG record is organized by published theory, closed validations, re
 | CMB Route B Option 1 | Fixed amplitude-level curvature-transport bridge studied at spectrum and likelihood-coordinate level | Development-stage comparison-coordinate bridge; current paper materials are maintained in [`research_papers/`](https://github.com/CLG2025/CPTG/tree/main/research_papers) |
 | DESI compressed ShapeFit and BAO | Compressed-coordinate and ruler-wrapper diagnostics | Coordinate-level support, not full raw DESI validation |
 | Horizon and Hubble-tension mechanisms | Native-branch and projection papers relating CPTG geometric time/rate structure to observational comparison layers | [Horizon paper](https://doi.org/10.5281/zenodo.22430125) and [Hubble-tension bridge](https://doi.org/10.5281/zenodo.22429502) |
-
 ---
 
 ## Repository and Tools
@@ -97,28 +99,29 @@ The repository combines public theory papers, reduced-limit benchmark code, inte
 - **[Archive](archive/)** — retained historical, protocol, validation, and supporting research materials.
 - **[Benchmark results](benchmark_results/)** — public benchmark outputs and comparison results where distributed in repository form.
 - **[Nuclear-reaction materials](nuclear-reactions/)** — nuclear-reaction software, interface, validation, and supporting materials.
-- **CPTG academic package** — the compact reproducibility archive for the core SPARC galaxy and Bullet Cluster reduced-limit benchmarks, distributed as `CPTG_academic_package.zip`.
-- **CPTG SPARC Browser Workbench v1.12.0** — standalone local SPARC analysis for Windows, with cross-platform Python source and CPTG/MOND comparison tools. [View the interface](images/CPTG_SPARC_Browser_Workbench.png) · [Download v1.12.0](https://github.com/CLG2025/CPTG/releases/tag/v1.12.0)
-- **CPTG Reaction Workbench** — a PC-first nuclear-reaction interface in active development for deterministic calculation, comparison, project execution, evidence capture, replay, and external-model integration.
-- **CPTG Pi-Bridge** — a local [research workbench](images/CPTG-Pi-Bridge-Local-Workbench.png) in beta development for loading public astronomy/cosmology datasets, applying CPTG comparison branches, auditing results, and exporting reproducible validation packages.
+- CPTG academic package — the compact reproducibility archive for the core SPARC galaxy and Bullet Cluster reduced-limit benchmarks, distributed as `CPTG_academic_package.zip`.
+- CPTG SPARC Browser Workbench v1.13.0 — current registered local SPARC analysis environment used for the latest support-conditioned CPTG galaxy calculations, with single- and batch-galaxy execution, post-solution Structural Mode \(N\)/CSMI readout, metadata inspection, and saved-output support. [Download v1.13.0](https://github.com/CLG2025/CPTG/releases/tag/v1.13.0) · v1.12.0 remains valid for the methods and CPTG/MOND comparison workflow implemented in that version and remains available as the retained prior release. [Download v1.12.0](https://github.com/CLG2025/CPTG/releases/tag/v1.12.0)
+- CPTG Reaction Workbench — a PC-first nuclear-reaction interface in active development for deterministic calculation, comparison, project execution, evidence capture, replay, and external-model integration.
+- CPTG Pi-Bridge — a local [research workbench](images/CPTG-Pi-Bridge-Local-Workbench.png) in beta development for loading public astronomy/cosmology datasets, applying CPTG comparison branches, auditing results, and exporting reproducible validation packages.
 
-The compact academic package is the recommended starting point for the public galaxy and Bullet Cluster benchmarks. The larger workbenches are distributed separately because they serve interactive research workflows rather than the compact benchmark environment.
+The compact academic package remains the recommended starting point for the original public SPARC and Bullet Cluster reduced-limit benchmarks. Current v1.13.0 and cross-regime galaxy/cluster/compact results use their own registered analysis and evidence records and should be reproduced from those current records rather than from the older compact benchmark package.
 
 ---
 
-## Reproducing the Public Benchmarks
+<a id="reproducing-the-public-benchmarks"></a>
+## Reproducing Results
 
-The public benchmarks are intended to be inspectable and reproducible.
+The public record contains both original reduced-limit benchmarks and newer reconstruction/evidence packages. They should be reproduced with the method and package version attached to the result being examined.
+
+### Original reduced-limit benchmarks
 
 1. Download or clone the repository, or obtain the relevant published/release package.
-2. Use **`CPTG_academic_package.zip`** for the compact SPARC and Bullet Cluster benchmark set.
+2. Use **`CPTG_academic_package.zip`** for the compact original SPARC and Bullet Cluster benchmark set.
 3. Extract the selected package into a working location.
 4. Run the documented benchmark scripts with Python 3.
 5. Compare generated outputs against the included figures, summaries, and evidence records.
 
-Reproducibility depends on retaining the package contents and declared inputs, or on supplying explicit input/output paths when supported by the scripts. Planck and WMAP FITS products are not bundled with CMB map-closure packages; they must be supplied from the documented public sources.
-
-The main public benchmark scripts are:
+The retained original benchmark scripts include:
 
 | Package or tool | Purpose |
 |---|---|
@@ -126,55 +129,89 @@ The main public benchmark scripts are:
 | `CPTG_Bullet_Cluster_Merger.py` | Reduced merger-plane curvature-transport/lensing benchmark. |
 | `CPTG_MOND_Upsilon_SPARC_Benchmark.py` | MOND/CPTG comparison with stellar mass-to-light freedom. |
 
+These scripts remain valid for the methods they implement and should not be treated as the implementation underlying newer v1.13.0 or cross-regime results unless explicitly stated.
+
+### Current reconstruction and evidence packages
+
+The current cross-regime gravitational-law record uses the v1.13.0 SPARC calculation together with the X-COP/ACCEPT pressure-supported cluster reconstructions and the finite compact-object benchmark calculations. Those results are distributed with their own reconstruction/evidence records rather than being retrofitted into the original academic package.
+
+Current publication evidence archive:
+
+```text
+CPTG_ONE_GRAVITATIONAL_LAW_RECONSTRUCTION_EVIDENCE_20260927_FINAL.zip
+SHA-256: 22a3aba9420c118a4f63ad1cff190baf10462d570742ce88431f54768428ec66
+```
+
+Use the archive manifest and included fail-closed verification procedures when reproducing the current cross-regime results.
+
+Reproducibility depends on retaining the package contents and declared inputs, or on supplying explicit input/output paths when supported by the scripts. Planck and WMAP FITS products are not bundled with CMB map-closure packages; they must be supplied from the documented public sources.
+
 ---
 
-## Galaxy-Scale Test: CPTG SPARC Browser Workbench
+<a id="galaxy-scale-test-cptg-sparc-browser-workbench"></a>
+## Galaxy and Cluster Program
 
-The recently updated **CPTG SPARC Browser Workbench v1.12.0** provides a local browser interface for testing CPTG and MOND against SPARC galaxy rotation-curve data.
+The current resolved-gravity program uses the same registered support-conditioned CPTG relation in two observational settings: rotation-supported SPARC galaxies and pressure-supported galaxy clusters. The browser workbench described below is the galaxy-facing implementation; the cluster reconstruction is documented in the current cross-regime gravitational-law paper and evidence package.
 
-The standalone [release package](https://github.com/CLG2025/CPTG/releases/tag/v1.12.0) includes the SPARC galaxy files and metadata needed to begin running analyses immediately. It supports:
+### CPTG SPARC Browser Workbench
 
-- searchable single and multi-galaxy selection,
-- individual-galaxy and batch analysis,
-- metadata views for all, primary, excluded, and unmatched galaxies,
-- primary-sample filtering when a metadata file is active,
-- CPTG and MOND rotation-curve comparisons,
-- averaged normalized rotation curves,
-- averaged RAR scatter versus radius,
-- compact result tables reporting total points, total χ², χ² per point, RMS residuals, and mean observed/model velocities,
-- galaxy-level fit, Structural Mode N, and downstream CSMI summaries,
-- optional CSV, JSON, PNG, and ZIP output saving.
+The CPTG SPARC Browser Workbench v1.13.0 is the current registered local analysis environment for the SPARC calculations used in the cross-regime gravitational-law work. It supports both single-galaxy and batch analysis using the current support-conditioned CPTG solution.
 
-All calculations are performed locally. Each galaxy is solved independently before aggregate statistics and plots are generated. By default, completed analyses are displayed in the browser without retaining output files. Files are written only when the user explicitly selects **Save result files**.
+For each selected galaxy, v1.13.0 reads the SPARC radius, observed rotation speed and uncertainty, and the tabulated gas, disk, and bulge velocity components. The baryonic source is constructed directly from those tabulated components, with the stellar templates retained at their unit-\(\Upsilon\) reference normalization and no additional fitted disk or bulge mass-to-light rescaling in the current CPTG calculation.
 
-When metadata is enabled, the galaxy list defaults to the primary sample while preserving the user's previous metadata-view selection during the browser session. Primary, excluded, and unmatched galaxies remain separately identifiable, and checked galaxies from any active view can be processed.
+The workbench:
 
-For aggregate plots, each galaxy is normalized independently and interpolated onto a shared normalized radial grid. Each galaxy receives equal weight at each grid location, and the outer endpoint at `r / r_max = 1` is retained.
+- supports searchable single- and multi-galaxy selection;
+- runs the same conditioned nonlinear CPTG solution in single-object and batch modes;
+- displays observed, baryonic, and solved CPTG rotation curves;
+- reports recovered CPTG reduced-state coordinates and numerical status;
+- keeps numerical equation closure distinct from observational conditioned closure;
+- evaluates Structural Mode \(N\) and downstream CSMI only after the gravitational field solution is complete;
+- keeps catalog morphology and other metadata outside the field-solution inputs;
+- supports reader-facing inspection and optional saved numerical and graphical outputs.
+
+The current v1.13.0 calculation is a conditioned inverse/support closure: the observed rotation curve supplies the resolved support state used to reconstruct the galaxy solution. Structural Mode \(N\), CSMI, catalog morphology, and metadata do not determine the gravitational solution and are not used as fit selectors.
+
+All calculations are performed locally. Galaxies are solved individually before any population-level summary is formed. Output files are retained only when the user explicitly saves them.
+
+### Release and version notes
+
+v1.13.0 is the current registered analysis source for the latest CPTG SPARC calculation:
+
+[Download CPTG SPARC Browser Workbench v1.13.0](https://github.com/CLG2025/CPTG/releases/tag/v1.13.0)
+
+v1.12.0 remains valid for the methods implemented in that release. Its CPTG/MOND comparison workflow, metadata handling, normalized population plots, result tables, and saved-output functions remain reproducible under the declared v1.12.0 methodology:
+
+[Download CPTG SPARC Browser Workbench v1.12.0](https://github.com/CLG2025/CPTG/releases/tag/v1.12.0)
+
+Results produced with v1.12.0 should be interpreted under the v1.12.0 method; they are not invalidated by v1.13.0 and should not be relabeled as v1.13.0 outputs.
 
 [SPARC data source](https://astroweb.case.edu/SPARC/): Lelli, McGaugh, and Schombert, *The Astronomical Journal* 152, 157 (2016), [“SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves”](https://ui.adsabs.harvard.edu/abs/2016AJ....152..157L/abstract).
 
-The figure below summarizes averaged SPARC results produced by the workbench.
-
-![CPTG SPARC Browser Workbench summary showing the average normalized SPARC rotation curve on the left and the average normalized RAR scatter versus radius on the right.](images/combined_workbench_plots_side_by_side.png)
-
-<sup>Figure: CPTG SPARC Browser Workbench averaged results for the full 175-galaxy SPARC run. Primary-sample metadata filtering was not applied to this figure.</sup>
+The current publication paper uses the v1.13.0 interface screenshot `CPTG-SPARC-Browser-Workbench-v1-13-0.png`. The older repository interface image should be treated as a prior-version illustration until the current screenshot is added to the public `images/` directory.
 
 ---
 
 ## Structural Mode N
 
-[Structural Mode **N**](https://doi.org/10.5281/zenodo.22436682) is a dimensionless CPTG diagnostic derived from the solved field after the galaxy solution is obtained.
+[Structural Mode N](https://doi.org/10.5281/zenodo.22436682) is a dimensionless CPTG post-solution structural diagnostic derived from the solved gravitational field. It is not a fit parameter, branch selector, morphology input, or gravity-strength parameter.
 
-It measures the radial organization of the solved polarization/transport structure:
+Its general form is:
 
-**N = R / λ**
+`N = R / λ`
 
 where:
 
-* **R** is the outer solved radius.
-* **λ** is the curvature-weighted structural scale.
+* **R** is the outer solved structural radius of the declared realization.
+* **λ** is the geometry-appropriate organization length derived from the solved field.
 
-The workbench can then translate the continuous mode value into a downstream **CSMI Type**:
+Lower \(N\) means the important structural changes are distributed farther outward. Higher \(N\) means they are concentrated farther inward. Each independently reconstructed solved field has its own Structural Mode fingerprint; independent \(N\) values are compared directly and are not averaged.
+
+The physical definition is common across regimes, but the organization functional is geometry-specific. The galaxy realization uses the solved radial disk field, pressure-supported clusters use a spherical organization weight and shell measure, and the retained rotating compact realization uses the Kerr-compatible equal-measure shell registry downstream of the compact solution.
+
+### Galaxy CSMI realization
+
+For galaxies, the workbench can translate the continuous mode value into a downstream Curvature Structure Mode Index (CSMI) type:
 
 | Structural Mode N | CSMI Type             |
 | ----------------: | --------------------- |
@@ -191,15 +228,15 @@ The workbench can then translate the continuous mode value into a downstream **C
 |   3.55 < N ≤ 3.72 | Lenticular/Early Disk |
 |          N > 3.72 | High-Mode Outlier     |
 
-The CSMI Type is assigned only from the solved mode value. It is not taken from galaxy names, SPARC metadata, catalog morphology, or visual classification. As larger and more diverse galaxy samples are analyzed, future CSMI catalogs will likely expand, subdivide, or refine the named structural types to represent newly resolved mode populations. Any additional categories would remain derived from the solved CPTG mode distribution rather than being imposed from conventional morphological classifications.
+The galaxy CSMI type is assigned only from the solved mode value. It is not taken from galaxy names, SPARC metadata, catalog morphology, or visual classification. As larger and more diverse galaxy samples are analyzed, future CSMI catalogs may expand, subdivide, or refine the named structural types while remaining downstream of the solved \(N\) distribution.
 
-Mode-filtered runs allow galaxies with similar CPTG structural organization to be evaluated as subsets of the full database.
+Mode-filtered galaxy runs allow systems with similar solved CPTG organization to be evaluated as subsets of the full database.
 
-In public-facing terms, **N** asks:
+In simple terms, N asks:
 
-> How is the solved curvature structure organized inside this galaxy?
+> Where are the important structural changes concentrated inside this solved gravitational field?
 
-The continuous mode \(N\) is the theory-derived structural quantity. The CSMI Type is a downstream workbench label assigned from that solved value rather than from catalog morphology.
+The continuous mode \(N\) is the theory-derived structural quantity. CSMI is a downstream galaxy catalog/classification layer built from that solved value.
 
 ---
 
@@ -267,13 +304,13 @@ CPTG has transitioned from a commissioned deuterium-proton capture model to a un
 
 These sectors form one ordered transport-polarization architecture rather than four unrelated reaction constructions. The dynamic vertex contains free neutrons and protons; deuterium supplies the first bound bridge; tritium and helium-3 form the two charge orientations of the mass-three closure sector; and helium-4 is the saturated endpoint.
 
-### Universal paper and computational companion
+### Main papers and computational companion
 
 The [universal parent paper](https://doi.org/10.5281/zenodo.22439971) presents the closed four-sector foundation, governing geometric reaction laws, conservation structure, physical interpretation, and accepted native-network validation chain.
 
 The updated [computational companion](https://doi.org/10.5281/zenodo.22442178) carries that fixed architecture into an explicit reproducible calculation. PRIMAT supplies the native trajectory and endpoint authority through A=23; beyond the native boundary, a declared seed-free prescribed-bath reduced graph defines the continuation topology under frozen reachability, convergence, and source-robustness controls. The resulting external `Y_A` values are reduced-transport populations.
 
-### Architecture and scalability
+### Theory structure and scalability
 
 The theory separates **ordered transport**, which moves baryonic content through vertex, bridge, closure, and saturation, from **internal polarization**, which preserves the neutron-proton and tritium-helium-3 orientation required by charge conservation. Structural closure fixes the physical coordinate, baryon and charge constraints, reaction-source basis, curvature-response hierarchy, and separation between direct source current and final network response.
 
@@ -285,7 +322,7 @@ The published *[Geometric Nuclear Reaction Theory in CPTG: Deuterium-Proton Capt
 
 That paper reported a zero-energy S-factor comparison at **−0.149960σ**, a solar-Gamow comparison at approximately **−0.02043σ**, and a PRyMordial gated-lithium result at **+0.90593σ** while preserving deuterium and helium controls.
 
-### Native-network authority
+### Native-network validation
 
 Network results are ranked by native authoritative capability rather than forced into one common reduced framework:
 
@@ -341,9 +378,9 @@ These results establish an independent PArthENoPE-native implementation check wi
 
 #### PRyMordial third authority
 
-PRyMordial is the completed third authority. Candidate C-R production qualification passed, and the fresh **3030/3030-row full-network authority campaign** closed successfully with the final integrity, response-ladder, and locked Reaction-20 decision gates **PASS**. Earlier response and clean-room results remain supporting evidence alongside the completed full-network authority object.
+PRyMordial is the completed third authority. Candidate C-R production qualification passed, and the fresh **3030/3030-row full-network authority campaign** closed successfully with the final integrity, response-ladder, and locked Reaction-20 decision gates pass. Earlier response and clean-room results remain supporting evidence alongside the completed full-network authority object.
 
-### Computational companion results
+### Reduced-graph continuation
 
 The [computational companion](https://doi.org/10.5281/zenodo.22442178) separates native authority from the reduced-graph continuation topology and its reduced-transport populations:
 
@@ -351,7 +388,7 @@ The [computational companion](https://doi.org/10.5281/zenodo.22442178) separates
 - **Complete reduced-graph topology / reduced-transport register:** A=24–119, with positive modeled mass-sector support at all six frozen baryon-density anchors and no imported heavy-sector seed.
 - **Natural structural frontier:** the same selected reduced-graph rule remains gap-free through A=338; A=339 is disconnected under the declared topology.
 - **Frontier numerical qualification:** the accepted 512/1024/2048 two-scheme campaign passes all six anchors under unchanged convergence gates. The earlier 128/256/512 run is retained as a fail-closed numerical non-qualification.
-- **Source-tail robustness:** all **18/18** retained-source cases satisfy their applicable preregistered requirements, including all **12/12** hard-gated cases. After restoring unrenormalized source amplitude, the largest absolute departure of the A=338 truncated-to-baseline endpoint ratio from unity is **2.36 × 10⁻¹³**.
+- **Source-tail robustness:** all **18/18** retained-source cases satisfy their applicable preregistered requirements, including all 12/12 hard-gated cases. After restoring unrenormalized source amplitude, the largest absolute departure of the A=338 truncated-to-baseline endpoint ratio from unity is **2.36 × 10⁻¹³**.
 - **Native mass-seven validation:** all **7/7** paired PRIMAT coordinates pass the locked transport test; the worst relative survival disagreement from the locked target is **0.018083%**, with negligible non-mass-seven control shifts.
 
 These results describe the declared reduced operator and its numerical behavior. The external \(Y_A\) values are prescribed-bath reduced-transport populations, not self-consistent final abundances of a coupled PRIMAT heavy-element network and not asserted primordial heavy-element yield predictions.
@@ -372,7 +409,7 @@ CPTG_PRIMAT_PostA119_A160A338_SourceTail_FINAL_SELFSEALED_EVIDENCE_20260819_r01.
 SHA-256: d78aae075d3fe579874d3002fdee6b4d47d98712df9dd1ff85d2f9022e4f246a
 ```
 
-### Completed validation and continuing public development
+### Validation status
 
 The three-network nuclear authority hierarchy is complete within its declared scope:
 
@@ -397,7 +434,7 @@ The CPTG Reaction Workbench remains under active development as a deterministic 
 
 CPTG cosmology-facing work is organized around the distinction between CPTG-native geometric quantities and conventional observational summaries. The goal is not to force CPTG into standard parameter language, but to make controlled comparisons with quantities commonly reported from supernova, CMB, abundance, growth, and large-scale-structure analyses.
 
-### Current Locked Geometric π Branch
+### Geometric π branch
 
 The current locked CPTG comparison branch is defined by:
 
@@ -424,7 +461,7 @@ The acoustic and luminosity coordinates are projections of the single native π 
 
 The complete fixed CMB comparison row, including baryon, matter, spectral, amplitude, optical-depth, and effective-radiation coordinates, is maintained in the geometric-π paper and the strict CMB rerun package. Those values are locked before map tests and are not refit to individual CMB maps.
 
-### CMB Comparison-Map Closure
+### CMB comparison-map closure
 
 CPTG CMB map work is organized as a [real-map comparison test](https://doi.org/10.5281/zenodo.22413491) between the locked geometric-π CMB branch and public CMB map products. The current paper uses real Planck component maps, Planck split maps, and WMAP low-ell support products.
 
@@ -442,7 +479,7 @@ T_fit(nhat) = A T_template(nhat) + B
 
 The central public result is that the locked CPTG geometric-π branch reaches near-degenerate CMB comparison-map closure with the Planck comparison envelope across the tested real-map products and controls, while generic null envelopes fail much more strongly under the same map-space procedure. The detailed RMS tables, control ladders, and null-envelope audits are contained in the dedicated CMB comparison-map closure material.
 
-#### Original Planck and WMAP FITS Inputs
+#### Planck and WMAP FITS inputs
 
 The original Planck and WMAP survey FITS maps are **not bundled** because they are large public data products. The strict input set used by the [CPTG CMB Comparison-Map Closure](https://doi.org/10.5281/zenodo.22413491) test is listed below so the public rerun environment can be reconstructed directly. Use only these tested FITS products for the strict comparison-map closure rerun; do not add optional masks, alternate survey products, or substitute component maps.
 
@@ -461,7 +498,7 @@ The original Planck and WMAP survey FITS maps are **not bundled** because they a
 
 The Planck rows use the temperature fields and embedded mask fields declared by the CMB scripts. The WMAP row is the tested low-ell cross-mission support product. No optional WMAP masks, SEVEM R3.01 substitute, or other alternate FITS products are part of this strict control list.
 
-### CMB Route B Option 1 Curvature-Transport Bridge
+### CMB Route B Option 1 curvature-transport bridge
 
 A separate CMB comparison-coordinate report studies the Route B Option 1 curvature-transport bridge at the `C_l` and Planck likelihood-coordinate level. Current Route B paper materials are maintained in the repository [`research_papers/`](https://github.com/CLG2025/CPTG/tree/main/research_papers) directory. This work is distinct from the real-map comparison-map closure paper above.
 
@@ -479,11 +516,11 @@ P(k) -> P(k) |C_T(a,k)|^2
 
 Route B should presently be read as a geometry-first comparison-coordinate construction and plumbing test. It is not used here as an independent CMB closure result or as a replacement for the locked real-map comparison-map test.
 
-### Pantheon+ Supernova Distance-Shape Test
+### Pantheon+ supernova distance-shape test
 
 CPTG has been tested against Pantheon+ supernova distance-shape data using a full-covariance comparison with a marginalized intercept. This is a distance-shape test, not a local H0 calibration claim. The purpose is to ask whether the CPTG expansion branch can reproduce the relative supernova distance trend once the absolute calibration is marginalized.
 
-### BBN Abundance and Lithium Source-Network Tests
+### BBN abundance and lithium source-network tests
 
 CPTG abundance work is organized around the transported BBN coordinate and the locked live A = 7 source-network gate. The transported abundance coordinate is
 
@@ -515,21 +552,21 @@ That result remains the published commissioning-stage abundance demonstration. T
 Together, the two layers preserve a clear chronology: the commissioning paper first demonstrated the source-network abundance consequence, while the updated computational companion tests the locked mass-seven transport directly inside the current primary PRIMAT authority. Within the completed universal theory, the broader hydrogen-deuterium-helium-3-helium-4 architecture supplies the governing reaction context without altering the accepted commissioning result.
 
 
-### Weak-Lensing S8 Comparison
+### Weak-lensing S8 comparison
 
 CPTG weak-lensing work currently uses compressed S8 comparisons against representative weak-lensing and CMB anchors. These tests are diagnostic: they show whether the CPTG growth/lensing branch lies within representative observational bands, but they are not a substitute for a full shear-correlation likelihood or survey-level weak-lensing pipeline.
 
-### DESI DR1 Compressed ShapeFit and BAO Quarter-Ruler
+### DESI DR1 compressed ShapeFit and BAO quarter-ruler
 
 CPTG large-scale-structure work separates DESI comparisons into layers. The current compressed ShapeFit coordinate comparison uses official DESI DR1 HDF5 likelihood containers and is a compressed-coordinate pass. The BAO quarter-ruler is a strong coordinate-wrapper diagnostic using the CPTG transport relation `G_T^(-1/4)`, but it is not presented as a raw official non-unity-`q` runtime likelihood response.
 
 The full-shape AP/growth work remains an exploratory spectrum-shell diagnostic. It is not a raw DESI full-shape validation claim and should not be described as one. A full raw DESI validation requires nuisance-preserving AP, RSD, tracer-window, covariance, nuisance, counterterm, and stochastic machinery to be wired consistently through the official likelihood path.
 
-### Cosmological Horizon Mechanism
+### Cosmological horizon mechanism
 
 A current CPTG horizon-mechanism article treats the [cosmological horizon problem](https://doi.org/10.5281/zenodo.22430125) as a structural-curvature synchronization problem rather than as a scalar-field inflation mechanism. In this framing, early-universe uniformity is attributed to finite curvature saturation and active geometric transport synchronizing the primordial curvature state before decoupling.
 
-### Hubble-Tension Bridge
+### Hubble-tension bridge
 
 The CPTG [Hubble-tension bridge](https://doi.org/10.5281/zenodo.22429502) treats the CMB/acoustic and local luminosity determinations as different observational projections of one native CPTG geometric branch, with each projection carrying its own rate history at the same selected native phase.
 
@@ -552,7 +589,7 @@ The repository compares CPTG to MOND-style galaxy predictions and to the broader
 - **ΛCDM** explains galaxy and cluster dynamics through non-baryonic dark matter, with individual galaxy rotation curves often modeled through halo fitting and related nuisance parameters.
 - **CPTG** tests whether similar observed effects can emerge from baryon-sourced curvature polarization, curvature transport, and theory-derived structural organization.
 
-The CPTG SPARC tools evaluate CPTG directly against observed galaxy rotation data and include a MOND-style comparison under the same loaded galaxy database. The Upsilon benchmark adds stellar mass-to-light freedom as a stricter comparison layer. These tests are included so the comparison can be reproduced rather than treated as a qualitative claim.
+The retained v1.12.0 SPARC comparison workflow evaluates CPTG and a MOND-style prediction under the same loaded galaxy database, while the Upsilon benchmark adds stellar mass-to-light freedom as a separate comparison layer. The current v1.13.0 paper-facing CPTG calculation is evaluated independently as a conditioned CPTG closure; MOND comparisons remain available as a separate retained tool/benchmark layer rather than as the publication acceptance condition for the current gravitational-law paper.
 
 Compared with ΛCDM halo fitting, CPTG makes a different kind of test: it asks whether galaxy rotation behavior and dissociative cluster-lensing offsets can be reproduced geometrically through baryon-sourced curvature response rather than by fitting non-baryonic halo components.
 
@@ -562,12 +599,15 @@ Compared with ΛCDM halo fitting, CPTG makes a different kind of test: it asks w
 
 The Current Research Status table above is the authoritative summary of CPTG claim levels. Recent changes to the public record include:
 
+- consolidation of the cross-regime gravitational-law program linking the current SPARC galaxy calculation, seven pressure-supported X-COP/ACCEPT cluster reconstructions, and finite compact-object realization under one source--structural-state--polarization--transport architecture;
+- closure of the seven-cluster pressure-supported program with X-COP as the primary reconstruction and ACCEPT as an independent support-reconstruction sensitivity test on the retained baryonic source grid;
+- closure of the finite spherical compact mass-state continuation with required GR exterior matching, while retaining the rotating mass--spin handoff as explicitly conditional;
 - publication and consolidation of the unified framework, the Structural Mode \(N\) paper, the geometric-π comparison-coordinate paper, and the universal nuclear-reaction parent/companion papers;
-- completion of the three-network nuclear authority hierarchy: **PRIMAT primary — CLOSED/PASS; PArthENoPE second — CLOSED/PASS; PRyMordial third — CLOSED/PASS**;
-- release of the CPTG SPARC Browser Workbench v1.12.0 and continued development of the Reaction Workbench and Pi-Bridge;
-- continued synchronization of papers, evidence links, comparison-coordinate definitions, and repository references across the public CPTG record.
+- completion of the three-network nuclear authority hierarchy: PRIMAT primary — closed/pass; PArthENoPE second — closed/pass; PRyMordial third — closed/pass;
+- registration of the CPTG SPARC Browser Workbench v1.13.0 as the current galaxy-analysis source, with v1.12.0 retained as a valid downloadable packaged release for its documented methods;
+- continued development of the Reaction Workbench and Pi-Bridge and continued synchronization of papers, evidence links, comparison-coordinate definitions, and repository references across the public CPTG record.
 
-The fixed CPTG geometry and immutable nuclear coefficient package remain unchanged across the accepted authority hierarchy.
+The fixed CPTG geometry and immutable nuclear coefficient package remain unchanged across the accepted nuclear authority hierarchy.
 
 ---
 
