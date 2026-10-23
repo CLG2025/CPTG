@@ -44,6 +44,14 @@ CPTG is a framework of scale-specific reductions rather than one reduced equatio
 
 CPTG is not a tunable halo-component model. In the framework, the additional response attributed to CPTG remains geometric; the material source remains ordinary physical stress-energy. The public record separates theory definitions, conditioned reconstructions, held-out or external comparisons, reproducible benchmarks, and active software development.
 
+### Fixed laws, constrained comparisons
+
+CPTG is tested through registered geometric equations, coefficients, and projection rules. Its native cosmological history, acoustic and luminosity projections, curvature-transport response, and nuclear source/transport prescriptions are not independently retuned to accommodate each new dataset. The same declared rules must survive their relevant comparisons; an unsuccessful comparison cannot be repaired by quietly changing those rules.
+
+Observational inputs used in support-conditioned galaxy and cluster **reconstructions** are distinguished from the fixed theory coefficients. A measured-field reconstruction is not presented as a blind baryons-only forecast. Likewise, CPTG's CMB map comparisons and spectrum/likelihood bridges are identified by the specific observables and inputs they use.
+
+This is the methodological basis of CPTG's challenge to the conventional dark-sector interpretation: agreement obtained under a constrained geometric architecture is not the same kind of explanatory claim as agreement obtained after fitting cosmological parameters or assigning additional material or vacuum-energy components.
+
 ---
 
 <a id="start-here"></a>
@@ -99,7 +107,7 @@ The table below is a reader-facing map of the current program. Detailed methods,
 
 | Program | Current status | Primary reference |
 |---|---|---|
-| SPARC galaxy dynamics | v1.13.0 support-conditioned calculation across the primary 153-galaxy sample | [Gravitational law](https://doi.org/10.5281/zenodo.23001481) |
+| SPARC galaxy dynamics | v1.13.1 support-conditioned calculation across the primary 153-galaxy sample | [Workbench v1.13.1](https://github.com/CLG2025/CPTG/releases/tag/v1.13.1) · [Gravitational law](https://doi.org/10.5281/zenodo.23001481) |
 | Pressure-supported clusters | Seven-cluster spherical reconstruction with X-COP primary and ACCEPT sensitivity reconstruction | [Gravitational law](https://doi.org/10.5281/zenodo.23001481) |
 | Structural Mode `N` | Cross-regime post-solution structural fingerprint for galaxies, spherical clusters, and compact objects | [Structural Mode](https://doi.org/10.5281/zenodo.23172423) |
 | Finite compact objects | Finite spherical interior with required GR exterior matching; rotating quantities retained as post-solution/conditional readouts | [Compact-object paper](https://doi.org/10.5281/zenodo.23172326) |
@@ -109,7 +117,8 @@ The table below is a reader-facing map of the current program. Detailed methods,
 | Hubble tension | Acoustic and luminosity endpoints derived as different projections of one native branch | [Hubble paper](https://doi.org/10.5281/zenodo.23172759) |
 | Cosmic standard ruler | Direct CMB-to-DESI acoustic-ruler comparison | [Standard Ruler](https://doi.org/10.5281/zenodo.22935182) |
 | Cosmological horizon | Native containment and projection treatment | [Horizon paper](https://doi.org/10.5281/zenodo.23172701) |
-| CMB comparison maps | Real Planck/WMAP map-space closure and controls | [CMB map closure](https://doi.org/10.5281/zenodo.22413491) |
+| CMB comparison maps | Real Planck/WMAP map-space closure with observed-phase inputs and null controls; reported map correlation 0.983434 | [CMB map closure](https://doi.org/10.5281/zenodo.22413491) |
+| CMB Route B Option 1 | Geometry-first curvature-transport power-spectrum bridge passed CAMB, NPIPE/Plik, Planck low-ℓ, and PR4 lensing integration smoke tests; distinct from a profiled cosmological fit | Route B Option 1 validation report (June 2026) |
 | Universal nuclear-reaction theory | Four-sector foundation; PRIMAT, PArthENoPE, and PRyMordial authority chain closed/pass | [Universal nuclear theory](https://doi.org/10.5281/zenodo.22439971) |
 | Heavy-sector reduced transport | Native PRIMAT authority through A=23; prescribed-bath register through A=119; separately qualified structural continuation through A=338 | [Computational companion](https://doi.org/10.5281/zenodo.22442178) |
 | Reaction Workbench | Active engineering and interface development | [`nuclear-reactions/`](nuclear-reactions/) |
@@ -126,13 +135,13 @@ The table below is a reader-facing map of the current program. Detailed methods,
 </tr>
 <tr>
 <td><strong>Research papers</strong></td>
-<td>Published papers, manuscripts, source files, and paper-facing materials.</td>
+<td>Published papers, source files, and supporting research materials.</td>
 <td><a href="research_papers/">Open papers</a></td>
 </tr>
 <tr>
-<td><strong>SPARC Browser Workbench v1.13.0</strong></td>
+<td><strong>SPARC Browser Workbench v1.13.1</strong></td>
 <td>Current local galaxy-analysis environment for the support-conditioned SPARC calculation, batch runs, Structural Mode, and CSMI readout.</td>
-<td><a href="https://github.com/CLG2025/CPTG/releases/tag/v1.13.0">Download v1.13.0</a></td>
+<td><a href="https://github.com/CLG2025/CPTG/releases/tag/v1.13.1">Download v1.13.1</a></td>
 </tr>
 <tr>
 <td><strong>Reaction Workbench</strong></td>
@@ -166,13 +175,13 @@ The compact `CPTG_academic_package.zip` remains a convenient starting point for 
 
 The current resolved-gravity program uses the same registered CPTG source-response architecture in two different support geometries: rotation-supported SPARC galaxies and pressure-supported galaxy clusters.
 
-For SPARC galaxies, the v1.13.0 workbench reads the measured radius, observed rotation speed and uncertainty, and tabulated gas, disk, and bulge contributions. The current CPTG reconstruction retains the stellar templates at their reference normalization and does not add a fitted disk or bulge mass-to-light rescaling.
+For SPARC galaxies, the v1.13.1 workbench reads the measured radius, observed rotation speed and uncertainty, and tabulated gas, disk, and bulge contributions. The current CPTG reconstruction retains the stellar templates at their reference normalization and does not add a fitted disk or bulge mass-to-light rescaling.
 
 The workbench supports single-object and batch analysis, displays observed/baryonic/CPTG curves, reports the recovered reduced-state coordinates, and evaluates Structural Mode only after the gravitational solution is complete. Catalog morphology is not used to determine the field solution.
 
 For pressure-supported clusters, the same registered field architecture is evaluated through the spherical support reconstruction appropriate to the system. X-COP is the primary cluster reconstruction; ACCEPT provides an independent support-reconstruction sensitivity comparison where used.
 
-[Download CPTG SPARC Browser Workbench v1.13.0](https://github.com/CLG2025/CPTG/releases/tag/v1.13.0)
+[Download CPTG SPARC Browser Workbench v1.13.1](https://github.com/CLG2025/CPTG/releases/tag/v1.13.1)
 
 [SPARC data source](https://astroweb.case.edu/SPARC/): Lelli, McGaugh, and Schombert, *The Astronomical Journal* **152**, 157 (2016).
 
@@ -268,7 +277,7 @@ The acoustic projection is compared with Planck, while the affine-luminosity pro
 
 ### Cosmic standard ruler
 
-The **[CPTG Cosmic Standard Ruler](https://doi.org/10.5281/zenodo.22935182)** carries the acoustic projection from the CMB into DESI BAO comparison coordinates. The analysis uses the CPTG acoustic ruler and DESI BAO ratios without promoting the conventional `r_drag` coordinate to a CPTG-native input.
+The **[CPTG Cosmic Standard Ruler](https://doi.org/10.5281/zenodo.22935182)** carries the acoustic projection from the CMB into DESI BAO comparison coordinates. The analysis uses the CPTG acoustic ruler and DESI BAO ratios without promoting the conventional `r_drag` coordinate to a CPTG-native input. Its registered comparison reports χ² = 13.6025 for 13 BAO observables (p = 0.4024), without a DESI-specific ruler or global normalization fit.
 
 ### Cosmological horizon
 
@@ -276,7 +285,7 @@ The **[CPTG horizon paper](https://doi.org/10.5281/zenodo.23172701)** treats the
 
 ### CMB comparison-map closure
 
-CPTG CMB map work uses a **[real-map comparison test](https://doi.org/10.5281/zenodo.22413491)** against public Planck/WMAP products under the same declared map-space comparison procedure and null controls.
+CPTG CMB map work uses a **[real-map comparison test](https://doi.org/10.5281/zenodo.22413491)** against public Planck/WMAP products under the same declared map-space comparison procedure and null controls. The reported observed–CPTG map correlation is **0.983434**. The comparison uses observed harmonic phases; it is a fixed angular-envelope map test, not a claim to have independently generated the observed sky phases.
 
 <p align="center">
   <img src="images/fig_visual_fitted.png" alt="Observed Planck SMICA and fitted CPTG comparison map" width="78%">
@@ -308,12 +317,32 @@ The Planck rows use the temperature and embedded-mask fields declared by the CMB
 
 </details>
 
+### CMB Route B — curvature-transport geometry bridge
+
+**Route B Option 1** implements the registered curvature-transport response at the potential-amplitude level and applies its **squared amplitude** to the power-spectrum comparison coordinate:
+
+```text
+Φπ(a, k) = Φ0(k) C_T(a, k)
+P(k) -> P(k) C_T(a, k)^2
+```
+
+This is a **fixed geometry-first comparison bridge**, not the earlier `f -> A_s` amplitude proxy, a dynamically retuned Boltzmann source, or an independently fitted cosmological-parameter model.
+
+The June 2026 Route B validation passed CAMB spectrum/identity residual checks, NPIPE high-ℓ TTTEEE and individual TT/TE/EE sectors, Plik split sectors (with a separately diagnosed TE inversion), Planck low-ℓ TT/EE, PR4/NPIPE lensing, and a combined high-ℓ + low-ℓ + lensing integration test.
+
+| Full-stack bridge row | Summed χ² from component loglikes | Δχ² vs identity |
+|---|---:|---:|
+| Identity, `f_r = 1.000` | 11094.587729 | 0 |
+| Near identity, `f_r = 0.999` | 11094.937838 | +0.350109 |
+
+**Scope:** these are near-identity **likelihood-plumbing smoke metrics**, not a final profiled CMB likelihood comparison or an independent CAMB-free derivation of the full sky spectrum. The bridge validates the fixed CPTG comparison-coordinate pathway without changing the governing curvature-transport relation.
+
 ### Other comparison layers
 
 - **Pantheon+** — full-covariance relative distance-shape comparison with marginalized intercept; not a local `H0` calibration claim.
 - **Weak-lensing `S8`** — compressed comparison against representative lensing and CMB anchors; diagnostic rather than a complete survey shear likelihood.
 - **DESI ShapeFit / BAO** — compressed-coordinate comparisons and ruler tests; full raw DESI full-shape validation remains a separate, more demanding likelihood-level task.
-- **CMB Route B** — development-stage curvature-transport comparison-coordinate work at spectrum/likelihood level, distinct from the real-map closure test.
+- **CMB Route B** — completed geometry-first bridge and likelihood-plumbing validation through Planck temperature, polarization, and lensing components; distinct from the real-map closure test and not a profiled cosmological fit.
 
 ---
 
@@ -391,7 +420,7 @@ The repository contains both historical reduced-limit benchmarks and newer paper
 4. Run the documented scripts locally with the required Python/runtime environment.
 5. Compare the generated outputs with the paper tables, figures, residuals, and included evidence records.
 
-The compact `CPTG_academic_package.zip` remains the starting point for the original reduced-limit SPARC and Bullet Cluster benchmarks. Current v1.13.0 galaxy calculations, cross-regime cluster/compact reconstructions, cosmology comparisons, and nuclear-network validations use their corresponding current paper/release materials.
+The compact `CPTG_academic_package.zip` remains the starting point for the original reduced-limit SPARC and Bullet Cluster benchmarks. Current v1.13.1 galaxy calculations, cross-regime cluster/compact reconstructions, cosmology comparisons, and nuclear-network validations use their corresponding current paper/release materials.
 
 The individual publications provide the detailed evidence manifests, integrity information, commands, raw outputs, and scope limitations where those records are part of the published validation chain.
 
@@ -405,7 +434,7 @@ CPTG is tested against observations that are also commonly discussed through MON
 - **ΛCDM analyses** commonly attribute the additional galaxy- and cluster-scale gravitational response to non-baryonic matter components embedded in a cosmological model.
 - **CPTG** keeps ordinary physical sources on the material side and attributes the additional response to curvature polarization and curvature transport.
 
-The current v1.13.0 SPARC result is presented as a CPTG support-conditioned reconstruction. Comparison models and older reduced benchmarks remain useful as external reference points, but they do not set the acceptance condition for the current cross-regime CPTG law.
+The current v1.13.1 SPARC result is presented as a CPTG support-conditioned reconstruction. Comparison models and older reduced benchmarks remain useful as external reference points, but they do not set the acceptance condition for the current cross-regime CPTG law. CPTG's fixed geometric coefficients and projection rules are not adjusted separately to win each comparison; the declared observational conditioning of each reconstruction remains explicit.
 
 ---
 
