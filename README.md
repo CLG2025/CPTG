@@ -40,6 +40,7 @@ Curvature Polarization Transport Gravity (CPTG) is a geometric-gravity framework
 - **Curvature polarization** describes how sourced geometry reorganizes according to field strength and structural state.
 - **Curvature transport** describes how that organized response is retained, redistributed, or directionally carried through an extended or evolving system.
 
+General relativity remains the foundational description in the regimes where its established reduction applies. CPTG is a proposed geometric extension with scale-specific polarization and transport responses, not a wholesale replacement of GR or one modified equation reused at every scale. The compact-object construction, for example, explicitly requires matching to the ordinary Schwarzschild/Kerr exterior.
 CPTG is a framework of scale-specific reductions rather than one reduced equation applied unchanged to every physical regime. The current published program spans resolved galaxy dynamics, pressure-supported clusters, Structural Mode `N`, dissociative cluster-merger lensing, finite compact objects and black holes, the native geometric π branch and its observational projections, CMB and BAO comparison layers, the Hubble and horizon sectors, and a universal geometric nuclear-reaction construction.
 
 CPTG is not a tunable halo-component model. In the framework, the additional response attributed to CPTG remains geometric; the material source remains ordinary physical stress-energy. The public record separates theory definitions, conditioned reconstructions, held-out or external comparisons, reproducible benchmarks, and active software development.
@@ -52,6 +53,17 @@ Observational inputs used in support-conditioned galaxy and cluster **reconstruc
 
 This is the methodological basis of CPTG's challenge to the conventional dark-sector interpretation: agreement obtained under a constrained geometric architecture is not the same kind of explanatory claim as agreement obtained after fitting cosmological parameters or assigning additional material or vacuum-energy components.
 
+### How to interpret CPTG results
+
+The evidence labels below describe **what was tested**; they are not interchangeable measures of predictive independence.
+
+| Evidence category | Meaning and scope |
+|---|---|
+| Fixed-law specification | Registered governing equations, coefficients, transport prescriptions, and projection rules; observational inputs used later do not silently redefine them. |
+| Support-conditioned reconstruction | Solves a specified object using declared measured support; this is not a blind baryons-only prediction of the observed object. |
+| Native-network or implementation validation | Tests that a prescribed source or transport construction runs and meets its declared controls in the named solver; a passed numerical gate is not an independent observational discovery. |
+| Observational consistency check | Compares a preserved calculation with the reported central value and uncertainty of a named observational study; the observational publication chronology is stated separately. |
+| Withheld or prospective comparison | Requires explicit documentation that the tested outcome was unavailable to the calculation or withheld from its specification; a later journal date alone does not establish this. |
 ---
 
 <a id="start-here"></a>
@@ -65,12 +77,12 @@ This is the methodological basis of CPTG's challenge to the conventional dark-se
 </tr>
 <tr>
 <td align="center"><strong>01</strong></td>
-<td><a href="https://doi.org/10.5281/zenodo.23172626"><strong>Curvature Polarization Transport Gravity: A Unified Geometric Framework for Structure, Cosmology, and Nuclear Reactions</strong></a></td>
+<td><a href="https://doi.org/10.5281/zenodo.23288198"><strong>Curvature Polarization Transport Gravity: A Unified Geometric Framework for Structure, Cosmology, and Nuclear Reactions</strong></a></td>
 <td>Parent CPTG theory: source-response structure, parent equations, scale architecture, cosmology, compact objects, and nuclear reaction geometry.</td>
 </tr>
 <tr>
 <td align="center"><strong>02</strong></td>
-<td><a href="https://doi.org/10.5281/zenodo.23001481"><strong>A New CPTG Gravitational Law — From Galaxies and Galaxy Clusters to Black Holes</strong></a></td>
+<td><a href="https://doi.org/10.5281/zenodo.23290373"><strong>A New CPTG Gravitational Law — From Galaxies and Galaxy Clusters to Black Holes</strong></a></td>
 <td>Current cross-regime gravitational law across rotation-supported galaxies, pressure-supported clusters, and compact-object reductions.</td>
 </tr>
 <tr>
@@ -85,11 +97,15 @@ This is the methodological basis of CPTG's challenge to the conventional dark-se
 </tr>
 </table>
 
-For a less technical introduction, see **[The Science Behind CPTG: A Framework of Scales for Gravity, Structure, Cosmology, and Nuclear Reactions](https://doi.org/10.5281/zenodo.22421593)**.
+For a less technical introduction, see **[The Science Behind CPTG: A Framework of Scales for Gravity, Structure, Cosmology, and Nuclear Reactions](https://doi.org/10.5281/zenodo.23334778)**.
 
 ### Current specialized papers
 
-- **[Structural Mode N in CPTG: Measuring Gravitational Organization from Galaxies to Black Holes](https://doi.org/10.5281/zenodo.23172423)** — cross-regime post-solution structural fingerprint.
+- **[The Cosmological Lithium Problem and the CPTG Lithium Solution](https://doi.org/10.5281/zenodo.22420032)** — locked complete-coordinate PRIMAT lithium-7 transport and light-element controls; distinct from the earlier commissioning result.
+- **[CPTG Primordial Light-Element Abundances: A Frozen-Output Observational Addendum](https://doi.org/10.5281/zenodo.23605265)** — unchanged helium-4 calculation compared separately with LBT and EMPRESS XV 2026 observations.
+- **[CPTG in 153 Primary SPARC Galaxies](https://doi.org/10.5281/zenodo.23452615)** — resolved, support-conditioned rotation-curve reconstructions across the primary sample.
+- **[The Milky Way Through the Lens of CPTG](https://doi.org/10.5281/zenodo.23487930)** — Galactic-scale geometric mass-equivalent comparison.
+- **[Structural Mode N in CPTG: Measuring Gravitational Organization from Galaxies to Black Holes](https://doi.org/10.5281/zenodo.23289859)** — cross-regime post-solution structural fingerprint.
 - **[Curvature-Bounded Black Holes and Compact Objects in CPTG](https://doi.org/10.5281/zenodo.23172326)** — finite compact interiors, exterior matching, mass-spin handoff, and strong-field admissibility.
 - **[CPTG GWTC-5 Compact Object and Population Validation](https://doi.org/10.5281/zenodo.23172497)** — compact-population application of the current CPTG strong-field framework.
 - **[CPTG and the Cosmic Standard Ruler: A Direct CMB-to-DESI Test of the Acoustic Projection](https://doi.org/10.5281/zenodo.22935182)** — CMB-to-DESI acoustic-ruler comparison.
@@ -98,6 +114,16 @@ For a less technical introduction, see **[The Science Behind CPTG: A Framework o
 - **[Geometric Nuclear Reaction Theory in CPTG: Deuterium-Proton Capture and Primordial Mass-Seven Transport](https://doi.org/10.5281/zenodo.22425309)** — commissioning-stage reaction and primordial mass-seven paper.
 - **[PRIMAT-Anchored Reduced-Graph Reachability and the Complete A=1–119 Mass-Sector Register](https://doi.org/10.5281/zenodo.22442178)** — computational companion to the universal nuclear-reaction theory.
 
+### October 2026 research milestones
+
+Recent additions to the public research record are summarized here; each item links to the corresponding research paper rather than duplicating its validation record.
+
+| Repository update | Paper and scope |
+|---|---|
+| **October 18** | [153-primary-SPARC-galaxy analysis](https://doi.org/10.5281/zenodo.23452615): updated resolved rotation-curve and geometric mass-equivalent study, explicitly support-conditioned. |
+| **October 20** | [Milky Way structural and mass-equivalent comparison](https://doi.org/10.5281/zenodo.23487930): Galactic-scale application with its own observational inputs and comparison assumptions. |
+| **October 22** | [The Geometric Architecture of Matter and the Cosmos](https://doi.org/10.5281/zenodo.23554957): broader synthesis of general relativity, geometric mass, and CPTG's proposed interpretation. |
+| **October 23** | [Frozen-output primordial helium addendum](https://doi.org/10.5281/zenodo.23605265): LBT and EMPRESS XV comparisons using the pre-existing helium calculation. |
 ---
 
 <a id="current-cptg-status"></a>
@@ -107,9 +133,10 @@ The table below is a reader-facing map of the current program. Detailed methods,
 
 | Program | Current status | Primary reference |
 |---|---|---|
-| SPARC galaxy dynamics | v1.13.1 support-conditioned calculation across the primary 153-galaxy sample | [Workbench v1.13.1](https://github.com/CLG2025/CPTG/releases/tag/v1.13.1) · [Gravitational law](https://doi.org/10.5281/zenodo.23001481) |
-| Pressure-supported clusters | Seven-cluster spherical reconstruction with X-COP primary and ACCEPT sensitivity reconstruction | [Gravitational law](https://doi.org/10.5281/zenodo.23001481) |
-| Structural Mode `N` | Cross-regime post-solution structural fingerprint for galaxies, spherical clusters, and compact objects | [Structural Mode](https://doi.org/10.5281/zenodo.23172423) |
+| SPARC galaxy dynamics | v1.13.1 support-conditioned calculation across the primary 153-galaxy sample | [153-galaxy study](https://doi.org/10.5281/zenodo.23452615) · [Workbench v1.13.1](https://github.com/CLG2025/CPTG/releases/tag/v1.13.1) · [Gravitational law](https://doi.org/10.5281/zenodo.23290373) |
+| Milky Way | Galactic-scale geometric mass-equivalent and structural comparison using stated observational support | [Milky Way study](https://doi.org/10.5281/zenodo.23487930) |
+| Pressure-supported clusters | Seven-cluster spherical reconstruction with X-COP primary and ACCEPT sensitivity reconstruction | [Gravitational law](https://doi.org/10.5281/zenodo.23290373) |
+| Structural Mode `N` | Cross-regime post-solution structural fingerprint for galaxies, spherical clusters, and compact objects | [Structural Mode](https://doi.org/10.5281/zenodo.23289859) |
 | Finite compact objects | Finite spherical interior with required GR exterior matching; rotating quantities retained as post-solution/conditional readouts | [Compact-object paper](https://doi.org/10.5281/zenodo.23172326) |
 | GWTC-5 compact population | Current compact-population validation program | [GWTC-5 paper](https://doi.org/10.5281/zenodo.23172497) |
 | Bullet Cluster | Public reduced merger-plane curvature-transport/lensing benchmark | Repository benchmark |
@@ -120,6 +147,8 @@ The table below is a reader-facing map of the current program. Detailed methods,
 | CMB comparison maps | Real Planck/WMAP map-space closure with observed-phase inputs and null controls; reported map correlation 0.983434 | [CMB map closure](https://doi.org/10.5281/zenodo.22413491) |
 | CMB Route B Option 1 | Geometry-first curvature-transport power-spectrum bridge passed CAMB, NPIPE/Plik, Planck low-ℓ, and PR4 lensing integration smoke tests; distinct from a profiled cosmological fit | Route B Option 1 validation report (June 2026) |
 | Universal nuclear-reaction theory | Four-sector foundation; PRIMAT, PArthENoPE, and PRyMordial authority chain closed/pass | [Universal nuclear theory](https://doi.org/10.5281/zenodo.22439971) |
+| Primordial lithium-7 | Locked complete-coordinate PRIMAT mass-seven gate: +15.2943σ off → +0.915705σ on (94.01% lower absolute residual against the declared observational benchmark) | [Lithium solution](https://doi.org/10.5281/zenodo.22420032) |
+| Primordial helium-4 | Unchanged frozen Yp = 0.24576024693340703; LBT −0.030579σ and EMPRESS XV +1.390062σ (2026 observational comparisons) | [Helium addendum](https://doi.org/10.5281/zenodo.23605265) |
 | Heavy-sector reduced transport | Native PRIMAT authority through A=23; prescribed-bath register through A=119; separately qualified structural continuation through A=338 | [Computational companion](https://doi.org/10.5281/zenodo.22442178) |
 | Reaction Workbench | Active engineering and interface development | [`nuclear-reactions/`](nuclear-reactions/) |
 
@@ -135,7 +164,7 @@ The table below is a reader-facing map of the current program. Detailed methods,
 </tr>
 <tr>
 <td><strong>Research papers</strong></td>
-<td>Published papers, source files, and supporting research materials.</td>
+<td>Public research manuscripts, source files, and supporting materials; DOI deposition does not by itself certify external journal peer review.</td>
 <td><a href="research_papers/">Open papers</a></td>
 </tr>
 <tr>
@@ -187,7 +216,7 @@ For pressure-supported clusters, the same registered field architecture is evalu
 
 ### Structural Mode N
 
-**[Structural Mode N](https://doi.org/10.5281/zenodo.23172423)** is a dimensionless post-solution measure of gravitational organization derived from the solved CPTG field. It is not a fit parameter, acceleration scale, morphology input, or branch selector.
+**[Structural Mode N](https://doi.org/10.5281/zenodo.23289859)** is a dimensionless post-solution measure of gravitational organization derived from the solved CPTG field. It is not a fit parameter, acceleration scale, morphology input, or branch selector.
 
 Its general form is:
 
@@ -384,6 +413,26 @@ The **[commissioning paper](https://doi.org/10.5281/zenodo.22425309)** establish
 
 The current primary-network implementation separately validates the locked live mass-seven transport inside PRIMAT; all `7/7` paired coordinates pass, with a worst relative survival disagreement of `0.018083%` from the locked target and negligible non-mass-seven control shifts.
 
+### Frozen primordial light-element results
+
+The later **[complete-coordinate PRIMAT lithium paper](https://doi.org/10.5281/zenodo.22420032)** is a distinct authority from the commissioning calculation above. At the same declared baryon/radiation coordinates and against its declared lithium observational benchmark of `(1.45 ± 0.25) × 10^-10`, it reports:
+
+| Live PRIMAT calculation | Lithium-7 / H | Signed observational residual |
+|---|---:|---:|
+| Frozen mass-seven transport **off** | `5.27356479037144 × 10^-10` | **+15.2943σ** |
+| Frozen mass-seven transport **on** | `1.6789263562731326 × 10^-10` | **+0.915705σ** |
+
+The fixed isolated-channel mass-seven transport law has survival factor **exactly `1/π`**. Its realized **live-network** survival ratio is `0.318366498376685` (approximately 0.017785% above `1/π`), because the operator acts inside the evolving PRIMAT network. The observational discrepancy decreases by **94.01% in absolute sigma units**. The mass-seven gate leaves the separately monitored deuterium and helium abundances effectively unchanged; it does not constitute a recalculation of their cosmological comparison coordinates.
+
+The **[2026 frozen-output helium observational addendum](https://doi.org/10.5281/zenodo.23605265)** compares the same previously archived `Yp = 0.24576024693340703` with new published observational determinations:
+
+| Helium observational reference | Observed Yp | Frozen CPTG signed residual |
+|---|---:|---:|
+| Original observational benchmark | `0.245 ± 0.003` | `+0.253416σ` |
+| LBT 2026 | `0.2458 ± 0.0013` | **`−0.030579σ`** |
+| EMPRESS XV 2026 | `0.2402 ± 0.0040` | `+1.390062σ` |
+
+Against LBT, the **absolute standardized helium discrepancy falls by 87.93%** relative to the historical benchmark; this is a change in the observational comparison, **not** a newly tuned CPTG helium result. EMPRESS XV is reported separately: `1.390062σ` lies outside the quoted 1σ interval but within 2σ. LBT's journal article appeared after the August 2026 CPTG authority lock, but its preprint was public beforehand; this comparison is therefore **not presented as a blind pre-data forecast**.
 ### Reduced-graph continuation
 
 The computational companion separates native network authority from the reduced continuation:
@@ -454,7 +503,7 @@ Detailed evidence records belong with the paper or release that generated them. 
 
 If referencing the CPTG framework, please cite:
 
-**Carter L. Glass Jr.**, *Curvature Polarization Transport Gravity: A Unified Geometric Framework for Structure, Cosmology, and Nuclear Reactions*, [DOI: 10.5281/zenodo.23172626](https://doi.org/10.5281/zenodo.23172626).
+**Carter L. Glass Jr.**, *Curvature Polarization Transport Gravity: A Unified Geometric Framework for Structure, Cosmology, and Nuclear Reactions*, [DOI: 10.5281/zenodo.23288198](https://doi.org/10.5281/zenodo.23288198).
 
 For the repository and supporting code package:
 
