@@ -232,7 +232,7 @@ The compact `CPTG_academic_package.zip` remains a convenient starting point for 
 
 ### Galaxies and pressure-supported clusters
 
-The current resolved-gravity program uses the same registered CPTG source-response architecture in two different support geometries: rotation-supported SPARC galaxies and pressure-supported galaxy clusters.
+The current cross-regime gravitational program uses the same registered CPTG source-response architecture across three distinct physical regimes: rotation-supported SPARC galaxies, pressure-supported galaxy clusters, and compact objects with finite-interior constructions and required Schwarzschild/Kerr exterior matching. Each regime uses its own scale-appropriate reduction; the compact-object construction is described below.
 
 For SPARC galaxies, the v1.13.1 workbench reads the measured radius, observed rotation speed and uncertainty, and tabulated gas, disk, and bulge contributions. The current CPTG reconstruction retains the stellar templates at their reference normalization and does not add a fitted disk or bulge mass-to-light rescaling.
 
