@@ -10,6 +10,8 @@ Ordinary physical sources · Curvature polarization · Curvature transport
 
 <a href="#start-here"><strong>Start Here</strong></a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="#cptg-skypi"><strong>SkyPi</strong></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
 <a href="#current-cptg-status"><strong>Current Status</strong></a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
 <a href="#repository-and-tools"><strong>Tools</strong></a>
@@ -44,6 +46,15 @@ General relativity remains the foundational description in the regimes where its
 CPTG is a framework of scale-specific reductions rather than one reduced equation applied unchanged to every physical regime. The current published program spans resolved galaxy dynamics, pressure-supported clusters, Structural Mode `N`, dissociative cluster-merger lensing, finite compact objects and black holes, the native geometric π branch and its observational projections, CMB and BAO comparison layers, the Hubble and horizon sectors, and a universal geometric nuclear-reaction construction.
 
 CPTG is not a tunable halo-component model. In the framework, the additional response attributed to CPTG remains geometric; the material source remains ordinary physical stress-energy. The public record separates theory definitions, conditioned reconstructions, held-out or external comparisons, reproducible benchmarks, and active software development.
+
+### Featured research and software
+
+| Featured resource | Why it matters |
+|---|---|
+| **[CPTG SkyPi CMB Workbench v3.9](https://github.com/CLG2025/CPTG/releases/tag/v3.9)** | Windows workbench for high-resolution Planck sky maps, angular-power spectra, residuals, and fixed-geometry comparison coordinates. **[Download installer](https://github.com/CLG2025/CPTG/releases/download/v3.9/CPTG_SkyPi_Installer.zip)** · [Companion paper](https://doi.org/10.5281/zenodo.24098399). |
+| **[Current geometric π branch](https://doi.org/10.5281/zenodo.24097548)** | The current cosmological comparison-coordinate construction, with the [π comparison-field report](https://doi.org/10.5281/zenodo.24097997) as a distinct technical reference. |
+| **[Cross-regime gravitational law](https://doi.org/10.5281/zenodo.23290373)** | Applications across galaxies, pressure-supported clusters, and compact objects under the declared source-response architecture. |
+| **[Universal geometric nuclear-reaction theory](https://doi.org/10.5281/zenodo.22439971)** | Four-sector reaction geometry and its native-network and reduced-transport validation program. |
 
 ### Fixed laws, constrained comparisons
 
@@ -87,8 +98,8 @@ The evidence labels below describe **what was tested**; they are not interchange
 </tr>
 <tr>
 <td align="center"><strong>03</strong></td>
-<td><a href="https://doi.org/10.5281/zenodo.22907311"><strong>CPTG Geometric Pi Branch: Cosmological Comparison Coordinates, Version II</strong></a></td>
-<td>Canonical native π branch and its acoustic, affine-luminosity, CMB, distance, lensing, BAO, and clock comparison coordinates.</td>
+<td><a href="https://doi.org/10.5281/zenodo.24097548"><strong>CPTG Geometric Pi Branch: Cosmological Comparison Coordinates</strong></a></td>
+<td>Current π-branch technical reference: native geometry and its acoustic, affine-luminosity, CMB, distance, lensing, BAO, and clock comparison coordinates.</td>
 </tr>
 <tr>
 <td align="center"><strong>04</strong></td>
@@ -97,10 +108,14 @@ The evidence labels below describe **what was tested**; they are not interchange
 </tr>
 </table>
 
+For the prior geometric-π formulation, see the [Version II technical reference](https://doi.org/10.5281/zenodo.22907311). The separate [π comparison-field report](https://doi.org/10.5281/zenodo.24097997) documents its comparison layer.
+
 For a less technical introduction, see **[The Science Behind CPTG: A Framework of Scales for Gravity, Structure, Cosmology, and Nuclear Reactions](https://doi.org/10.5281/zenodo.23334778)**.
 
 ### Current specialized papers
 
+- **[CPTG SkyPi: Decoding the CMB — From Fixed Geometric CMB Solution to High-Resolution Planck Map and Spectrum Closure](https://doi.org/10.5281/zenodo.24098399)** — technical companion to the SkyPi workbench, distinguishing fixed π geometry from observation-conditioned inputs and measurement operations.
+- **[CPTG π Comparison Field Report](https://doi.org/10.5281/zenodo.24097997)** — additional technical treatment of the cosmological π comparison field.
 - **[The Cosmological Lithium Problem and the CPTG Lithium Solution](https://doi.org/10.5281/zenodo.22420032)** — locked complete-coordinate PRIMAT lithium-7 transport and light-element controls; distinct from the earlier commissioning result.
 - **[CPTG Primordial Light-Element Abundances: A Frozen-Output Observational Addendum](https://doi.org/10.5281/zenodo.23605265)** — unchanged helium-4 calculation compared separately with LBT and EMPRESS XV 2026 observations.
 - **[CPTG in 153 Primary SPARC Galaxies](https://doi.org/10.5281/zenodo.23452615)** — resolved, support-conditioned rotation-curve reconstructions across the primary sample.
@@ -124,6 +139,15 @@ Recent additions to the public research record are summarized here; each item li
 | **October 20** | [Milky Way structural and mass-equivalent comparison](https://doi.org/10.5281/zenodo.23487930): Galactic-scale application with its own observational inputs and comparison assumptions. |
 | **October 22** | [The Geometric Architecture of Matter and the Cosmos](https://doi.org/10.5281/zenodo.23554957): broader synthesis of general relativity, geometric mass, and CPTG's proposed interpretation. |
 | **October 23** | [Frozen-output primordial helium addendum](https://doi.org/10.5281/zenodo.23605265): LBT and EMPRESS XV comparisons using the pre-existing helium calculation. |
+### November 2026 research and software milestones
+
+| Repository update | Reference and scope |
+|---|---|
+| **Current π geometry** | [Cosmological Comparison Coordinates](https://doi.org/10.5281/zenodo.24097548): updated technical reference for the native π branch and its comparison coordinates. |
+| **π comparison field** | [π comparison-field report](https://doi.org/10.5281/zenodo.24097997): distinct cosmological comparison-layer reference. |
+| **High-resolution CMB** | [SkyPi CMB companion paper](https://doi.org/10.5281/zenodo.24098399): map and angular-spectrum closure within the documented observational pipeline. |
+| **November 12 — software release** | [CPTG SkyPi v3.9](https://github.com/CLG2025/CPTG/releases/tag/v3.9): Windows installer and local CMB analysis workbench. |
+
 ---
 
 <a id="current-cptg-status"></a>
@@ -140,11 +164,12 @@ The table below is a reader-facing map of the current program. Detailed methods,
 | Finite compact objects | Finite spherical interior with required GR exterior matching; rotating quantities retained as post-solution/conditional readouts | [Compact-object paper](https://doi.org/10.5281/zenodo.23172326) |
 | GWTC-5 compact population | Current compact-population validation program | [GWTC-5 paper](https://doi.org/10.5281/zenodo.23172497) |
 | Bullet Cluster | Public reduced merger-plane curvature-transport/lensing benchmark | Repository benchmark |
-| Native π cosmology | Native branch plus fixed acoustic and affine-luminosity comparison projections | [Pi Branch v2](https://doi.org/10.5281/zenodo.22907311) |
+| Native π cosmology | Current geometric π branch with fixed acoustic and affine-luminosity comparison projections | [Current π branch](https://doi.org/10.5281/zenodo.24097548) · [π comparison field](https://doi.org/10.5281/zenodo.24097997) |
 | Hubble tension | Acoustic and luminosity endpoints derived as different projections of one native branch | [Hubble paper](https://doi.org/10.5281/zenodo.23172759) |
 | Cosmic standard ruler | Direct CMB-to-DESI acoustic-ruler comparison | [Standard Ruler](https://doi.org/10.5281/zenodo.22935182) |
 | Cosmological horizon | Native containment and projection treatment | [Horizon paper](https://doi.org/10.5281/zenodo.23172701) |
-| CMB comparison maps | Real Planck/WMAP map-space closure with observed-phase inputs and null controls; reported map correlation 0.983434 | [CMB map closure](https://doi.org/10.5281/zenodo.22413491) |
+| **CPTG SkyPi — CMB workbench** | High-resolution Planck temperature-map, angular-power, and residual comparisons using fixed π geometry and declared observational inputs | [SkyPi v3.9 installer](https://github.com/CLG2025/CPTG/releases/download/v3.9/CPTG_SkyPi_Installer.zip) · [Technical paper](https://doi.org/10.5281/zenodo.24098399) |
+| Earlier CMB comparison-map closure | Historical Planck/WMAP map-space closure with observed-phase inputs and null controls; reported map correlation 0.983434 | [CMB map-closure paper](https://doi.org/10.5281/zenodo.22413491) |
 | CMB Route B Option 1 | Geometry-first curvature-transport power-spectrum bridge passed CAMB, NPIPE/Plik, Planck low-ℓ, and PR4 lensing integration smoke tests; distinct from a profiled cosmological fit | Route B Option 1 validation report (June 2026) |
 | Universal nuclear-reaction theory | Four-sector foundation; PRIMAT, PArthENoPE, and PRyMordial authority chain closed/pass | [Universal nuclear theory](https://doi.org/10.5281/zenodo.22439971) |
 | Primordial lithium-7 | Locked complete-coordinate PRIMAT mass-seven gate: +15.2943σ off → +0.915705σ on (94.01% lower absolute residual against the declared observational benchmark) | [Lithium solution](https://doi.org/10.5281/zenodo.22420032) |
@@ -166,6 +191,11 @@ The table below is a reader-facing map of the current program. Detailed methods,
 <td><strong>Research papers</strong></td>
 <td>Public research manuscripts, source files, and supporting materials; DOI deposition does not by itself certify external journal peer review.</td>
 <td><a href="research_papers/">Open papers</a></td>
+</tr>
+<tr>
+<td><strong>CPTG SkyPi CMB Workbench v3.9</strong></td>
+<td>Windows CMB analysis and visualization software: fixed geometric comparison coordinates, Planck maps, TT spectra, masks, and residuals.</td>
+<td><a href="https://github.com/CLG2025/CPTG/releases/download/v3.9/CPTG_SkyPi_Installer.zip">Download installer</a> · <a href="#cptg-skypi">Scientific scope</a></td>
 </tr>
 <tr>
 <td><strong>SPARC Browser Workbench v1.13.1</strong></td>
@@ -275,6 +305,8 @@ See **[Curvature-Bounded Black Holes and Compact Objects in CPTG](https://doi.or
 
 CPTG cosmology begins with one native geometric π branch. Acoustic, affine-luminosity, CMB, BAO, lensing, and distance quantities are comparison projections or downstream coordinates of that native geometry rather than independent cosmologies.
 
+The [current Cosmological Comparison Coordinates reference](https://doi.org/10.5281/zenodo.24097548) and its separate [π comparison-field report](https://doi.org/10.5281/zenodo.24097997) describe the updated technical construction; the prior Version II reference remains available in Start Here.
+
 ### Native, acoustic, and affine-luminosity coordinates
 
 ```text
@@ -312,15 +344,28 @@ The **[CPTG Cosmic Standard Ruler](https://doi.org/10.5281/zenodo.22935182)** ca
 
 The **[CPTG horizon paper](https://doi.org/10.5281/zenodo.23172701)** treats the horizon problem through native geometric containment and common-phase synchronization rather than by introducing a separate inflationary scalar-field mechanism into CPTG.
 
-### CMB comparison-map closure
+<a id="cptg-skypi"></a>
+### CPTG SkyPi — high-resolution Planck CMB workbench
 
-CPTG CMB map work uses a **[real-map comparison test](https://doi.org/10.5281/zenodo.22413491)** against public Planck/WMAP products under the same declared map-space comparison procedure and null controls. The reported observed–CPTG map correlation is **0.983434**. The comparison uses observed harmonic phases; it is a fixed angular-envelope map test, not a claim to have independently generated the observed sky phases.
+**[CPTG SkyPi v3.9](https://github.com/CLG2025/CPTG/releases/tag/v3.9)** is a Windows scientific workbench for comparing fixed CPTG π-geometry coordinates with measured Planck CMB temperature maps and angular-power spectra. It provides HEALPix full-sky maps, configurable analysis resolution and multipole limits, official FITS masking, temperature residuals, and figures and data exports. The application runs locally in a browser with a dedicated scientific Python runtime.
+
+The [SkyPi technical companion paper](https://doi.org/10.5281/zenodo.24098399) documents its high-resolution map and spectrum comparison construction. Fixed native π geometry, frozen observation-conditioned comparison factors, observed harmonic phase/location information, and the measurement operators are identified separately. Map-space correspondence is not presented as independent reconstruction of observed sky phases.
+
+**[Download Windows installer](https://github.com/CLG2025/CPTG/releases/download/v3.9/CPTG_SkyPi_Installer.zip)** · [Release notes](https://github.com/CLG2025/CPTG/releases/tag/v3.9) · [Technical paper](https://doi.org/10.5281/zenodo.24098399)
+
+The installer selects **11 mandatory Planck files** when the user presses Enter or chooses `0`. Nine additional Planck families are optional, including non-HFI full/HM/OE products and selected HFI full-frequency maps. The installer excludes HFI 857 GHz and HFI HM/OE split downloads. Planck FITS data are obtained separately; they are not included in the installer ZIP.
+
+Published installer SHA-256: `ab8642e98b87f0a569c954305a8845dd99e77bf4acea79fd8668486548d1341c`.
+
+### Historical CMB comparison-map closure
+
+The earlier CPTG **[real-map comparison test](https://doi.org/10.5281/zenodo.22413491)** used public Planck/WMAP products under its declared map-space procedure and null controls. The reported observed–CPTG map correlation was **0.983434**. This result belongs to that earlier observed-phase, angular-envelope construction and should not be mistaken for a numerical result from the later SkyPi workbench.
 
 <p align="center">
   <img src="images/fig_visual_fitted.png" alt="Observed Planck SMICA and fitted CPTG comparison map" width="78%">
 </p>
 
-<p align="center"><sub>Observed Planck SMICA, fitted CPTG comparison map, and residual view from the CMB comparison-map closure analysis.</sub></p>
+<p align="center"><sub>Historical Planck SMICA comparison: observation-conditioned fitted CPTG map and residual, from the earlier map-closure study (not a SkyPi result).</sub></p>
 
 <details>
 <summary><strong>Planck and WMAP inputs used by the strict map-space rerun</strong></summary>
@@ -461,6 +506,12 @@ The external `Y_A` values beyond the native network boundary are prescribed-bath
 
 The repository contains both historical reduced-limit benchmarks and newer paper-specific reconstruction/evidence packages. Reproduce a result with the method and package attached to that result rather than assuming one script represents every later CPTG reduction.
 
+### Reproducing SkyPi CMB comparisons
+
+Download the [CPTG SkyPi installer](https://github.com/CLG2025/CPTG/releases/download/v3.9/CPTG_SkyPi_Installer.zip), extract it, and run `INSTALL_CPTG_SKYPI.cmd` on 64-bit Windows. The installer provisions a dedicated Python environment, allows the installation drive and Planck data location to be selected, and verifies existing files before downloading missing selections. **Enter** or `0` selects only the 11 mandatory files; optional Planck products require an explicit choice.
+
+For a documented comparison, preserve the source FITS and mask identities, analysis NSIDE and multipole settings, measurement-operator configuration, and exported output metadata. Consult the [SkyPi companion paper](https://doi.org/10.5281/zenodo.24098399) for interpretation of map-space and spectrum comparisons. The earlier Planck/WMAP closure procedure above is a separate historical experiment; WMAP-specific functionality is not part of the production SkyPi workbench.
+
 ### Recommended workflow
 
 1. Identify the paper or benchmark being reproduced.
@@ -490,6 +541,7 @@ The current v1.13.1 SPARC result is presented as a CPTG support-conditioned reco
 ## Repository Policies
 
 - [Security policy](SECURITY.md)
+- [Repository license](LICENSE)
 - Current papers and source material: [`research_papers/`](research_papers/)
 - Historical/protocol material: [`archive/`](archive/)
 - Nuclear-reaction software and supporting materials: [`nuclear-reactions/`](nuclear-reactions/)
