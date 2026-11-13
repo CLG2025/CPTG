@@ -29,7 +29,7 @@ Ordinary physical sources · Curvature polarization · Curvature transport
 <table>
 <tr>
 <td align="center" width="25%"><strong>Gravity</strong><br><sub>Galaxies · Clusters · Compact Objects</sub></td>
-<td align="center" width="25%"><strong>Structure</strong><br><sub>Structural Mode N · CSMI</sub></td>
+<td align="center" width="25%"><strong>Structure</strong><br><sub>Structural Mode N · CSMI · Organization</sub></td>
 <td align="center" width="25%"><strong>Cosmology</strong><br><sub>π · Acoustic · Luminosity · CMB · BAO</sub></td>
 <td align="center" width="25%"><strong>Nuclear</strong><br><sub>H · D · ³He · ⁴He · Network Validation</sub></td>
 </tr>
