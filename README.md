@@ -12,6 +12,8 @@ Ordinary physical sources · Curvature polarization · Curvature transport
 &nbsp;&nbsp;·&nbsp;&nbsp;
 <a href="#cptg-skypi"><strong>SkyPi</strong></a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="#cptg-sparc"><strong>SPARC</strong></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
 <a href="#current-cptg-status"><strong>Current Status</strong></a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
 <a href="#repository-and-tools"><strong>Tools</strong></a>
@@ -52,6 +54,7 @@ CPTG is not a tunable halo-component model. In the framework, the additional res
 | Featured resource | Why it matters |
 |---|---|
 | **[CPTG SkyPi CMB Workbench v3.9](https://github.com/CLG2025/CPTG/releases/tag/v3.9)** | Windows workbench for high-resolution Planck sky maps, angular-power spectra, residuals, and fixed-geometry comparison coordinates. **[Download installer](https://github.com/CLG2025/CPTG/releases/download/v3.9/CPTG_SkyPi_Installer.zip)** · [Companion paper](https://doi.org/10.5281/zenodo.24098399). |
+| **[CPTG SPARC Galaxy Workbench v1.14](https://github.com/CLG2025/CPTG/releases/tag/v1.14)** | Windows workbench for resolved galaxy rotation curves, six-curve profiles, geometric/material mass ratios, and Structural Mode N. **[Download installer](https://github.com/CLG2025/CPTG/releases/download/v1.14/CPTG_SPARC_Workbench_v1.14.zip)** · [153-galaxy study](https://doi.org/10.5281/zenodo.23452615). |
 | **[Current geometric π branch](https://doi.org/10.5281/zenodo.24097548)** | The current cosmological comparison-coordinate construction, with the [π comparison-field report](https://doi.org/10.5281/zenodo.24097997) as a distinct technical reference. |
 | **[Cross-regime gravitational law](https://doi.org/10.5281/zenodo.23290373)** | Applications across galaxies, pressure-supported clusters, and compact objects under the declared source-response architecture. |
 | **[Universal geometric nuclear-reaction theory](https://doi.org/10.5281/zenodo.22439971)** | Four-sector reaction geometry and its native-network and reduced-transport validation program. |
@@ -147,6 +150,7 @@ Recent additions to the public research record are summarized here; each item li
 | **π comparison field** | [π comparison-field report](https://doi.org/10.5281/zenodo.24097997): distinct cosmological comparison-layer reference. |
 | **High-resolution CMB** | [SkyPi CMB companion paper](https://doi.org/10.5281/zenodo.24098399): map and angular-spectrum closure within the documented observational pipeline. |
 | **November 12 — software release** | [CPTG SkyPi v3.9](https://github.com/CLG2025/CPTG/releases/tag/v3.9): Windows installer and local CMB analysis workbench. |
+| **November 18 — software release** | [CPTG SPARC Galaxy Workbench v1.14](https://github.com/CLG2025/CPTG/releases/tag/v1.14): dedicated Windows installation, six-curve rotation profiles, resolved geometric/material mass accounting, and multi-galaxy analysis. |
 
 ---
 
@@ -157,7 +161,7 @@ The table below is a reader-facing map of the current program. Detailed methods,
 
 | Program | Current status | Primary reference |
 |---|---|---|
-| SPARC galaxy dynamics | v1.13.1 support-conditioned calculation across the primary 153-galaxy sample | [153-galaxy study](https://doi.org/10.5281/zenodo.23452615) · [Workbench v1.13.1](https://github.com/CLG2025/CPTG/releases/tag/v1.13.1) · [Gravitational law](https://doi.org/10.5281/zenodo.23290373) |
+| **CPTG SPARC — Galaxy Workbench** | v1.14 supports all 175 SPARC galaxy profiles, with registered support-conditioned solutions for the primary 153-galaxy sample (3,168 resolved radial measurements), six-curve figures, geometric/material mass ratios, and Structural Mode N | [Workbench v1.14](https://github.com/CLG2025/CPTG/releases/tag/v1.14) · [153-galaxy study](https://doi.org/10.5281/zenodo.23452615) · [Gravitational law](https://doi.org/10.5281/zenodo.23290373) |
 | Milky Way | Galactic-scale geometric mass-equivalent and structural comparison using stated observational support | [Milky Way study](https://doi.org/10.5281/zenodo.23487930) |
 | Pressure-supported clusters | Seven-cluster spherical reconstruction with X-COP primary and ACCEPT sensitivity reconstruction | [Gravitational law](https://doi.org/10.5281/zenodo.23290373) |
 | Structural Mode `N` | Cross-regime post-solution structural fingerprint for galaxies, spherical clusters, and compact objects | [Structural Mode](https://doi.org/10.5281/zenodo.23289859) |
@@ -198,9 +202,9 @@ The table below is a reader-facing map of the current program. Detailed methods,
 <td><a href="https://github.com/CLG2025/CPTG/releases/download/v3.9/CPTG_SkyPi_Installer.zip">Download installer</a> · <a href="#cptg-skypi">Scientific scope</a></td>
 </tr>
 <tr>
-<td><strong>SPARC Browser Workbench v1.13.1</strong></td>
-<td>Current local galaxy-analysis environment for the support-conditioned SPARC calculation, batch runs, Structural Mode, and CSMI readout.</td>
-<td><a href="https://github.com/CLG2025/CPTG/releases/tag/v1.13.1">Download v1.13.1</a></td>
+<td><strong>CPTG SPARC Galaxy Workbench v1.14</strong></td>
+<td>Local galaxy-analysis software: six-curve rotation profiles, geometric/material mass ratios, radial-acceleration diagnostics, batch analysis, Structural Mode N, and CSMI.</td>
+<td><a href="https://github.com/CLG2025/CPTG/releases/download/v1.14/CPTG_SPARC_Workbench_v1.14.zip">Download installer</a> · <a href="#cptg-sparc">Scientific scope</a></td>
 </tr>
 <tr>
 <td><strong>Reaction Workbench</strong></td>
@@ -234,13 +238,16 @@ The compact `CPTG_academic_package.zip` remains a convenient starting point for 
 
 The current cross-regime gravitational program uses the same registered CPTG source-response architecture across three distinct physical regimes: rotation-supported SPARC galaxies, pressure-supported galaxy clusters, and compact objects with finite-interior constructions and required Schwarzschild/Kerr exterior matching. Each regime uses its own scale-appropriate reduction; the compact-object construction is described below.
 
-For SPARC galaxies, the v1.13.1 workbench reads the measured radius, observed rotation speed and uncertainty, and tabulated gas, disk, and bulge contributions. The current CPTG reconstruction retains the stellar templates at their reference normalization and does not add a fitted disk or bulge mass-to-light rescaling.
+<a id="cptg-sparc"></a>
+**[CPTG SPARC Galaxy Workbench v1.14](https://github.com/CLG2025/CPTG/releases/tag/v1.14)** brings the registered radial gravitational solution together with all 175 original SPARC galaxy profiles. The workbench uses measured radii, observed rotation speeds and uncertainties, and signed gas, disk, and bulge contributions. Registered galaxy-level coefficients for the published primary sample of 153 galaxies are recovered when the corresponding input identities are verified.
 
-The workbench supports single-object and batch analysis, displays observed/baryonic/CPTG curves, reports the recovered reduced-state coordinates, and evaluates Structural Mode only after the gravitational solution is complete. Catalog morphology is not used to determine the field solution.
+The workbench provides single-galaxy and batch analysis, radial-acceleration diagnostics, material-mass reconstruction, and high-resolution **six-curve rotation profiles** comparing observed SPARC velocities, CPTG, MOND, the unit baryonic source, calibrated material force, and geometric mass-equivalent velocity. **Geometric/material mass ratios** show the resolved contributions of geometric mass equivalence and physical material inventory to the complete gravitational mass equivalent, with individual and population-level summaries. These ratios are mass-equivalent accounting quantities, not additional physical matter. Structural Mode N and CSMI are evaluated after the gravitational solution is complete.
+
+The full Windows installer downloads the official SPARC rotation profiles and metadata and provisions the dedicated `cptg-sparc` Python environment within the common CPTG Miniforge installation. Scientific processing runs locally in a browser, with exportable figures, CSV/JSON results, and evidence packages.
 
 For pressure-supported clusters, the same registered field architecture is evaluated through the spherical support reconstruction appropriate to the system. X-COP is the primary cluster reconstruction; ACCEPT provides an independent support-reconstruction sensitivity comparison where used.
 
-[Download CPTG SPARC Browser Workbench v1.13.1](https://github.com/CLG2025/CPTG/releases/tag/v1.13.1)
+**[Download CPTG SPARC Windows installer](https://github.com/CLG2025/CPTG/releases/download/v1.14/CPTG_SPARC_Workbench_v1.14.zip)** · [Release notes](https://github.com/CLG2025/CPTG/releases/tag/v1.14) · [153-galaxy study](https://doi.org/10.5281/zenodo.23452615)
 
 [SPARC data source](https://astroweb.case.edu/SPARC/): Lelli, McGaugh, and Schombert, *The Astronomical Journal* **152**, 157 (2016).
 
@@ -512,6 +519,10 @@ Download the [CPTG SkyPi installer](https://github.com/CLG2025/CPTG/releases/dow
 
 For a documented comparison, preserve the source FITS and mask identities, analysis NSIDE and multipole settings, measurement-operator configuration, and exported output metadata. Consult the [SkyPi companion paper](https://doi.org/10.5281/zenodo.24098399) for interpretation of map-space and spectrum comparisons. The earlier Planck/WMAP closure procedure above is a separate historical experiment; WMAP-specific functionality is not part of the production SkyPi workbench.
 
+### Reproducing SPARC galaxy analyses
+
+Download the [CPTG SPARC v1.14 installer](https://github.com/CLG2025/CPTG/releases/download/v1.14/CPTG_SPARC_Workbench_v1.14.zip), extract it, and run `INSTALL_CPTG_SPARC.cmd` on 64-bit Windows. The installer configures the dedicated scientific environment and obtains the official SPARC data. Launch through the CPTG SPARC shortcut or `START_CPTG_SPARC.cmd` in the selected CPTG directory. Preserve the source-file identities, registered coefficients, analysis settings, and exported numerical evidence when reproducing the published [153-galaxy study](https://doi.org/10.5281/zenodo.23452615).
+
 ### Recommended workflow
 
 1. Identify the paper or benchmark being reproduced.
@@ -520,7 +531,7 @@ For a documented comparison, preserve the source FITS and mask identities, analy
 4. Run the documented scripts locally with the required Python/runtime environment.
 5. Compare the generated outputs with the paper tables, figures, residuals, and included evidence records.
 
-The compact `CPTG_academic_package.zip` remains the starting point for the original reduced-limit SPARC and Bullet Cluster benchmarks. Current v1.13.1 galaxy calculations, cross-regime cluster/compact reconstructions, cosmology comparisons, and nuclear-network validations use their corresponding current paper/release materials.
+The compact `CPTG_academic_package.zip` remains the starting point for the original reduced-limit SPARC and Bullet Cluster benchmarks. Current v1.14 galaxy calculations, cross-regime cluster/compact reconstructions, cosmology comparisons, and nuclear-network validations use their corresponding current paper/release materials.
 
 The individual publications provide the detailed evidence manifests, integrity information, commands, raw outputs, and scope limitations where those records are part of the published validation chain.
 
@@ -534,7 +545,7 @@ CPTG is tested against observations that are also commonly discussed through MON
 - **ΛCDM analyses** commonly attribute the additional galaxy- and cluster-scale gravitational response to non-baryonic matter components embedded in a cosmological model.
 - **CPTG** keeps ordinary physical sources on the material side and attributes the additional response to curvature polarization and curvature transport.
 
-The current v1.13.1 SPARC result is presented as a CPTG support-conditioned reconstruction. Comparison models and older reduced benchmarks remain useful as external reference points, but they do not set the acceptance condition for the current cross-regime CPTG law. CPTG's fixed geometric coefficients and projection rules are not adjusted separately to win each comparison; the declared observational conditioning of each reconstruction remains explicit.
+The registered 153-galaxy SPARC result, reproducible in the v1.14 workbench, is presented as a CPTG support-conditioned reconstruction. Comparison models and older reduced benchmarks remain useful as external reference points, but they do not set the acceptance condition for the current cross-regime CPTG law. CPTG's fixed geometric coefficients and projection rules are not adjusted separately to win each comparison; the declared observational conditioning of each reconstruction remains explicit.
 
 ---
 
